@@ -16,17 +16,25 @@ Grace à un projet fil rouge, les étudiants (regroupés en équipe) pouront met
 
 ## Organisation
 
-**Responsables:**
+### Responsables
  - [Mathias Cousté](mailto:Mathias.Couste@univ-cotedazur.fr)
  - [Philippe Collet](mailto:Philippe.Collet@univ-cotedazur.fr)
 
-## Liste des cours
- - Lesson kick-off & project kick-off
- - Marshalling/Unmarshalling: the JSON example
- - How to measure Code quality?
- - Git branches, branching strategies, and Git flow
- - How to refactor some code?
- - SOLID principles
- - Mutation testing
- - Introduction to automation with Travis.
- - Splitting a project into modules.
+### Modalités de contrôle des connaissances
+ - Livraisons hebdomadaire
+ - Soutenance intermédiaire
+ - Soutenance finale
+ - Livraison finale: mise en application de tous les concepts étudiés
+ - Rapport du projet
+ - Classement compétition inter-équipes
+
+### Liste des cours
+ 1. Lesson kick-off & project kick-off
+ 2. Marshalling/Unmarshalling: the JSON example
+ 3. How to measure Code quality?
+ 4. Git branches, branching strategies, and Git flow
+ 5. How to refactor some code?
+ 6. SOLID principles
+ 7. Mutation testing
+ 8. Introduction to automation with Travis.
+ 9. Splitting a project into modules.
