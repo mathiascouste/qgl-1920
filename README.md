@@ -1,3 +1,4 @@
+
 # Qualité et Génie Logiciel - SI3 - 2019-20
 
 *Polytech Nice Sophia - 3ème année Ingénieur Sciences Informatiques - second semestre (cours optionnel)*
@@ -21,12 +22,12 @@ Grace à un projet fil rouge, les étudiants (regroupés en équipe) pouront met
  - [Philippe Collet](mailto:Philippe.Collet@univ-cotedazur.fr)
 
 ### Modalités de contrôle des connaissances
- - Livraisons hebdomadaire
- - Soutenance intermédiaire
- - Soutenance finale
- - Livraison finale: mise en application de tous les concepts étudiés
- - Rapport du projet
- - Classement compétition inter-équipes
+ - Livraisons hebdomadaire *- 50 points (5 par semaines)*
+ - Soutenance finale *- 40 points*
+ - Rapport du projet *- 20 points*
+ - Livraison finale: mise en application de tous les concepts étudiés *- 40 points*
+ - Partiel final *- 50 points*
+ - Classement compétition inter-équipes *- 20 points bonus*
 
 ### Liste des cours
  1. Lesson kick-off & project kick-off
