@@ -1,7 +1,10 @@
 
+
 # Qualité et Génie Logiciel - SI3 - 2019-20
 
 *Polytech Nice Sophia - 3ème année Ingénieur Sciences Informatiques - second semestre (cours optionnel)*
+ - Du 16 Janvier au 30 Avril 2020
+ - Responsables: [Mathias Cousté](mailto:Mathias.Couste@univ-cotedazur.fr), [Philippe Collet](mailto:Philippe.Collet@univ-cotedazur.fr)
 
 ## Objectifs
 Ce cours a pour objectif de renforcer les bases en qualité et génie logiciel obtenus dans le cours PS5  
@@ -13,13 +16,21 @@ Les notions abordées concernent des points comme:
  - Une introduction à l'automatisation des processus de génie logiciel
  - Un approfondissement des connaissances en qualité logicielle
 
-Grace à un projet fil rouge, les étudiants (regroupés en équipe) pouront mettre en application les concepts et apprentissages vu en cours.
+Grace à un projet fil rouge, les étudiants (regroupés en équipe) pourront mettre en application les concepts et apprentissages vu en cours.
+
+## Projet fil rouge
+Ce cours s'articule autour d'un projet fil rouge qui permettra aux étudiants d'appliquer les concepts vus en cours.
+ - [Présentation du sujet](./project/README.md)  
+ - [Spécification technique](./project/TECHNICAL_SPECS.md)
+ - [Consigne de livraison](./project/DELIVERY_PROCESS.md)
+ - [Comprendre l'arbitre](./project/UNDERSTAND_THE_REFEREE.md)
 
 ## Organisation
 
-### Responsables
- - [Mathias Cousté](mailto:Mathias.Couste@univ-cotedazur.fr)
- - [Philippe Collet](mailto:Philippe.Collet@univ-cotedazur.fr)
+### Contacts
+Nous uniquement utilisons Slack (pas d'email):
+ - Canal ``#si3-qgl`` pour les discussions publique relative au cours et au projet
+ - Messages direct pour les questions spécifique à votre groupe
 
 ### Modalités de contrôle des connaissances
  - Livraisons hebdomadaire *- 50 points (5 par semaines)*
