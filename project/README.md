@@ -20,7 +20,7 @@ Les équipes s’affrontent dans une course de vitesse.
 
 Un bateau finit la partie lorsqu’il a franchi dans l'ordre le ou les points de passage de la frégate.
 
-Chaque partie disposant d'un nombre limité de tours, les bateaux n'ayant pas franchit le dernier point de passage dans les temps perdent la partie.
+Chaque partie dispose d'un nombre limité de tours. Les bateaux n'ayant pas franchit la ligne d'arrivée (dernier point de passage) au dernier tour perdent la partie.
 
 ### La bataille navale
 Le but de ce mode de jeu est d’éliminer tous les autres navires et d’être le dernier bateau survivant.
