@@ -137,7 +137,7 @@ Chacun des marins qui constituent votre équipage peut à chaque tour de jeu :
 Le grand tournoi de piraterie s'étale sur tout le semestre et se déroule en une succession d'épreuves.  
 Une épreuve aura lieu chaque semaine.
 Le mode de jeu de l'épreuve sera communiqué à l'avance afin que chaque équipe puisse s'y préparer.  
-Chaque épreuve correspond à un livrable décrit dans [ce document](./DELIVERY_PROCESS.md).  
+Chaque épreuve correspond à un livrable hebdomadaire, tel que décrit dans [ce document](./DELIVERY_PROCESS.md).  
 
 A chaque épreuve, entre 0 et 10 points seront donnés à chaque équipe en fonction de leur classement lors de la partie.
 Le nombre total de points obtenus pendant le tournoi déterminera le classement final du tournoi.
