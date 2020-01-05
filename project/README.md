@@ -2,8 +2,8 @@
 
 
 ![top header image](./assets/project_header_image.png)
-# Hissez-haut !
-Nous sommes en plein age d'or de la piraterie.
+# Hissez haut !
+Nous sommes en plein âge d'or de la piraterie.
 
 De nombreux équipages se font la guerre pour savoir qui sont les plus grands pirates de nos mers et océans.
 Après moultes disputes, les plus grands équipages pirates de ce monde ont décidé de s'affronter lors d'un grand tournoi de piraterie. A l'ordre du jour, frégates et batailles navales.
@@ -14,24 +14,24 @@ Vous êtes à la tête d’un navire qui doit être piloté avec précision afin
 Chaque navire dispose d’un équipage de marins qui doivent exécuter des actions sur les différents éléments du bateau afin de le piloter.
 
 ## Les modes de jeu
-Les modes de jeux permettent aux équipes de s’affronter dans différents jeux et d’élaborer plusieurs stratégies.
+Les modes de jeux permettent aux équipes de s’affronter dans différentes épreuves et d’élaborer plusieurs stratégies.
 ### La frégate
 Les équipes s’affrontent dans une course de vitesse.
 
-Un bateau fini la partie lorsqu’il a franchit dans l'ordre le ou les points de passage de la frégate.
+Un bateau finit la partie lorsqu’il a franchi dans l'ordre le ou les points de passage de la frégate.
 
 Chaque partie disposant d'un nombre limité de tours, les bateaux n'ayant pas franchit le dernier point de passage dans les temps perdent la partie.
 
 ### La bataille navale
-Le but de ce mode de jeu d’éliminer tout les autres navires et d’être le dernier bateau survivant.
+Le but de ce mode de jeu est d’éliminer tous les autres navires et d’être le dernier bateau survivant.
 
-Si plusieurs navires sont toujours à flot à la fin du dernier tour, ils seront classés en fonction du nombre de dommage total qu'ils auront causés (tir de canon ou collision).
+Si plusieurs navires sont toujours à flot à la fin du dernier tour, ils seront classés en fonction du nombre de dommages total qu'ils auront causés (tir de canon ou collision).
 
 ## La mer
 La mer désigne le monde dans lequel se passe le jeu et où les bateaux vont évoluer.
 
-La mer contient de nombreux éléments qui sont positionnés dans cette dernière selon des coordonnées orthonormées (Nord/Ouest) et orientés selon un angle calculé par rapport au Nord.
-Chaque élément à une forme définie tel qu'un rectangle (définit par sa hauteur et sa largeur) ou un disque (définit par son rayon).
+La mer contient de nombreux éléments qui sont positionnés selon des coordonnées orthonormées (Nord/Ouest) et orientés selon un angle calculé par rapport au Nord.
+Chaque élément à une forme définie tel qu'un rectangle (défini par sa hauteur et sa largeur) ou un disque (défini par son rayon).
 
 ![sea_map](./assets/sea_map.png)
 ```
@@ -40,10 +40,10 @@ Dans cet exemple, un bateau rectangulaire est positionné en [51,5; 75,8] et son
 ### Le vent
 Le vent est un élément non positionné, il souffle de manière constante sur l'ensemble de la mer.
 
-Son orientation et sa vitesse peuvent varier au cours d'une partie, ils sont donc communiqués au début de chaque tour.
+Son orientation et sa vitesse peuvent varier au cours d'une partie, elles sont donc communiquées au début de chaque tour.
 
 ### Les récifs
-Les récifs constituent des obstacles à éviter pour les bateaux. Si un compétiteur rencontre un récif, son embarcations sera non seulement stoppée dans sa course mais recevra également des dommages proportionnel à sa vitesse et à l’angle de l’impact.
+Les récifs constituent des obstacles à éviter pour les bateaux. Si un compétiteur rencontre un récif, son embarcation sera non seulement stoppée dans sa course mais recevra également des dommages proportionnels à sa vitesse et à l’angle de l’impact.
 
 ### Les courants
 Les bateaux se trouvant sur un courant océanique profitent d’une augmentation de leur vitesse dans la direction du courant.
@@ -51,27 +51,27 @@ Les bateaux se trouvant sur un courant océanique profitent d’une augmentation
 La puissance du courant est donnée lors du début du tour de jeu.
 
 ### Les navires
-Les navires représentent chaque équipe. La vie restante d’un vaisseau est communiquées aux autres joueurs qui peuvent le voir lors du début du tour de jeu.
+Un navire représente une équipe. La vie restante d’un vaisseau est communiquée, au début du tour de jeu, à tous les joueurs qui peuvent le voir.
 
-Deux bateaux se percutant vont s'endommager l’un-l’autre de manière égale et proportionnelle à leur vitesse relative dans la limite des points de vie restant au bateau le plus endommagé.
+Deux bateaux qui se percutent vont s'endommager l’un l’autre de manière égale. La valeur des dommages est proportionnelle à leur vitesse relative, dans la limite des points de vie restant au bateau le plus endommagé.
 
 ## Votre navire
 Le navire désigne l’embarcation pilotée par une équipe.
 Chaque équipe ne dispose que d'un seul navire.
 
 ### Pont du bateau et équipements
-Votre bateau dispose d'un pont (sorte de petite carte indépendante de la mer) sur lequel sont disposés un ensemble d'équipements actionnables.
+Votre bateau dispose d'un pont sur lequel sont disposés un ensemble d'équipements actionnables.
 
 #### Le pont
-Le pont de votre navire est représenté par une grille à deux dimensions de manière indépendante de la mer.
-Les équipements disponibles sont un bateaux sont positionnés sur une des cases de cette grille.
+Le pont de votre navire est représenté par une grille à deux dimensions (seconde carte, indépendante de la mer).
+Les équipements disponibles sur un bateau sont positionnés sur une des cases de cette grille.
 
 La taille de la grille, ainsi que les équipements présents (et leur position) sont donnés au début de la partie.
 
 #### Les rames
-Lorsque actionnées, les rames augmentent la vitesse du bateau. Plus le nombre de rames actives est important, plus l’augmentation de vitesse est importante.
+Lorsqu'elles sont actionnées, les rames augmentent la vitesse du bateau. Plus le nombre de rames actives est important, plus l’augmentation de vitesse est importante.
 
-Si plus de rames sont actionnées d’un côté du bateau que de l’autre, cela engendre une rotation de ce dernier qui dépend de ce déséquilibre.
+Si plus de rames sont actionnées d’un côté du bateau que de l’autre, cela engendre une rotation de ce dernier.
 
 #### Le gouvernail
 Le gouvernail permet d'agir sur l’orientation du vaisseau.
@@ -91,7 +91,7 @@ En revanche, si un marin est monté dans la vigie, le bateau gagne un bonus de v
 #### Les canons
 Les canons permettent de tirer des projectiles sur les autres bateaux afin de leur infliger des dégâts.
 
-Les actions effectuables sur un canon sont les suivantes: tirer, recharger, ou orienter le canon. Tirer ne peut s’effectuer que si le canon est chargé. Tirer et recharger ne peuvent pas s’effectuer durant le même tour de jeu. L'orientation du canon ne peut être faite que dans la limite d'angle donnée en début de partie.
+Les actions effectuables sur un canon sont les suivantes : tirer, recharger, ou orienter le canon. Tirer ne peut s’effectuer que si le canon est chargé. Tirer et recharger ne peuvent pas s’effectuer durant le même tour de jeu. L'orientation du canon ne peut être faite que dans la limite d'angle donnée en début de partie.
 
 Le tir s’effectue en ligne droite dans la direction du canon sur une distance communiquée en début de partie.
 
@@ -115,11 +115,11 @@ La taille de l'équipage peut varier d'une partie à une autre. En revanche, ell
 
 Comme les équipements de votre bateau, les marins sont positionnés sur la grille représentant le pont du navire. Plusieurs marins peuvent être sur la même case. 
 
-Chacun des marins qui constituent votre équipage peuvent à chaque tour de jeu:
- - se déplacer sur le pont du bateau (d'un maximum de 5 cases)
+Chacun des marins qui constituent votre équipage peut à chaque tour de jeu :
+ - se déplacer sur le pont du bateau, d'un maximum de 5 cases
  - effectuer une seule action sur un équipement présent sur sa case
 
-**Les actions effectuables par les marins:**
+**Les actions effectuables par les marins :**
 
 | Action | Condition |
 |--|--|
@@ -134,32 +134,36 @@ Chacun des marins qui constituent votre équipage peuvent à chaque tour de jeu:
 | Tirer au canon | Le marin est inoccupé. Il est positionné sur la même case qu'un canon chargé.  |
 
 ## Déroulement du tournoi
-Le grand tournoi de piraterie s'étale sur tout le semestre et se déroule en une succession d'épreuves.
-Une épreuve aura lieux chaque semaine.
-Le mode de jeu de chaque épreuves sera communiqué à l'avance afin que chaque équipe puisse s'y préparer.
-Chaque épreuve correspond à un livrable décris dans [ce document](./DELIVERY_PROCESS.md).
+Le grand tournoi de piraterie s'étale sur tout le semestre et se déroule en une succession d'épreuves.  
+Une épreuve aura lieu chaque semaine.
+Le mode de jeu de l'épreuve sera communiqué à l'avance afin que chaque équipe puisse s'y préparer.  
+Chaque épreuve correspond à un livrable décrit dans [ce document](./DELIVERY_PROCESS.md).  
 
-A chaque épreuve, entre 0 et 10 points seront donnés à chaque équipes en fonction de leur classement lors de la partie.
-Le nombre total de point obtenus pendant le tournoi déterminera le classement final du tournoi.
+A chaque épreuve, entre 0 et 10 points seront donnés à chaque équipe en fonction de leur classement lors de la partie.
+Le nombre total de points obtenus pendant le tournoi déterminera le classement final du tournoi.
 
 ## Déroulement d'une partie
 ### Initialisation de la partie
-Toutes les équipes reçoivent des indications sur le mode de partie et la configuration de la partie.
-Les équipes reçoivent également des informations sur leur bateau (carte du bateau, liste des membres d’équipages, position des éléments du bateau, ...). Enfin la liste des autres navires participant à la partie est donnée (mais pas leur position).
+Toutes les équipes reçoivent des indications sur le mode de jeu de la partie et sa configuration.  
+Les équipes reçoivent également des informations sur leur bateau (carte du bateau, liste des membres d’équipage et des éléments du bateau, ainsi que leur position, ...).  
+Enfin la liste des autres navires participant à la partie est donnée (mais pas leur position).
 
 ### Tours de jeu
-Au début du tour de jeu les informations suivantes sont communiquées à chaque équipe: une liste des éléments de la carte visible par l’équipage (récifs, courant, autres navires), les informations sur son bateau (vie, orientation, position, vitesse, ... ), orientation et vitesse du vent.
+Au début du tour de jeu les informations suivantes sont communiquées à chaque équipe : 
+- la liste des éléments de la mer visibles par l’équipage (récifs, courants, autres navires)
+- les informations sur son bateau (vie, orientation, position, ... )
+- l'orientation et la vitesse du vent.
 
-Durant le tour, chaque équipe calcule les actions à effectuer pendant le tour puis soumet à l’arbitre la liste des actions à exécuter en précisant quel marin exécute l'action.
+Durant le tour, chaque équipe décide des actions à effectuer pendant le tour puis les soumet à l’arbitre en précisant quel marin exécute l'action.
 
 Enfin, l’arbitre vérifie et exécute les actions données par chaque équipage.
 
 ### Fin de la partie
-La partie se finit lorsqu'une des conditions suivantes est atteinte:
- - Le temps maximal de la partie est atteint
- - Pour une frégate: tous les navires ont atteint le dernier checkpoint
+La partie se finit lorsqu'une des conditions suivantes est atteinte :
+ - Le nombre de tours maximal de la partie est atteint
+ - Pour une frégate: tous les navires ont atteint le point d'arrivée
  - Pour une bataille navale: il ne reste qu'un ou aucun navire
 
 ## Votre objectif
-Vous allez devoir développer un programme respectant [ces spécifications](./TECHNICAL_SPECS.md) afin de controller les marins de votre équipage.
+Vous allez devoir développer un programme respectant [ces spécifications](./TECHNICAL_SPECS.md) afin de contrôler les marins de votre équipage.
 
