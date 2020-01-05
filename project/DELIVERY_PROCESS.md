@@ -5,27 +5,27 @@
 
 ## Liste des livraisons
 ### Constitution des équipes
-Remplissez le fichier `README.md` avec les informations suivantes:
+Remplissez le fichier `README.md` avec les informations suivantes :
  - une image représentant le drapeau de votre équipage (chargé depuis un fichier `flag.png` présent à la racine de votre projet)
  - liste des membres de votre équipe
  - le nom de votre équipe
  - le nom de votre bateau
- - votre catégorie: apprenti OU non-apprenti
+ - votre catégorie : apprenti OU non-apprenti
 
 Créez un tag `CREW` contenant le README avant le 16 Janvier 2020 - 18h.
 
-### Livraisons hebdomadaire
+### Livraisons hebdomadaires
 
-Des livraisons auront lieu chaque semaines (hors pauses pédagogiques).
+Des livraisons auront lieu chaque semaine (hors pauses pédagogiques).
 Les détails de ces livraisons sont donnés plus bas.
 
 ### Livraison finale
-Cette livraison permettra d'évaluer entre autre la qualité de votre code, l'application des principes étudier en QGL.
+Cette livraison permettra d'évaluer entre autres la qualité de votre code, l'application des principes étudiés en QGL.
 
 Créez un tag `FINAL` contenant la dernière version de votre projet avant le *<date à préciser>*.
 
 ### Rapport final
-Vous devrez rédiger un rapport résumant vos choix techniques ainsi que comment les principes vu en cours ont été appliqués dans votre projet.
+Vous devrez rédiger un rapport résumant vos choix techniques ainsi que l'application des principes vus en cours.
 
 *Les consignes de rédaction du rapport viendront plus tard.*
 
@@ -33,7 +33,7 @@ Créez un tag `REPORT` contenant votre rapport avant le *<date à préciser>*.
 
 ## Étapes de chaque livraison hebdomadaire
 ### Annonce de la livraison
-Au moins une semaine avant la date de livraison, seront donnés les informations suivantes:
+Au moins une semaine avant la date de livraison, seront données les informations suivantes:
 
  - Nom du tag de livraison.
  - Indication du mode de jeu de la prochaine partie.
@@ -41,12 +41,12 @@ Au moins une semaine avant la date de livraison, seront donnés les informations
 
 ### Livraison par les équipes
 
-Créer un tag contenant la version de votre projet à exécuter.
+Créez un tag contenant la version de votre projet à exécuter.
 
 ### Exécution du script de récupération
 Le code doit être compilable, testable et exécutable avec le script suivant (considérant que le fichier pom.xml doit être à la racine de votre repository) :
 
-    git clone url_de_votre_rep id_projet
+    git clone <url_de_votre_repertoire> <id_projet>
     cd <id_projet>
     git checkout <TAG>
     mvn clean package
@@ -55,10 +55,10 @@ Votre projet doit respecter les [spécifications techniques](./TECHNICAL_SPECS.m
 
 ### Compte rendu de partie
 
-Le résultat de chaque parties seront disponibles dans [ce répertoire](../championship).
-Un sous-répertoire sera créé pour l'épreuve venant de se dérouler contenant:
+Les résultats de chaque partie seront disponibles dans [ce répertoire](../championship).
+Un sous-répertoire sera créé pour l'épreuve qui vient de se dérouler et contiendra :
  - le résultat de l'épreuve du jour
- - des sous-répertoires pour chaque équipes avec des informations sur les raisons de leur succès/échec ainsi que des logs de la partie.
+ - des sous-répertoires pour chaque équipe avec des informations sur les raisons de leur succès/échec ainsi que des logs de la partie.
 
 
 ### Comment rater sa livraison hebdomadaire
