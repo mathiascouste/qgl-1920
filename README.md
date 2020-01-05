@@ -7,7 +7,7 @@
  - Responsables: [Mathias Cousté](mailto:Mathias.Couste@univ-cotedazur.fr), [Philippe Collet](mailto:Philippe.Collet@univ-cotedazur.fr)
 
 ## Objectifs
-Ce cours a pour objectif de renforcer les bases en qualité et génie logiciel obtenus dans le cours PS5  
+Ce cours a pour objectif de renforcer les bases en qualité et génie logiciel obtenues dans le cours PS5  
 Les notions abordées concernent des points comme:
 
  - La mesure de la qualité de code, avec une illustration par l'outil SONAR
@@ -16,7 +16,7 @@ Les notions abordées concernent des points comme:
  - Une introduction à l'automatisation des processus de génie logiciel
  - Un approfondissement des connaissances en qualité logicielle
 
-Grace à un projet fil rouge, les étudiants (regroupés en équipe) pourront mettre en application les concepts et apprentissages vu en cours.
+Grâce à un projet fil rouge, les étudiants (regroupés en équipes) pourront mettre en application les concepts et apprentissages vus en cours.
 
 ## Projet fil rouge
 Ce cours s'articule autour d'un projet fil rouge qui permettra aux étudiants d'appliquer les concepts vus en cours.
@@ -28,12 +28,12 @@ Ce cours s'articule autour d'un projet fil rouge qui permettra aux étudiants d'
 ## Organisation
 
 ### Contacts
-Nous uniquement utilisons Slack (pas d'email):
- - Canal ``#si3-qgl`` pour les discussions publique relative au cours et au projet
- - Messages direct pour les questions spécifique à votre groupe
+Nous utilisons uniquement Slack (pas d'email):
+ - Canal ``#si3-qgl`` pour les discussions publiques relatives au cours et au projet
+ - Messages directs pour les questions spécifiques à votre groupe
 
 ### Modalités de contrôle des connaissances
- - Livraisons hebdomadaire *- 50 points (5 par semaines)*
+ - Livraisons hebdomadaires *- 50 points (5 par semaine)*
  - Soutenance finale *- 40 points*
  - Rapport du projet *- 20 points*
  - Livraison finale: mise en application de tous les concepts étudiés *- 40 points*
