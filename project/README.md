@@ -1,5 +1,6 @@
 
 
+
 ![top header image](./assets/project_header_image.png)
 # Hissez-haut !
 Nous sommes en plein age d'or de la piraterie.
@@ -11,6 +12,7 @@ Vous et votre équipe incarnez un des équipages engagés dans le tournoi.
 Vous êtes à la tête d’un navire qui doit être piloté avec précision afin d’être le premier à atteindre l’objectif de chaque partie.
 
 Chaque navire dispose d’un équipage de marins qui doivent exécuter des actions sur les différents éléments du bateau afin de le piloter.
+
 ## Les modes de jeu
 Les modes de jeux permettent aux équipes de s’affronter dans différents jeux et d’élaborer plusieurs stratégies.
 ### La frégate
@@ -131,6 +133,15 @@ Chacun des marins qui constituent votre équipage peuvent à chaque tour de jeu:
 | Charger le canon | Le marin est inoccupé. Il est positionné sur la même case qu'un canon non chargé.  |
 | Tirer au canon | Le marin est inoccupé. Il est positionné sur la même case qu'un canon chargé.  |
 
+## Déroulement du tournoi
+Le grand tournoi de piraterie s'étale sur tout le semestre et se déroule en une succession d'épreuves.
+Une épreuve aura lieux chaque semaine.
+Le mode de jeu de chaque épreuves sera communiqué à l'avance afin que chaque équipe puisse s'y préparer.
+Chaque épreuve correspond à un livrable décris dans [ce document](./DELIVERY_PROCESS.md).
+
+A chaque épreuve, entre 0 et 10 points seront donnés à chaque équipes en fonction de leur classement lors de la partie.
+Le nombre total de point obtenus pendant le tournoi déterminera le classement final du tournoi.
+
 ## Déroulement d'une partie
 ### Initialisation de la partie
 Toutes les équipes reçoivent des indications sur le mode de partie et la configuration de la partie.
@@ -142,4 +153,13 @@ Au début du tour de jeu les informations suivantes sont communiquées à chaque
 Durant le tour, chaque équipe calcule les actions à effectuer pendant le tour puis soumet à l’arbitre la liste des actions à exécuter en précisant quel marin exécute l'action.
 
 Enfin, l’arbitre vérifie et exécute les actions données par chaque équipage.
+
+### Fin de la partie
+La partie se finit lorsqu'une des conditions suivantes est atteinte:
+ - Le temps maximal de la partie est atteint
+ - Pour une frégate: tous les navires ont atteint le dernier checkpoint
+ - Pour une bataille navale: il ne reste qu'un ou aucun navire
+
+## Votre objectif
+Vous allez devoir développer un programme respectant [ces spécifications](./TECHNICAL_SPECS.md) afin de controller les marins de votre équipage.
 
