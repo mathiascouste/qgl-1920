@@ -59,6 +59,7 @@ Exemple: un bateau possédant 4 rames (2 de chaque côté) peut avoir les vitess
 Chaque rames actionnées d’une coté du bateau tend à l’orienter vers le côté opposé.
 
 *Exemple:*
+
 | Rames actives à bâbord | Rames actives à tribord | Vitesse angulaire |
 |--|--|--|
 | 0 | 0 | 0 |

@@ -1,6 +1,7 @@
+
 # Spécifications techniques
 
-*A compléter...*
+*Ce document est soumis à évolution*
 
 ## Structure du projet
 Votre projet doit conserver la structure telle que donnée dans le [template](https://github.com/mathiascouste/qgl-template).
@@ -8,9 +9,9 @@ Votre projet doit conserver la structure telle que donnée dans le [template](ht
 Lorsque la commande `mvn clean package` est exécutée, un fichier jar nommé `<teamId>-0.1-SNAPSHOT.jar` doit être présent dans le répertoire `target`.
 
 ## Librairie externes
-Si vous ressentez le besoin d’utiliser une librairie externe, cette dernière doit être présente dans [le repository maven officiel](https://mvnrepository.com/).
-
-De plus, il est obligatoire de prévenir le responsable du module au moins 5 jours avant la livraison de la semaine. S’il accepte, il vous donnera la version de la librairie dont vous avez besoin. Et indiquera aux autres équipes la disponibilité de cette librairie pour tous via le canal de diffusion officiel.
+L'utilisation de libraries externes de manière non-maîtrisée peut entraîner des erreurs lors de l'exécution.
+Si une erreur arrive suite à l'utilisation d'une librarie non incluse de base dans le template, votre livraison échoue.
+Il vous est donc fortement recommandé de ne pas ajouter de librairie dans votre projet.
 
 ## Cockpit.java
 Votre projet doit obligatoirement contenir une classe nommée `Cockpit` tel que donnée dans le [template](https://github.com/mathiascouste/qgl-template/blob/master/src/main/java/fr/unice/polytech/si3/qgl/teamid/Cockpit.java).  
@@ -20,21 +21,214 @@ La classe Cockpit doit contenir les deux méthodes suivantes:
 
     public void initGame(String game);
 
-Cette méthode sera invoquée avec en paramètre une instance de String contenant
-
-un JSON au format initGame (voir plus bas).
+Cette méthode sera invoquée avec en paramètre une instance de String contenant un JSON au format initGame (voir définition plus bas ou [exemple](./examples/initGame.json)).
 
     public String nextRound(String round);
     
 
-Cette méthode sera invoquée avec en paramètre une instance de String contenant un JSON au format nextRound (voir plus bas).
+Cette méthode sera invoquée avec en paramètre une instance de String contenant un JSON au format nextRound (voir définition plus bas ou [exemple](./examples/nextRound.json)).
 
-Cette méthode doit retourner une instance de String contenant un JSON au format actions (voir plus bas).
+Cette méthode doit retourner une instance de String contenant un JSON au format actions (voir définition plus bas ou [exemple](./examples/actions.json)).
 
 ## Interfaces JSON
-### initGame
+### InitGame
 
-### nextRound
+| Propriétés | Type |
+|--|--|
+| goal | #FrigateGoal OU #BattleGoal |
+| ship | #Ship |
+| sailors | #Marin[] |
+| shipCount | integer |
 
-### actions
+### FrigateGoal
+
+| Propriétés | Type |
+|--|--|
+| mode | "FRIGATE" |
+| checkpoints | #Checkpoint[] |
+
+### BattleGoal
+
+| Propriétés | Type |
+|--|--|
+| mode | "BATTLE" |
+
+### Checkpoint
+
+| Propriétés | Type |
+|--|--|
+| position | #Position |
+| shape | #Circle OU #Rectangle |
+
+### Position
+
+| Propriétés | Type |
+|--|--|
+| x | double |
+| y | double |
+| orientation | double |
+
+### Circle
+
+| Propriétés | Type |
+|--|--|
+| type | "circle" |
+| radius | double |
+
+### Rectangle
+
+| Propriétés | Type |
+|--|--|
+| type | "rectangle" |
+| width | double |
+| lenght | double |
+| orientation | double |
+
+### Ship
+
+| Propriétés | Type |
+|--|--|
+| type | "ship" |
+| life | integer |
+| position | #Position |
+| name | string |
+| deck | #Deck |
+| entities | (#Rame OU #Voile OU #Gouvernail #Vigie)[] |
+| shape | #Circle OU #Rectangle |
+
+### Deck
+
+| Propriétés | Type |
+|--|--|
+| width | integer |
+| length | integer |
+
+### Rame
+
+| Propriétés | Type |
+|--|--|
+| type | "oar" |
+| x | integer |
+| y | integer |
+
+### Voile
+
+| Propriétés | Type |
+|--|--|
+| type | "sail" |
+| x | integer |
+| y | integer |
+| openned | boolean |
+
+### Gouvernail
+
+| Propriétés | Type |
+|--|--|
+| type | "rudder" |
+| x | integer |
+| y | integer |
+
+### Vigie
+
+| Propriétés | Type |
+|--|--|
+| type | "watch" |
+| x | integer |
+| y | integer |
+
+### Marin
+
+| Propriétés | Type |
+|--|--|
+| id | integer |
+| x | integer |
+| y | integer |
+| name | string |
+
+### NextRound
+
+| Propriétés | Type |
+|--|--|
+| ship | #Ship |
+| wind | #Vent |
+| visibleEntities | (#Courant OU #AutreBateau OU #Recif)[] |
+
+### Vent
+
+| Propriétés | Type |
+|--|--|
+| orientation | double |
+| strength | double |
+
+### Courant
+
+| Propriétés | Type |
+|--|--|
+| position | #Position |
+| shape | #Circle OU #Rectangle |
+| strength | double |
+
+### AutreBateau
+
+| Propriétés | Type |
+|--|--|
+| position | #Position |
+| shape | #Circle OU #Rectangle |
+| life | integer |
+
+### Recif
+
+| Propriétés | Type |
+|--|--|
+| position | #Position |
+| shape | #Circle OU #Rectangle |
+
+### Actions
+
+(#MOVING OU #LIFT_SAIL OU #LOWER_SAIL OU #TURN OU #OAR OU #USE_WATCH)[]
+
+### MOVING
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "MOVING" |
+| xdistance | integer |
+| ydistance | integer |
+
+### LIFT_SAIL
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "LIFT_SAIL" |
+
+### LOWER_SAIL
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "LOWER_SAIL" |
+
+### TURN
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "TURN" |
+| rotation | double |
+
+### OAR
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "OAR" |
+
+### USE_WATCH
+
+| Propriétés | Type |
+|--|--|
+| sailorId | integer |
+| type | "USE_WATCH" |
 

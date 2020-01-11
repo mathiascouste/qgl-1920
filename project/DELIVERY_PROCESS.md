@@ -1,7 +1,7 @@
 
 # Consignes de livraison
 
-*A compléter...*
+*Ce document est soumis à évolution*
 
 ## Liste des livraisons
 ### Constitution des équipes
