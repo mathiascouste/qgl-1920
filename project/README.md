@@ -6,7 +6,7 @@
 Nous sommes en plein âge d'or de la piraterie.
 
 De nombreux équipages se font la guerre pour savoir qui sont les plus grands pirates de nos mers et océans.
-Après moultes disputes, les plus grands équipages pirates de ce monde ont décidé de s'affronter lors d'un grand tournoi de piraterie. A l'ordre du jour, frégates et batailles navales.
+Après moultes disputes, les plus grands équipages pirates de ce monde ont décidé de s'affronter lors d'un grand tournoi de piraterie. A l'ordre du jour, régates et batailles navales.
 
 Vous et votre équipe incarnez un des équipages engagés dans le tournoi.
 Vous êtes à la tête d’un navire qui doit être piloté avec précision afin d’être le premier à atteindre l’objectif de chaque partie.
