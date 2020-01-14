@@ -35,16 +35,16 @@ Cette méthode doit retourner une instance de String contenant un JSON au format
 
 | Propriétés | Type |
 |--|--|
-| goal | #FrigateGoal OU #BattleGoal |
+| goal | #RegattaGoal OU #BattleGoal |
 | ship | #Ship |
 | sailors | #Marin[] |
 | shipCount | integer |
 
-### FrigateGoal
+### RegattaGoal
 
 | Propriétés | Type |
 |--|--|
-| mode | "FRIGATE" |
+| mode | "REGATTA" |
 | checkpoints | #Checkpoint[] |
 
 ### BattleGoal
