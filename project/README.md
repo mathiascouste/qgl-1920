@@ -15,10 +15,10 @@ Chaque navire dispose d’un équipage de marins qui doivent exécuter des actio
 
 ## Les modes de jeu
 Les modes de jeux permettent aux équipes de s’affronter dans différentes épreuves et d’élaborer plusieurs stratégies.
-### La frégate
+### La régate
 Les équipes s’affrontent dans une course de vitesse.
 
-Un bateau finit la partie lorsqu’il a franchi dans l'ordre le ou les points de passage de la frégate.
+Un bateau finit la partie lorsqu’il a franchi dans l'ordre le ou les points de passage de la régate.
 
 Chaque partie dispose d'un nombre limité de tours. Les bateaux n'ayant pas franchit la ligne d'arrivée (dernier point de passage) au dernier tour perdent la partie.
 
