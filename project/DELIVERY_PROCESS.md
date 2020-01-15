@@ -12,7 +12,7 @@ Remplissez le fichier `README.md` avec les informations suivantes :
  - le nom de votre bateau
  - votre catégorie : apprenti OU non-apprenti
 
-Créez un tag `CREW` contenant le README avant le 16 Janvier 2020 - 18h.
+Créez un tag `CREW` contenant le README avant le 16 Janvier 2020 - 12h.
 
 ### Livraisons hebdomadaires
 
