@@ -1,10 +1,20 @@
 # Comprendre l'arbitre
 
-*A compléter...*
+*Ce document est soumis à évolution*
 
 ## Déroulé d'une partie
 ### Initialisation de la partie
+A début de son exécution, l'arbitre charge la partie puis l'ensemble des Cockpits des équipes.
+La fonction `initGame` de chaque équipe est alors invoquée.
 ### Exécution d'un tour
+Chaque tour s'exécute de la manière suivante:
+
+ 1. Ré-initialisation des éléments de chaque bateau (*ex: rame utilisée redevient disponible*) et équipage (*ex: marin s'étant déjà déplacé au tour précédent récupéré sa capacité à se déplacer*).
+ 2. La fonction `nextRound` de chaque équipe est invoquée.
+ 3. Les actions des marins sont contrôlées puis exécutées.
+ 4. Exécution du déplacement de chaque bateau.
+ 5. Retrais des bateaux détruit.
+ 6. Vérification des conditions de victoire ou de fin de partie.
 
 ## Exécutions des actions
 A chaque tour, chaque matelot ne peut faire qu’une seule action.
@@ -45,12 +55,11 @@ Uniquement si le bateau est en contact avec un ou plusieurs courant.
 -   Direction: direction du courant
 -   Valeur: force du courant
     
+### Calcul de la rotation du bateau
+La rotation est la somme des vitesses rotations suivantes:
 
-### Calcul de la vitesse angulaire
-La vitesse angulaire est la somme des vitesses angulaires suivantes:
-
-#### Vitesse des rames:
-La vitesse radiale issue des rames est comprise entre -PI/2 et PI/2.
+#### Rotation par les rames:
+La rotation issue des rames est comprise entre -PI/2 et PI/2.
 
 Cet angle est découpé en n+1 parts (n étant égal au nombre total de rames).
 
@@ -60,7 +69,7 @@ Chaque rames actionnées d’une coté du bateau tend à l’orienter vers le c�
 
 *Exemple:*
 
-| Rames actives à bâbord | Rames actives à tribord | Vitesse angulaire |
+| Rames actives à bâbord | Rames actives à tribord | Rotation |
 |--|--|--|
 | 0 | 0 | 0 |
 | 0 | 1 | PI/4 |
@@ -71,8 +80,99 @@ Chaque rames actionnées d’une coté du bateau tend à l’orienter vers le c�
 | 2 | 0 | -PI/2 |
 | 2 | 1 | -PI/4 |
 | 2 | 2 | 0 |
-#### Vitesse angulaire du gouvernail:
+#### Rotation par le gouvernail:
 
-L’angle induit par le gouvernail est de zéro s’il n’est pas utilisé.  
-Si le gouvernail est utilisé, l’angle induit correspond à l’angle du gouvernail (donné en paramètre de l’action d’activation).  
-Si aucune action d’actionnage du gouvernail est envoyée pendant un tour, l’angle est de zéro.
+La rotation induite par le gouvernail est de zéro s’il n’est pas utilisé.
+Si le gouvernail est utilisé, la rotation induite correspond à l’angle du gouvernail (donné en paramètre de l’action d’activation).  
+Si aucun actionnage du gouvernail est envoyée pendant le tour, l’angle est de zéro.
+
+### Etapes par étapes
+La simulation de déplacement s'effectue en N étapes.
+A chacune de ses sous-étapes, le bateau avance de sa vitesse divisée par N.
+Il va de même pour sa rotation.
+A chaque sous-étapes, les collisions sont contrôlées. S'il y a collision avec un élément solide de la mer (bateau ou récif) alors le déplacement de cette sous-étape est annulé.
+
+
+Prenons un exemple:
+
+    Position initiale: [0;0]
+    Orientation initiale: 0
+    N = 10
+    Vitesse linéaire = 100
+    Rotation = 1
+
+Etape 1:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [10;0]
+    Orientation: 0.1
+
+Etape 2:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [19.95;0.05]
+    Orientation: 0.2
+
+Etape 3:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [29.75;0.25]
+    Orientation: 0.3
+
+Etape 4:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [39.30;0.70]
+    Orientation: 0.4
+
+Etape 5:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [48.50;1.50]
+    Orientation: 0.5
+
+Etape 6:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [57.28;2.75]
+    Orientation: 0.6
+
+Etape 7:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [65.53;3.50]
+    Orientation: 0.7
+
+Etape 8:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [73.18;5.85]
+    Orientation: 0.8
+
+Etape 9:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [78.87;8.90]
+    Orientation: 0.9
+
+Etape 10:
+On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
+On applique 10% (1/N) de la rotation.
+
+    Position: [85.09;12.70]
+    Orientation: 1.0
+/!\ Collision détectée ! On reviens à la position précédente.
+
+    Position: [78.87;8.90]
+    Orientation: 0.9
+
+*(Dans cet exemple, des approximations ont été faites dans les calculs)*

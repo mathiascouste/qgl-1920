@@ -1,4 +1,5 @@
 
+
 # Spécifications techniques
 
 *Ce document est soumis à évolution*
@@ -17,11 +18,14 @@ Il vous est donc fortement recommandé de ne pas ajouter de librairie dans votre
 Votre projet doit obligatoirement contenir une classe nommée `Cockpit` tel que donnée dans le [template](https://github.com/mathiascouste/qgl-template/blob/master/src/main/java/fr/unice/polytech/si3/qgl/teamid/Cockpit.java).  
 Cette classe doit être positionnée dans le package `fr.unice.polytech.si3.qgl.<teamid>`.
 
-La classe Cockpit doit contenir les deux méthodes suivantes:
+La classe Cockpit doit contenir les méthodes suivantes:
+### InitGame
 
     public void initGame(String game);
 
 Cette méthode sera invoquée avec en paramètre une instance de String contenant un JSON au format initGame (voir définition plus bas ou [exemple](./examples/initGame.json)).
+
+### NextRound
 
     public String nextRound(String round);
     
@@ -30,13 +34,26 @@ Cette méthode sera invoquée avec en paramètre une instance de String contenan
 
 Cette méthode doit retourner une instance de String contenant un JSON au format actions (voir définition plus bas ou [exemple](./examples/actions.json)).
 
+### GetLogs
+
+
+    public List<String> getLogs();
+    
+Cette méthode est invoquée à la fin de la partie.
+Elle vous permets de générer vos propres logs.
+Vous pouvez retourner des chaînes de caractères dans le format de votre choix.
+
+**Seule limite:** vous ne pouvez retourner qu'un maximum de 100 Strings, et aucune ne doit dépasser les 200 caractères.
+
+Ces logs vous seront donnés dans le rapport d'exécution de la partie.
+
 ## Interfaces JSON
 ### InitGame
 
 | Propriétés | Type |
 |--|--|
 | goal | #FrigateGoal OU #BattleGoal |
-| ship | #Ship |
+| ship | #Bateau |
 | sailors | #Marin[] |
 | shipCount | integer |
 
@@ -84,7 +101,7 @@ Cette méthode doit retourner une instance de String contenant un JSON au format
 | lenght | double |
 | orientation | double |
 
-### Ship
+### Bateau
 
 | Propriétés | Type |
 |--|--|
@@ -149,7 +166,7 @@ Cette méthode doit retourner une instance de String contenant un JSON au format
 
 | Propriétés | Type |
 |--|--|
-| ship | #Ship |
+| ship | #Bateau |
 | wind | #Vent |
 | visibleEntities | (#Courant OU #AutreBateau OU #Recif)[] |
 
