@@ -52,16 +52,16 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 
 | Propriétés | Type |
 |--|--|
-| goal | #FrigateGoal OU #BattleGoal |
+| goal | #RegattaGoal OU #BattleGoal |
 | ship | #Bateau |
 | sailors | #Marin[] |
 | shipCount | integer |
 
-### FrigateGoal
+### RegattaGoal
 
 | Propriétés | Type |
 |--|--|
-| mode | "FRIGATE" |
+| mode | "REGATTA" |
 | checkpoints | #Checkpoint[] |
 
 ### BattleGoal
