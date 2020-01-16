@@ -1,6 +1,7 @@
 
 
 
+
 ![top header image](./assets/project_header_image.png)
 # Hissez haut !
 Nous sommes en plein âge d'or de la piraterie.
@@ -54,6 +55,12 @@ La puissance du courant est donnée lors du début du tour de jeu.
 Un navire représente une équipe. La vie restante d’un vaisseau est communiquée, au début du tour de jeu, à tous les joueurs qui peuvent le voir.
 
 Deux bateaux qui se percutent vont s'endommager l’un l’autre de manière égale. La valeur des dommages est proportionnelle à leur vitesse relative, dans la limite des points de vie restant au bateau le plus endommagé.
+
+### La vision
+A chaque tour de jeu, vous recevez une liste d'éléments visibles présents dans la mer.
+Seuls les éléments présent dans votre champ de vision vous serons donné.
+Par defaut, la vision est de 1000.
+Si un marin exécute l'action surveiller sur la vigie, votre vision passe à 5000 pour le tour suivant.
 
 ## Votre navire
 Le navire désigne l’embarcation pilotée par une équipe.
