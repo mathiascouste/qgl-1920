@@ -1,8 +1,9 @@
+
 # Comprendre l'arbitre
 
 *Ce document est soumis à évolution*
 
-## Déroulé d'une partie
+## Déroulement d'une partie
 ### Initialisation de la partie
 A début de son exécution, l'arbitre charge la partie puis l'ensemble des Cockpits des équipes.
 La fonction `initGame` de chaque équipe est alors invoquée.
@@ -15,6 +16,12 @@ Chaque tour s'exécute de la manière suivante:
  4. Exécution du déplacement de chaque bateau.
  5. Retrais des bateaux détruit.
  6. Vérification des conditions de victoire ou de fin de partie.
+
+## Calcul des éléments visibles
+Un élément est visible s'il remplis les 2 critères suivants:
+
+ 1. Il est différent de votre propre bateau
+ 2. Sa forme entre en collision avec votre champ de vision (cercle imaginaire dont le centre est la position de votre bateau et donc le rayon est votre vision (1000 par defaut / 5000 si vigie activée)).
 
 ## Exécutions des actions
 A chaque tour, chaque matelot ne peut faire qu’une seule action.
