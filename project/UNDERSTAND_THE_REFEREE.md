@@ -119,67 +119,67 @@ Etape 2:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [19.95;0.05]
+    Position: [19.95;0.10]
     Orientation: 0.2
 
 Etape 3:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [29.75;0.25]
+    Position: [29.75;2.99]
     Orientation: 0.3
 
 Etape 4:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [39.30;0.70]
+    Position: [39.30;5.94]
     Orientation: 0.4
 
 Etape 5:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [48.50;1.50]
+    Position: [48.51;9.83]
     Orientation: 0.5
 
 Etape 6:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [57.28;2.75]
+    Position: [57.29;14.63]
     Orientation: 0.6
 
 Etape 7:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [65.53;3.50]
+    Position: [65.54;20.28]
     Orientation: 0.7
 
 Etape 8:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [73.18;5.85]
+    Position: [73.19;26.72]
     Orientation: 0.8
 
 Etape 9:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [78.87;8.90]
+    Position: [80.16;33.89]
     Orientation: 0.9
 
 Etape 10:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [85.09;12.70]
+    Position: [86.38;33.89]
     Orientation: 1.0
 /!\ Collision détectée ! On reviens à la position précédente.
 
-    Position: [78.87;8.90]
+    Position: [80.16;33.89]
     Orientation: 0.9
 
 *(Dans cet exemple, des approximations ont été faites dans les calculs)*
