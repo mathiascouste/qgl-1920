@@ -98,7 +98,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 |--|--|
 | type | "rectangle" |
 | width | double |
-| lenght | double |
+| height | double |
 | orientation | double |
 
 ### Bateau
@@ -181,6 +181,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 
 | Propriétés | Type |
 |--|--|
+| type | "stream" |
 | position | #Position |
 | shape | #Circle OU #Rectangle |
 | strength | double |
@@ -189,6 +190,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 
 | Propriétés | Type |
 |--|--|
+| type | "ship" |
 | position | #Position |
 | shape | #Circle OU #Rectangle |
 | life | integer |
@@ -197,6 +199,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 
 | Propriétés | Type |
 |--|--|
+| type | "reef" |
 | position | #Position |
 | shape | #Circle OU #Rectangle |
 
