@@ -175,7 +175,7 @@ Etape 10:
 On applique 10% (1/N) du déplacement linéaire dans le sens du bateau.
 On applique 10% (1/N) de la rotation.
 
-    Position: [86.38;33.89]
+    Position: [86.38;41.72]
     Orientation: 1.0
 /!\ Collision détectée ! On reviens à la position précédente.
 
