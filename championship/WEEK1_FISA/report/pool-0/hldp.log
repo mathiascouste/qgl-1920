@@ -1,0 +1,13 @@
+Init: {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":1000.0,"y":0.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientat
+Next round input: {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":1
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"}]
+Next round input: {"ship":{"type":"ship","position":{"x":165.0000000000003,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"}]
+Next round input: {"ship":{"type":"ship","position":{"x":329.9999999999996,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"}]
+Next round input: {"ship":{"type":"ship","position":{"x":494.9999999999973,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,
+Next round input: {"ship":{"type":"ship","position":{"x":659.9999999999951,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,
+Next round input: {"ship":{"type":"ship","position":{"x":824.9999999999928,"y":0.0,"orientation":0.0},"name":"Les copaings d'abord!","deck":{"width":2,"length":1},"entities":[{"x":0,"y":0,"type":"oar"
+Liste d'actions :[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,
