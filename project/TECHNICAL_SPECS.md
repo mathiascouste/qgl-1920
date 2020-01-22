@@ -34,6 +34,8 @@ Cette méthode sera invoquée avec en paramètre une instance de String contenan
 
 Cette méthode doit retourner une instance de String contenant un JSON au format actions (voir définition plus bas ou [exemple](./examples/actions.json)).
 
+Les actions retournées sont vérifiées puis éxécutée. Si l'action n'est pas valide (voir [règles du jeu](./README.md) ou description JSON plus bas) alors elle sera ignorée.
+
 ### GetLogs
 
 
@@ -232,11 +234,11 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 
 ### TURN
 
-| Propriétés | Type |
-|--|--|
-| sailorId | integer |
-| type | "TURN" |
-| rotation | double |
+| Propriétés | Type | Contraintes |
+|--|--|--|
+| sailorId | integer | N/A |
+| type | "TURN" | N/A |
+| rotation | double | -PI/4 <= rotation <= PI/4 |
 
 ### OAR
 

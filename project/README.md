@@ -134,7 +134,7 @@ Chacun des marins qui constituent votre équipage peut à chaque tour de jeu :
 | Ramer | Le marin est inoccupé. Il est positionné sur la même case qu'une rame non utilisée. |
 | Hisser la voile | Le marin est inoccupé. Il est positionné sur la même case qu'un mat non utilisé avec la voile basse.  |
 | Affaler la voile | Le marin est inoccupé. Il est positionné sur la même case qu'un mat non utilisé avec la voile haute.  |
-| Actionner le gouvernail | Le marin est inoccupé. Il est positionné sur la même case qu'un gouvernail non utilisé.  |
+| Actionner le gouvernail | Le marin est inoccupé. Il est positionné sur la même case qu'un gouvernail non utilisé. La rotation demandée est comprise -PI/4 et PI/4 |
 | Monter la garde | Le marin est inoccupé. Il est positionné sur la même case qu'une vigie non utilisée.  |
 | Orienter le canon | Le marin est inoccupé. Il est positionné sur la même case qu'un canon.  |
 | Charger le canon | Le marin est inoccupé. Il est positionné sur la même case qu'un canon non chargé.  |
