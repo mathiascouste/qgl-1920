@@ -5,8 +5,10 @@
 
 ## Scope fonctionel réduit
 Seul un sous-ensemble des éléments du jeu seront présents:
+
 **Dans la mer:**
 - votre bateau
+- plusieurs checkpoints
 
 **Dans votre bateau:**
 - vos marins
