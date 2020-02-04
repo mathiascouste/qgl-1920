@@ -1,0 +1,100 @@
+Init: {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":0.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":40.0}},{"position":{"x":-200.0,"y":-200.0,"orientation":0.0},"shape"
+Next round input: {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 1.5707963267948966 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=1, nbOarRight=2 | askedRotation=1.5707963267948966, oarRotation=0.7853981633974483, nbRudder=1, rudderRotation=0.7853981633974483, currentRotati
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":3,"type":"MOVING","xdistance":2,"ydistance":1},{"sai
+Next round input: {"ship":{"type":"ship","position":{"x":61.18268835652756,"y":46.31408320798702,"orientation":1.3089969389957476},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.32586550947058 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=0.32586550947058, oarRotation=0.0, nbRudder=1, rudderRotation=0.32586550947058, currentRotation=0.32586550947058
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":-1,"ydistance":2},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-1},{"sailorId":3,"type":"MOVING","xdistance":-1,"ydistance":1},{"
+Next round input: {"ship":{"type":"ship","position":{"x":75.41773583716662,"y":99.44000365388607,"orientation":1.3089969389957476},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.34534980707130103 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=0.34534980707130103, oarRotation=0.0, nbRudder=1, rudderRotation=0.34534980707130103, currentRotation=0.34534980
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":3,"type":"MOVING","xdistance":2,"ydistance":1},{"sai
+Next round input: {"ship":{"type":"ship","position":{"x":89.65278331780581,"y":152.56592409978512,"orientation":1.3089969389957476},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.36720055506458515 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=0.36720055506458515, oarRotation=0.0, nbRudder=1, rudderRotation=0.36720055506458515, currentRotation=0.36720055
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":-1,"ydistance":2},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-1},{"sailorId":3,"type":"MOVING","xdistance":-1,"ydistance":1},{"
+Next round input: {"ship":{"type":"ship","position":{"x":103.18458172817286,"y":176.1460369391273,"orientation":0.7853981633974546},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.9099955670844483 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=1, nbOarRight=2 | askedRotation=0.9099955670844483, oarRotation=0.7853981633974483, nbRudder=1, rudderRotation=0.12459740368700001, currentRotat
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-2,"ydistance":3},{"sailorId":3,"type":"MOVING","xdistance":4,"ydistance":0},{"sa
+Next round input: {"ship":{"type":"ship","position":{"x":126.69351933011153,"y":189.80111447691772,"orientation":0.261799387799155},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 1.46411409549688 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=1, nbOarRight=2 | askedRotation=1.46411409549688, oarRotation=0.7853981633974483, nbRudder=1, rudderRotation=0.6787159320994318, currentRotation
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":1},{"sailorId":3,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-1},{"s
+Next round input: {"ship":{"type":"ship","position":{"x":150.27363216945358,"y":203.33291288728503,"orientation":0.7853981633974546},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.9718354753106196 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=1, nbOarRight=2 | askedRotation=0.9718354753106196, oarRotation=0.7853981633974483, nbRudder=1, rudderRotation=0.18643731191317137, currentRotat
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-1,"ydistance":3},{"sa
+Next round input: {"ship":{"type":"ship","position":{"x":163.9287097072436,"y":226.84185048922402,"orientation":1.3089969389957476},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.47073007750852125 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=0.47073007750852125, oarRotation=0.0, nbRudder=1, rudderRotation=0.47073007750852125, currentRotation=0.47073007
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":-1,"ydistance":2},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":3,"type":"MOVING","xdistance":-2,"ydistance":0},{"
+Next round input: {"ship":{"type":"ship","position":{"x":163.9998849446469,"y":254.0287264373815,"orientation":1.8325957145940361},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -0.04539459149473979 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=-0.04539459149473979, oarRotation=0.0, nbRudder=1, rudderRotation=-0.04539459149473979, currentRotation=-0.04539
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-1,"ydistance":3},{"sailorId":3,"type":"MOVING","xdistance":4,"ydistance":0},{"sa
+Next round input: {"ship":{"type":"ship","position":{"x":150.4680865342802,"y":277.60883927672376,"orientation":2.35619449019234},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -0.5800426712576316 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=-0.5800426712576316, oarRotation=0.0, nbRudder=1, rudderRotation=-0.5800426712576316, currentRotation=-0.5800426
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":-1,"ydistance":2},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":3,"type":"MOVING","xdistance":-2,"ydistance":0},{"
+Next round input: {"ship":{"type":"ship","position":{"x":126.95914893234126,"y":291.26391681451395,"orientation":2.8797932657906506},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -1.1317423760322431 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=2 | askedRotation=-1.1317423760322431, oarRotation=0.0, nbRudder=1, rudderRotation=-0.7853981633974483, currentRotation=-0.7853981
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-1,"ydistance":3},{"sailorId":3,"type":"MOVING","xdistance":4,"ydistance":0},{"sa
+Next round input: {"ship":{"type":"ship","position":{"x":99.77227298418401,"y":291.33509205191643,"orientation":3.4033920413889613},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -1.6927259560574268 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=1 | askedRotation=-1.6927259560574268, oarRotation=-0.7853981633974483, nbRudder=1, rudderRotation=-0.7853981633974483, currentRot
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":1},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":3,"type":"MOVING","xdistance":-2,"ydistance":0},{"s
+Next round input: {"ship":{"type":"ship","position":{"x":76.19216014484242,"y":277.8032936415487,"orientation":3.926990816987272},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -2.251082752457489 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=1 | askedRotation=-2.251082752457489, oarRotation=-0.7853981633974483, nbRudder=1, rudderRotation=-0.7853981633974483, currentRota
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-1,"ydistance":3},{"sailorId":3,"type":"MOVING","xdistance":4,"ydistance":0},{"sa
+Next round input: {"ship":{"type":"ship","position":{"x":62.537082607052604,"y":254.29435603960937,"orientation":4.450589592585544},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y"
+Le prochain checkPoint est en x: 0.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 0.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de -2.79612608291371 radian.
+ShipConfiguration { nbOar=4, nbOarForSpeed=4, nbOarLeft=2, nbOarRight=1 | askedRotation=-2.79612608291371, oarRotation=-0.7853981633974483, nbRudder=1, rudderRotation=-0.7853981633974483, currentRotat
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":1},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":3,"type":"MOVING","xdistance":-2,"ydistance":0},{"s
+Next round input: {"ship":{"type":"ship","position":{"x":62.46590736964907,"y":227.10748009145183,"orientation":4.97418836818381},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0
