@@ -1,0 +1,138 @@
+oarsNb:6
+PB5
+
+S0 is moving to (2,0)
+
+S1 is moving to (2,1)
+PB5
+0.0 - 6
+P{ 0.0 , 0.0 }
+6
+C{R=2, L=0}
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+1.0471975511965985 - 4
+P{ 45.62171820918381 , 26.022168640911254 }
+4
+C{R=2, L=1}
+
+S0 is oaring from (2,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+1.570796326794887 - 4
+P{ 66.93741202585248 , 104.74842096329911 }
+4
+C{R=2, L=1}
+
+S0 is oaring from (2,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+2.0943951023931797 - 3
+P{ 46.034218209185305 , 183.58520232756516 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+2.0943951023931797 - 2
+P{ -8.965781790813182 , 278.8479967438536 }
+2
+C{R=1, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+PB5
+1.5707963267948872 - 3
+P{ -30.281475607480395 , 357.5742490662419 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+1.5707963267948872 - 4
+P{ -30.28147560747933 , 467.5742490662442 }
+4
+C{R=2, L=1}
+
+S0 is oaring from (2,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+2.0943951023931797 - 3
+P{ -51.18466942414654 , 546.41103043051 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+2.0943951023931797 - 2
+P{ -106.18466942414484 , 641.6738248468041 }
+2
+C{R=1, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+PB5
+1.5707963267948872 - 3
+P{ -127.50036324081209 , 720.4000771691918 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (2,0)
+
+S2 is oaring from (1,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+1.5707963267948872 - 4
+P{ -127.50036324081067 , 830.4000771691941 }
+4
+C{R=2, L=1}
+
+S0 is oaring from (2,0)
+
+S1 is oaring from (2,1)
+
+S3 is oaring from (1,1)
+PB5
+2.0943951023931797 - 3
+P{ -148.40355705747785 , 909.2368585334597 }
+3
+C{R=2, L=2}

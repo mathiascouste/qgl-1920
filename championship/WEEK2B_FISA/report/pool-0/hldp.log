@@ -1,0 +1,108 @@
+Init: {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":-200.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":80.0}},{"position":{"x":500.0,"y":1100.0,"orientation":0.0},"shap
+e":{"type":"circle","radius":50.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":
+1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orient
+ation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Jack Teach"},{"x":0,"y":1,"id":1,"name":"Tom Pouce"},{"x":1,"y":0,"id":2,"name":"Jack Teach"},{"x":1,"y":1,"id":3,"name":"Luffy Teach"}],"shipCount"
+:1}
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar
+"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visib
+leEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 1.7681918866447774 radian.
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=1, nbSailorOarRight=3 | askedRotation=1.7681918866447774, oarRotation=1.0471975511965979, nbRudder=1, 
+rudderRotation=0.7209943354481796, currentRotation=1.7681918866447774, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":3,"ydistance":0},{"sai
+lorId":2,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":91.24343641836762,"y":52.04433728182251,"orientation":1.0471975511965985},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"
+y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":
+2.0,"height":4.0,"orientation":1.0471975511965985}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.8216782372540885 radian.
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=1, nbSailorOarRight=2 | askedRotation=0.8216782372540885, oarRotation=0.5235987755982988, nbRudder=1, 
+rudderRotation=0.2980794616557897, currentRotation=0.8216782372540885, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=82.0, diffSpeed=-83.0}
+Liste d'actions :[{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.55913023503633,"y":130.77058960421041,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,
+"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width"
+:2.0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.34518536695024715 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=2, nbSailorOarRight=2 | askedRotation=0.34518536695024715, oarRotation=0.0, nbRudder=1, rudderRotation
+=0.34518536695024715, currentRotation=0.34518536695024715, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":-1,"ydistance":-1},{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"
+sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.55913023503776,"y":240.77058960420985,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,
+"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width"
+:2.0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.3905341273450287 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=2, nbSailorOarRight=2 | askedRotation=0.3905341273450287, oarRotation=0.0, nbRudder=1, rudderRotation=
+0.3905341273450287, currentRotation=0.3905341273450287, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.55913023503918,"y":350.77058960421175,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,
+"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width"
+:2.0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.4486823195658596 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=2, nbSailorOarRight=2 | askedRotation=0.4486823195658596, oarRotation=0.0, nbRudder=1, rudderRotation=
+0.4486823195658596, currentRotation=0.4486823195658596, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.5591302350406,"y":460.770589604214,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y"
+:0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":2.
+0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.5253146414338523 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=2, nbSailorOarRight=2 | askedRotation=0.5253146414338523, oarRotation=0.0, nbRudder=1, rudderRotation=
+0.5253146414338523, currentRotation=0.5253146414338523, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.55913023504202,"y":570.7705896042163,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"
+y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":
+2.0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.6293937872411604 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=3, nbOarAvailableRight=3, nbOarForSpeed=6, nbSailorOarLeft=2, nbSailorOarRight=2 | askedRotation=0.6293937872411604, oarRotation=0.0, nbRudder=1, rudderRotation=
+0.6293937872411604, currentRotation=0.6293937872411604, diffRotation=0.0 | askedSpeed=165.0, currentSpeed=110.0, diffSpeed=-55.0}
+Liste d'actions :[{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":112.55913023504344,"y":680.7705896042186,"orientation":1.570796326794887},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"
+y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":0,"shape":{"type":"rectangle","width":
+2.0,"height":4.0,"orientation":1.570796326794887}},"visibleEntities":[]}
+Le prochain checkPoint est en x: -200.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: -200.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 165 noeuds.
+Le navigateur décide de prendre une orientation de 0.7748407823900589 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.

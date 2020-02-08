@@ -1,0 +1,100 @@
+S{d[2,4],p[0.0,0.0,0.0],RECT,Cr{[0,0,0][1,0,1][2,1,0][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=101.30993247402021
+( TURN OAR_RIGHT OAR_RIGHT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,1,1] M[1,3,0] M[2,1,1] O[0] O[2] O[1]}
+S{d[2,4],p[52.93255129340979,52.10755129340978,89.99999999999987],RECT,Cr{[0,1,1][1,3,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=14.940515492051668
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,-1] M[1,-1,0] O[0] O[3]}
+S{d[2,4],p[52.93255129340979,107.1075512934095,89.99999999999987],RECT,Cr{[0,1,0][1,2,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=15.81600752068976
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,0] M[1,1,0] O[0] O[3]}
+S{d[2,4],p[52.93255129340979,162.1075512934101,89.99999999999987],RECT,Cr{[0,1,0][1,3,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=16.797362017104412
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,1] M[1,-2,-1] O[1] O[0]}
+S{d[2,4],p[52.93255129340979,217.10755129341123,89.99999999999987],RECT,Cr{[0,1,1][1,1,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=17.904319467841944
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,0] M[1,1,0] O[1] O[0]}
+S{d[2,4],p[52.93255129340979,272.10755129341237,89.99999999999987],RECT,Cr{[0,1,1][1,2,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=19.161631775361474
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,0] M[1,-1,0] O[1] O[0]}
+S{d[2,4],p[52.93255129340979,327.1075512934135,89.99999999999987],RECT,Cr{[0,1,1][1,1,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=20.600664584306795
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,2,0] M[1,1,0] O[1] O[3]}
+S{d[2,4],p[52.93255129340979,382.10755129341464,89.99999999999987],RECT,Cr{[0,3,1][1,2,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=22.26160231614098
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,-1,-1] M[1,1,1] O[0] O[3]}
+S{d[2,4],p[52.93255129340979,437.1075512934158,89.99999999999987],RECT,Cr{[0,2,0][1,3,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=24.19649858656337
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,1] M[1,-1,-1] O[1] O[3]}
+S{d[2,4],p[52.93255129340979,492.1075512934169,89.99999999999987],RECT,Cr{[0,2,1][1,2,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=26.473495506013997
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,1,-1] M[1,1,1] O[0] O[3]}
+S{d[2,4],p[52.93255129340979,547.1075512934144,89.99999999999987],RECT,Cr{[0,3,0][1,3,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=29.182598430017467
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,-2,1] M[1,-2,-1] O[1] O[0]}
+S{d[2,4],p[52.93255129340979,602.1075512934099,89.99999999999987],RECT,Cr{[0,1,1][1,1,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=32.44333286977536
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,1,0] M[1,2,0] O[1] O[3]}
+S{d[2,4],p[52.93255129340979,657.1075512934053,89.99999999999987],RECT,Cr{[0,2,1][1,3,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=36.41411750802987
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,1,-1] M[1,-2,1] O[0] O[1]}
+S{d[2,4],p[52.93255129340979,712.1075512934008,89.99999999999987],RECT,Cr{[0,3,0][1,1,1][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=41.30144393128606
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,0,1] M[1,1,-1] O[1] O[3]}
+S{d[2,4],p[52.93255129340979,767.1075512933962,89.99999999999987],RECT,Cr{[0,3,1][1,2,0][2,2,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=47.362090717175235
+( TURN OAR_LEFT OAR_RIGHT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,-1,-1] M[1,-1,1] M[2,1,0] O[0] O[1] O[2]}
+S{d[2,4],p[32.02935747674203,845.9443326576617,119.9999999999995],RECT,Cr{[0,2,0][1,1,1][2,3,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=26.4178662546594
+( TURN OAR_LEFT OAR_RIGHT)
+There is no more rudder with free sailor on the ship
+As{ M[0,-1,0] M[1,0,0] O[0] O[1]}
+S{d[2,4],p[4.529357476742514,893.5757298658087,119.9999999999995],RECT,Cr{[0,1,0][1,1,1][2,3,1][3,1,1]},O{[1,0][1,1][2,0][2,1][3,0][3,1]},R{}
+RG{Ch{p[-200.0,1000.0,0.0],CIRC,false}Ch{p[500.0,1100.0,0.0],CIRC,false}}
+NO=p[-200.0,1000.0,0.0]A=32.51035441165234
+( TURN OAR_LEFT OAR_RIGHT)
