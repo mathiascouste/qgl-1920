@@ -1,0 +1,18 @@
+févr. 10, 2020 7:04:47 PM fr.unice.polytech.si3.qgl.mugiwaracrew.Cockpit initShips
+GRAVE: Cannot initialize the ships data in initShips
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:78)
+Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:373)
+	at java.base/java.util.ArrayList.get(ArrayList.java:425)
+	at fr.unice.polytech.si3.qgl.mugiwaracrew.managers.RegattaManager.isInsideCheckpoint(RegattaManager.java:289)
+	at fr.unice.polytech.si3.qgl.mugiwaracrew.managers.RegattaManager.calculateNextRound(RegattaManager.java:84)
+	at fr.unice.polytech.si3.qgl.mugiwaracrew.Cockpit.nextRound(Cockpit.java:109)
+	... 5 more

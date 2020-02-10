@@ -1,0 +1,104 @@
+Init: {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":1500.0,"y":300.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":300.0,"y":1500.0,"orientation":0.0},"shape
+":{"type":"circle","radius":50.0}},{"position":{"x":0.0,"y":0.0,"orientation":0.0},"shape":{"type":"circle","radius":70.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name
+":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y"
+:0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"
+oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","
+openned":false}],"life":0,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Jack Pouce"},{"x":0,"y":1,"id":1,"name":"Jack Teach"},{"x":0,
+"y":2,"id":2,"name":"Tom Pouce"},{"x":0,"y":3,"id":3,"name":"Edward Pouce"},{"x":0,"y":4,"id":4,"name":"Luffy Pouce"},{"x":1,"y":0,"id":5,"name":"Luffy Teach"},{"x":1,"y":1,"id":6,"name":"Tom Pouce"},
+{"x":1,"y":2,"id":7,"name":"Edward Teach"},{"x":1,"y":3,"id":8,"name":"Edward Teach"},{"x":1,"y":4,"id":9,"name":"Jack Pouce"},{"x":2,"y":0,"id":10,"name":"Luffy Pouce"},{"x":2,"y":1,"id":11,"name":"J
+ack Pouce"},{"x":2,"y":2,"id":12,"name":"Luffy Pouce"},{"x":2,"y":3,"id":13,"name":"Edward Pouce"},{"x":2,"y":4,"id":14,"name":"Jack Pouce"},{"x":3,"y":0,"id":15,"name":"Tom Pouce"},{"x":3,"y":1,"id":
+16,"name":"Edward Pouce"},{"x":3,"y":2,"id":17,"name":"Jack Teach"},{"x":3,"y":3,"id":18,"name":"Edward Teach"},{"x":3,"y":4,"id":19,"name":"Jack Pouce"}],"shipCount":1}
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"
+},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y
+":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":
+"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":0,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibl
+eEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0}]}
+Le prochain checkPoint est en x: 1500.0 et en y: 300.0 .
+Le capitaine à décidé d'aller en x: 300.0 et en y: 300.0 .
+Le navigateur décide d'aller à une vitesse de 424.26406871192853 noeuds.
+Le navigateur décide de faire une rotation de 0.7853981633974484 radian.
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+ShipConfiguration { nbOarAvailableLeft=9, nbOarAvailableRight=9, nbOarForSpeed=18, nbSailorOarLeft=7, nbSailorOarRight=9 | nbSail=-1 sailStrength=0.0 sailsStrength=-0.0 | askedRotation=0.7853981633974
+484, oarRotation=0.34906585039886595, nbRudder=1, rudderRotation=0.43633231299858244, currentRotation=0.7853981633974484, diffRotation=0.0 | askedSpeed=424.26406871192853, currentSpeed=146.0, diffSpee
+d=-278.26406871192853}
+Liste d'actions :[{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":1,"type":"MOVING","xdistance":4,"ydistance":-1},{"sailorId":11,"type":"MOVING","xdistance":-2,"ydistance":3},{
+"sailorId":0,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":3,"ydistance":1},{"sailorId":9,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":10,"type":"M
+OVING","xdistance":-1,"ydistance":4},{"sailorId":12,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":-3},{"sailorId":14,"type":"MOVING","xdistance":
+5,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":-2},{"sailorId":4,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":6,"type":"MOVING","xdistance":4,"ydistance":-1},{"s
+ailorId":5,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":13,"type":"OA
+R"},{"sailorId":1,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":12,"type":"OAR
+"},{"sailorId":3,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":7,"type":"OAR"},
+{"sailorId":15,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":118.57160538070332,"y":10.269413962845944,"orientation":0.17453292519943317},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1
+,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"typ
+e":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{
+"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":0,"shape":{"type":"rectangle","width"
+:5.0,"height":11.0,"orientation":0.17453292519943317}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"or
+ientation":0.0},"strength":40.0}]}
+Le prochain checkPoint est en x: 1500.0 et en y: 300.0 .
+Le capitaine à décidé d'aller en x: 1500.0 et en y: 300.0 .
+Le navigateur décide d'aller à une vitesse de 1411.4844037203814 noeuds.
+Le navigateur décide de faire une rotation de 0.032203161384994655 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=9, nbOarAvailableRight=9, nbOarForSpeed=18, nbSailorOarLeft=9, nbSailorOarRight=9 | nbSail=-1 sailStrength=0.0 sailsStrength=-0.0 | askedRotation=0.0322031613849
+94655, oarRotation=0.0, nbRudder=1, rudderRotation=0.032203161384994655, currentRotation=0.032203161384994655, diffRotation=0.0 | askedSpeed=1411.4844037203814, currentSpeed=165.0, diffSpeed=-1246.484
+4037203814}
+Liste d'actions :[{"sailorId":13,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":1,"type":"MOVING","xdistance":3,"ydistance":0},{"
+sailorId":0,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":3,"type":"M
+OVING","xdistance":2,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":14,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":5
+,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":-3,"ydistance":2},{"sa
+ilorId":16,"type":"MOVING","xdistance":-2,"ydistance":3},{"sailorId":5,"type":"MOVING","xdistance":-1,"ydistance":4},{"sailorId":7,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":15,"type":"
+MOVING","xdistance":-2,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":13,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":0,"t
+ype":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.032203161384994655},{"sailorId":10,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":1
+4,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":7,
+"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":260.5785477674383,"y":34.564924082480594,"orientation":0.20673608658442752},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,
+"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type
+":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"
+x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":0,"shape":{"type":"rectangle","width":
+5.0,"height":11.0,"orientation":0.20673608658442752}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"ori
+entation":0.0},"strength":40.0},{"type":"stream","position":{"x":900.0,"y":900.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":80.0}]}
+Le prochain checkPoint est en x: 1500.0 et en y: 300.0 .
+Le capitaine à décidé d'aller en x: 1500.0 et en y: 300.0 .
+Le navigateur décide d'aller à une vitesse de 1267.525666715121 noeuds.
+Le navigateur décide de faire une rotation de 0.004237494091162253 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=9, nbOarAvailableRight=9, nbOarForSpeed=18, nbSailorOarLeft=9, nbSailorOarRight=9 | nbSail=-1 sailStrength=0.0 sailsStrength=-0.0 | askedRotation=0.0042374940911
+62253, oarRotation=0.0, nbRudder=1, rudderRotation=0.004237494091162253, currentRotation=0.004237494091162253, diffRotation=0.0 | askedSpeed=1267.525666715121, currentSpeed=165.0, diffSpeed=-1102.5256
+66715121}
+Liste d'actions :[{"sailorId":13,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":-1,"ydistance":4},{"
+sailorId":8,"type":"MOVING","xdistance":-4,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":-4,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":12,"type":
+"MOVING","xdistance":-2,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance
+":-1,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":6,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":1,"ydistance":-4},{
+"sailorId":16,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":5,"type":"MOVING","xdistance":-4,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":15,"type"
+:"MOVING","xdistance":1,"ydistance":-4},{"sailorId":19,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":13,"type":"TURN","rotation":0.004237494091162253},{"sailorId":11,"type":"OAR"},{"sailor
+Id":1,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId
+":18,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId
+":7,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+
+
+Next round input: {"ship":{"type":"ship","position":{"x":426.12353856605915,"y":61.170846130583435,"orientation":0.2109735806755913},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,
+"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type
+":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"
+x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":0,"shape":{"type":"rectangle","width":
+5.0,"height":11.0,"orientation":0.2109735806755913}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orie
+ntation":0.0},"strength":40.0},{"type":"stream","position":{"x":900.0,"y":900.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":80.0}]}
+Le prochain checkPoint est en x: 1500.0 et en y: 300.0 .
+Le capitaine à décidé d'aller en x: 1500.0 et en y: 300.0 .
+Le navigateur décide d'aller à une vitesse de 1100.1136392027252 noeuds.
+Le navigateur décide de faire une rotation de 0.007863908862144608 radian.
+Le chef pense qu'on a besoin que du gouvernail pour tourner.
+ShipConfiguration { nbOarAvailableLeft=9, nbOarAvailableRight=9, nbOarForSpeed=18, nbSailorOarLeft=9, nbSailorOarRight=9 | nbSail=-1 sailStrength=0.0 sailsStrength=-0.0 | askedRotation=0.0078639088621
+44608, oarRotation=0.0, nbRudder=1, rudderRotation=0.007863908862144608, currentRotation=0.007863908862144608, diffRotation=0.0 | askedSpeed=1100.1136392027252, currentSpeed=165.0, diffSpeed=-935.1136
+392027252}
+Liste d'actions :[{"sailorId":13,"type":"MOVING","xdistance":-4,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":-1,"ydistance":4},{"sailorId":8,"type":"MOVING","xdistance":1,"ydistance":-4},
+{"sailorId":9,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":18,"type"
+:"MOVING","xdistance":-5,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":2,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistanc
+e":-1,"ydistance":4},{"sailorId":6,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":5,"ydistance":0}
+,{"sailorId":5,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":15,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":13,"ty

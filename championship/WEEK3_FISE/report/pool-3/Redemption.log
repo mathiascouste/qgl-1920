@@ -1,0 +1,100 @@
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=3, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=2, ydistance=-2],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],
+Macro[ Position[x=50.0,y=1000.0,orientation=0.0]1.5208379310729538]
+Micro : 8 actions
+Actions [sailorid=1, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=1, type=TURN, rotation=-0.04995839572194272],
+Actions [sailorid=0, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=0, type=OAR],
+Actions [sailorid=3, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=3, type=OAR],
+Actions [sailorid=2, type=MOVING, xdistance=0, ydistance=0],
+Actions [sailorid=2, type=OAR],

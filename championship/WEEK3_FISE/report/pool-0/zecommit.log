@@ -1,0 +1,141 @@
+oarsNb:6
+PB5
+
+S1 is moving to (1,2)
+PB5
+0.0 - 6
+P{ 0.0 , 0.0 }
+6
+C{R=2, L=0}
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+1.0471975511965985 - 4
+P{ 45.62171820918381 , 26.022168640911254 }
+4
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+1.0471975511965985 - 4
+P{ 100.62171820918353 , 121.28496305719969 }
+4
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+1.0471975511965985 - 4
+P{ 155.62171820918397 , 216.54775747348813 }
+4
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+1.0471975511965985 - 4
+P{ 210.6217182091851 , 311.81055188977655 }
+4
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+1.0471975511965985 - 5
+P{ 265.6217182091862 , 407.073346306065 }
+5
+C{R=2, L=0}
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 3
+P{ 265.8967182091862 , 459.593997559969 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 3
+P{ 210.89671820918505 , 554.856791976255 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 3
+P{ 155.89671820918392 , 650.1195863925377 }
+3
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 2
+P{ 100.89671820918349 , 745.3823808088205 }
+2
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 2
+P{ 45.896718209183774 , 840.6451752251032 }
+2
+C{R=2, L=2}
+
+S0 is oaring from (0,0)
+
+S3 is oaring from (1,0)
+
+S1 is oaring from (1,2)
+
+S2 is oaring from (0,2)
+PB5
+2.0943951023931957 - 1
