@@ -1,4 +1,5 @@
 
+
 # Comprendre l'arbitre
 
 *Ce document est soumis à évolution*
@@ -183,3 +184,19 @@ On applique 10% (1/N) de la rotation.
     Orientation: 0.9
 
 *(Dans cet exemple, des approximations ont été faites dans les calculs)*
+
+## Dégats de collision
+
+En cas de collision entre deux objets dans la mer, ces derniers subissent des dégâts.
+Le nombre de point de dégâts est calculé de la manière suivante:
+
+    totalDegats = |vrp| x |vrp| / 20
+    Où vrp = vitesse relative entre les deux objets
+    Où |v| = norme du vecteur v
+
+**Exemples:**
+Si deux bateaux allant à une vitesse 100 se percutent en face à face, ils subissent alors 200 x 200 / 20 = 2000 points de dégâts.
+
+Si un bateau allant à une vitesse de 100 rattrape et percute un bateau allant à une vitesse de 70 dans la même direction, ils subissent alors 30 x 30 / 20 = 45 points de dégâts.
+
+Si bateau circulant vers le Nord à une vitesse de 150 percute un bateau allant vers l'Est à une vitesse de 100, ils subissent alors (sqrt(100 x 100 + 100 x 100)) x (sqrt(100 x 100 + 100 x 100)) / 20 = 1000 points de dégâts.

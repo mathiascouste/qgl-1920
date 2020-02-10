@@ -1,5 +1,6 @@
 
 
+
 # Spécifications techniques
 
 *Ce document est soumis à évolution*
@@ -77,7 +78,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 | Propriétés | Type |
 |--|--|
 | position | #Position |
-| shape | #Circle OU #Rectangle |
+| shape | #Circle OU #Rectangle OU #Polygone |
 
 ### Position
 
@@ -103,6 +104,24 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 | height | double |
 | orientation | double |
 
+### Polygone
+
+| Propriétés | Type |
+|--|--|
+| type | "polygon" |
+| orientation | double |
+| vextexes | Point[] |
+
+Les sommets du polygone sont positionnés par rapport à son centre.
+Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets: [1;1], [-1;1], [-1;-1], [1;-1]
+
+### Point
+
+| Propriétés | Type |
+|--|--|
+| x | double |
+| y | double |
+
 ### Bateau
 
 | Propriétés | Type |
@@ -113,7 +132,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 | name | string |
 | deck | #Deck |
 | entities | (#Rame OU #Voile OU #Gouvernail #Vigie)[] |
-| shape | #Circle OU #Rectangle |
+| shape | #Circle OU #Rectangle OU #Polygone |
 
 ### Deck
 
@@ -185,7 +204,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 |--|--|
 | type | "stream" |
 | position | #Position |
-| shape | #Circle OU #Rectangle |
+| shape | #Circle OU #Rectangle OU #Polygone |
 | strength | double |
 
 ### AutreBateau
@@ -194,7 +213,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 |--|--|
 | type | "ship" |
 | position | #Position |
-| shape | #Circle OU #Rectangle |
+| shape | #Circle OU #Rectangle OU #Polygone |
 | life | integer |
 
 ### Recif
@@ -203,7 +222,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 |--|--|
 | type | "reef" |
 | position | #Position |
-| shape | #Circle OU #Rectangle |
+| shape | #Circle OU #Rectangle OU #Polygone |
 
 ### Actions
 
