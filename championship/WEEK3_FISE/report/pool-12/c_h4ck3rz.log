@@ -1,0 +1,99 @@
+{CP0{Position=[X=50.0;Y=1000.0;orientation=0.0];Shape=Circle[radius=50.0]};CP1{Position=[X=500.0;Y=-200.0;orientation=0.0];Shape=Circle[radius=50.0]};CP2{Position=[X=-500.0;Y=1250.0;orientation=0.0];S
+hape=Circle[radius=60.0]}Deck[Width=3;Length=4] oar[Side=LEFT;X=0;Y=0]oar[Side=RIGHT;X=0;Y=2]oar[Side=LEFT;X=1;Y=0]oar[Side=RIGHT;X=1;Y=2]oar[Side=LEFT;X=2;Y=0]oar[Side=RIGHT;X=2;Y=2]rudder[Side=MIDDL
+E;X=3;Y=1]Ship [X=0.0;Y=0.0;orientation=0.0]Sailor0 {Dest=null;Poste=rudder[Side=MIDDLE;X=3;Y=1];[X=3;Y=1]}Sailor1 {Dest=null;Poste=oar[Side=RIGHT;X=0;Y=2];[X=0;Y=2]}Sailor2 {Dest=null;Poste=oar[Side=
+LEFT;X=0;Y=0];[X=0;Y=0]}Sailor3 {Dest=null;Poste=oar[Side=RIGHT;X=1;Y=2];[X=1;Y=2]}Wanted_Rotation=1,52Rudder_Rotation=0,79Oar_Rotation=0,52[{"sailorId":0,"type":"MOVING","xdistance":3,"ydistance":1},
+{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"
+TURN","rotation":0.7853981633974483},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]Ship [X=61.18268835652756;Y=46.31408320798702;orientation=1.3089969389957476]Wa
+nted_Rotation=0,27Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=75.41773583716662;Y=99.4400036538860
+7;orientation=1.3089969389957476]Wanted_Rotation=0,29Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=8
+9.65278331780581;Y=152.56592409978512;orientation=1.3089969389957476]Wanted_Rotation=0,31Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{
+"sailorId":2,"type":"OAR"}]Ship [X=103.88783079844501;Y=205.69184454568418;orientation=1.3089969389957476]Wanted_Rotation=0,33Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotatio
+n":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=118.1228782790842;Y=258.8177649915832;orientation=1.3089969389957476]Wanted_Rotation=0,35Rudder_Rotation=0,00Oar_Rotation=0,00[{
+"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=132.3579257597234;Y=311.94368543748226;orientation=1.3089969389957476]Wanted_Rotation=0,38Rud
+der_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=146.5929732403626;Y=365.0696058833813;orientation=1.30899
+69389957476]Wanted_Rotation=0,41Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=160.8280207210018;Y=41
+8.19552632928037;orientation=1.3089969389957476]Wanted_Rotation=0,45Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"
+OAR"}]Ship [X=175.063068201641;Y=471.3214467751794;orientation=1.3089969389957476]Wanted_Rotation=0,49Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"t
+ype":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=189.29811568228018;Y=524.4473672210771;orientation=1.3089969389957476]Wanted_Rotation=0,55Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TU
+RN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=203.53316316291938;Y=577.5732876669705;orientation=1.3089969389957476]Wanted_Rotation=0,61Rudder_Rotation=0,00Oar_Ro
+tation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=217.76821064355858;Y=630.6992081128639;orientation=1.3089969389957476]Wanted_Rot
+ation=0,69Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=232.00325812419777;Y=683.8251285587572;orien
+tation=1.3089969389957476]Wanted_Rotation=0,78Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=246.2383
+0560483697;Y=736.9510490046506;orientation=1.3089969389957476]Wanted_Rotation=0,90Rudder_Rotation=0,79Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.7853981633974483},{"sailorId":1,"type":
+"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=239.45117253807229;Y=790.1169613190602;orientation=2.0943951023931917]Wanted_Rotation=0,21Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","
+rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=211.95117253807172;Y=837.7483585272073;orientation=2.0943951023931917]Wanted_Rotation=0,26Rudder_Rotation=0,00Oar_Rotatio
+n=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=184.45117253807115;Y=885.3797557353544;orientation=2.0943951023931917]Wanted_Rotation
+=0,34Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=156.95117253807058;Y=933.0111529435014;orientatio
+n=2.0943951023931917]Wanted_Rotation=0,49Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=129.451172538
+07;Y=980.6425501516485;orientation=2.0943951023931917]Wanted_Rotation=0,81Rudder_Rotation=0,79Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.7853981633974483},{"sailorId":1,"type":"OAR"},{
+"sailorId":2,"type":"OAR"}]Ship [X=87.05796759625686;Y=1013.4372994608124;orientation=2.8797932657906355]CP0 passedWanted_Rotation=2,16Rudder_Rotation=0,79Oar_Rotation=1,57[{"sailorId":0,"type":"TURN"
+,"rotation":0.7853981633974483}]Ship [X=87.05796759625686;Y=1013.4372994608124;orientation=3.6651914291880794]Wanted_Rotation=1,38Rudder_Rotation=0,79Oar_Rotation=0,52[{"sailorId":0,"type":"TURN","rot
+ation":0.7853981633974483},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]Ship [X=57.22924681167052;Y=942.7367826714461;orientation=4.9741883681838335]Wanted_Rotat
+ion=0,11Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=71.46429429230864;Y=889.6108622255528;orientat
+ion=4.9741883681838335]Wanted_Rotation=0,11Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=85.69934177
+294641;Y=836.4849417796594;orientation=4.9741883681838335]Wanted_Rotation=0,12Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":
+2,"type":"OAR"}]Ship [X=99.93438925358419;Y=783.359021333766;orientation=4.9741883681838335]Wanted_Rotation=0,12Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sail
+orId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=114.16943673422196;Y=730.2331008878726;orientation=4.9741883681838335]Wanted_Rotation=0,13Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,
+"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=128.40448421485976;Y=677.1071804419793;orientation=4.9741883681838335]Wanted_Rotation=0,14Rudder_Rotation=
+0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=142.63953169549896;Y=623.9812599960859;orientation=4.9741883681838335]
+Wanted_Rotation=0,15Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=156.87457917613816;Y=570.855339550
+1925;orientation=4.9741883681838335]Wanted_Rotation=0,16Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [
+X=171.10962665677735;Y=517.7294191042992;orientation=4.9741883681838335]Wanted_Rotation=0,17Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"
+},{"sailorId":2,"type":"OAR"}]Ship [X=185.34467413741655;Y=464.60349865840067;orientation=4.9741883681838335]Wanted_Rotation=0,18Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rota
+tion":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=199.57972161805574;Y=411.4775782125016;orientation=4.9741883681838335]Wanted_Rotation=0,19Rudder_Rotation=0,00Oar_Rotation=0,
+00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=213.81476909869494;Y=358.35165776660256;orientation=4.9741883681838335]Wanted_Rotation=0,
+21Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=228.04981657933413;Y=305.2257373207035;orientation=4
+.9741883681838335]Wanted_Rotation=0,23Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=242.284864059973
+33;Y=252.09981687480445;orientation=4.9741883681838335]Wanted_Rotation=0,26Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"
+type":"OAR"}]Ship [X=256.5199115406125;Y=198.9738964289054;orientation=4.9741883681838335]Wanted_Rotation=0,29Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailor
+Id":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=270.7549590212517;Y=145.84797598300634;orientation=4.9741883681838335]Wanted_Rotation=0,32Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"t
+ype":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=284.9900065018909;Y=92.72205553710728;orientation=4.9741883681838335]Wanted_Rotation=0,37Rudder_Rotation=0,0
+0Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=299.2250539825301;Y=39.596135091208225;orientation=4.9741883681838335]Wan
+ted_Rotation=0,44Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=313.4601014631693;Y=-13.5297853546906
+17;orientation=4.9741883681838335]Wanted_Rotation=0,52Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=
+327.6951489438085;Y=-66.65570580058956;orientation=4.9741883681838335]Wanted_Rotation=0,65Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},
+{"sailorId":2,"type":"OAR"}]Ship [X=341.9301964244477;Y=-119.78162624648861;orientation=4.9741883681838335]Wanted_Rotation=0,84Rudder_Rotation=0,79Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotati
+on":0.7853981633974483},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=374.3909822363367;Y=-162.4310903927603;orientation=5.759586531581322]Wanted_Rotation=0,23Rudder_Rotation=0,00Oar
+_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=422.02237944448376;Y=-189.93109039275802;orientation=5.759586531581322]Wanted
+_Rotation=0,40Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=469.6537766526308;Y=-217.43109039275575;
+orientation=5.759586531581322]CP1 passedWanted_Rotation=2,68Rudder_Rotation=0,79Oar_Rotation=1,05[{"sailorId":0,"type":"TURN","rotation":0.7853981633974483},{"sailorId":1,"type":"OAR"},{"sailorId":3,"
+type":"OAR"}]Ship [X=513.8150029232406;Y=-199.6112072476248;orientation=1.3089969389957725]Wanted_Rotation=0,87Rudder_Rotation=0,79Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.7853981633
+974483},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=507.02786985647407;Y=-146.44529493321534;orientation=2.0943951023932166]Wanted_Rotation=0,10Rudder_Rotation=0,00Oar_Rotation=0,0
+0[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=479.52786985647066;Y=-98.81389772507112;orientation=2.0943951023932166]Wanted_Rotation=0,1
+0Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=452.02786985646725;Y=-51.182500516927085;orientation=
+2.0943951023932166]Wanted_Rotation=0,11Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=424.52786985646
+384;Y=-3.5511033087835737;orientation=2.0943951023932166]Wanted_Rotation=0,11Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2
+,"type":"OAR"}]Ship [X=397.0278698564604;Y=44.080293899359944;orientation=2.0943951023932166]Wanted_Rotation=0,12Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sai
+lorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=369.527869856457;Y=91.71169110750387;orientation=2.0943951023932166]Wanted_Rotation=0,12Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"
+type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=342.0278698564536;Y=139.3430883156481;orientation=2.0943951023932166]Wanted_Rotation=0,13Rudder_Rotation=0,
+00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=314.5278698564502;Y=186.9744855237923;orientation=2.0943951023932166]Wan
+ted_Rotation=0,13Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=287.0278698564468;Y=234.6058827319365
+3;orientation=2.0943951023932166]Wanted_Rotation=0,14Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=2
+59.5278698564434;Y=282.2372799400792;orientation=2.0943951023932166]Wanted_Rotation=0,14Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"
+sailorId":2,"type":"OAR"}]Ship [X=232.02786985644246;Y=329.86867714822057;orientation=2.0943951023932166]Wanted_Rotation=0,15Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation
+":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=204.5278698564419;Y=377.50007435636195;orientation=2.0943951023932166]Wanted_Rotation=0,16Rudder_Rotation=0,00Oar_Rotation=0,00[{
+"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=177.02786985644133;Y=425.13147156450333;orientation=2.0943951023932166]Wanted_Rotation=0,16Ru
+dder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=149.52786985644076;Y=472.7628687726447;orientation=2.094
+3951023932166]Wanted_Rotation=0,17Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=122.02786985644019;Y
+=520.394265980787;orientation=2.0943951023932166]Wanted_Rotation=0,18Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":
+"OAR"}]Ship [X=94.52786985643962;Y=568.0256631889341;orientation=2.0943951023932166]Wanted_Rotation=0,19Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,
+"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=67.02786985643905;Y=615.6570603970812;orientation=2.0943951023932166]Wanted_Rotation=0,21Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"T
+URN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=39.52786985643785;Y=663.2884576052282;orientation=2.0943951023932166]Wanted_Rotation=0,22Rudder_Rotation=0,00Oar_Ro
+tation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=12.027869856436833;Y=710.9198548133753;orientation=2.0943951023932166]Wanted_Rot
+ation=0,24Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-15.472130143564142;Y=758.5512520215224;orie
+ntation=2.0943951023932166]Wanted_Rotation=0,25Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-42.972
+13014356521;Y=806.1826492296694;orientation=2.0943951023932166]Wanted_Rotation=0,28Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailo
+rId":2,"type":"OAR"}]Ship [X=-70.47213014356632;Y=853.8140464378165;orientation=2.0943951023932166]Wanted_Rotation=0,30Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0}
+,{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-97.97213014356689;Y=901.4454436459636;orientation=2.0943951023932166]Wanted_Rotation=0,33Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailo
+rId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-125.47213014356745;Y=949.0768408541106;orientation=2.0943951023932166]Wanted_Rotation=0,37Rudder_R
+otation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-152.97213014356802;Y=996.7082380622577;orientation=2.09439510
+23932166]Wanted_Rotation=0,42Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-180.4721301435686;Y=1044
+.3396352704046;orientation=2.0943951023932166]Wanted_Rotation=0,48Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OA
+R"}]Ship [X=-207.97213014356916;Y=1091.9710324785517;orientation=2.0943951023932166]Wanted_Rotation=0,55Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,
+"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-235.47213014356973;Y=1139.6024296866988;orientation=2.0943951023932166]Wanted_Rotation=0,65Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type"
+:"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-262.972130143571;Y=1187.2338268948458;orientation=2.0943951023932166]Wanted_Rotation=0,79Rudder_Rotation=0,79Oa
+r_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.7853981633974483},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-305.36533508538514;Y=1220.0285762040085;orientation=2.879793
+2657906604]Wanted_Rotation=0,11Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"}]Ship [X=-358.4912555312842;Y=12
+34.263623684642;orientation=2.8797932657906604]Wanted_Rotation=0,15Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"O
+AR"}]Ship [X=-411.61717597718325;Y=1248.4986711652755;orientation=2.8797932657906604]Wanted_Rotation=0,24Rudder_Rotation=0,00Oar_Rotation=0,00[{"sailorId":0,"type":"TURN","rotation":0.0},{"sailorId":1
+,"type":"OAR"},{"sailorId":2,"type":"OAR"}]

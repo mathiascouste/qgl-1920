@@ -1,0 +1,79 @@
+2020-02-10 19:34:40,001 [INFO ] Game creation...
+2020-02-10 19:34:40,019 [INFO ] 1 players created!
+2020-02-10 19:34:40,039 [INFO ] Starting game
+2020-02-10 19:34:40,057 [INFO ] ********************************************
+2020-02-10 19:34:40,057 [INFO ] 800281454 - initGame
+2020-02-10 19:34:40,057 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":50.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":500.0,"y":-200.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":-500.0,"y":1250.0,"orientation":0.0},"shape":{"type":"circle","radius":60.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":0,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Edward Teach"},{"x":0,"y":1,"id":1,"name":"Tom Pouce"},{"x":0,"y":2,"id":2,"name":"Tom Teach"},{"x":1,"y":0,"id":3,"name":"Jack Teach"}],"shipCount":1}
+2020-02-10 19:34:40,106 [INFO ] Starting round 0
+2020-02-10 19:34:40,113 [INFO ] ********************************************
+2020-02-10 19:34:40,113 [INFO ] 800281454 - nextRound
+2020-02-10 19:34:40,113 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":0,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[]}
+fr.unice.polytech.si3.qgl.AlterCode.InOut.Output@70493a1c
+2020-02-10 19:34:40,127 [INFO ] [
+{
+"sailorId": 0,
+"type": "MOVE"
+"x": 0.0
+"y": 0.0
+},
+{
+"sailorId": 1,
+"type": "MOVE"
+"x": 0.0
+"y": 2.0
+},
+{
+"sailorId": 2,
+"type": "MOVE"
+"x": 1.0
+"y": 2.0
+},
+{
+"sailorId": 0,
+"type": "OAR"
+},
+{
+"sailorId": 1,
+"type": "OAR"
+},
+{
+"sailorId": 2,
+"type": "OAR"
+}
+]
+2020-02-10 19:34:40,128 [INFO ] Player actions json command: [
+{
+"sailorId": 0,
+"type": "MOVE"
+"x": 0.0
+"y": 0.0
+},
+{
+"sailorId": 1,
+"type": "MOVE"
+"x": 0.0
+"y": 2.0
+},
+{
+"sailorId": 2,
+"type": "MOVE"
+"x": 1.0
+"y": 2.0
+},
+{
+"sailorId": 0,
+"type": "OAR"
+},
+{
+"sailorId": 1,
+"type": "OAR"
+},
+{
+"sailorId": 2,
+"type": "OAR"
+}
+]
+2020-02-10 19:34:40,134 [WARN ] Wrong format
+2020-02-10 19:34:40,161 [INFO ] Game over
+2020-02-10 19:34:40,161 [INFO ] Creating team's logs files
+2020-02-10 19:34:40,163 [INFO ] Game scores: {AlterCode=-3}

@@ -1,0 +1,30 @@
+Jeu initialisé ! 
+ 
+Marin gauche 3 Marin droite 0 Angle -1.5707963267948966
+
+Marin gauche 3 Marin droite 1 Angle -1.0471975511965976
+
+Marin gauche 3 Marin droite 2 Angle -0.5235987755982988
+
+Marin gauche 2 Marin droite 2 Angle 0.0
+
+Marin gauche 2 Marin droite 3 Angle 0.5235987755982988
+
+Marin gauche 1 Marin droite 3 Angle 1.0471975511965976
+
+Marin gauche 0 Marin droite 3 Angle 1.5707963267948966
+
+
+
+
+
+
+Chargement d'un nouveau checkpoint ! Le checkpoint est à x:50.0 y:1000.0 orientation 0.0
+
+Angle optimal : 1.5208379310729538
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 3 Marin droite 0 Angle 1.5707963267948966 (radian) 
+
+Le bateau est en train de tourner
+

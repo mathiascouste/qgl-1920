@@ -1,0 +1,15 @@
+java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:78)
+Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:373)
+	at java.base/java.util.ArrayList.get(ArrayList.java:425)
+	at fr.unice.polytech.si3.qgl.fellowship_survivors.data.Goal.getNextCheckPoint(Goal.java:31)
+	at fr.unice.polytech.si3.qgl.fellowship_survivors.captain.RegattaCaptain.getNextOrder(RegattaCaptain.java:39)
+	at fr.unice.polytech.si3.qgl.fellowship_survivors.Cockpit.nextRound(Cockpit.java:49)
+	... 4 more

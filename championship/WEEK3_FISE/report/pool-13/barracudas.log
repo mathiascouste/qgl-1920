@@ -1,0 +1,329 @@
+1581359689484 Init game input:  {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":50.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":500.0,"y":-200.0
+,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":-500.0,"y":1250.0,"orientation":0.0},"shape":{"type":"circle","radius":60.0}}]},"ship":{"type":"ship","position":{"x":0.0
+,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":
+2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":0,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name"
+1581359689533 Next round input:  {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":
+2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":0,"shape":{"type":"rectangle","width"
+1581359689533 STEP COUNT =>  1
+1581359689545 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689547 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 1
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sail
+orId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 0
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 2
+}, {
+  "s
+1581359689587 Next round input:  {"ship":{"type":"ship","position":{"x":91.24343641836762,"y":52.04433728182251,"orientation":1.0471975511965985},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689588 STEP COUNT =>  2
+1581359689593 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689593 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sai
+1581359689606 Next round input:  {"ship":{"type":"ship","position":{"x":146.24343641836782,"y":147.30713169811094,"orientation":1.0471975511965985},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689606 STEP COUNT =>  3
+1581359689608 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689608 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689618 Next round input:  {"ship":{"type":"ship","position":{"x":201.24343641836896,"y":242.56992611439938,"orientation":1.0471975511965985},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689618 STEP COUNT =>  4
+1581359689619 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689619 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689628 Next round input:  {"ship":{"type":"ship","position":{"x":256.2434364183701,"y":337.8327205306878,"orientation":1.0471975511965985},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689628 STEP COUNT =>  5
+1581359689630 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689630 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sail
+1581359689642 Next round input:  {"ship":{"type":"ship","position":{"x":256.79343641836994,"y":442.8740230384954,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"entit
+ies":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],
+1581359689642 STEP COUNT =>  6
+1581359689643 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689643 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sai
+1581359689651 Next round input:  {"ship":{"type":"ship","position":{"x":201.7934364183688,"y":538.1368174547823,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689651 STEP COUNT =>  7
+1581359689653 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689653 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689667 Next round input:  {"ship":{"type":"ship","position":{"x":146.79343641836766,"y":633.3996118710651,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"entit
+ies":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],
+1581359689667 STEP COUNT =>  8
+1581359689668 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689669 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689672 Next round input:  {"ship":{"type":"ship","position":{"x":91.79343641836746,"y":728.6624062873478,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689672 STEP COUNT =>  9
+1581359689673 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689673 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689676 Next round input:  {"ship":{"type":"ship","position":{"x":36.79343641836775,"y":823.9252007036306,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689676 STEP COUNT =>  10
+1581359689677 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689677 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+1581359689682 Next round input:  {"ship":{"type":"ship","position":{"x":-18.206563581632288,"y":919.1879951199134,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689682 STEP COUNT =>  11
+1581359689683 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689683 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "orienta
+1581359689689 Next round input:  {"ship":{"type":"ship","position":{"x":-25.3117948538551,"y":945.4300792273762,"orientation":1.5707963267949032},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689689 STEP COUNT =>  12
+1581359689691 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689691 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : -1
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sa
+1581359689695 Next round input:  {"ship":{"type":"ship","position":{"x":-25.311794853855456,"y":1000.4300792273716,"orientation":1.5707963267949032},"name":"Péquod","deck":{"width":3,"length":4},"ent
+ities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}
+1581359689695 STEP COUNT =>  13
+1581359689696 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689697 Action list  [ {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdist
+1581359689701 Next round input:  {"ship":{"type":"ship","position":{"x":-32.27952612607827,"y":1026.7090063487935,"orientation":2.0943951023931957},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689701 STEP COUNT =>  14
+1581359689702 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689702 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "orient
+1581359689714 Next round input:  {"ship":{"type":"ship","position":{"x":-51.45322197527751,"y":1045.9833591840336,"orientation":2.6179938779915064},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689714 STEP COUNT =>  15
+1581359689715 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689715 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : -2,
+  "ydistance" : 1
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sai
+1581359689721 Next round input:  {"ship":{"type":"ship","position":{"x":-99.08461918342174,"y":1073.4833591840427,"orientation":2.6179938779915064},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689721 STEP COUNT =>  16
+1581359689722 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689722 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : 2
+}, {
+  "sai
+1581359689726 Next round input:  {"ship":{"type":"ship","position":{"x":-177.81087150581004,"y":1094.7990530007087,"orientation":3.141592653589817},"name":"Péquod","deck":{"width":3,"length":4},"enti
+ties":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}]
+1581359689726 STEP COUNT =>  17
+1581359689727 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689727 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+1581359689730 Next round input:  {"ship":{"type":"ship","position":{"x":-256.6476528700751,"y":1073.895859184039,"orientation":3.665191429188128},"name":"Péquod","deck":{"width":3,"length":4},"entiti
+es":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"
+1581359689730 STEP COUNT =>  18
+1581359689731 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689731 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+1581359689734 Next round input:  {"ship":{"type":"ship","position":{"x":-314.4707113757924,"y":1016.374771636439,"orientation":4.1887902047864225},"name":"Péquod","deck":{"width":3,"length":4},"entit
+ies":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],
+1581359689734 STEP COUNT =>  19
+1581359689735 Target =>   Position= [{50.0,1000.0}[0.0(0.0)]] Forme Radian 50.0
+1581359689735 Action list  [ {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
