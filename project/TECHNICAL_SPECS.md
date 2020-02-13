@@ -110,7 +110,7 @@ Ces logs vous seront donnés dans le rapport d'exécution de la partie.
 |--|--|
 | type | "polygon" |
 | orientation | double |
-| vextexes | Point[] |
+| vertices | Point[] |
 
 Les sommets du polygone sont positionnés par rapport à son centre.
 Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets: [1;1], [-1;1], [-1;-1], [1;-1]
