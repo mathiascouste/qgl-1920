@@ -1,0 +1,98 @@
+Jeu initialisé ! 
+ 
+Marin gauche 9 Marin droite 0 Angle -1.5707963267948966
+
+Marin gauche 9 Marin droite 1 Angle -1.3962634015954636
+
+Marin gauche 9 Marin droite 2 Angle -1.2217304763960306
+
+Marin gauche 9 Marin droite 3 Angle -1.0471975511965976
+
+Marin gauche 9 Marin droite 4 Angle -0.8726646259971648
+
+Marin gauche 9 Marin droite 5 Angle -0.6981317007977318
+
+Marin gauche 9 Marin droite 6 Angle -0.5235987755982988
+
+Marin gauche 9 Marin droite 7 Angle -0.3490658503988659
+
+Marin gauche 9 Marin droite 8 Angle -0.17453292519943295
+
+Marin gauche 9 Marin droite 9 Angle 0.0
+
+Marin gauche 8 Marin droite 9 Angle 0.17453292519943295
+
+Marin gauche 7 Marin droite 9 Angle 0.3490658503988659
+
+Marin gauche 6 Marin droite 9 Angle 0.5235987755982988
+
+Marin gauche 5 Marin droite 9 Angle 0.6981317007977318
+
+Marin gauche 4 Marin droite 9 Angle 0.8726646259971648
+
+Marin gauche 3 Marin droite 9 Angle 1.0471975511965976
+
+Marin gauche 2 Marin droite 9 Angle 1.2217304763960306
+
+Marin gauche 1 Marin droite 9 Angle 1.3962634015954636
+
+Marin gauche 0 Marin droite 9 Angle 1.5707963267948966
+
+
+
+
+
+
+Chargement d'un nouveau checkpoint ! Le checkpoint est à x:1600.0 y:350.0 orientation 0.0
+
+Angle optimal : 0.2153576996977383
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 8 Marin droite 9 Angle 0.17453292519943295 (radian) 
+
+
+affectation de 8 marins à basbord 
+
+affectation de 9 marins à tribord 
+
+Marin Name Tom Pouce X:2 Y:0 NOTHING en cours d'affectation vers oar 3 : 4
+
+Marin Name Tom Teach X:1 Y:0 NOTHING en cours d'affectation vers oar 6 : 0
+
+Marin Name Edward Teach X:1 Y:1 NOTHING en cours d'affectation vers oar 7 : 0
+
+Marin Name Tom Pouce X:0 Y:4 NOTHING en cours d'affectation vers oar 5 : 0
+
+Marin Name Tom Pouce X:1 Y:2 NOTHING en cours d'affectation vers oar 8 : 0
+
+Marin Name Jack Teach X:2 Y:3 NOTHING en cours d'affectation vers oar 6 : 4
+
+Marin Name Tom Pouce X:0 Y:0 NOTHING en cours d'affectation vers oar 1 : 0
+
+Marin Name Tom Teach X:1 Y:4 NOTHING en cours d'affectation vers oar 2 : 4
+
+Marin Name Tom Teach X:2 Y:4 NOTHING en cours d'affectation vers oar 7 : 4
+
+Marin Name Edward Teach X:2 Y:1 NOTHING en cours d'affectation vers oar 4 : 4
+
+Marin Name Luffy Pouce X:0 Y:2 NOTHING en cours d'affectation vers oar 3 : 0
+
+Marin Name Tom Teach X:3 Y:1 NOTHING en cours d'affectation vers oar 9 : 4
+
+Marin Name Edward Teach X:0 Y:1 NOTHING en cours d'affectation vers oar 2 : 0
+
+Marin Name Tom Teach X:1 Y:3 NOTHING en cours d'affectation vers oar 1 : 4
+
+Marin Name Edward Pouce X:0 Y:3 NOTHING en cours d'affectation vers oar 4 : 0
+
+Marin Name Jack Teach X:2 Y:2 NOTHING en cours d'affectation vers oar 5 : 4
+
+Marin Name Tom Teach X:3 Y:0 NOTHING en cours d'affectation vers oar 8 : 4
+
+
+
+Tous les marins n'ont pas atteint leurs destinations
+
+----------------------- Fin tour ------------------------------- 
+
+

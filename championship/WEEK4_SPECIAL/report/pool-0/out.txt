@@ -1,0 +1,1260 @@
+2020-02-17 21:28:25,307 [INFO ] Game creation...
+2020-02-17 21:28:25,313 [INFO ] 1 players created!
+2020-02-17 21:28:25,317 [INFO ] Starting game
+2020-02-17 21:28:25,334 [INFO ] ********************************************
+2020-02-17 21:28:25,334 [INFO ] 1866875501 - initGame
+2020-02-17 21:28:25,334 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":-200.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":80.0}},{"position":{"x":500.0,"y":1100.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Tom Pouce"},{"x":0,"y":1,"id":1,"name":"Jack Teach"},{"x":1,"y":0,"id":2,"name":"Jack Pouce"},{"x":1,"y":1,"id":3,"name":"Tom Teach"}],"shipCount":1}
+Init game input: {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":-200.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":80.0}},{"position":{"x":500.0,"y":1100.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Tom Pouce"},{"x":0,"y":1,"id":1,"name":"Jack Teach"},{"x":1,"y":0,"id":2,"name":"Jack Pouce"},{"x":1,"y":1,"id":3,"name":"Tom Teach"}],"shipCount":1}
+2020-02-17 21:28:25,361 [INFO ] Starting round 0
+2020-02-17 21:28:25,368 [INFO ] ********************************************
+2020-02-17 21:28:25,368 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,368 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,372 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,397 [INFO ] Starting round 1
+2020-02-17 21:28:25,398 [INFO ] ********************************************
+2020-02-17 21:28:25,398 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,398 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,399 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,408 [INFO ] Starting round 2
+2020-02-17 21:28:25,408 [INFO ] ********************************************
+2020-02-17 21:28:25,408 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,408 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,410 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,418 [INFO ] Starting round 3
+2020-02-17 21:28:25,419 [INFO ] ********************************************
+2020-02-17 21:28:25,419 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,419 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,420 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,424 [INFO ] Starting round 4
+2020-02-17 21:28:25,424 [INFO ] ********************************************
+2020-02-17 21:28:25,424 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,424 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,425 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,429 [INFO ] Starting round 5
+2020-02-17 21:28:25,430 [INFO ] ********************************************
+2020-02-17 21:28:25,430 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,430 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,431 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,435 [INFO ] Starting round 6
+2020-02-17 21:28:25,436 [INFO ] ********************************************
+2020-02-17 21:28:25,436 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,436 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,437 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,441 [INFO ] Starting round 7
+2020-02-17 21:28:25,441 [INFO ] ********************************************
+2020-02-17 21:28:25,441 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,441 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,442 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,445 [INFO ] Starting round 8
+2020-02-17 21:28:25,446 [INFO ] ********************************************
+2020-02-17 21:28:25,446 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,446 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,447 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,450 [INFO ] Starting round 9
+2020-02-17 21:28:25,450 [INFO ] ********************************************
+2020-02-17 21:28:25,450 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,450 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,452 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,454 [INFO ] Starting round 10
+2020-02-17 21:28:25,454 [INFO ] ********************************************
+2020-02-17 21:28:25,454 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,454 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,456 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,457 [INFO ] Starting round 11
+2020-02-17 21:28:25,457 [INFO ] ********************************************
+2020-02-17 21:28:25,457 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,457 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,458 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,460 [INFO ] Starting round 12
+2020-02-17 21:28:25,462 [INFO ] ********************************************
+2020-02-17 21:28:25,462 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,462 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,463 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,465 [INFO ] Starting round 13
+2020-02-17 21:28:25,465 [INFO ] ********************************************
+2020-02-17 21:28:25,465 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,465 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,466 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,468 [INFO ] Starting round 14
+2020-02-17 21:28:25,471 [INFO ] ********************************************
+2020-02-17 21:28:25,471 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,471 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,472 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,474 [INFO ] Starting round 15
+2020-02-17 21:28:25,475 [INFO ] ********************************************
+2020-02-17 21:28:25,475 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,475 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,476 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,478 [INFO ] Starting round 16
+2020-02-17 21:28:25,479 [INFO ] ********************************************
+2020-02-17 21:28:25,479 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,479 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,480 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,482 [INFO ] Starting round 17
+2020-02-17 21:28:25,482 [INFO ] ********************************************
+2020-02-17 21:28:25,482 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,482 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,483 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,485 [INFO ] Starting round 18
+2020-02-17 21:28:25,485 [INFO ] ********************************************
+2020-02-17 21:28:25,485 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,485 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,487 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,489 [INFO ] Starting round 19
+2020-02-17 21:28:25,489 [INFO ] ********************************************
+2020-02-17 21:28:25,489 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,489 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,490 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,492 [INFO ] Starting round 20
+2020-02-17 21:28:25,492 [INFO ] ********************************************
+2020-02-17 21:28:25,492 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,492 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,493 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,495 [INFO ] Starting round 21
+2020-02-17 21:28:25,495 [INFO ] ********************************************
+2020-02-17 21:28:25,495 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,495 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,496 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,498 [INFO ] Starting round 22
+2020-02-17 21:28:25,498 [INFO ] ********************************************
+2020-02-17 21:28:25,498 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,498 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,499 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,501 [INFO ] Starting round 23
+2020-02-17 21:28:25,501 [INFO ] ********************************************
+2020-02-17 21:28:25,501 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,501 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,502 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,504 [INFO ] Starting round 24
+2020-02-17 21:28:25,504 [INFO ] ********************************************
+2020-02-17 21:28:25,504 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,504 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,505 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,507 [INFO ] Starting round 25
+2020-02-17 21:28:25,507 [INFO ] ********************************************
+2020-02-17 21:28:25,507 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,507 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,508 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,510 [INFO ] Starting round 26
+2020-02-17 21:28:25,510 [INFO ] ********************************************
+2020-02-17 21:28:25,510 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,510 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,511 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,513 [INFO ] Starting round 27
+2020-02-17 21:28:25,513 [INFO ] ********************************************
+2020-02-17 21:28:25,513 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,513 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,514 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,516 [INFO ] Starting round 28
+2020-02-17 21:28:25,516 [INFO ] ********************************************
+2020-02-17 21:28:25,517 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,517 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,517 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,519 [INFO ] Starting round 29
+2020-02-17 21:28:25,520 [INFO ] ********************************************
+2020-02-17 21:28:25,520 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,520 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,521 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,523 [INFO ] Starting round 30
+2020-02-17 21:28:25,523 [INFO ] ********************************************
+2020-02-17 21:28:25,523 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,523 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,524 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,526 [INFO ] Starting round 31
+2020-02-17 21:28:25,526 [INFO ] ********************************************
+2020-02-17 21:28:25,526 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,526 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,527 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,528 [INFO ] Starting round 32
+2020-02-17 21:28:25,528 [INFO ] ********************************************
+2020-02-17 21:28:25,528 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,528 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,529 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,531 [INFO ] Starting round 33
+2020-02-17 21:28:25,531 [INFO ] ********************************************
+2020-02-17 21:28:25,531 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,531 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,532 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,534 [INFO ] Starting round 34
+2020-02-17 21:28:25,534 [INFO ] ********************************************
+2020-02-17 21:28:25,534 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,534 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,535 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,537 [INFO ] Starting round 35
+2020-02-17 21:28:25,537 [INFO ] ********************************************
+2020-02-17 21:28:25,537 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,537 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,538 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,540 [INFO ] Starting round 36
+2020-02-17 21:28:25,540 [INFO ] ********************************************
+2020-02-17 21:28:25,540 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,540 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,541 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,543 [INFO ] Starting round 37
+2020-02-17 21:28:25,543 [INFO ] ********************************************
+2020-02-17 21:28:25,543 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,543 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,544 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,545 [INFO ] Starting round 38
+2020-02-17 21:28:25,546 [INFO ] ********************************************
+2020-02-17 21:28:25,546 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,546 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,546 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,548 [INFO ] Starting round 39
+2020-02-17 21:28:25,549 [INFO ] ********************************************
+2020-02-17 21:28:25,549 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,549 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,550 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,552 [INFO ] Starting round 40
+2020-02-17 21:28:25,552 [INFO ] ********************************************
+2020-02-17 21:28:25,552 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,552 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,553 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,554 [INFO ] Starting round 41
+2020-02-17 21:28:25,555 [INFO ] ********************************************
+2020-02-17 21:28:25,555 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,555 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,555 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,557 [INFO ] Starting round 42
+2020-02-17 21:28:25,557 [INFO ] ********************************************
+2020-02-17 21:28:25,557 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,557 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,558 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,560 [INFO ] Starting round 43
+2020-02-17 21:28:25,560 [INFO ] ********************************************
+2020-02-17 21:28:25,560 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,560 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,561 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,563 [INFO ] Starting round 44
+2020-02-17 21:28:25,563 [INFO ] ********************************************
+2020-02-17 21:28:25,563 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,563 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,564 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,566 [INFO ] Starting round 45
+2020-02-17 21:28:25,566 [INFO ] ********************************************
+2020-02-17 21:28:25,566 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,566 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,567 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,569 [INFO ] Starting round 46
+2020-02-17 21:28:25,569 [INFO ] ********************************************
+2020-02-17 21:28:25,569 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,569 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,570 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,572 [INFO ] Starting round 47
+2020-02-17 21:28:25,572 [INFO ] ********************************************
+2020-02-17 21:28:25,572 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,572 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,573 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,575 [INFO ] Starting round 48
+2020-02-17 21:28:25,575 [INFO ] ********************************************
+2020-02-17 21:28:25,575 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,575 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,576 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,577 [INFO ] Starting round 49
+2020-02-17 21:28:25,578 [INFO ] ********************************************
+2020-02-17 21:28:25,578 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,578 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,578 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,580 [INFO ] Starting round 50
+2020-02-17 21:28:25,580 [INFO ] ********************************************
+2020-02-17 21:28:25,580 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,580 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,581 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,583 [INFO ] Starting round 51
+2020-02-17 21:28:25,583 [INFO ] ********************************************
+2020-02-17 21:28:25,583 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,583 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,584 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,586 [INFO ] Starting round 52
+2020-02-17 21:28:25,586 [INFO ] ********************************************
+2020-02-17 21:28:25,586 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,586 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,586 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,588 [INFO ] Starting round 53
+2020-02-17 21:28:25,588 [INFO ] ********************************************
+2020-02-17 21:28:25,588 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,588 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,588 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,590 [INFO ] Starting round 54
+2020-02-17 21:28:25,590 [INFO ] ********************************************
+2020-02-17 21:28:25,590 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,590 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,591 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,592 [INFO ] Starting round 55
+2020-02-17 21:28:25,592 [INFO ] ********************************************
+2020-02-17 21:28:25,592 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,592 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,593 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,594 [INFO ] Starting round 56
+2020-02-17 21:28:25,594 [INFO ] ********************************************
+2020-02-17 21:28:25,594 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,594 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,595 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,596 [INFO ] Starting round 57
+2020-02-17 21:28:25,597 [INFO ] ********************************************
+2020-02-17 21:28:25,597 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,597 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,597 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,599 [INFO ] Starting round 58
+2020-02-17 21:28:25,599 [INFO ] ********************************************
+2020-02-17 21:28:25,599 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,599 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,600 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,601 [INFO ] Starting round 59
+2020-02-17 21:28:25,602 [INFO ] ********************************************
+2020-02-17 21:28:25,602 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,602 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,602 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,604 [INFO ] Starting round 60
+2020-02-17 21:28:25,604 [INFO ] ********************************************
+2020-02-17 21:28:25,604 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,604 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,605 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,606 [INFO ] Starting round 61
+2020-02-17 21:28:25,606 [INFO ] ********************************************
+2020-02-17 21:28:25,606 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,606 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,607 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,609 [INFO ] Starting round 62
+2020-02-17 21:28:25,609 [INFO ] ********************************************
+2020-02-17 21:28:25,609 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,609 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,610 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,611 [INFO ] Starting round 63
+2020-02-17 21:28:25,612 [INFO ] ********************************************
+2020-02-17 21:28:25,612 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,612 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,612 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,614 [INFO ] Starting round 64
+2020-02-17 21:28:25,614 [INFO ] ********************************************
+2020-02-17 21:28:25,614 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,614 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,615 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,616 [INFO ] Starting round 65
+2020-02-17 21:28:25,617 [INFO ] ********************************************
+2020-02-17 21:28:25,617 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,617 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,617 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,619 [INFO ] Starting round 66
+2020-02-17 21:28:25,619 [INFO ] ********************************************
+2020-02-17 21:28:25,619 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,619 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,620 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,621 [INFO ] Starting round 67
+2020-02-17 21:28:25,621 [INFO ] ********************************************
+2020-02-17 21:28:25,621 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,621 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,622 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,624 [INFO ] Starting round 68
+2020-02-17 21:28:25,624 [INFO ] ********************************************
+2020-02-17 21:28:25,624 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,624 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,625 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,626 [INFO ] Starting round 69
+2020-02-17 21:28:25,626 [INFO ] ********************************************
+2020-02-17 21:28:25,626 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,626 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,627 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,628 [INFO ] Starting round 70
+2020-02-17 21:28:25,628 [INFO ] ********************************************
+2020-02-17 21:28:25,628 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,628 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,628 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,630 [INFO ] Starting round 71
+2020-02-17 21:28:25,630 [INFO ] ********************************************
+2020-02-17 21:28:25,630 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,630 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,631 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,632 [INFO ] Starting round 72
+2020-02-17 21:28:25,633 [INFO ] ********************************************
+2020-02-17 21:28:25,633 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,633 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,633 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,635 [INFO ] Starting round 73
+2020-02-17 21:28:25,635 [INFO ] ********************************************
+2020-02-17 21:28:25,635 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,635 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,636 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,637 [INFO ] Starting round 74
+2020-02-17 21:28:25,637 [INFO ] ********************************************
+2020-02-17 21:28:25,637 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,637 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,638 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,639 [INFO ] Starting round 75
+2020-02-17 21:28:25,639 [INFO ] ********************************************
+2020-02-17 21:28:25,639 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,639 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,640 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,642 [INFO ] Starting round 76
+2020-02-17 21:28:25,642 [INFO ] ********************************************
+2020-02-17 21:28:25,642 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,642 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,642 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,644 [INFO ] Starting round 77
+2020-02-17 21:28:25,644 [INFO ] ********************************************
+2020-02-17 21:28:25,644 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,644 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,644 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,646 [INFO ] Starting round 78
+2020-02-17 21:28:25,646 [INFO ] ********************************************
+2020-02-17 21:28:25,646 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,646 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,646 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,648 [INFO ] Starting round 79
+2020-02-17 21:28:25,648 [INFO ] ********************************************
+2020-02-17 21:28:25,648 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,648 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,649 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,650 [INFO ] Starting round 80
+2020-02-17 21:28:25,650 [INFO ] ********************************************
+2020-02-17 21:28:25,650 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,650 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,651 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,652 [INFO ] Starting round 81
+2020-02-17 21:28:25,653 [INFO ] ********************************************
+2020-02-17 21:28:25,653 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,653 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,653 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,655 [INFO ] Starting round 82
+2020-02-17 21:28:25,655 [INFO ] ********************************************
+2020-02-17 21:28:25,655 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,655 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,655 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,657 [INFO ] Starting round 83
+2020-02-17 21:28:25,657 [INFO ] ********************************************
+2020-02-17 21:28:25,657 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,657 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,657 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,659 [INFO ] Starting round 84
+2020-02-17 21:28:25,659 [INFO ] ********************************************
+2020-02-17 21:28:25,659 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,659 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,660 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,662 [INFO ] Starting round 85
+2020-02-17 21:28:25,662 [INFO ] ********************************************
+2020-02-17 21:28:25,662 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,662 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,662 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,664 [INFO ] Starting round 86
+2020-02-17 21:28:25,664 [INFO ] ********************************************
+2020-02-17 21:28:25,664 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,664 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,665 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,666 [INFO ] Starting round 87
+2020-02-17 21:28:25,666 [INFO ] ********************************************
+2020-02-17 21:28:25,666 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,666 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,667 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,668 [INFO ] Starting round 88
+2020-02-17 21:28:25,668 [INFO ] ********************************************
+2020-02-17 21:28:25,668 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,669 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,669 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,670 [INFO ] Starting round 89
+2020-02-17 21:28:25,671 [INFO ] ********************************************
+2020-02-17 21:28:25,671 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,671 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,671 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,672 [INFO ] Starting round 90
+2020-02-17 21:28:25,672 [INFO ] ********************************************
+2020-02-17 21:28:25,672 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,672 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,673 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,674 [INFO ] Starting round 91
+2020-02-17 21:28:25,674 [INFO ] ********************************************
+2020-02-17 21:28:25,674 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,674 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,675 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,676 [INFO ] Starting round 92
+2020-02-17 21:28:25,676 [INFO ] ********************************************
+2020-02-17 21:28:25,676 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,676 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,677 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,678 [INFO ] Starting round 93
+2020-02-17 21:28:25,679 [INFO ] ********************************************
+2020-02-17 21:28:25,679 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,679 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,679 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,680 [INFO ] Starting round 94
+2020-02-17 21:28:25,681 [INFO ] ********************************************
+2020-02-17 21:28:25,681 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,681 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,681 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,682 [INFO ] Starting round 95
+2020-02-17 21:28:25,683 [INFO ] ********************************************
+2020-02-17 21:28:25,683 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,683 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,683 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,684 [INFO ] Starting round 96
+2020-02-17 21:28:25,684 [INFO ] ********************************************
+2020-02-17 21:28:25,684 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,684 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,685 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,686 [INFO ] Starting round 97
+2020-02-17 21:28:25,686 [INFO ] ********************************************
+2020-02-17 21:28:25,686 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,686 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,687 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,688 [INFO ] Starting round 98
+2020-02-17 21:28:25,688 [INFO ] ********************************************
+2020-02-17 21:28:25,688 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,688 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,689 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,690 [INFO ] Starting round 99
+2020-02-17 21:28:25,690 [INFO ] ********************************************
+2020-02-17 21:28:25,690 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,690 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,691 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,692 [INFO ] Starting round 100
+2020-02-17 21:28:25,692 [INFO ] ********************************************
+2020-02-17 21:28:25,692 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,692 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,692 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,694 [INFO ] Starting round 101
+2020-02-17 21:28:25,694 [INFO ] ********************************************
+2020-02-17 21:28:25,694 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,694 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,695 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,696 [INFO ] Starting round 102
+2020-02-17 21:28:25,696 [INFO ] ********************************************
+2020-02-17 21:28:25,696 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,696 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,697 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,698 [INFO ] Starting round 103
+2020-02-17 21:28:25,698 [INFO ] ********************************************
+2020-02-17 21:28:25,698 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,698 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,699 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,700 [INFO ] Starting round 104
+2020-02-17 21:28:25,700 [INFO ] ********************************************
+2020-02-17 21:28:25,700 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,700 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,701 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,702 [INFO ] Starting round 105
+2020-02-17 21:28:25,702 [INFO ] ********************************************
+2020-02-17 21:28:25,702 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,702 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,703 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,704 [INFO ] Starting round 106
+2020-02-17 21:28:25,704 [INFO ] ********************************************
+2020-02-17 21:28:25,704 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,704 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,704 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,706 [INFO ] Starting round 107
+2020-02-17 21:28:25,706 [INFO ] ********************************************
+2020-02-17 21:28:25,706 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,706 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,706 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,708 [INFO ] Starting round 108
+2020-02-17 21:28:25,708 [INFO ] ********************************************
+2020-02-17 21:28:25,708 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,708 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,708 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,710 [INFO ] Starting round 109
+2020-02-17 21:28:25,710 [INFO ] ********************************************
+2020-02-17 21:28:25,710 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,710 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,710 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,712 [INFO ] Starting round 110
+2020-02-17 21:28:25,712 [INFO ] ********************************************
+2020-02-17 21:28:25,712 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,712 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,712 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,714 [INFO ] Starting round 111
+2020-02-17 21:28:25,714 [INFO ] ********************************************
+2020-02-17 21:28:25,714 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,714 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,715 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,716 [INFO ] Starting round 112
+2020-02-17 21:28:25,716 [INFO ] ********************************************
+2020-02-17 21:28:25,716 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,716 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,717 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,718 [INFO ] Starting round 113
+2020-02-17 21:28:25,718 [INFO ] ********************************************
+2020-02-17 21:28:25,718 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,718 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,719 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,720 [INFO ] Starting round 114
+2020-02-17 21:28:25,720 [INFO ] ********************************************
+2020-02-17 21:28:25,720 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,720 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,721 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,722 [INFO ] Starting round 115
+2020-02-17 21:28:25,722 [INFO ] ********************************************
+2020-02-17 21:28:25,722 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,722 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,722 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,723 [INFO ] Starting round 116
+2020-02-17 21:28:25,724 [INFO ] ********************************************
+2020-02-17 21:28:25,724 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,724 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,724 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,725 [INFO ] Starting round 117
+2020-02-17 21:28:25,725 [INFO ] ********************************************
+2020-02-17 21:28:25,725 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,725 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,725 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,727 [INFO ] Starting round 118
+2020-02-17 21:28:25,727 [INFO ] ********************************************
+2020-02-17 21:28:25,727 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,727 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,727 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,728 [INFO ] Starting round 119
+2020-02-17 21:28:25,728 [INFO ] ********************************************
+2020-02-17 21:28:25,728 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,728 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,728 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,729 [INFO ] Starting round 120
+2020-02-17 21:28:25,730 [INFO ] ********************************************
+2020-02-17 21:28:25,730 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,730 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,730 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,731 [INFO ] Starting round 121
+2020-02-17 21:28:25,731 [INFO ] ********************************************
+2020-02-17 21:28:25,731 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,731 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,731 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,732 [INFO ] Starting round 122
+2020-02-17 21:28:25,732 [INFO ] ********************************************
+2020-02-17 21:28:25,732 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,732 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,733 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,734 [INFO ] Starting round 123
+2020-02-17 21:28:25,734 [INFO ] ********************************************
+2020-02-17 21:28:25,734 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,734 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,735 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,736 [INFO ] Starting round 124
+2020-02-17 21:28:25,736 [INFO ] ********************************************
+2020-02-17 21:28:25,736 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,736 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,736 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,737 [INFO ] Starting round 125
+2020-02-17 21:28:25,737 [INFO ] ********************************************
+2020-02-17 21:28:25,737 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,737 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,737 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,738 [INFO ] Starting round 126
+2020-02-17 21:28:25,738 [INFO ] ********************************************
+2020-02-17 21:28:25,738 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,738 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,739 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,740 [INFO ] Starting round 127
+2020-02-17 21:28:25,740 [INFO ] ********************************************
+2020-02-17 21:28:25,740 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,740 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,741 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,742 [INFO ] Starting round 128
+2020-02-17 21:28:25,742 [INFO ] ********************************************
+2020-02-17 21:28:25,742 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,742 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,742 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,743 [INFO ] Starting round 129
+2020-02-17 21:28:25,743 [INFO ] ********************************************
+2020-02-17 21:28:25,743 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,743 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,743 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,744 [INFO ] Starting round 130
+2020-02-17 21:28:25,744 [INFO ] ********************************************
+2020-02-17 21:28:25,744 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,744 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,745 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,746 [INFO ] Starting round 131
+2020-02-17 21:28:25,746 [INFO ] ********************************************
+2020-02-17 21:28:25,746 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,746 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,746 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,747 [INFO ] Starting round 132
+2020-02-17 21:28:25,747 [INFO ] ********************************************
+2020-02-17 21:28:25,747 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,747 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,747 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,748 [INFO ] Starting round 133
+2020-02-17 21:28:25,748 [INFO ] ********************************************
+2020-02-17 21:28:25,748 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,748 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,749 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,750 [INFO ] Starting round 134
+2020-02-17 21:28:25,750 [INFO ] ********************************************
+2020-02-17 21:28:25,750 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,750 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,750 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,751 [INFO ] Starting round 135
+2020-02-17 21:28:25,751 [INFO ] ********************************************
+2020-02-17 21:28:25,751 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,751 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,751 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,752 [INFO ] Starting round 136
+2020-02-17 21:28:25,752 [INFO ] ********************************************
+2020-02-17 21:28:25,752 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,752 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,753 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,754 [INFO ] Starting round 137
+2020-02-17 21:28:25,754 [INFO ] ********************************************
+2020-02-17 21:28:25,754 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,754 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,754 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,755 [INFO ] Starting round 138
+2020-02-17 21:28:25,755 [INFO ] ********************************************
+2020-02-17 21:28:25,755 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,755 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,755 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,756 [INFO ] Starting round 139
+2020-02-17 21:28:25,756 [INFO ] ********************************************
+2020-02-17 21:28:25,756 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,756 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,757 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,758 [INFO ] Starting round 140
+2020-02-17 21:28:25,758 [INFO ] ********************************************
+2020-02-17 21:28:25,758 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,758 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,758 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,759 [INFO ] Starting round 141
+2020-02-17 21:28:25,759 [INFO ] ********************************************
+2020-02-17 21:28:25,759 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,759 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,759 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,760 [INFO ] Starting round 142
+2020-02-17 21:28:25,760 [INFO ] ********************************************
+2020-02-17 21:28:25,760 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,760 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,761 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,762 [INFO ] Starting round 143
+2020-02-17 21:28:25,762 [INFO ] ********************************************
+2020-02-17 21:28:25,762 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,762 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,762 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,763 [INFO ] Starting round 144
+2020-02-17 21:28:25,763 [INFO ] ********************************************
+2020-02-17 21:28:25,763 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,763 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,763 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,764 [INFO ] Starting round 145
+2020-02-17 21:28:25,764 [INFO ] ********************************************
+2020-02-17 21:28:25,764 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,764 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,765 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,766 [INFO ] Starting round 146
+2020-02-17 21:28:25,766 [INFO ] ********************************************
+2020-02-17 21:28:25,766 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,766 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,766 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,767 [INFO ] Starting round 147
+2020-02-17 21:28:25,767 [INFO ] ********************************************
+2020-02-17 21:28:25,767 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,767 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,767 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,768 [INFO ] Starting round 148
+2020-02-17 21:28:25,768 [INFO ] ********************************************
+2020-02-17 21:28:25,768 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,768 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,769 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,770 [INFO ] Starting round 149
+2020-02-17 21:28:25,770 [INFO ] ********************************************
+2020-02-17 21:28:25,770 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,770 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,770 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,771 [INFO ] Starting round 150
+2020-02-17 21:28:25,771 [INFO ] ********************************************
+2020-02-17 21:28:25,771 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,771 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,771 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,772 [INFO ] Starting round 151
+2020-02-17 21:28:25,772 [INFO ] ********************************************
+2020-02-17 21:28:25,772 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,772 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,773 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,774 [INFO ] Starting round 152
+2020-02-17 21:28:25,774 [INFO ] ********************************************
+2020-02-17 21:28:25,774 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,774 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,774 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,775 [INFO ] Starting round 153
+2020-02-17 21:28:25,775 [INFO ] ********************************************
+2020-02-17 21:28:25,775 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,775 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,775 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,776 [INFO ] Starting round 154
+2020-02-17 21:28:25,776 [INFO ] ********************************************
+2020-02-17 21:28:25,776 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,776 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,777 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,778 [INFO ] Starting round 155
+2020-02-17 21:28:25,778 [INFO ] ********************************************
+2020-02-17 21:28:25,778 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,778 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,778 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,779 [INFO ] Starting round 156
+2020-02-17 21:28:25,779 [INFO ] ********************************************
+2020-02-17 21:28:25,779 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,779 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,779 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,780 [INFO ] Starting round 157
+2020-02-17 21:28:25,780 [INFO ] ********************************************
+2020-02-17 21:28:25,780 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,780 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,781 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,784 [INFO ] Starting round 158
+2020-02-17 21:28:25,784 [INFO ] ********************************************
+2020-02-17 21:28:25,784 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,784 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,784 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,785 [INFO ] Starting round 159
+2020-02-17 21:28:25,785 [INFO ] ********************************************
+2020-02-17 21:28:25,785 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,785 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,785 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,786 [INFO ] Starting round 160
+2020-02-17 21:28:25,786 [INFO ] ********************************************
+2020-02-17 21:28:25,786 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,786 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,786 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,787 [INFO ] Starting round 161
+2020-02-17 21:28:25,787 [INFO ] ********************************************
+2020-02-17 21:28:25,787 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,787 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,787 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,788 [INFO ] Starting round 162
+2020-02-17 21:28:25,788 [INFO ] ********************************************
+2020-02-17 21:28:25,788 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,788 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,788 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,789 [INFO ] Starting round 163
+2020-02-17 21:28:25,789 [INFO ] ********************************************
+2020-02-17 21:28:25,789 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,789 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,789 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,790 [INFO ] Starting round 164
+2020-02-17 21:28:25,790 [INFO ] ********************************************
+2020-02-17 21:28:25,790 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,790 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,790 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,791 [INFO ] Starting round 165
+2020-02-17 21:28:25,791 [INFO ] ********************************************
+2020-02-17 21:28:25,791 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,791 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,791 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,792 [INFO ] Starting round 166
+2020-02-17 21:28:25,792 [INFO ] ********************************************
+2020-02-17 21:28:25,792 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,792 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,792 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,793 [INFO ] Starting round 167
+2020-02-17 21:28:25,793 [INFO ] ********************************************
+2020-02-17 21:28:25,793 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,793 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,794 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,795 [INFO ] Starting round 168
+2020-02-17 21:28:25,795 [INFO ] ********************************************
+2020-02-17 21:28:25,795 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,795 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,795 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,796 [INFO ] Starting round 169
+2020-02-17 21:28:25,796 [INFO ] ********************************************
+2020-02-17 21:28:25,796 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,796 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,796 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,797 [INFO ] Starting round 170
+2020-02-17 21:28:25,797 [INFO ] ********************************************
+2020-02-17 21:28:25,797 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,797 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,798 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,799 [INFO ] Starting round 171
+2020-02-17 21:28:25,799 [INFO ] ********************************************
+2020-02-17 21:28:25,799 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,799 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,799 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,801 [INFO ] Starting round 172
+2020-02-17 21:28:25,801 [INFO ] ********************************************
+2020-02-17 21:28:25,801 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,801 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,801 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,802 [INFO ] Starting round 173
+2020-02-17 21:28:25,802 [INFO ] ********************************************
+2020-02-17 21:28:25,802 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,802 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,802 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,803 [INFO ] Starting round 174
+2020-02-17 21:28:25,803 [INFO ] ********************************************
+2020-02-17 21:28:25,803 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,803 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,803 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,804 [INFO ] Starting round 175
+2020-02-17 21:28:25,804 [INFO ] ********************************************
+2020-02-17 21:28:25,804 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,804 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,804 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,805 [INFO ] Starting round 176
+2020-02-17 21:28:25,805 [INFO ] ********************************************
+2020-02-17 21:28:25,805 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,805 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,805 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,806 [INFO ] Starting round 177
+2020-02-17 21:28:25,806 [INFO ] ********************************************
+2020-02-17 21:28:25,806 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,806 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,806 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,807 [INFO ] Starting round 178
+2020-02-17 21:28:25,807 [INFO ] ********************************************
+2020-02-17 21:28:25,807 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,807 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,807 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,808 [INFO ] Starting round 179
+2020-02-17 21:28:25,808 [INFO ] ********************************************
+2020-02-17 21:28:25,808 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,808 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,808 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,809 [INFO ] Starting round 180
+2020-02-17 21:28:25,809 [INFO ] ********************************************
+2020-02-17 21:28:25,809 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,809 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,809 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,810 [INFO ] Starting round 181
+2020-02-17 21:28:25,810 [INFO ] ********************************************
+2020-02-17 21:28:25,810 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,810 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,810 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,811 [INFO ] Starting round 182
+2020-02-17 21:28:25,811 [INFO ] ********************************************
+2020-02-17 21:28:25,811 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,811 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,811 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,812 [INFO ] Starting round 183
+2020-02-17 21:28:25,812 [INFO ] ********************************************
+2020-02-17 21:28:25,812 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,812 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,812 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,813 [INFO ] Starting round 184
+2020-02-17 21:28:25,813 [INFO ] ********************************************
+2020-02-17 21:28:25,813 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,813 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,814 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,814 [INFO ] Starting round 185
+2020-02-17 21:28:25,814 [INFO ] ********************************************
+2020-02-17 21:28:25,814 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,814 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,815 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,815 [INFO ] Starting round 186
+2020-02-17 21:28:25,815 [INFO ] ********************************************
+2020-02-17 21:28:25,815 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,815 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,816 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,816 [INFO ] Starting round 187
+2020-02-17 21:28:25,816 [INFO ] ********************************************
+2020-02-17 21:28:25,816 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,816 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,817 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,817 [INFO ] Starting round 188
+2020-02-17 21:28:25,817 [INFO ] ********************************************
+2020-02-17 21:28:25,817 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,817 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,818 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,818 [INFO ] Starting round 189
+2020-02-17 21:28:25,819 [INFO ] ********************************************
+2020-02-17 21:28:25,819 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,819 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,819 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,820 [INFO ] Starting round 190
+2020-02-17 21:28:25,820 [INFO ] ********************************************
+2020-02-17 21:28:25,820 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,820 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,821 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,821 [INFO ] Starting round 191
+2020-02-17 21:28:25,822 [INFO ] ********************************************
+2020-02-17 21:28:25,822 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,822 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,822 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,823 [INFO ] Starting round 192
+2020-02-17 21:28:25,823 [INFO ] ********************************************
+2020-02-17 21:28:25,823 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,823 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,823 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,824 [INFO ] Starting round 193
+2020-02-17 21:28:25,824 [INFO ] ********************************************
+2020-02-17 21:28:25,825 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,825 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,825 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,826 [INFO ] Starting round 194
+2020-02-17 21:28:25,826 [INFO ] ********************************************
+2020-02-17 21:28:25,826 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,826 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,826 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,827 [INFO ] Starting round 195
+2020-02-17 21:28:25,827 [INFO ] ********************************************
+2020-02-17 21:28:25,827 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,827 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,827 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,828 [INFO ] Starting round 196
+2020-02-17 21:28:25,828 [INFO ] ********************************************
+2020-02-17 21:28:25,828 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,828 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,828 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,829 [INFO ] Starting round 197
+2020-02-17 21:28:25,829 [INFO ] ********************************************
+2020-02-17 21:28:25,829 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,829 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,829 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,830 [INFO ] Starting round 198
+2020-02-17 21:28:25,830 [INFO ] ********************************************
+2020-02-17 21:28:25,830 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,830 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,831 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,832 [INFO ] Starting round 199
+2020-02-17 21:28:25,832 [INFO ] ********************************************
+2020-02-17 21:28:25,832 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,832 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,832 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,833 [INFO ] Starting round 200
+2020-02-17 21:28:25,833 [INFO ] ********************************************
+2020-02-17 21:28:25,833 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,833 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,834 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,835 [INFO ] Starting round 201
+2020-02-17 21:28:25,835 [INFO ] ********************************************
+2020-02-17 21:28:25,835 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,835 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,835 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,836 [INFO ] Starting round 202
+2020-02-17 21:28:25,836 [INFO ] ********************************************
+2020-02-17 21:28:25,836 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,836 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,836 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,838 [INFO ] Starting round 203
+2020-02-17 21:28:25,838 [INFO ] ********************************************
+2020-02-17 21:28:25,838 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,838 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,838 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,839 [INFO ] Starting round 204
+2020-02-17 21:28:25,839 [INFO ] ********************************************
+2020-02-17 21:28:25,839 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,839 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,839 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,841 [INFO ] Starting round 205
+2020-02-17 21:28:25,841 [INFO ] ********************************************
+2020-02-17 21:28:25,841 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,841 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,841 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,842 [INFO ] Starting round 206
+2020-02-17 21:28:25,842 [INFO ] ********************************************
+2020-02-17 21:28:25,842 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,842 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,842 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,843 [INFO ] Starting round 207
+2020-02-17 21:28:25,843 [INFO ] ********************************************
+2020-02-17 21:28:25,843 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,843 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,844 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,844 [INFO ] Starting round 208
+2020-02-17 21:28:25,845 [INFO ] ********************************************
+2020-02-17 21:28:25,845 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,845 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,845 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,846 [INFO ] Starting round 209
+2020-02-17 21:28:25,846 [INFO ] ********************************************
+2020-02-17 21:28:25,846 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,846 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,847 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,848 [INFO ] Starting round 210
+2020-02-17 21:28:25,848 [INFO ] ********************************************
+2020-02-17 21:28:25,848 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,848 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,848 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,850 [INFO ] Starting round 211
+2020-02-17 21:28:25,850 [INFO ] ********************************************
+2020-02-17 21:28:25,850 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,850 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,850 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,851 [INFO ] Starting round 212
+2020-02-17 21:28:25,851 [INFO ] ********************************************
+2020-02-17 21:28:25,851 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,851 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,851 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,852 [INFO ] Starting round 213
+2020-02-17 21:28:25,852 [INFO ] ********************************************
+2020-02-17 21:28:25,853 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,853 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,853 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,854 [INFO ] Starting round 214
+2020-02-17 21:28:25,854 [INFO ] ********************************************
+2020-02-17 21:28:25,854 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,854 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,854 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,856 [INFO ] Starting round 215
+2020-02-17 21:28:25,856 [INFO ] ********************************************
+2020-02-17 21:28:25,856 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,856 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,856 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,857 [INFO ] Starting round 216
+2020-02-17 21:28:25,857 [INFO ] ********************************************
+2020-02-17 21:28:25,857 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,857 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,858 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,859 [INFO ] Starting round 217
+2020-02-17 21:28:25,859 [INFO ] ********************************************
+2020-02-17 21:28:25,859 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,859 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,859 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,860 [INFO ] Starting round 218
+2020-02-17 21:28:25,860 [INFO ] ********************************************
+2020-02-17 21:28:25,860 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,860 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,860 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,861 [INFO ] Starting round 219
+2020-02-17 21:28:25,861 [INFO ] ********************************************
+2020-02-17 21:28:25,861 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,861 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,861 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,862 [INFO ] Starting round 220
+2020-02-17 21:28:25,862 [INFO ] ********************************************
+2020-02-17 21:28:25,862 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,862 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,863 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,864 [INFO ] Starting round 221
+2020-02-17 21:28:25,864 [INFO ] ********************************************
+2020-02-17 21:28:25,864 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,864 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,864 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,865 [INFO ] Starting round 222
+2020-02-17 21:28:25,865 [INFO ] ********************************************
+2020-02-17 21:28:25,865 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,865 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,866 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,867 [INFO ] Starting round 223
+2020-02-17 21:28:25,867 [INFO ] ********************************************
+2020-02-17 21:28:25,867 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,867 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,867 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,869 [INFO ] Starting round 224
+2020-02-17 21:28:25,869 [INFO ] ********************************************
+2020-02-17 21:28:25,869 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,869 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,869 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,870 [INFO ] Starting round 225
+2020-02-17 21:28:25,870 [INFO ] ********************************************
+2020-02-17 21:28:25,870 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,870 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,871 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,872 [INFO ] Starting round 226
+2020-02-17 21:28:25,872 [INFO ] ********************************************
+2020-02-17 21:28:25,872 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,872 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,873 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,874 [INFO ] Starting round 227
+2020-02-17 21:28:25,874 [INFO ] ********************************************
+2020-02-17 21:28:25,874 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,874 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,874 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,876 [INFO ] Starting round 228
+2020-02-17 21:28:25,876 [INFO ] ********************************************
+2020-02-17 21:28:25,876 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,876 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,876 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,878 [INFO ] Starting round 229
+2020-02-17 21:28:25,878 [INFO ] ********************************************
+2020-02-17 21:28:25,878 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,878 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,878 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,879 [INFO ] Starting round 230
+2020-02-17 21:28:25,879 [INFO ] ********************************************
+2020-02-17 21:28:25,879 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,879 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,880 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,881 [INFO ] Starting round 231
+2020-02-17 21:28:25,881 [INFO ] ********************************************
+2020-02-17 21:28:25,881 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,881 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,881 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,883 [INFO ] Starting round 232
+2020-02-17 21:28:25,883 [INFO ] ********************************************
+2020-02-17 21:28:25,883 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,883 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,883 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,884 [INFO ] Starting round 233
+2020-02-17 21:28:25,884 [INFO ] ********************************************
+2020-02-17 21:28:25,884 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,884 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,885 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,886 [INFO ] Starting round 234
+2020-02-17 21:28:25,886 [INFO ] ********************************************
+2020-02-17 21:28:25,886 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,886 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,886 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,887 [INFO ] Starting round 235
+2020-02-17 21:28:25,887 [INFO ] ********************************************
+2020-02-17 21:28:25,887 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,887 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,888 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,889 [INFO ] Starting round 236
+2020-02-17 21:28:25,889 [INFO ] ********************************************
+2020-02-17 21:28:25,889 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,889 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,889 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,891 [INFO ] Starting round 237
+2020-02-17 21:28:25,891 [INFO ] ********************************************
+2020-02-17 21:28:25,891 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,891 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,891 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,892 [INFO ] Starting round 238
+2020-02-17 21:28:25,892 [INFO ] ********************************************
+2020-02-17 21:28:25,892 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,892 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,893 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,894 [INFO ] Starting round 239
+2020-02-17 21:28:25,894 [INFO ] ********************************************
+2020-02-17 21:28:25,894 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,894 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,895 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,895 [INFO ] Starting round 240
+2020-02-17 21:28:25,895 [INFO ] ********************************************
+2020-02-17 21:28:25,895 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,895 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,896 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,897 [INFO ] Starting round 241
+2020-02-17 21:28:25,897 [INFO ] ********************************************
+2020-02-17 21:28:25,897 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,897 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,897 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,898 [INFO ] Starting round 242
+2020-02-17 21:28:25,898 [INFO ] ********************************************
+2020-02-17 21:28:25,898 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,898 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,898 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,899 [INFO ] Starting round 243
+2020-02-17 21:28:25,899 [INFO ] ********************************************
+2020-02-17 21:28:25,899 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,899 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,900 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,900 [INFO ] Starting round 244
+2020-02-17 21:28:25,900 [INFO ] ********************************************
+2020-02-17 21:28:25,900 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,900 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,901 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,901 [INFO ] Starting round 245
+2020-02-17 21:28:25,901 [INFO ] ********************************************
+2020-02-17 21:28:25,901 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,901 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,902 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,902 [INFO ] Starting round 246
+2020-02-17 21:28:25,902 [INFO ] ********************************************
+2020-02-17 21:28:25,902 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,902 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,903 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,903 [INFO ] Starting round 247
+2020-02-17 21:28:25,903 [INFO ] ********************************************
+2020-02-17 21:28:25,903 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,903 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,904 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,905 [INFO ] Starting round 248
+2020-02-17 21:28:25,905 [INFO ] ********************************************
+2020-02-17 21:28:25,905 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,905 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,905 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,906 [INFO ] Starting round 249
+2020-02-17 21:28:25,906 [INFO ] ********************************************
+2020-02-17 21:28:25,906 [INFO ] 1866875501 - nextRound
+2020-02-17 21:28:25,906 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Moby Dick","deck":{"width":2,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":1,"y":1,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":1,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":3,"y":1,"type":"oar"}],"life":300,"shape":{"type":"rectangle","width":2.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-02-17 21:28:25,906 [INFO ] Player response:[ ]
+2020-02-17 21:28:25,907 [INFO ] Game over
+2020-02-17 21:28:25,907 [INFO ] Creating team's logs files
+2020-02-17 21:28:25,910 [INFO ] Game scores: {jumel=-4}

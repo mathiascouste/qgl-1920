@@ -1,8 +1,8 @@
-# WEEK5 - FISA
+# WEEK6 - FISA
 
-**Livraison:** le Lundi 2 Mars - 19h.
+**Livraison:** le Lundi 9 Mars - 19h.
 **Mode de jeu:** régate.
-**Tag:** WEEK5
+**Tag:** WEEK6
 
 ## Scope fonctionel réduit
 Seul un sous-ensemble des éléments du jeu seront présents:
@@ -10,6 +10,7 @@ Seul un sous-ensemble des éléments du jeu seront présents:
 **Formes:**
  - Cercle
  - Rectangle
+ - Polygone
 
 **Dans la mer:**
 - votre bateau
@@ -17,12 +18,14 @@ Seul un sous-ensemble des éléments du jeu seront présents:
 - du vent
 - courants marins
 - ajouts de récifs
+- autres bateaux
 
 **Dans votre bateau:**
 - vos marins
 - des rames
 - gouvernail
 - voile
+- vigie
 
 **Actions acceptées:**
 - Ramer
@@ -30,7 +33,8 @@ Seul un sous-ensemble des éléments du jeu seront présents:
 - Tourner
 - hisser voile
 - affaler voile
+- utiliser vigie
 
 ## Indices sur la prochaine mer
 
- 1. Let's cross the reverse mountain!
+ 1. Le tour de Ré

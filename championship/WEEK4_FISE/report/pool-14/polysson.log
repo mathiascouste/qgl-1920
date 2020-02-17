@@ -1,0 +1,48 @@
+InitShipPos : (0.0,0.0, ori=0.0) | ShipDeck : (11, 5) | [Sl{id=0, x=0, y=0}, Sl{id=1, x=0, y=1}, Sl{id=2, x=0, y=2}, Sl{id=3, x=0, y=3}, Sl{id=4, x=0, y=4}, Sl{id=5, x=1, y=0}, Sl{id=6, x=1, y=1}, Sl{
+[Oar(1,0), Oar(2,0), Oar(3,0), Oar(4,0), Oar(5,0), Oar(6,0), Oar(7,0), Oar(8,0), Oar(9,0), Oar(1,4), Oar(2,4), Oar(3,4), Oar(4,4), Oar(5,4), Oar(6,4), Oar(7,4), Oar(8,4), Oar(9,4), Rudder(10,4), Sail(
+[{Si:9,T:OAR},{Si:5,T:OAR},{Si:8,T:MOV,xdistance:0,ydistance:1},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:MOV,xdistance:1,ydistance:-1},{Si:16,T:OAR},{Si:18,T:MOV,x
+[{Si:13,T:MOV,xdistance:5,ydistance:0},{Si:13,T:TURN,rotation:0.2280090128523939},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T
+[{Si:13,T:MOV,xdistance:-5,ydistance:-2},{Si:13,T:LIFT_SAIL},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR}] |
+[{Si:9,T:MOV,xdistance:0,ydistance:-2},{Si:9,T:LIFT_SAIL},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:13,T:MOV,xdist
+[{Si:13,T:MOV,xdistance:5,ydistance:0},{Si:13,T:TURN,rotation:0.18825579425985825},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:MOV,xdistance:4,ydistance:-1},{Si:11,T:OAR},{Si:13,T:
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(550.7680999686434,82.35974
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(657.5698329688114,108.6920
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(764.3715659689794,135.0243
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(871.1732989691475,161.3566
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(977.9750319693155,187.6889
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(1084.7767649694772,214.021
+[{Si:13,T:MOV,xdistance:4,ydistance:0},{Si:13,T:TURN,rotation:0.02054779046313926},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:MOV,xdistance:-4,ydistance:0},{Si:13,T:
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(1386.5887440677357,291.721
+[{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:14,T:OAR},{Si:15,T:OAR},{Si:19,T:OAR},{Si:16,T:OAR},{Si:18,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:11,T:OAR},{Si:13,T:OAR}] | Ship(1492.8268989578287,320.243
+[{Si:13,T:MOV,xdistance:4,ydistance:0},{Si:13,T:TURN,rotation:0.7853981633974483},{Si:8,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:18,T:OAR},{Si:9,T:OAR},{Si:11,T:MOV,xdistance:0,ydistance:4},{Si:11,T:OAR
+[{Si:13,T:TURN,rotation:0.7853981633974483},{Si:4,T:OAR},{Si:5,T:OAR},{Si:8,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:MOV,xdistance:0,ydistance:
+[{Si:13,T:TURN,rotation:0.284418743874411},{Si:19,T:MOV,xdistance:-1,ydistance:-2},{Si:19,T:LOWER_SAIL},{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:MOV,xdistance:2,ydistance:
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:13,T:MOV,xdistance:3,ydistance:0},{Si:13,T:TURN,rotation:0.02026693208466801},{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:MOV,xdistanc
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:12,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:16,T:OAR},{Si:17,T:OAR},{Si:9,T:OAR},{Si:18,T:OAR},{Si:11,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR},{Si:13,T:OAR}] | Ship
+[{Si:13,T:MOV,xdistance:3,ydistance:0},{Si:13,T:TURN,rotation:0.7853981633974483},{Si:4,T:OAR},{Si:12,T:OAR},{Si:7,T:OAR},{Si:17,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:MOV,xdistance:0,ydistance:4
+[{Si:13,T:TURN,rotation:0.5608012637282673},{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:MOV,xdistance:-1,ydistance:0},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:MO
+[{Si:13,T:TURN,rotation:0.02089433446331057},{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(213.107318513027,1324.990364
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(195.54582967277491,1216.4012
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(177.98434083252283,1107.8121
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(160.42285199227075,999.22304
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(142.86136315201867,890.63393
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(125.29987431176681,782.04483
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(107.73838547151615,673.45572
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(90.17689663126549,564.866617
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(72.61540779101483,456.277510
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(55.05391895076381,347.688403
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(37.49243011051244,239.099296
+[{Si:5,T:OAR},{Si:4,T:OAR},{Si:10,T:OAR},{Si:3,T:OAR},{Si:15,T:OAR},{Si:7,T:OAR},{Si:9,T:OAR},{Si:17,T:OAR},{Si:11,T:OAR},{Si:18,T:OAR},{Si:14,T:OAR},{Si:19,T:OAR}] | Ship(19.93094127026131,130.510190

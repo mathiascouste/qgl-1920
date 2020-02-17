@@ -1,4 +1,4 @@
-# WEEK5 - FISA
+# WEEK5 - FISE
 
 **Livraison:** le Lundi 2 Mars - 19h.
 **Mode de jeu:** régate.
@@ -15,8 +15,7 @@ Seul un sous-ensemble des éléments du jeu seront présents:
 - votre bateau
 - plusieurs checkpoints
 - du vent
-- courants marins
-- ajouts de récifs
+- ajout des courants
 
 **Dans votre bateau:**
 - vos marins
@@ -33,4 +32,4 @@ Seul un sous-ensemble des éléments du jeu seront présents:
 
 ## Indices sur la prochaine mer
 
- 1. Let's cross the reverse mountain!
+ 1. Hissez-haut!
