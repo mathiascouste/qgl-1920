@@ -1,0 +1,10 @@
+{CP0{Position=[X=1600.0;Y=350.0;orientation=0.0];Shape=Circle[radius=50.0]};CP1{Position=[X=345.0;Y=1550.0;orientation=0.0];Shape=Circle[radius=50.0]};CP2{Position=[X=0.0;Y=0.0;orientation=0.0];Shape=
+Circle[radius=70.0]}Deck[Width=5;Length=11] oar[Side=LEFT;X=1;Y=0]oar[Side=LEFT;X=2;Y=0]oar[Side=LEFT;X=3;Y=0]oar[Side=LEFT;X=4;Y=0]oar[Side=LEFT;X=5;Y=0]oar[Side=LEFT;X=6;Y=0]oar[Side=LEFT;X=7;Y=0]oa
+r[Side=LEFT;X=8;Y=0]oar[Side=LEFT;X=9;Y=0]oar[Side=RIGHT;X=1;Y=4]oar[Side=RIGHT;X=2;Y=4]oar[Side=RIGHT;X=3;Y=4]oar[Side=RIGHT;X=4;Y=4]oar[Side=RIGHT;X=5;Y=4]oar[Side=RIGHT;X=6;Y=4]oar[Side=RIGHT;X=7;Y
+=4]oar[Side=RIGHT;X=8;Y=4]oar[Side=RIGHT;X=9;Y=4]rudder[Side=RIGHT;X=10;Y=4]sail[Side=MIDDLE;X=5;Y=2]Ship[X=0.0;Y=0.0;orientation=0.0]Sailor0 {Dest=rudder[Side=RIGHT;X=10;Y=4];Poste=null;[X=5;Y=0]}Sai
+lor1 {Dest=sail[Side=MIDDLE;X=5;Y=2];Poste=null;[X=5;Y=1]}Sailor2 {Dest=null;Poste=oar[Side=LEFT;X=1;Y=0];[X=1;Y=0]}Sailor3 {Dest=null;Poste=oar[Side=RIGHT;X=1;Y=4];[X=1;Y=4]}Sailor4 {Dest=oar[Side=LE
+FT;X=2;Y=0];Poste=null;[X=2;Y=1]}Sailor5 {Dest=null;Poste=oar[Side=RIGHT;X=2;Y=4];[X=2;Y=4]}Sailor6 {Dest=null;Poste=oar[Side=LEFT;X=3;Y=0];[X=3;Y=0]}Sailor7 {Dest=null;Poste=oar[Side=RIGHT;X=3;Y=4];[
+X=3;Y=4]}Sailor8 {Dest=oar[Side=LEFT;X=4;Y=0];Poste=null;[X=4;Y=1]}Sailor9 {Dest=null;Poste=oar[Side=RIGHT;X=4;Y=4];[X=4;Y=4]}Sailor10 {Dest=null;Poste=oar[Side=LEFT;X=5;Y=0];[X=5;Y=0]}Sailor11 {Dest=
+oar[Side=RIGHT;X=5;Y=4];Poste=null;[X=5;Y=3]}Sailor12 {Dest=oar[Side=LEFT;X=6;Y=0];Poste=null;[X=6;Y=1]}Sailor13 {Dest=null;Poste=oar[Side=RIGHT;X=6;Y=4];[X=6;Y=4]}Sailor14 {Dest=oar[Side=LEFT;X=7;Y=0
+];Poste=null;[X=7;Y=4]}Sailor15 {Dest=oar[Side=RIGHT;X=7;Y=4];Poste=null;[X=7;Y=1]}Sailor16 {Dest=oar[Side=LEFT;X=8;Y=0];Poste=null;[X=8;Y=1]}Sailor17 {Dest=oar[Side=RIGHT;X=8;Y=4];Poste=null;[X=8;Y=2
+]}Sailor18 {Dest=oar[Side=LEFT;X=9;Y=0];Poste=null;[X=8;Y=3]}Sailor19 {Dest=oar[Side=RIGHT;X=9;Y=4];Poste=null;[X=8;Y=4]}
