@@ -1,0 +1,2757 @@
+2020-03-02 19:48:55,606 [INFO ] Game creation...
+2020-03-02 19:48:55,622 [INFO ] 1 players created!
+2020-03-02 19:48:55,635 [INFO ] Starting game
+2020-03-02 19:48:55,651 [INFO ] ********************************************
+2020-03-02 19:48:55,651 [INFO ] 1497018177 - initGame
+2020-03-02 19:48:55,651 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":1500.0,"y":300.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":300.0,"y":1500.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":0.0,"y":0.0,"orientation":0.0},"shape":{"type":"circle","radius":70.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Tom Pouce"},{"x":0,"y":1,"id":1,"name":"Edward Pouce"},{"x":0,"y":2,"id":2,"name":"Tom Teach"},{"x":0,"y":3,"id":3,"name":"Tom Teach"},{"x":0,"y":4,"id":4,"name":"Luffy Teach"},{"x":1,"y":0,"id":5,"name":"Jack Teach"},{"x":1,"y":1,"id":6,"name":"Edward Pouce"},{"x":1,"y":2,"id":7,"name":"Edward Teach"},{"x":1,"y":3,"id":8,"name":"Jack Pouce"},{"x":1,"y":4,"id":9,"name":"Edward Teach"},{"x":2,"y":0,"id":10,"name":"Luffy Pouce"},{"x":2,"y":1,"id":11,"name":"Edward Teach"},{"x":2,"y":2,"id":12,"name":"Luffy Pouce"},{"x":2,"y":3,"id":13,"name":"Tom Teach"},{"x":2,"y":4,"id":14,"name":"Jack Teach"},{"x":3,"y":0,"id":15,"name":"Luffy Teach"},{"x":3,"y":1,"id":16,"name":"Tom Pouce"},{"x":3,"y":2,"id":17,"name":"Luffy Pouce"},{"x":3,"y":3,"id":18,"name":"Edward Teach"},{"x":3,"y":4,"id":19,"name":"Edward Pouce"}],"shipCount":1}
+2020-03-02 19:48:55,698 [INFO ] Starting round 0
+2020-03-02 19:48:55,705 [INFO ] ********************************************
+2020-03-02 19:48:55,705 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,705 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : 0.19739555984988089
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.17453292519943295
+Différence d'angle qui manque : 0.02286263465044794
+Différence de rames à faire :1
+Angle du gouvernail à faire : 0.0
+Le marin 17va vers Sf5,2.,
+Le marin fait LIS17
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 8
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : M0,1,4
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M1,2,3
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : M2,1,-2
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : M3,3,1
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : M4,2,-3
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : M5,1,0
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M6,3,2
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M7,3,2
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : M8,2,-3
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : M9,4,0
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : M10,2,0
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M11,4,1
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M12,4,1
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M13,4,1
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : M14,3,-2
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : M15,2,0
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M16,4,1
+Marin qui effectue ces actions : 18
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M18,4,1
+Action effectuée : O18
+Marin qui effectue ces actions : 19
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : M19,3,-2
+2020-03-02 19:48:55,746 [INFO ] Player response:[{"sailorId":17,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":17,"type":"LIFT_SAIL"},{"sailorId":0,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":3},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":-2},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":3,"ydistance":1},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":5,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":7,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"MOVING","xdistance":2,"ydistance":-3},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":12,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":13,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":3,"ydistance":-2},{"sailorId":15,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":18,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"MOVING","xdistance":3,"ydistance":-2}]
+2020-03-02 19:48:55,806 [INFO ] Starting round 1
+2020-03-02 19:48:55,807 [INFO ] ********************************************
+2020-03-02 19:48:55,807 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,807 [INFO ] {"ship":{"type":"ship","position":{"x":111.04154625038515,"y":19.373934557288475,"orientation":0.3490658503988663},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.1497089012539784
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: -0.17453292519943295
+Différence d'angle qui manque : 0.02482402394545455
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.1497089012539784
+Le marin 18va vers R10,4.,
+Le marin fait R18-0.15
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : M1,0,-4
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M2,1,4
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : M3,0,-4
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : M4,1,3
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : M5,-1,0
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M6,0,1
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : M7,0,-4
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : M8,2,3
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : M10,1,0
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M11,0,2
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : M12,0,-3
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M13,1,0
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : M14,2,-2
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M15,3,2
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M16,1,2
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : M17,3,-2
+Action effectuée : O17
+Marin qui effectue ces actions : 19
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : M19,3,2
+Action effectuée : O19
+2020-03-02 19:48:55,820 [INFO ] Player response:[{"sailorId":18,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":18,"type":"TURN","rotation":-0.1497089012539784},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"MOVING","xdistance":1,"ydistance":3},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"MOVING","xdistance":2,"ydistance":3},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":-3},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":2,"ydistance":-2},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":16,"type":"MOVING","xdistance":1,"ydistance":2},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"MOVING","xdistance":3,"ydistance":-2},{"sailorId":17,"type":"OAR"},{"sailorId":19,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":19,"type":"OAR"}]
+2020-03-02 19:48:55,836 [INFO ] Starting round 2
+2020-03-02 19:48:55,836 [INFO ] ********************************************
+2020-03-02 19:48:55,836 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,836 [INFO ] {"ship":{"type":"ship","position":{"x":277.3471771190711,"y":75.5770405660927,"orientation":0.37388987434431853},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.19235650366912166
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: -0.17453292519943295
+Différence d'angle qui manque : -0.01782357846968871
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.19235650366912166
+Le marin 18va vers R10,4.,
+Le marin fait R18-0.19
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : M8,0,1
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : M9,0,-4
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M10,1,4
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : M11,0,-4
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M12,1,4
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : M13,0,-4
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M14,1,4
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : M15,0,-2
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : M16,1,0
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : M17,1,0
+Action effectuée : O17
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,848 [INFO ] Player response:[{"sailorId":18,"type":"TURN","rotation":-0.19235650366912166},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":17,"type":"OAR"},{"sailorId":19,"type":"MOVING","xdistance":-4,"ydistance":-1}]
+2020-03-02 19:48:55,859 [INFO ] Starting round 3
+2020-03-02 19:48:55,860 [INFO ] ********************************************
+2020-03-02 19:48:55,860 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,860 [INFO ] {"ship":{"type":"ship","position":{"x":478.8342211018452,"y":121.77852655855405,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.008746236168929666
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.008746236168929666
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,870 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":-1}]
+2020-03-02 19:48:55,878 [INFO ] Starting round 4
+2020-03-02 19:48:55,880 [INFO ] ********************************************
+2020-03-02 19:48:55,880 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,880 [INFO ] {"ship":{"type":"ship","position":{"x":684.3734283142275,"y":152.1639296441542,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.0022254696756109915
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0022254696756109915
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,889 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:55,899 [INFO ] Starting round 5
+2020-03-02 19:48:55,900 [INFO ] ********************************************
+2020-03-02 19:48:55,900 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,900 [INFO ] {"ship":{"type":"ship","position":{"x":852.3126355266119,"y":182.54933272975435,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.0021442242497453634
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0021442242497453634
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,908 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:55,916 [INFO ] Starting round 6
+2020-03-02 19:48:55,917 [INFO ] ********************************************
+2020-03-02 19:48:55,917 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,917 [INFO ] {"ship":{"type":"ship","position":{"x":1017.8518427389964,"y":212.93473581535451,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.002880800970462616
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.002880800970462616
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,926 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:55,934 [INFO ] Starting round 7
+2020-03-02 19:48:55,935 [INFO ] ********************************************
+2020-03-02 19:48:55,935 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,935 [INFO ] {"ship":{"type":"ship","position":{"x":1183.391049951392,"y":243.32013890095467,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.004388226780865256
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.004388226780865256
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,943 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:55,953 [INFO ] Starting round 8
+2020-03-02 19:48:55,953 [INFO ] ********************************************
+2020-03-02 19:48:55,953 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,953 [INFO ] {"ship":{"type":"ship","position":{"x":1348.930257163788,"y":273.70554198655316,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint1500.0,300.0,0.0
+Angle optimal : -0.009204681329159303
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.009204681329159303
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,961 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:55,969 [INFO ] Starting round 9
+2020-03-02 19:48:55,970 [INFO ] ********************************************
+2020-03-02 19:48:55,970 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,970 [INFO ] {"ship":{"type":"ship","position":{"x":1514.4694643761839,"y":304.0909450721505,"orientation":0.18153337067519637},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 2.182361172307498
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 1.5707963267948966
+Différence d'angle qui manque : 0.6115648455126013
+Différence de rames à faire :9
+Angle du gouvernail à faire : 0.6115648455126013
+Le marin 18va vers R10,4.,
+Le marin fait R180.61
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 0
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M1,0,4
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : M2,1,0
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M3,1,4
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : M4,2,0
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M5,5,0
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M6,2,0
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M7,3,2
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M8,2,0
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M9,3,2
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M10,2,0
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : M11,3,2
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : M12,2,0
+Action effectuée : O12
+Le marin 13va vers O7,0.,
+Le marin 14va vers O8,0.,
+Le marin 15va vers O9,0.,
+Le marin 16va vers St5,2.,
+Le marin 17va vers O6,0.,
+Le marin 19va vers St5,2.,
+2020-03-02 19:48:55,978 [INFO ] Player response:[{"sailorId":18,"type":"TURN","rotation":0.6115648455126013},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":8,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":10,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":12,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":12,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":15,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":-4,"ydistance":-1},{"sailorId":17,"type":"MOVING","xdistance":-3,"ydistance":0}]
+2020-03-02 19:48:55,986 [INFO ] Starting round 10
+2020-03-02 19:48:55,987 [INFO ] ********************************************
+2020-03-02 19:48:55,987 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:55,987 [INFO ] {"ship":{"type":"ship","position":{"x":1536.0338849586199,"y":368.35642611054544,"orientation":2.3638945429826927},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.036361163303432864
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.036361163303432864
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.036361163303432864
+Le marin 19va vers St5,2.,
+Le marin fait LOS19
+Le marin 18va vers R10,4.,
+Le marin fait R180.04
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 2
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : M1,0,-4
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : M3,0,-4
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : M7,0,-2
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : M9,0,-2
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : M11,0,-2
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : M13,-2,0
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M14,-4,1
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M15,-5,0
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M16,-1,1
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : M17,-3,0
+Action effectuée : O17
+2020-03-02 19:48:55,996 [INFO ] Player response:[{"sailorId":19,"type":"LOWER_SAIL"},{"sailorId":18,"type":"TURN","rotation":0.036361163303432864},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"MOVING","xdistance":-2,"ydistance":0},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":-4,"ydistance":1},{"sailorId":15,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":-1,"ydistance":1},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,006 [INFO ] Starting round 11
+2020-03-02 19:48:56,007 [INFO ] ********************************************
+2020-03-02 19:48:56,007 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,007 [INFO ] {"ship":{"type":"ship","position":{"x":1429.7000858842173,"y":469.3607061137971,"orientation":2.400255706286104},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.0017609598659968917
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0017609598659968917
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M14,0,3
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : M15,-1,0
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M16,-2,0
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : M17,-2,0
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,019 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":3},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"MOVING","xdistance":-2,"ydistance":0},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"MOVING","xdistance":-2,"ydistance":0},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,030 [INFO ] Starting round 12
+2020-03-02 19:48:56,030 [INFO ] ********************************************
+2020-03-02 19:48:56,030 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,030 [INFO ] {"ship":{"type":"ship","position":{"x":1308.0016279680356,"y":580.7810154870243,"orientation":2.400255706286104},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.001973948450573193
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.001973948450573193
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,039 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,048 [INFO ] Starting round 13
+2020-03-02 19:48:56,048 [INFO ] ********************************************
+2020-03-02 19:48:56,048 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,048 [INFO ] {"ship":{"type":"ship","position":{"x":1211.9906177703094,"y":677.4936727800762,"orientation":2.400255706286104},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.0074840038070638215
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0074840038070638215
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,057 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,066 [INFO ] Starting round 14
+2020-03-02 19:48:56,068 [INFO ] ********************************************
+2020-03-02 19:48:56,068 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,068 [INFO ] {"ship":{"type":"ship","position":{"x":1145.138332009749,"y":757.5111574415777,"orientation":2.400255706286104},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.020504830040350974
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.020504830040350974
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.020504830040350974
+Le marin 18va vers R10,4.,
+Le marin fait R180.02
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,080 [INFO ] Player response:[{"sailorId":18,"type":"TURN","rotation":0.020504830040350974},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,090 [INFO ] Starting round 15
+2020-03-02 19:48:56,092 [INFO ] ********************************************
+2020-03-02 19:48:56,092 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,092 [INFO ] {"ship":{"type":"ship","position":{"x":1022.3174096516852,"y":867.6885927373052,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.0017797315924270585
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0017797315924270585
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,101 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,108 [INFO ] Starting round 16
+2020-03-02 19:48:56,108 [INFO ] ********************************************
+2020-03-02 19:48:56,108 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,108 [INFO ] {"ship":{"type":"ship","position":{"x":898.3600403654175,"y":976.5902483703927,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : 0.002149119088805218
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.002149119088805218
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,116 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,125 [INFO ] Starting round 17
+2020-03-02 19:48:56,125 [INFO ] ********************************************
+2020-03-02 19:48:56,125 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,125 [INFO ] {"ship":{"type":"ship","position":{"x":771.278690996998,"y":1084.798543746234,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : -0.0013919136079065808
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0013919136079065808
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,133 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,141 [INFO ] Starting round 18
+2020-03-02 19:48:56,141 [INFO ] ********************************************
+2020-03-02 19:48:56,141 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,141 [INFO ] {"ship":{"type":"ship","position":{"x":647.3213217107302,"y":1193.70019937931,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : -0.0018878562937789667
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0018878562937789667
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,149 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,157 [INFO ] Starting round 19
+2020-03-02 19:48:56,157 [INFO ] ********************************************
+2020-03-02 19:48:56,157 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,157 [INFO ] {"ship":{"type":"ship","position":{"x":523.3639524244625,"y":1302.6018550123863,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : -0.002932830977887324
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.002932830977887324
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,162 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,169 [INFO ] Starting round 20
+2020-03-02 19:48:56,169 [INFO ] ********************************************
+2020-03-02 19:48:56,169 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,169 [INFO ] {"ship":{"type":"ship","position":{"x":399.40658313818955,"y":1411.5035106454625,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint300.0,1500.0,0.0
+Angle optimal : -0.006568812391907652
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.006568812391907652
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,174 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,180 [INFO ] Starting round 21
+2020-03-02 19:48:56,180 [INFO ] ********************************************
+2020-03-02 19:48:56,180 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,180 [INFO ] {"ship":{"type":"ship","position":{"x":275.4492138519161,"y":1520.4051662785387,"orientation":2.4207605363264504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 2.112404105532193
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 1.5707963267948966
+Différence d'angle qui manque : 0.5416077787372964
+Différence de rames à faire :9
+Angle du gouvernail à faire : 0.5416077787372964
+Le marin 18va vers R10,4.,
+Le marin fait R180.54
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 0
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M1,0,4
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M3,0,4
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M5,0,4
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : M6,1,0
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M7,1,4
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : M8,2,0
+Action effectuée : O8
+Le marin 9va vers O8,0.,
+Le marin 10va vers O7,0.,
+Le marin 11va vers O9,0.,
+Le marin 12va vers Sf5,2.,
+Le marin 13va vers O5,0.,
+Le marin 14va vers Sf5,2.,
+Le marin 15va vers O3,0.,
+Le marin 16va vers O2,0.,
+Le marin 17va vers O1,0.,
+Le marin 19va vers O4,0.,
+2020-03-02 19:48:56,185 [INFO ] Player response:[{"sailorId":18,"type":"TURN","rotation":0.5416077787372964},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":8,"type":"OAR"},{"sailorId":10,"type":"MOVING","xdistance":-1,"ydistance":-4},{"sailorId":12,"type":"MOVING","xdistance":-4,"ydistance":-1},{"sailorId":14,"type":"MOVING","xdistance":1,"ydistance":-2},{"sailorId":16,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":19,"type":"MOVING","xdistance":-1,"ydistance":-2}]
+2020-03-02 19:48:56,191 [INFO ] Starting round 22
+2020-03-02 19:48:56,191 [INFO ] ********************************************
+2020-03-02 19:48:56,191 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,191 [INFO ] {"ship":{"type":"ship","position":{"x":211.00907882209557,"y":1498.7059897883858,"orientation":4.533164641858635},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.03934956986590121
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.03934956986590121
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.03934956986590121
+Le marin 18va vers R10,4.,
+Le marin fait R180.04
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 1
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : M1,0,-4
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : M3,0,-4
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : M5,0,-4
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : M7,0,-4
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : M9,-1,0
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : M10,-1,4
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : M12,-1,1
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : M14,-3,2
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M16,5,0
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M17,5,0
+Marin qui effectue ces actions : 19
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M19,4,1
+2020-03-02 19:48:56,196 [INFO ] Player response:[{"sailorId":18,"type":"TURN","rotation":0.03934956986590121},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"MOVING","xdistance":-1,"ydistance":4},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"MOVING","xdistance":-1,"ydistance":1},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"MOVING","xdistance":-3,"ydistance":2},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":4,"ydistance":1}]
+2020-03-02 19:48:56,203 [INFO ] Starting round 23
+2020-03-02 19:48:56,203 [INFO ] ********************************************
+2020-03-02 19:48:56,203 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,203 [INFO ] {"ship":{"type":"ship","position":{"x":187.68064810947175,"y":1353.9160722445283,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.0021319730438922324
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0021319730438922324
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : M16,1,4
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : M17,-5,0
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,208 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"MOVING","xdistance":1,"ydistance":4},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":17,"type":"OAR"},{"sailorId":19,"type":"MOVING","xdistance":-3,"ydistance":1}]
+2020-03-02 19:48:56,214 [INFO ] Starting round 24
+2020-03-02 19:48:56,214 [INFO ] ********************************************
+2020-03-02 19:48:56,214 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,214 [INFO ] {"ship":{"type":"ship","position":{"x":164.67649537619303,"y":1190.527550747374,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.0024246648261707637
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0024246648261707637
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,219 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,225 [INFO ] Starting round 25
+2020-03-02 19:48:56,225 [INFO ] ********************************************
+2020-03-02 19:48:56,225 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,225 [INFO ] {"ship":{"type":"ship","position":{"x":141.67234264291432,"y":1027.13902925022,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.0028105106403435443
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0028105106403435443
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,229 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,235 [INFO ] Starting round 26
+2020-03-02 19:48:56,235 [INFO ] ********************************************
+2020-03-02 19:48:56,236 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,236 [INFO ] {"ship":{"type":"ship","position":{"x":118.66818990963618,"y":863.7505077530769,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.0033423982599058988
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0033423982599058988
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,240 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,246 [INFO ] Starting round 27
+2020-03-02 19:48:56,246 [INFO ] ********************************************
+2020-03-02 19:48:56,246 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,246 [INFO ] {"ship":{"type":"ship","position":{"x":95.66403717635889,"y":700.3619862559341,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.004122596177428717
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.004122596177428717
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,250 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,256 [INFO ] Starting round 28
+2020-03-02 19:48:56,257 [INFO ] ********************************************
+2020-03-02 19:48:56,257 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,257 [INFO ] {"ship":{"type":"ship","position":{"x":72.6598844430816,"y":536.9734647587912,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.005377934780821603
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.005377934780821603
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,261 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,267 [INFO ] Starting round 29
+2020-03-02 19:48:56,267 [INFO ] ********************************************
+2020-03-02 19:48:56,267 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,267 [INFO ] {"ship":{"type":"ship","position":{"x":49.65573170980385,"y":373.58494326164356,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.007732472399792467
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.007732472399792467
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,271 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,277 [INFO ] Starting round 30
+2020-03-02 19:48:56,277 [INFO ] ********************************************
+2020-03-02 19:48:56,277 [INFO ] 1497018177 - nextRound
+2020-03-02 19:48:56,277 [INFO ] {"ship":{"type":"ship","position":{"x":26.651578976525848,"y":210.19642176449503,"orientation":4.572514211724522},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+Next reef null
+Current checkpoint0.0,0.0,0.0
+Angle optimal : 0.013754075037027302
+Angles possibles :[-1.5707963267948966, -1.3962634015954636, -1.2217304763960306, -1.0471975511965976, -0.8726646259971648, -0.6981317007977318, -0.5235987755982988, -0.3490658503988659, -0.17453292519943295, 0.0, 0.17453292519943295, 0.3490658503988659, 0.5235987755982988, 0.6981317007977318, 0.8726646259971648, 1.0471975511965976, 1.2217304763960306, 1.3962634015954636, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.013754075037027302
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+nb de rames à droite à activer : 9
+nb de rames à gauche à activer : 9
+nb de marins affectés : 0
+Marin qui effectue ces actions : 0
+Rame la plus proche du marin : O1,4.,
+Mouvement effectué : null
+Action effectuée : O0
+Marin qui effectue ces actions : 1
+Rame la plus proche du marin : O2,0.,
+Mouvement effectué : null
+Action effectuée : O1
+Marin qui effectue ces actions : 2
+Rame la plus proche du marin : O3,4.,
+Mouvement effectué : null
+Action effectuée : O2
+Marin qui effectue ces actions : 3
+Rame la plus proche du marin : O4,0.,
+Mouvement effectué : null
+Action effectuée : O3
+Marin qui effectue ces actions : 4
+Rame la plus proche du marin : O5,4.,
+Mouvement effectué : null
+Action effectuée : O4
+Marin qui effectue ces actions : 5
+Rame la plus proche du marin : O6,0.,
+Mouvement effectué : null
+Action effectuée : O5
+Marin qui effectue ces actions : 6
+Rame la plus proche du marin : O7,4.,
+Mouvement effectué : null
+Action effectuée : O6
+Marin qui effectue ces actions : 7
+Rame la plus proche du marin : O8,0.,
+Mouvement effectué : null
+Action effectuée : O7
+Marin qui effectue ces actions : 8
+Rame la plus proche du marin : O9,4.,
+Mouvement effectué : null
+Action effectuée : O8
+Marin qui effectue ces actions : 9
+Rame la plus proche du marin : O7,0.,
+Mouvement effectué : null
+Action effectuée : O9
+Marin qui effectue ces actions : 10
+Rame la plus proche du marin : O6,4.,
+Mouvement effectué : null
+Action effectuée : O10
+Marin qui effectue ces actions : 11
+Rame la plus proche du marin : O9,0.,
+Mouvement effectué : null
+Action effectuée : O11
+Marin qui effectue ces actions : 12
+Rame la plus proche du marin : O4,4.,
+Mouvement effectué : null
+Action effectuée : O12
+Marin qui effectue ces actions : 13
+Rame la plus proche du marin : O5,0.,
+Mouvement effectué : null
+Action effectuée : O13
+Marin qui effectue ces actions : 14
+Rame la plus proche du marin : O2,4.,
+Mouvement effectué : null
+Action effectuée : O14
+Marin qui effectue ces actions : 15
+Rame la plus proche du marin : O3,0.,
+Mouvement effectué : null
+Action effectuée : O15
+Marin qui effectue ces actions : 16
+Rame la plus proche du marin : O8,4.,
+Mouvement effectué : null
+Action effectuée : O16
+Marin qui effectue ces actions : 17
+Rame la plus proche du marin : O1,0.,
+Mouvement effectué : null
+Action effectuée : O17
+Le marin 18va vers R10,4.,
+Le marin 19va vers Sf5,2.,
+2020-03-02 19:48:56,282 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-03-02 19:48:56,288 [INFO ] Game over
+2020-03-02 19:48:56,288 [INFO ] Creating team's logs files
+2020-03-02 19:48:56,290 [INFO ] Game scores: {flibustiers=370}

@@ -1,0 +1,100 @@
+La position du bateau au début du tour. x = 0.0 y = 0.0 Orientation : 0.0
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 707.1067811865476 noeuds.
+Le navigateur décide de faire une rotation de 0.7854 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+capitaine badCap : speed : 178.33333333333334 rotation : 0.7854
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":0,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":5,"ydistance":0},{"sai
+lorId":12,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":6,"type":"MOVIN
+G","xdistance":5,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":5,"ydistance":0}]
+La position du bateau au début du tour. x = 0.0 y = 0.0 Orientation : 0.0
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 707.1067811865476 noeuds.
+Le navigateur décide de faire une rotation de 0.7854 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+capitaine badCap : speed : 178.33333333333334 rotation : 0.7854
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":2,"type":"MOVING","xdistance":5,"ydistance":0}]
+La position du bateau au début du tour. x = 0.0 y = 0.0 Orientation : 0.0
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 707.1067811865476 noeuds.
+Le navigateur décide de faire une rotation de 0.7854 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser les rames et affiner avec le gouvernail.
+capitaine badCap : speed : 178.33333333333334 rotation : 0.7854
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":19,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId
+":4,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"LIFT_SAIL"},{"sailorId":17,"type":"OAR"},{"sai
+lorId":13,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":2,"type":"TURN","rotation":0.0872682992022682},{"sailorId":0,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":18,"type":"MOVING"
+,"xdistance":1,"ydistance":1},{"sailorId":4,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":1,"ydistance":1},{"sailorId":12,"type":"MOVING","xdistance":2,"ydista
+nce":-2},{"sailorId":3,"type":"MOVING","xdistance":3,"ydistance":1},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":17,"type":"MOVING","xdistance":3,"ydistance":-2},{"sailorId":
+13,"type":"MOVING","xdistance":3,"ydistance":1},{"sailorId":7,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2}]
+La position du bateau au début du tour. x = 156.76801294294796 y = 63.19479588999406 Orientation : 0.7854000000000019
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 555.5240618341534 noeuds.
+Le navigateur décide de faire une rotation de 0.1194 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+capitaine badCap : speed : 200.35527412556175 rotation : 0.1194
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":19,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId
+":4,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"LIFT_SAIL"},{"sailorId":17,"type":"OAR"},{"sai
+lorId":6,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":2,"type":"TURN","rotation":0.1194},{"sailorId":11,"
+type":"OAR"},{"sailorId":6,"type":"MOVING","xdistance":2,"ydistance":-1},{"sailorId":16,"type":"MOVING","xdistance":1,"ydistance":-1},{"sailorId":11,"type":"MOVING","xdistance":3,"ydistance":-1}]
+La position du bateau au début du tour. x = 288.33856181389507 y = 211.24892227035645 Orientation : 0.9048000000000047
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 358.019202425011 noeuds.
+Le navigateur décide de faire une rotation de 0.0334 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+capitaine badCap : speed : 195.89214263048143 rotation : 0.0334
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":19,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId
+":4,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"LIFT_SAIL"},{"sailorId":17,"type":"OAR"},{"sai
+lorId":6,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":2,"type":"TURN","rotation":0.0334},{"sailorId":11,"
+type":"OAR"}]
+La position du bateau au début du tour. x = 406.40709798807484 y = 366.7274987259807 Orientation : 0.9382000000000104
+Le prochain checkPoint est en x: 500.0 et en y: 500.0 .
+Le capitaine à décidé d'aller en x: 500.0 et en y: 500.0 .
+Le navigateur décide d'aller à une vitesse de 162.8532802950168 noeuds.
+Le navigateur décide de faire une rotation de 0.0204 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+capitaine badCap : speed : 146.66666666666666 rotation : 0.0204
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":19,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId
+":4,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId"
+:13,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":2,"type":"TURN","rotation":0.0204}]
+La position du bateau au début du tour. x = 515.2849152063461 y = 515.9281926170866 Orientation : 0.9586000000000086
+Collision checkPoint [500.0;500.0]
+Le prochain checkPoint est en x: 1000.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 515.2849152063461 et en y: 515.9281926170866 .
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+Chef : C'est bon on envoi la ship config au boatswain !!
+Liste d'actions :[{"sailorId":2,"type":"TURN","rotation":-0.1732}]
+La position du bateau au début du tour. x = 642.0215321137773 y = 646.4897649476671 Orientation : 0.785400000000013
+Le prochain checkPoint est en x: 1000.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 1000.0 et en y: 1000.0 .
+Le navigateur décide d'aller à une vitesse de 503.1084075593679 noeuds.
+Le navigateur décide de faire une rotation de -0.0063 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+capitaine badCap : speed : 200.35527412556135 rotation : -0.0063
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
+Liste d'actions :[{"sailorId":19,"type":"OAR"},{"sailorId":0,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId
+":4,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":1,"type":"LIFT_SAIL"},{"sailorId":17,"type":"OAR"},{"sai
+lorId":6,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":2,"type":"TURN","rotation":-0.0063},{"sailorId":11,
+"type":"OAR"}]
+La position du bateau au début du tour. x = 890.2788678275693 y = 893.8633623153476 Orientation : 0.7791000000000095
+Le prochain checkPoint est en x: 1000.0 et en y: 1000.0 .
+Le capitaine à décidé d'aller en x: 890.2788678275693 et en y: 893.8633623153476 .
+Le cap ne convient pas, le navigateur nous demande de recalculer

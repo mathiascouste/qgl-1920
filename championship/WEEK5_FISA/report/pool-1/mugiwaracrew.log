@@ -1,0 +1,100 @@
+[CP: C[(50.0) Pos(500.0;500.0;0.0)] C[(50.0) Pos(1000.0;1000.0;0.0)] C[(60.0) Pos(1500.0;1500.0;0.0)]]
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+[Sailors: 0(0;0) 1(0;1) 2(0;2) 3(0;3) 4(0;4) 5(1;0) 6(1;1) 7(1;2) 8(1;3) 9(1;4) 10(2;0) 11(2;1) 12(2;2) 13(2;3) 14(2;4) 15(3;0) 16(3;1) 17(3;2) 18(3;3) 19(3;4)]
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+Reef -> pos x: 1500.0 , pos y: 500.0
+Reef -> pos x: 500.0 , pos y: 1500.0
+Round 2
+NextRound : {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x"
+[{"sailorId":19,"type":"MOVING","x":2,"y":-2},{"sailorId":19,"type":"LIFT_SAIL"},{"sailorId":18,"type":"MOVING","x":0,"y":1},{"sailorId":13,"type":"MOVING","x":2,"y":1},{"sailorId":17,"type":"MOVING",
+Next checkpoint: {"x":500.0,"y":500.0,"orientation":0.0} destination : {"x":500.0,"y":500.0,"orientation":0.0}
+Distance max: 707.1067811865476 | distance to do: 209.94236110276097
+angleToReach: 0.7853981633974484 | nbSailOpened: 1.0
+distanceWithWind: 44.94236110276102 | distanceWithOar: 44.94236110276102
+nbOarUsedStarboard: 3 | nbOarUsedPort: 3
+sailor n°5 is actually using {"type":"oar","x":1,"y":0,"type":"oar","used":true}
+sailor n°9 is actually using {"type":"oar","x":1,"y":4,"type":"oar","used":true}
+sailor n°10 is actually using {"type":"oar","x":2,"y":0,"type":"oar","used":true}
+sailor n°13 is actually using {"type":"oar","x":4,"y":4,"type":"oar","used":true}
+sailor n°14 is actually using {"type":"oar","x":2,"y":4,"type":"oar","used":true}
+sailor n°15 is actually using {"type":"oar","x":3,"y":0,"type":"oar","used":true}
+sailor n°17 is actually using {"type":"oar","x":5,"y":4,"type":"oar","used":false}
+sailor n°18 is actually using {"type":"oar","x":3,"y":4,"type":"oar","used":false}
+sailor n°19 is actually using {"type":"sail","x":5,"y":2,"type":"sail","openned":true}
+Boat position: {"x":0.0,"y":0.0,"orientation":0.0}
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+Reef -> pos x: 1500.0 , pos y: 500.0
+Reef -> pos x: 500.0 , pos y: 1500.0
+Round 3
+NextRound : {"ship":{"type":"ship","position":{"x":45.604463607962785,"y":-3.949774601094591,"orientation":-0.17453292519943314},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":
+[{"sailorId":18,"type":"LIFT_SAIL"},{"sailorId":19,"type":"MOVING","x":2,"y":-2},{"sailorId":5,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sai
+Next checkpoint: {"x":500.0,"y":500.0,"orientation":0.0} destination : {"x":500.0,"y":500.0,"orientation":0.0}
+Distance max: 707.1067811865476 | distance to do: 210.2120500932923
+angleToReach: 1.0115932018989866 | nbSailOpened: 1.0
+distanceWithWind: 45.21205009329237 | distanceWithOar: 45.21205009329237
+nbOarUsedStarboard: 4 | nbOarUsedPort: 4
+sailor n°5 is actually using {"type":"oar","x":1,"y":0,"type":"oar","used":true}
+sailor n°9 is actually using {"type":"oar","x":1,"y":4,"type":"oar","used":true}
+sailor n°10 is actually using {"type":"oar","x":2,"y":0,"type":"oar","used":true}
+sailor n°13 is actually using {"type":"oar","x":4,"y":4,"type":"oar","used":true}
+sailor n°14 is actually using {"type":"oar","x":2,"y":4,"type":"oar","used":true}
+sailor n°15 is actually using {"type":"oar","x":3,"y":0,"type":"oar","used":true}
+sailor n°17 is actually using {"type":"oar","x":5,"y":4,"type":"oar","used":true}
+sailor n°18 is actually using {"type":"oar","x":3,"y":4,"type":"oar","used":false}
+sailor n°19 is actually using {"type":"oar","x":7,"y":0,"type":"oar","used":true}
+Boat position: {"x":45.604463607962785,"y":-3.949774601094591,"orientation":-0.17453292519943314}
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+Reef -> pos x: 1500.0 , pos y: 500.0
+Reef -> pos x: 500.0 , pos y: 1500.0
+Round 4
+NextRound : {"ship":{"type":"ship","position":{"x":99.76889002363437,"y":-13.500424372775798,"orientation":-0.17453292519943314},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":
+[{"sailorId":18,"type":"MOVING","x":2,"y":-2},{"sailorId":18,"type":"LIFT_SAIL"},{"sailorId":13,"type":"MOVING","x":-1,"y":0},{"sailorId":17,"type":"MOVING","x":-1,"y":0},{"sailorId":4,"type":"MOVING"
+Next checkpoint: {"x":500.0,"y":500.0,"orientation":0.0} destination : {"x":500.0,"y":500.0,"orientation":0.0}
+Distance max: 707.1067811865476 | distance to do: 209.3270675923709
+angleToReach: 1.083265351305246 | nbSailOpened: 1.0
+distanceWithWind: 44.32706759237095 | distanceWithOar: 44.32706759237095
+nbOarUsedStarboard: 4 | nbOarUsedPort: 4
+sailor n°4 is actually using {"type":"oar","x":5,"y":4,"type":"oar","used":true}
+sailor n°5 is actually using {"type":"oar","x":1,"y":0,"type":"oar","used":true}
+sailor n°9 is actually using {"type":"oar","x":1,"y":4,"type":"oar","used":true}
+sailor n°10 is actually using {"type":"oar","x":2,"y":0,"type":"oar","used":true}
+sailor n°13 is actually using {"type":"oar","x":3,"y":4,"type":"oar","used":true}
+sailor n°14 is actually using {"type":"oar","x":2,"y":4,"type":"oar","used":true}
+sailor n°15 is actually using {"type":"oar","x":3,"y":0,"type":"oar","used":true}
+sailor n°17 is actually using {"type":"oar","x":4,"y":4,"type":"oar","used":false}
+sailor n°18 is actually using {"type":"sail","x":5,"y":2,"type":"sail","openned":true}
+sailor n°19 is actually using {"type":"oar","x":7,"y":0,"type":"oar","used":true}
+Boat position: {"x":99.76889002363437,"y":-13.500424372775798,"orientation":-0.17453292519943314}
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+Reef -> pos x: 1500.0 , pos y: 500.0
+Reef -> pos x: 500.0 , pos y: 1500.0
+Round 5
+NextRound : {"ship":{"type":"ship","position":{"x":153.9333164393053,"y":-23.051074144457004,"orientation":-0.17453292519943314},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":
+[{"sailorId":13,"type":"LIFT_SAIL"},{"sailorId":19,"type":"MOVING","x":-1,"y":4},{"sailorId":5,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sail
+Next checkpoint: {"x":500.0,"y":500.0,"orientation":0.0} destination : {"x":500.0,"y":500.0,"orientation":0.0}
+Distance max: 707.1067811865476 | distance to do: 208.29293917070888
+angleToReach: 1.1608211482053248 | nbSailOpened: 1.0
+distanceWithWind: 43.29293917070893 | distanceWithOar: 43.29293917070893
+nbOarUsedStarboard: 3 | nbOarUsedPort: 3
+sailor n°4 is actually using {"type":"oar","x":5,"y":4,"type":"oar","used":true}
+sailor n°5 is actually using {"type":"oar","x":1,"y":0,"type":"oar","used":true}
+sailor n°9 is actually using {"type":"oar","x":1,"y":4,"type":"oar","used":true}
+sailor n°10 is actually using {"type":"oar","x":2,"y":0,"type":"oar","used":true}
+sailor n°13 is actually using {"type":"oar","x":3,"y":4,"type":"oar","used":true}
+sailor n°14 is actually using {"type":"oar","x":2,"y":4,"type":"oar","used":false}
+sailor n°15 is actually using {"type":"oar","x":3,"y":0,"type":"oar","used":true}
+sailor n°17 is actually using {"type":"oar","x":4,"y":4,"type":"oar","used":false}
+sailor n°18 is actually using {"type":"sail","x":5,"y":2,"type":"sail","openned":true}
+sailor n°19 is actually using {"type":"oar","x":6,"y":4,"type":"oar","used":false}
+Boat position: {"x":153.9333164393053,"y":-23.051074144457004,"orientation":-0.17453292519943314}
+[Deck(5;11)] [Entities: oar(1;0) oar(2;0) oar(3;0) oar(4;0) oar(5;0) oar(6;0) oar(7;0) oar(8;0) oar(9;0) oar(1;4) oar(2;4) oar(3;4) oar(4;4) oar(5;4) oar(6;4) oar(7;4) oar(8;4) oar(9;4) rudder(10;4) s
+Reef -> pos x: 1500.0 , pos y: 500.0
+Reef -> pos x: 500.0 , pos y: 1500.0
+Round 6
+NextRound : {"ship":{"type":"ship","position":{"x":188.235792164456,"y":-35.46839700871936,"orientation":-0.5235987755982995},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"
+[{"sailorId":13,"type":"LIFT_SAIL"},{"sailorId":18,"type":"MOVING","x":2,"y":-2},{"sailorId":5,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sail
+Next checkpoint: {"x":500.0,"y":500.0,"orientation":0.0} destination : {"x":500.0,"y":500.0,"orientation":0.0}
+Distance max: 707.1067811865476 | distance to do: 208.4331919615978
+angleToReach: 1.5671464332432465 | nbSailOpened: 1.0
+distanceWithWind: 43.43319196159785 | distanceWithOar: 43.43319196159785
+nbOarUsedStarboard: 4 | nbOarUsedPort: 4
