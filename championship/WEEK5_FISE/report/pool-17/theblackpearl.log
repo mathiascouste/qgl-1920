@@ -1,0 +1,68 @@
+Position{x=0.0, y=0.0, orientation=0.0}
+Marin{x=0, y=0, id=0, name='Tom Pouce'}Marin{x=0, y=1, id=1, name='Tom Pouce'}Marin{x=0, y=2, id=2, name='Jack Teach'}Marin{x=0, y=3, id=3, name='Edward Pouce'}Marin{x=0, y=4, id=4, name='Jack Teach'}
+Position{x=140.13998583501348, y=12.136700636769172, orientation=0.17453292519943317}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=299.62602982059735, y=50.65524206132176, orientation=0.38313933905256276}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=473.9434371573669, y=91.99967236753126, orientation=0.21240287352218765}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=653.3899940866974, y=110.5338216857666, orientation=0.050264990740627}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=827.0696090499293, y=130.01120035356556, orientation=0.22942964274505298}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=960.1917402166322, y=174.82368293381145, orientation=0.42196634182452936}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=1092.4180792108948, y=222.37859056608767, orientation=0.26700382979504095}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=1229.7622692061884, y=253.03645455405461, orientation=0.17128458131389776}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=1369.917654562948, y=265.0170109902418, orientation=-0.0024653869877167504}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=1497.5685506702832, y=292.4601091875376, orientation=0.43048706021628236}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=1, y=4, id=2, name='Jack Teach'}Marin{x=2, y=4, id=3, name='Edward Pouce'}Marin{x=3, y=4, id=4, name='Jack Teach'}
+Position{x=1511.717982661905, y=361.8898179252874, orientation=2.3520486135075265}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=5, y=4, id=4, name='Jack Teach'}
+Position{x=1408.3584599940575, y=462.51470116844615, orientation=2.3875090093575553}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=1289.7829739091262, y=573.699290344683, orientation=2.3892105972232764}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=1199.8640479430385, y=668.9606239302004, orientation=2.389313634382348}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=1148.4488452734595, y=741.5597424433387, orientation=2.3959358378537994}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=1034.6706750175092, y=847.7569787338846, orientation=2.41215020469778}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=911.4703570803704, y=957.5142351212858, orientation=2.4155570939605715}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=788.0624978946803, y=1067.0382051808474, orientation=2.4159043773227724}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=664.633027802136, y=1176.537821199403, orientation=2.4159487307727963}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=541.2006941448515, y=1286.034209303241, orientation=2.4159563129372037}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=417.7678350234841, y=1395.530005063243, orientation=2.415958272400773}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=294.33481134005063, y=1505.025615314807, orientation=2.415959309531421}
+Marin{x=1, y=4, id=0, name='Tom Pouce'}Marin{x=2, y=4, id=1, name='Tom Pouce'}Marin{x=3, y=4, id=2, name='Jack Teach'}Marin{x=4, y=4, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=316.03405810081756, y=1566.718826415275, orientation=0.05976481933907516}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=381.94163731628817, y=1522.9175278356317, orientation=-1.2522205680744969}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=392.8463886329836, y=1386.924104144184, orientation=-1.7351146533490736}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=359.07841945227153, y=1235.6254813633604, orientation=-1.8468162947165634}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=319.82619935131305, y=1095.2484928775827, orientation=-1.8400212551411943}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=277.3377410617973, y=936.7147299131909, orientation=-1.8251334269688335}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=238.66642159624013, y=777.1324438657125, orientation=-1.7916185999261536}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=208.81872396501052, y=615.5163663462652, orientation=-1.7144724731347372}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=174.16269639749814, y=464.5377795722291, orientation=-1.8801414120682203}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=128.05577901272943, y=307.1117462819076, orientation=-1.8307893781344065}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'
+Position{x=78.41282372756767, y=160.6589053982218, orientation=-1.9658441996900755}
+Marin{x=1, y=0, id=0, name='Tom Pouce'}Marin{x=2, y=0, id=1, name='Tom Pouce'}Marin{x=3, y=0, id=2, name='Jack Teach'}Marin{x=4, y=0, id=3, name='Edward Pouce'}Marin{x=10, y=4, id=4, name='Jack Teach'

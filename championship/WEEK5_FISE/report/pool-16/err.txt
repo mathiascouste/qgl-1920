@@ -1,0 +1,16 @@
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:79)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:222)
+	at java.base/java.util.Arrays$ArrayList.<init>(Arrays.java:4344)
+	at java.base/java.util.Arrays.asList(Arrays.java:4331)
+	at fr.unice.polytech.si3.qgl.thepiratebay.tools.io.ParserIn$1.<init>(ParserIn.java:80)
+	at fr.unice.polytech.si3.qgl.thepiratebay.tools.io.ParserIn.createSailors(ParserIn.java:80)
+	at fr.unice.polytech.si3.qgl.thepiratebay.tools.io.ParserIn.createBoat(ParserIn.java:49)
+	at fr.unice.polytech.si3.qgl.thepiratebay.tools.io.ParserIn.nextRound(ParserIn.java:96)
+	at fr.unice.polytech.si3.qgl.thepiratebay.Cockpit.nextRound(Cockpit.java:47)
+	... 5 more
