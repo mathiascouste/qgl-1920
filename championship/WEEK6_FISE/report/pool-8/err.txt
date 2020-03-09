@@ -1,0 +1,28 @@
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:79)
+Caused by: java.lang.ThreadDeath
+	at java.base/java.lang.Thread.stop(Thread.java:938)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit.nextRound(Cockpit.java:94)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.lambda$nextRoundForPlayer$5(Game.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.initRound(Game.java:133)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.run(Game.java:50)
+	at fr.unice.polytech.si3.qgl.frigatesengine.App.main(App.java:25)
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:79)
+Caused by: java.lang.ThreadDeath
+	at java.base/java.lang.Thread.stop(Thread.java:938)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit.nextRound(Cockpit.java:94)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.lambda$nextRoundForPlayer$5(Game.java:142)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.initRound(Game.java:133)
+	at fr.unice.polytech.si3.qgl.frigatesengine.game.Game.run(Game.java:50)
+	at fr.unice.polytech.si3.qgl.frigatesengine.App.main(App.java:25)
