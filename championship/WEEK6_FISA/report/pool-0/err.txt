@@ -1,0 +1,12 @@
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:79)
+Caused by: java.lang.ClassCastException: class fr.unice.polytech.si3.qgl.hldp.entities.Watch cannot be cast to class fr.unice.polytech.si3.qgl.hldp.entities.Oar (fr.unice.polytech.si3.qgl.hldp.entities.Watch and fr.unice.polytech.si3.qgl.hldp.entities.Oar are in unnamed module of loader 'app')
+	at fr.unice.polytech.si3.qgl.hldp.boatswain.ABoatswain.executeShipConfiguration(ABoatswain.java:154)
+	at fr.unice.polytech.si3.qgl.hldp.boatswain.ABoatswain.launchBoatswainDecision(ABoatswain.java:81)
+	at fr.unice.polytech.si3.qgl.hldp.boatswain.ABoatswain.getActions(ABoatswain.java:68)
+	at fr.unice.polytech.si3.qgl.hldp.Cockpit.nextRound(Cockpit.java:50)
+	... 5 more

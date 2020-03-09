@@ -1,0 +1,1827 @@
+2020-03-09 19:26:23,630 [INFO ] Game creation...
+2020-03-09 19:26:23,645 [INFO ] 1 players created!
+2020-03-09 19:26:23,658 [INFO ] Starting game
+2020-03-09 19:26:23,671 [INFO ] ********************************************
+2020-03-09 19:26:23,671 [INFO ] 1632413663 - initGame
+2020-03-09 19:26:23,671 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":50.0,"y":1000.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":500.0,"y":-200.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":-500.0,"y":1250.0,"orientation":0.0},"shape":{"type":"circle","radius":60.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Edward Pouce"},{"x":0,"y":1,"id":1,"name":"Jack Pouce"},{"x":0,"y":2,"id":2,"name":"Luffy Pouce"},{"x":1,"y":0,"id":3,"name":"Tom Pouce"}],"shipCount":1}
+2020-03-09 19:26:23,703 [INFO ] Starting round 0
+2020-03-09 19:26:23,707 [INFO ] ********************************************
+2020-03-09 19:26:23,708 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,708 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,735 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 2
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : -0.04995839572194272
+} ]
+2020-03-09 19:26:23,767 [INFO ] Starting round 1
+2020-03-09 19:26:23,768 [INFO ] ********************************************
+2020-03-09 19:26:23,768 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,768 [INFO ] {"ship":{"type":"ship","position":{"x":54.569586665253055,"y":51.124496129766676,"orientation":1.5208379310729547},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,769 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : -2,
+  "ydistance" : 0
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,779 [INFO ] Starting round 2
+2020-03-09 19:26:23,779 [INFO ] ********************************************
+2020-03-09 19:26:23,779 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,779 [INFO ] {"ship":{"type":"ship","position":{"x":111.10547002732552,"y":139.65512148058494,"orientation":0.47364037987635554},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,781 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.12086371904774773
+} ]
+2020-03-09 19:26:23,789 [INFO ] Starting round 3
+2020-03-09 19:26:23,789 [INFO ] ********************************************
+2020-03-09 19:26:23,789 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,789 [INFO ] {"ship":{"type":"ship","position":{"x":136.86009732923785,"y":184.74461020332419,"orientation":1.6417016501206967},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,790 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,796 [INFO ] Starting round 4
+2020-03-09 19:26:23,796 [INFO ] ********************************************
+2020-03-09 19:26:23,796 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,796 [INFO ] {"ship":{"type":"ship","position":{"x":182.3094356435139,"y":279.4459057558735,"orientation":0.5945040989240975},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,797 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.11069351749985312
+} ]
+2020-03-09 19:26:23,802 [INFO ] Starting round 5
+2020-03-09 19:26:23,802 [INFO ] ********************************************
+2020-03-09 19:26:23,802 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,802 [INFO ] {"ship":{"type":"ship","position":{"x":202.70102154284083,"y":327.2579346934144,"orientation":1.752395167620553},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,803 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,807 [INFO ] Starting round 6
+2020-03-09 19:26:23,808 [INFO ] ********************************************
+2020-03-09 19:26:23,808 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,808 [INFO ] {"ship":{"type":"ship","position":{"x":237.4107725747778,"y":426.4003116864931,"orientation":0.7051976164239537},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,809 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.1341946977835211
+} ]
+2020-03-09 19:26:23,813 [INFO ] Starting round 7
+2020-03-09 19:26:23,813 [INFO ] ********************************************
+2020-03-09 19:26:23,813 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,813 [INFO ] {"ship":{"type":"ship","position":{"x":251.78214112436095,"y":476.226328045027,"orientation":1.8865898654040798},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,815 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,818 [INFO ] Starting round 8
+2020-03-09 19:26:23,818 [INFO ] ********************************************
+2020-03-09 19:26:23,818 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,818 [INFO ] {"ship":{"type":"ship","position":{"x":272.91534462837245,"y":579.1212523231218,"orientation":0.8393923142074806},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,819 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.17128603352368477
+} ]
+2020-03-09 19:26:23,822 [INFO ] Starting round 9
+2020-03-09 19:26:23,822 [INFO ] ********************************************
+2020-03-09 19:26:23,822 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,822 [INFO ] {"ship":{"type":"ship","position":{"x":279.52288943582073,"y":630.357413338841,"orientation":2.057875898927759},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,824 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,826 [INFO ] Starting round 10
+2020-03-09 19:26:23,826 [INFO ] ********************************************
+2020-03-09 19:26:23,826 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,826 [INFO ] {"ship":{"type":"ship","position":{"x":282.8084282510253,"y":735.3487604453076,"orientation":1.010678347731161},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,827 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.2343949625000208
+} ]
+2020-03-09 19:26:23,829 [INFO ] Starting round 11
+2020-03-09 19:26:23,831 [INFO ] ********************************************
+2020-03-09 19:26:23,831 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,831 [INFO ] {"ship":{"type":"ship","position":{"x":279.0009083760499,"y":786.5201662353463,"orientation":2.2922708614277827},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,833 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,836 [INFO ] Starting round 12
+2020-03-09 19:26:23,837 [INFO ] ********************************************
+2020-03-09 19:26:23,837 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,837 [INFO ] {"ship":{"type":"ship","position":{"x":257.8118877394712,"y":889.4036106615487,"orientation":1.2450733102311895},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,838 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.16334742669217195
+} ]
+2020-03-09 19:26:23,841 [INFO ] Starting round 13
+2020-03-09 19:26:23,841 [INFO ] ********************************************
+2020-03-09 19:26:23,841 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,841 [INFO ] {"ship":{"type":"ship","position":{"x":230.3123305322802,"y":960.1015001871134,"orientation":2.6525222103339043},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,842 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.25229386277766536
+} ]
+2020-03-09 19:26:23,845 [INFO ] Starting round 14
+2020-03-09 19:26:23,847 [INFO ] ********************************************
+2020-03-09 19:26:23,847 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,847 [INFO ] {"ship":{"type":"ship","position":{"x":204.60390503017052,"y":969.6251524149786,"orientation":2.92382712315454},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,849 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,852 [INFO ] Starting round 15
+2020-03-09 19:26:23,853 [INFO ] ********************************************
+2020-03-09 19:26:23,853 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,853 [INFO ] {"ship":{"type":"ship","position":{"x":126.75949696968861,"y":1040.1533444111583,"orientation":1.8766295719579604},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,855 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : 0.1761277446832692
+} ]
+2020-03-09 19:26:23,858 [INFO ] Starting round 16
+2020-03-09 19:26:23,858 [INFO ] ********************************************
+2020-03-09 19:26:23,858 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,858 [INFO ] {"ship":{"type":"ship","position":{"x":60.07807351890606,"y":1068.3643235114614,"orientation":3.6235536434361224},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,859 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : -0.10472519201539543
+} ]
+2020-03-09 19:26:23,862 [INFO ] Starting round 17
+2020-03-09 19:26:23,862 [INFO ] ********************************************
+2020-03-09 19:26:23,862 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,862 [INFO ] {"ship":{"type":"ship","position":{"x":29.19110564223501,"y":1025.3105483404256,"orientation":4.566026002617339},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,863 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : -0.010392166270957737
+} ]
+2020-03-09 19:26:23,865 [INFO ] Starting round 18
+2020-03-09 19:26:23,865 [INFO ] ********************************************
+2020-03-09 19:26:23,865 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,865 [INFO ] {"ship":{"type":"ship","position":{"x":32.11410790170807,"y":998.2688355469318,"orientation":5.079232611944705},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,866 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,870 [INFO ] Starting round 19
+2020-03-09 19:26:23,870 [INFO ] ********************************************
+2020-03-09 19:26:23,870 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,870 [INFO ] {"ship":{"type":"ship","position":{"x":16.258950348846938,"y":894.429576538064,"orientation":4.0320350607480835},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,871 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.049340038534199104
+} ]
+2020-03-09 19:26:23,873 [INFO ] Starting round 20
+2020-03-09 19:26:23,873 [INFO ] ********************************************
+2020-03-09 19:26:23,873 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,873 [INFO ] {"ship":{"type":"ship","position":{"x":9.088760201728427,"y":842.63765575198,"orientation":5.128572650478845},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,874 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,876 [INFO ] Starting round 21
+2020-03-09 19:26:23,877 [INFO ] ********************************************
+2020-03-09 19:26:23,877 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,877 [INFO ] {"ship":{"type":"ship","position":{"x":-1.625747543243678,"y":738.1427895799054,"orientation":4.081375099282224},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,878 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.07483772759731377
+} ]
+2020-03-09 19:26:23,879 [INFO ] Starting round 22
+2020-03-09 19:26:23,880 [INFO ] ********************************************
+2020-03-09 19:26:23,880 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,880 [INFO ] {"ship":{"type":"ship","position":{"x":-5.565638384683064,"y":686.1315868478346,"orientation":5.203410378076133},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,881 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,883 [INFO ] Starting round 23
+2020-03-09 19:26:23,883 [INFO ] ********************************************
+2020-03-09 19:26:23,883 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,883 [INFO ] {"ship":{"type":"ship","position":{"x":-8.437295170886978,"y":581.128104430159,"orientation":4.1562128268795115},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,884 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.08598716167069442
+} ]
+2020-03-09 19:26:23,885 [INFO ] Starting round 24
+2020-03-09 19:26:23,886 [INFO ] ********************************************
+2020-03-09 19:26:23,886 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,886 [INFO ] {"ship":{"type":"ship","position":{"x":-8.189785608501749,"y":529.0242844835892,"orientation":5.2893975397468305},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,887 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,889 [INFO ] Starting round 25
+2020-03-09 19:26:23,889 [INFO ] ********************************************
+2020-03-09 19:26:23,889 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,889 [INFO ] {"ship":{"type":"ship","position":{"x":-2.033003551362621,"y":424.16212845369614,"orientation":4.242199988550209},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,890 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.10036771602008066
+} ]
+2020-03-09 19:26:23,891 [INFO ] Starting round 26
+2020-03-09 19:26:23,892 [INFO ] ********************************************
+2020-03-09 19:26:23,892 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,892 [INFO ] {"ship":{"type":"ship","position":{"x":3.050475546204779,"y":372.37938414420876,"orientation":5.389765255766897},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,892 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,894 [INFO ] Starting round 27
+2020-03-09 19:26:23,895 [INFO ] ********************************************
+2020-03-09 19:26:23,895 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,895 [INFO ] {"ship":{"type":"ship","position":{"x":19.68338636859822,"y":268.66186387829106,"orientation":4.342567704570276},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,896 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.12030263422080267
+} ]
+2020-03-09 19:26:23,898 [INFO ] Starting round 28
+2020-03-09 19:26:23,898 [INFO ] ********************************************
+2020-03-09 19:26:23,898 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,898 [INFO ] {"ship":{"type":"ship","position":{"x":30.411628093682918,"y":217.8527209144539,"orientation":5.5100678899876785},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,899 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,902 [INFO ] Starting round 29
+2020-03-09 19:26:23,902 [INFO ] ********************************************
+2020-03-09 19:26:23,902 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,902 [INFO ] {"ship":{"type":"ship","position":{"x":59.37173770895053,"y":116.88099326949154,"orientation":4.462870338791057},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,903 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.14964963517231689
+} ]
+2020-03-09 19:26:23,906 [INFO ] Starting round 30
+2020-03-09 19:26:23,906 [INFO ] ********************************************
+2020-03-09 19:26:23,906 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,906 [INFO ] {"ship":{"type":"ship","position":{"x":76.7808261782723,"y":68.11965504927048,"orientation":5.659717525159956},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,908 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,910 [INFO ] Starting round 31
+2020-03-09 19:26:23,910 [INFO ] ********************************************
+2020-03-09 19:26:23,910 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,910 [INFO ] {"ship":{"type":"ship","position":{"x":120.47130530109773,"y":-27.405837708185203,"orientation":4.612519973963335},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,911 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.19666316512732696
+} ]
+2020-03-09 19:26:23,913 [INFO ] Starting round 32
+2020-03-09 19:26:23,914 [INFO ] ********************************************
+2020-03-09 19:26:23,914 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,914 [INFO ] {"ship":{"type":"ship","position":{"x":145.88574616594636,"y":-72.22422657024357,"orientation":5.856380690287254},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,915 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,917 [INFO ] Starting round 33
+2020-03-09 19:26:23,918 [INFO ] ********************************************
+2020-03-09 19:26:23,918 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,918 [INFO ] {"ship":{"type":"ship","position":{"x":207.39953135487627,"y":-157.37134610030714,"orientation":4.809183139090632},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,919 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.24146527356773673
+} ]
+2020-03-09 19:26:23,921 [INFO ] Starting round 34
+2020-03-09 19:26:23,922 [INFO ] ********************************************
+2020-03-09 19:26:23,922 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,922 [INFO ] {"ship":{"type":"ship","position":{"x":259.8540261376104,"y":-213.13679475909834,"orientation":6.138514192317822},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,923 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,925 [INFO ] Starting round 35
+2020-03-09 19:26:23,925 [INFO ] ********************************************
+2020-03-09 19:26:23,926 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,926 [INFO ] {"ship":{"type":"ship","position":{"x":342.64120112531805,"y":-277.7917357156212,"orientation":5.0913166411212005},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,926 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : 0.08019695941829852
+} ]
+2020-03-09 19:26:23,929 [INFO ] Starting round 36
+2020-03-09 19:26:23,929 [INFO ] ********************************************
+2020-03-09 19:26:23,929 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,929 [INFO ] {"ship":{"type":"ship","position":{"x":410.9924472412839,"y":-304.6671609074857,"orientation":0.45912462015478706},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,930 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : -0.11664554082643769
+} ]
+2020-03-09 19:26:23,932 [INFO ] Starting round 37
+2020-03-09 19:26:23,932 [INFO ] ********************************************
+2020-03-09 19:26:23,932 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,932 [INFO ] {"ship":{"type":"ship","position":{"x":432.55815879280857,"y":-287.9103228666176,"orientation":0.8660778549266439},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,933 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,936 [INFO ] Starting round 38
+2020-03-09 19:26:23,936 [INFO ] ********************************************
+2020-03-09 19:26:23,936 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,936 [INFO ] {"ship":{"type":"ship","position":{"x":531.3144878663288,"y":-252.11695475939203,"orientation":-0.18111969626995444},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,937 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : 0.359924789548314
+} ]
+2020-03-09 19:26:23,940 [INFO ] Starting round 39
+2020-03-09 19:26:23,940 [INFO ] ********************************************
+2020-03-09 19:26:23,940 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,940 [INFO ] {"ship":{"type":"ship","position":{"x":581.5379851440564,"y":-202.96780776046344,"orientation":1.7496014200732544},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,941 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.21518688770565575
+} ]
+2020-03-09 19:26:23,944 [INFO ] Starting round 40
+2020-03-09 19:26:23,944 [INFO ] ********************************************
+2020-03-09 19:26:23,944 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,944 [INFO ] {"ship":{"type":"ship","position":{"x":524.2034056107716,"y":-152.58356141090317,"orientation":3.1052108591624883},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,945 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : 0.08801323061463862
+} ]
+2020-03-09 19:26:23,947 [INFO ] Starting round 41
+2020-03-09 19:26:23,947 [INFO ] ********************************************
+2020-03-09 19:26:23,947 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,947 [INFO ] {"ship":{"type":"ship","position":{"x":479.13934062145626,"y":-178.71853598534898,"orientation":4.240421640973713},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,948 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.49801872618672904
+} ]
+2020-03-09 19:26:23,950 [INFO ] Starting round 42
+2020-03-09 19:26:23,950 [INFO ] ********************************************
+2020-03-09 19:26:23,950 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,950 [INFO ] {"ship":{"type":"ship","position":{"x":410.77476489068226,"y":-183.83939537413204,"orientation":2.1716065879920747},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,951 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,953 [INFO ] Starting round 43
+2020-03-09 19:26:23,954 [INFO ] ********************************************
+2020-03-09 19:26:23,954 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,954 [INFO ] {"ship":{"type":"ship","position":{"x":402.1240646092155,"y":-79.15346930392423,"orientation":1.124409036795479},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,955 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : -0.004508871291342587
+} ]
+2020-03-09 19:26:23,957 [INFO ] Starting round 44
+2020-03-09 19:26:23,957 [INFO ] ********************************************
+2020-03-09 19:26:23,957 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,957 [INFO ] {"ship":{"type":"ship","position":{"x":398.4625396028991,"y":-26.738825151277645,"orientation":2.1670977167007286},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,958 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,960 [INFO ] Starting round 45
+2020-03-09 19:26:23,960 [INFO ] ********************************************
+2020-03-09 19:26:23,960 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,960 [INFO ] {"ship":{"type":"ship","position":{"x":390.28394102263513,"y":77.98504155445332,"orientation":1.1199001655041327},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,961 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.053327027728611975
+} ]
+2020-03-09 19:26:23,963 [INFO ] Starting round 46
+2020-03-09 19:26:23,964 [INFO ] ********************************************
+2020-03-09 19:26:23,964 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,964 [INFO ] {"ship":{"type":"ship","position":{"x":385.3852322188944,"y":130.0213880920402,"orientation":2.2204247444293324},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,965 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,967 [INFO ] Starting round 47
+2020-03-09 19:26:23,967 [INFO ] ********************************************
+2020-03-09 19:26:23,967 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,967 [INFO ] {"ship":{"type":"ship","position":{"x":371.6362938914168,"y":234.16045101947404,"orientation":1.1732271932327378},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,968 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.059517822208439375
+} ]
+2020-03-09 19:26:23,970 [INFO ] Starting round 48
+2020-03-09 19:26:23,970 [INFO ] ********************************************
+2020-03-09 19:26:23,970 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,970 [INFO ] {"ship":{"type":"ship","position":{"x":363.81706671055184,"y":285.80795629006394,"orientation":2.279942566637775},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,971 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,973 [INFO ] Starting round 49
+2020-03-09 19:26:23,973 [INFO ] ********************************************
+2020-03-09 19:26:23,973 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,973 [INFO ] {"ship":{"type":"ship","position":{"x":343.8980015825482,"y":388.9448002255032,"orientation":1.2327450154411816},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,974 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.06618911417012341
+} ]
+2020-03-09 19:26:23,976 [INFO ] Starting round 50
+2020-03-09 19:26:23,976 [INFO ] ********************************************
+2020-03-09 19:26:23,976 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,976 [INFO ] {"ship":{"type":"ship","position":{"x":332.8587878297975,"y":439.9673868873107,"orientation":2.346131680807893},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,977 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,979 [INFO ] Starting round 51
+2020-03-09 19:26:23,979 [INFO ] ********************************************
+2020-03-09 19:26:23,979 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,979 [INFO ] {"ship":{"type":"ship","position":{"x":306.16178655293476,"y":541.560929277366,"orientation":1.298934129611301},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,980 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.07449394328439851
+} ]
+2020-03-09 19:26:23,982 [INFO ] Starting round 52
+2020-03-09 19:26:23,982 [INFO ] ********************************************
+2020-03-09 19:26:23,982 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,982 [INFO ] {"ship":{"type":"ship","position":{"x":291.57743078253554,"y":591.6424944680608,"orientation":2.420625624092296},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,983 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,985 [INFO ] Starting round 53
+2020-03-09 19:26:23,985 [INFO ] ********************************************
+2020-03-09 19:26:23,985 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,985 [INFO ] {"ship":{"type":"ship","position":{"x":257.3933648720293,"y":690.9673522346992,"orientation":1.3734280728957056},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,986 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.0851250061937372
+} ]
+2020-03-09 19:26:23,988 [INFO ] Starting round 54
+2020-03-09 19:26:23,988 [INFO ] ********************************************
+2020-03-09 19:26:23,988 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,988 [INFO ] {"ship":{"type":"ship","position":{"x":238.88417415826038,"y":739.6780369924412,"orientation":2.505750630286046},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,989 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,991 [INFO ] Starting round 55
+2020-03-09 19:26:23,991 [INFO ] ********************************************
+2020-03-09 19:26:23,991 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,991 [INFO ] {"ship":{"type":"ship","position":{"x":196.37906530616402,"y":835.7368390566362,"orientation":1.4585530790894574},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,992 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.09919447976715667
+} ]
+2020-03-09 19:26:23,994 [INFO ] Starting round 56
+2020-03-09 19:26:23,994 [INFO ] ********************************************
+2020-03-09 19:26:23,994 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,994 [INFO ] {"ship":{"type":"ship","position":{"x":173.50016569086296,"y":882.4751666463961,"orientation":2.604945110053207},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,995 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:23,997 [INFO ] Starting round 57
+2020-03-09 19:26:23,997 [INFO ] ********************************************
+2020-03-09 19:26:23,997 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:23,997 [INFO ] {"ship":{"type":"ship","position":{"x":121.69111632820574,"y":973.852407448877,"orientation":1.5577475588566203},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:23,998 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.11863756813176307
+} ]
+2020-03-09 19:26:24,000 [INFO ] Starting round 58
+2020-03-09 19:26:24,001 [INFO ] ********************************************
+2020-03-09 19:26:24,001 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,001 [INFO ] {"ship":{"type":"ship","position":{"x":93.92482090631545,"y":1017.745352547524,"orientation":2.7235826781849717},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,001 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:24,003 [INFO ] Starting round 59
+2020-03-09 19:26:24,004 [INFO ] ********************************************
+2020-03-09 19:26:24,004 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,004 [INFO ] {"ship":{"type":"ship","position":{"x":31.664585879261043,"y":1102.3481945028195,"orientation":1.6763851269883878},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,004 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.14712040269106885
+} ]
+2020-03-09 19:26:24,006 [INFO ] Starting round 60
+2020-03-09 19:26:24,006 [INFO ] ********************************************
+2020-03-09 19:26:24,006 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,006 [INFO ] {"ship":{"type":"ship","position":{"x":-1.5711110806568844,"y":1142.0661691832177,"orientation":2.8707030808760567},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,007 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:24,009 [INFO ] Starting round 61
+2020-03-09 19:26:24,009 [INFO ] ********************************************
+2020-03-09 19:26:24,009 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,009 [INFO ] {"ship":{"type":"ship","position":{"x":-75.5607195523746,"y":1216.6283282904942,"orientation":1.823505529679476},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,010 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : 1
+}, {
+  "sailorId" : 0,
+  "type" : "TURN",
+  "rotation" : 0.1924256793665875
+} ]
+2020-03-09 19:26:24,012 [INFO ] Starting round 62
+2020-03-09 19:26:24,012 [INFO ] ********************************************
+2020-03-09 19:26:24,012 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,012 [INFO ] {"ship":{"type":"ship","position":{"x":-114.83619759127265,"y":1250.0111018769626,"orientation":3.0631287602426673},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,013 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:24,015 [INFO ] Starting round 63
+2020-03-09 19:26:24,015 [INFO ] ********************************************
+2020-03-09 19:26:24,015 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,015 [INFO ] {"ship":{"type":"ship","position":{"x":-201.71949175934185,"y":1309.0472850788065,"orientation":2.0159312090460904},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,016 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "TURN",
+  "rotation" : -0.24970267450960404
+} ]
+2020-03-09 19:26:24,018 [INFO ] Starting round 64
+2020-03-09 19:26:24,018 [INFO ] ********************************************
+2020-03-09 19:26:24,018 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,018 [INFO ] {"ship":{"type":"ship","position":{"x":-269.9811623415205,"y":1343.869727899627,"orientation":3.3370248613313893},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,019 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:24,021 [INFO ] Starting round 65
+2020-03-09 19:26:24,021 [INFO ] ********************************************
+2020-03-09 19:26:24,021 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,021 [INFO ] {"ship":{"type":"ship","position":{"x":-369.59419085000206,"y":1377.2047287831626,"orientation":2.2898273101348123},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,022 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : 0.053941773660021175
+} ]
+2020-03-09 19:26:24,024 [INFO ] Starting round 66
+2020-03-09 19:26:24,024 [INFO ] ********************************************
+2020-03-09 19:26:24,024 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,024 [INFO ] {"ship":{"type":"ship","position":{"x":-443.2323194640949,"y":1380.7066478051825,"orientation":3.9145654105897267},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,024 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "TURN",
+  "rotation" : -0.1355080714196606
+} ]
+2020-03-09 19:26:24,026 [INFO ] Starting round 67
+2020-03-09 19:26:24,026 [INFO ] ********************************************
+2020-03-09 19:26:24,026 [INFO ] 1632413663 - nextRound
+2020-03-09 19:26:24,026 [INFO ] {"ship":{"type":"ship","position":{"x":-458.7914642200436,"y":1358.2406817054766,"orientation":4.30265611476835},"name":"Péquod","deck":{"width":3,"length":4},"entities":[{"x":0,"y":0,"type":"oar"},{"x":0,"y":2,"type":"oar"},{"x":1,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"}],"life":300,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":0.0}}
+2020-03-09 19:26:24,027 [INFO ] Player response:[ {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 1,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -2
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : -3,
+  "ydistance" : 1
+}, {
+  "sailorId" : 2,
+  "type" : "OAR"
+} ]
+2020-03-09 19:26:24,029 [INFO ] Game over
+2020-03-09 19:26:24,029 [INFO ] Creating team's logs files
+2020-03-09 19:26:24,032 [INFO ] Game scores: {macbernik=233}
