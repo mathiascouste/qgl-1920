@@ -1,0 +1,9 @@
+La position du bateau au début du tour. x = 360.0 y = 320.0 Orientation : 1.5708
+Le prochain checkPoint est en x: 300.0 et en y: 1800.0 .
+Le capitaine à décidé d'aller en x: 300.0 et en y: 1800.0 .
+Le navigateur décide d'aller à une vitesse de 1481.215716902842 noeuds.
+Le navigateur décide de faire une rotation de 0.0405 radian.
+Le cap ne convient pas, le navigateur nous demande de recalculer
+Le chef pense qu'il faut utiliser seulement le gouvernail pour tourner
+capitaine badCap : speed : 165.0 rotation : 0.0405
+Chef : C'est bon on envoi la ship config au boatswain !! Le navigateur nous dit que le badcap caluclé est OK
