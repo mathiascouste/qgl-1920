@@ -1,0 +1,1005 @@
+2020-03-16 21:16:49,478 [INFO ] Game creation...
+2020-03-16 21:16:49,495 [INFO ] 1 players created!
+2020-03-16 21:16:49,511 [INFO ] Starting game
+2020-03-16 21:16:49,525 [INFO ] ********************************************
+2020-03-16 21:16:49,526 [INFO ] 658909832 - initGame
+2020-03-16 21:16:49,526 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":300.0,"y":1800.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":1900.0,"y":3800.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":2000.0,"y":5240.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":3600.0,"y":5160.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":3300.0,"y":3500.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":2400.0,"y":2000.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":1800.0,"y":360.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":360.0,"y":320.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}}]},"ship":{"type":"ship","position":{"x":360.0,"y":320.0,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Tom Pouce"},{"x":0,"y":1,"id":1,"name":"Jack Pouce"},{"x":0,"y":2,"id":2,"name":"Jack Teach"},{"x":1,"y":0,"id":3,"name":"Luffy Teach"},{"x":1,"y":1,"id":4,"name":"Tom Pouce"},{"x":1,"y":2,"id":5,"name":"Luffy Pouce"},{"x":2,"y":0,"id":6,"name":"Edward Pouce"}],"shipCount":1}
+2020-03-16 21:16:49,566 [INFO ] Starting round 0
+2020-03-16 21:16:49,576 [INFO ] ********************************************
+2020-03-16 21:16:49,577 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,577 [INFO ] {"ship":{"type":"ship","position":{"x":360.0,"y":320.0,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.04051467927324337
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.04051467927324337
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.04051467927324337
+2020-03-16 21:16:49,613 [INFO ] Player response:[{"sailorId":4,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":4,"type":"TURN","rotation":0.04051467927324337},{"sailorId":0,"type":"MOVING","xdistance":1,"ydistance":2},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":1,"ydistance":-1},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":3,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":-1},{"sailorId":6,"type":"MOVING","xdistance":-2,"ydistance":1}]
+2020-03-16 21:16:49,700 [INFO ] Starting round 1
+2020-03-16 21:16:49,702 [INFO ] ********************************************
+2020-03-16 21:16:49,702 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,702 [INFO ] {"ship":{"type":"ship","position":{"x":356.6908057361165,"y":484.95552671601666,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.002564393291901057
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.002564393291901057
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,714 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,752 [INFO ] Starting round 2
+2020-03-16 21:16:49,753 [INFO ] ********************************************
+2020-03-16 21:16:49,753 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,753 [INFO ] {"ship":{"type":"ship","position":{"x":350.0071067400658,"y":649.8201019519638,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.002931922791894026
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.002931922791894026
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,764 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,798 [INFO ] Starting round 3
+2020-03-16 21:16:49,799 [INFO ] ********************************************
+2020-03-16 21:16:49,799 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,799 [INFO ] {"ship":{"type":"ship","position":{"x":343.3234077440151,"y":814.6846771879109,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.003422425252954442
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.003422425252954442
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,813 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,846 [INFO ] Starting round 4
+2020-03-16 21:16:49,846 [INFO ] ********************************************
+2020-03-16 21:16:49,847 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,847 [INFO ] {"ship":{"type":"ship","position":{"x":336.63970874796445,"y":979.549252423858,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.0041100190001626125
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0041100190001626125
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,857 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,889 [INFO ] Starting round 5
+2020-03-16 21:16:49,890 [INFO ] ********************************************
+2020-03-16 21:16:49,890 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,890 [INFO ] {"ship":{"type":"ship","position":{"x":329.95600975191377,"y":1144.413827659805,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.0051433605847801545
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0051433605847801545
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,900 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,932 [INFO ] Starting round 6
+2020-03-16 21:16:49,932 [INFO ] ********************************************
+2020-03-16 21:16:49,933 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,933 [INFO ] {"ship":{"type":"ship","position":{"x":323.2723107558631,"y":1309.2784028957522,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.006870813366840478
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.006870813366840478
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,946 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:49,971 [INFO ] Starting round 7
+2020-03-16 21:16:49,972 [INFO ] ********************************************
+2020-03-16 21:16:49,972 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:49,972 [INFO ] {"ship":{"type":"ship","position":{"x":316.5886117598124,"y":1474.1429781316992,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.010345378229585256
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.010345378229585256
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:49,985 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,014 [INFO ] Starting round 8
+2020-03-16 21:16:50,015 [INFO ] ********************************************
+2020-03-16 21:16:50,015 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,015 [INFO ] {"ship":{"type":"ship","position":{"x":309.90491276376173,"y":1639.0075533676463,"orientation":1.6113146792732402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint300.0,1800.0,0.0, C150.0
+Angle optimal : 0.02092828008267955
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.02092828008267955
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.02092828008267955
+2020-03-16 21:16:50,027 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":0.02092828008267955},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,053 [INFO ] Starting round 9
+2020-03-16 21:16:50,054 [INFO ] ********************************************
+2020-03-16 21:16:50,054 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,054 [INFO ] {"ship":{"type":"ship","position":{"x":301.5138417357786,"y":1803.7910365947848,"orientation":1.6322429593559284},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.7366513876835459
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.0487467757139024
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.7366513876835459
+2020-03-16 21:16:50,065 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.7366513876835459},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,084 [INFO ] Starting round 10
+2020-03-16 21:16:50,085 [INFO ] ********************************************
+2020-03-16 21:16:50,085 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,085 [INFO ] {"ship":{"type":"ship","position":{"x":349.67192451274656,"y":1957.7287601156868,"orientation":0.8955915716723772},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.024351934685384102
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.024351934685384102
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.024351934685384102
+2020-03-16 21:16:50,098 [INFO ] Player response:[{"sailorId":5,"type":"LIFT_SAIL"},{"sailorId":4,"type":"TURN","rotation":-0.024351934685384102},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,117 [INFO ] Starting round 11
+2020-03-16 21:16:50,117 [INFO ] ********************************************
+2020-03-16 21:16:50,117 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,117 [INFO ] {"ship":{"type":"ship","position":{"x":514.7236711803318,"y":2158.821277754516,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.0014869639451560168
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0014869639451560168
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,124 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,142 [INFO ] Starting round 12
+2020-03-16 21:16:50,143 [INFO ] ********************************************
+2020-03-16 21:16:50,143 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,143 [INFO ] {"ship":{"type":"ship","position":{"x":683.1505741610274,"y":2358.964746794283,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.0016931917486044945
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0016931917486044945
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,150 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,170 [INFO ] Starting round 13
+2020-03-16 21:16:50,171 [INFO ] ********************************************
+2020-03-16 21:16:50,171 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,171 [INFO ] {"ship":{"type":"ship","position":{"x":851.577477141723,"y":2559.1082158340505,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.0019658342508752646
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0019658342508752646
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,177 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,203 [INFO ] Starting round 14
+2020-03-16 21:16:50,205 [INFO ] ********************************************
+2020-03-16 21:16:50,205 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,205 [INFO ] {"ship":{"type":"ship","position":{"x":1020.0043801224185,"y":2759.251684873818,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.0023431317644102556
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0023431317644102556
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,216 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,234 [INFO ] Starting round 15
+2020-03-16 21:16:50,236 [INFO ] ********************************************
+2020-03-16 21:16:50,236 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,236 [INFO ] {"ship":{"type":"ship","position":{"x":1188.431283103114,"y":2959.395153913585,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.00289965461478614
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.00289965461478614
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,242 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,261 [INFO ] Starting round 16
+2020-03-16 21:16:50,261 [INFO ] ********************************************
+2020-03-16 21:16:50,261 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,261 [INFO ] {"ship":{"type":"ship","position":{"x":1356.8581860838096,"y":3159.5386229533524,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.0038028859023326866
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0038028859023326866
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,269 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,287 [INFO ] Starting round 17
+2020-03-16 21:16:50,288 [INFO ] ********************************************
+2020-03-16 21:16:50,288 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,288 [INFO ] {"ship":{"type":"ship","position":{"x":1525.2850890645052,"y":3359.6820919931197,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.005523397229251881
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.005523397229251881
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,295 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,315 [INFO ] Starting round 18
+2020-03-16 21:16:50,316 [INFO ] ********************************************
+2020-03-16 21:16:50,316 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,316 [INFO ] {"ship":{"type":"ship","position":{"x":1693.7119920452008,"y":3559.825561032887,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1900.0,3800.0,0.0, C150.0
+Angle optimal : -0.010086873396784046
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.010086873396784046
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,321 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,345 [INFO ] Starting round 19
+2020-03-16 21:16:50,346 [INFO ] ********************************************
+2020-03-16 21:16:50,346 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,346 [INFO ] {"ship":{"type":"ship","position":{"x":1862.1388950258963,"y":3759.9690300726543,"orientation":0.8712396369869924},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals1612.0,5276.14120908063,0.0, C100.0
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : 0.863064358021433
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.7853981633974483
+Différence d'angle qui manque : 0.07766619462398472
+Différence de rames à faire :1
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,377 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":1,"ydistance":2},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":-1,"ydistance":0}]
+2020-03-16 21:16:50,397 [INFO ] Starting round 20
+2020-03-16 21:16:50,398 [INFO ] ********************************************
+2020-03-16 21:16:50,398 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,398 [INFO ] {"ship":{"type":"ship","position":{"x":1919.1222311286724,"y":3914.106201048584,"orientation":1.6566378003844362},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals1542.0,5267.9373945125635,0.0, C100.0
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : 0.1858307437168345
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.1858307437168345
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.1858307437168345
+2020-03-16 21:16:50,431 [INFO ] Player response:[{"sailorId":5,"type":"LOWER_SAIL"},{"sailorId":4,"type":"TURN","rotation":0.1858307437168345},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,449 [INFO ] Starting round 21
+2020-03-16 21:16:50,450 [INFO ] ********************************************
+2020-03-16 21:16:50,450 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,450 [INFO ] {"ship":{"type":"ship","position":{"x":1889.9770353303818,"y":4076.2706503332893,"orientation":1.8424685441012667},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals1590.0,5278.762806426996,0.0, C100.0
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.027199237450236335
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.027199237450236335
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.027199237450236335
+2020-03-16 21:16:50,466 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.027199237450236335},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,495 [INFO ] Starting round 22
+2020-03-16 21:16:50,495 [INFO ] ********************************************
+2020-03-16 21:16:50,495 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,495 [INFO ] {"ship":{"type":"ship","position":{"x":1847.8457581208188,"y":4235.795812210733,"orientation":1.8152693066510406},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.39484644491034526
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.390551718487103
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.39484644491034526
+2020-03-16 21:16:50,501 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.39484644491034526},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,522 [INFO ] Starting round 23
+2020-03-16 21:16:50,523 [INFO ] ********************************************
+2020-03-16 21:16:50,523 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,523 [INFO ] {"ship":{"type":"ship","position":{"x":1839.8124567934033,"y":4399.5292158280645,"orientation":1.4204228617406944},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.03796040787480193
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.03796040787480193
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.03796040787480193
+2020-03-16 21:16:50,530 [INFO ] Player response:[{"sailorId":5,"type":"LIFT_SAIL"},{"sailorId":4,"type":"TURN","rotation":-0.03796040787480193},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,550 [INFO ] Starting round 24
+2020-03-16 21:16:50,551 [INFO ] ********************************************
+2020-03-16 21:16:50,551 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,551 [INFO ] {"ship":{"type":"ship","position":{"x":1871.8585551617566,"y":4587.0515012591695,"orientation":1.3824624538658903},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.00545377659994406
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.00545377659994406
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,558 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,575 [INFO ] Starting round 25
+2020-03-16 21:16:50,576 [INFO ] ********************************************
+2020-03-16 21:16:50,576 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,576 [INFO ] {"ship":{"type":"ship","position":{"x":1908.0081050728127,"y":4776.720684706119,"orientation":1.3824624538658903},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.0076832389372178955
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0076832389372178955
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,582 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,599 [INFO ] Starting round 26
+2020-03-16 21:16:50,600 [INFO ] ********************************************
+2020-03-16 21:16:50,600 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,600 [INFO ] {"ship":{"type":"ship","position":{"x":1944.1576549838687,"y":4966.389868153068,"orientation":1.3824624538658903},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2000.0,5240.0,0.0, C150.0
+Angle optimal : -0.01299566546478892
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.01299566546478892
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,606 [INFO ] Player response:[{"sailorId":5,"type":"LOWER_SAIL"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,628 [INFO ] Starting round 27
+2020-03-16 21:16:50,628 [INFO ] ********************************************
+2020-03-16 21:16:50,628 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,628 [INFO ] {"ship":{"type":"ship","position":{"x":1975.0493657941747,"y":5128.472261407855,"orientation":1.3824624538658903},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals3263.0,22529.097441825113,0.0, C100.0
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : 0.11445110872603426
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.11445110872603426
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.11445110872603426
+2020-03-16 21:16:50,638 [INFO ] Player response:[{"sailorId":5,"type":"LIFT_SAIL"},{"sailorId":4,"type":"TURN","rotation":0.11445110872603426},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,666 [INFO ] Starting round 28
+2020-03-16 21:16:50,666 [INFO ] ********************************************
+2020-03-16 21:16:50,666 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,666 [INFO ] {"ship":{"type":"ship","position":{"x":1999.446043270598,"y":5311.436495317863,"orientation":1.4969135625919228},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals3957.0,8933.184009264354,0.0, C100.0
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.42163741272738986
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.3637607506700584
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.42163741272738986
+2020-03-16 21:16:50,687 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.42163741272738986},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,713 [INFO ] Starting round 29
+2020-03-16 21:16:50,714 [INFO ] ********************************************
+2020-03-16 21:16:50,714 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,714 [INFO ] {"ship":{"type":"ship","position":{"x":2058.63897584769,"y":5507.709323982509,"orientation":1.0752761498645402},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals3972.0,6809.039187150191,0.0, C100.0
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.4780121639685553
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.307385999428893
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.4780121639685553
+2020-03-16 21:16:50,728 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.4780121639685553},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,748 [INFO ] Starting round 30
+2020-03-16 21:16:50,749 [INFO ] ********************************************
+2020-03-16 21:16:50,749 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,749 [INFO ] {"ship":{"type":"ship","position":{"x":2235.2138828548254,"y":5701.030270361924,"orientation":0.5972639858959835},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals3953.0,6050.466810720156,0.0, C100.0
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.3965796287394834
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.3888185346579649
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.3965796287394834
+2020-03-16 21:16:50,762 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.3965796287394834},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,787 [INFO ] Starting round 31
+2020-03-16 21:16:50,788 [INFO ] ********************************************
+2020-03-16 21:16:50,788 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,788 [INFO ] {"ship":{"type":"ship","position":{"x":2511.927708016056,"y":5817.508504738597,"orientation":0.20068435715650004},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.7442504816340979
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : 0.041147681763350374
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.7442504816340979
+2020-03-16 21:16:50,792 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.7442504816340979},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,813 [INFO ] Starting round 32
+2020-03-16 21:16:50,813 [INFO ] ********************************************
+2020-03-16 21:16:50,813 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,813 [INFO ] {"ship":{"type":"ship","position":{"x":2810.345287667299,"y":5768.12350356981,"orientation":-0.5435661244775974},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.11268364445364898
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.11268364445364898
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.11268364445364898
+2020-03-16 21:16:50,817 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.11268364445364898},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,834 [INFO ] Starting round 33
+2020-03-16 21:16:50,834 [INFO ] ********************************************
+2020-03-16 21:16:50,835 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,835 [INFO ] {"ship":{"type":"ship","position":{"x":3048.7254223953696,"y":5605.376513947733,"orientation":-0.6562497689312458},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.02329167412971911
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.02329167412971911
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.02329167412971911
+2020-03-16 21:16:50,839 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.02329167412971911},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,857 [INFO ] Starting round 34
+2020-03-16 21:16:50,857 [INFO ] ********************************************
+2020-03-16 21:16:50,857 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,857 [INFO ] {"ship":{"type":"ship","position":{"x":3270.759309155282,"y":5430.275788933415,"orientation":-0.6795414430609675},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3600.0,5160.0,0.0, C150.0
+Angle optimal : -0.007817939154012299
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.007817939154012299
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,861 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,879 [INFO ] Starting round 35
+2020-03-16 21:16:50,879 [INFO ] ********************************************
+2020-03-16 21:16:50,879 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,879 [INFO ] {"ship":{"type":"ship","position":{"x":3489.866524252811,"y":5253.258361336413,"orientation":-0.6795414430609675},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Collision detected
+tempsgoals3644.0,3462.7470281714886,0.0, C100.0
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.8053830838322595
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -0.7853981633974483
+Différence d'angle qui manque : -0.01998492043481126
+Différence de rames à faire :-1
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,887 [INFO ] Player response:[{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":1}]
+2020-03-16 21:16:50,905 [INFO ] Starting round 36
+2020-03-16 21:16:50,905 [INFO ] ********************************************
+2020-03-16 21:16:50,905 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,905 [INFO ] {"ship":{"type":"ship","position":{"x":3586.7439930613086,"y":5090.570644147701,"orientation":-1.4649396064584115},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.2842183724911156
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.2842183724911156
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.2842183724911156
+2020-03-16 21:16:50,910 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.2842183724911156},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-1},{"sailorId":3,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":-1}]
+2020-03-16 21:16:50,928 [INFO ] Starting round 37
+2020-03-16 21:16:50,928 [INFO ] ********************************************
+2020-03-16 21:16:50,929 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,929 [INFO ] {"ship":{"type":"ship","position":{"x":3582.2023490474567,"y":4931.3756222138945,"orientation":-1.7491579789495189},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":true}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.016296495914831066
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.016296495914831066
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,934 [INFO ] Player response:[{"sailorId":5,"type":"LOWER_SAIL"},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,955 [INFO ] Starting round 38
+2020-03-16 21:16:50,955 [INFO ] ********************************************
+2020-03-16 21:16:50,955 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,955 [INFO ] {"ship":{"type":"ship","position":{"x":3552.928468860482,"y":4768.993234194735,"orientation":-1.7491579789495189},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.01837447164296746
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.01837447164296746
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.01837447164296746
+2020-03-16 21:16:50,959 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.01837447164296746},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:50,977 [INFO ] Starting round 39
+2020-03-16 21:16:50,977 [INFO ] ********************************************
+2020-03-16 21:16:50,977 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:50,977 [INFO ] {"ship":{"type":"ship","position":{"x":3522.179325565614,"y":4606.88609587649,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.0013561184908637003
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0013561184908637003
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:50,982 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,009 [INFO ] Starting round 40
+2020-03-16 21:16:51,009 [INFO ] ********************************************
+2020-03-16 21:16:51,009 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,009 [INFO ] {"ship":{"type":"ship","position":{"x":3489.926864287074,"y":4445.0689807696845,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.0015882427521416442
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0015882427521416442
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,013 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,040 [INFO ] Starting round 41
+2020-03-16 21:16:51,040 [INFO ] ********************************************
+2020-03-16 21:16:51,040 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,040 [INFO ] {"ship":{"type":"ship","position":{"x":3457.674403008534,"y":4283.251865662879,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.0019162422159193504
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0019162422159193504
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,044 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,064 [INFO ] Starting round 42
+2020-03-16 21:16:51,064 [INFO ] ********************************************
+2020-03-16 21:16:51,064 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,064 [INFO ] {"ship":{"type":"ship","position":{"x":3425.4219417299937,"y":4121.434750556074,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.002414976021696491
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.002414976021696491
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,068 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,085 [INFO ] Starting round 43
+2020-03-16 21:16:51,085 [INFO ] ********************************************
+2020-03-16 21:16:51,085 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,085 [INFO ] {"ship":{"type":"ship","position":{"x":3393.1694804514536,"y":3959.617635449307,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.0032646558282791727
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0032646558282791727
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,089 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,109 [INFO ] Starting round 44
+2020-03-16 21:16:51,110 [INFO ] ********************************************
+2020-03-16 21:16:51,110 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,110 [INFO ] {"ship":{"type":"ship","position":{"x":3360.9170191729136,"y":3797.800520342547,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint3300.0,3500.0,0.0, C150.0
+Angle optimal : -0.005036780183893974
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.005036780183893974
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,113 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,130 [INFO ] Starting round 45
+2020-03-16 21:16:51,130 [INFO ] ********************************************
+2020-03-16 21:16:51,130 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,130 [INFO ] {"ship":{"type":"ship","position":{"x":3328.6645578943735,"y":3635.983405235787,"orientation":-1.7675324505924868},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.3195562348483436
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.3195562348483436
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.3195562348483436
+2020-03-16 21:16:51,134 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.3195562348483436},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,151 [INFO ] Starting round 46
+2020-03-16 21:16:51,151 [INFO ] ********************************************
+2020-03-16 21:16:51,151 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,151 [INFO ] {"ship":{"type":"ship","position":{"x":3271.568707316821,"y":3481.9243325467305,"orientation":-2.087088685440832},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.015355760291117626
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.015355760291117626
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,155 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,172 [INFO ] Starting round 47
+2020-03-16 21:16:51,172 [INFO ] ********************************************
+2020-03-16 21:16:51,172 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,172 [INFO ] {"ship":{"type":"ship","position":{"x":3190.1149446407926,"y":3338.431180982223,"orientation":-2.087088685440832},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.016985877040027297
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.016985877040027297
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.016985877040027297
+2020-03-16 21:16:51,175 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.016985877040027297},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,193 [INFO ] Starting round 48
+2020-03-16 21:16:51,193 [INFO ] ********************************************
+2020-03-16 21:16:51,193 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,193 [INFO ] {"ship":{"type":"ship","position":{"x":3107.4585771816633,"y":3195.629673950886,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.001018757976145146
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.001018757976145146
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,196 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,213 [INFO ] Starting round 49
+2020-03-16 21:16:51,213 [INFO ] ********************************************
+2020-03-16 21:16:51,213 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,213 [INFO ] {"ship":{"type":"ship","position":{"x":3023.5793249177764,"y":3053.540719279342,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.0011560619029453711
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0011560619029453711
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,217 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,241 [INFO ] Starting round 50
+2020-03-16 21:16:51,241 [INFO ] ********************************************
+2020-03-16 21:16:51,241 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,241 [INFO ] {"ship":{"type":"ship","position":{"x":2939.7000726538895,"y":2911.4517646077975,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.0013361414398800342
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0013361414398800342
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,245 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,271 [INFO ] Starting round 51
+2020-03-16 21:16:51,271 [INFO ] ********************************************
+2020-03-16 21:16:51,271 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,271 [INFO ] {"ship":{"type":"ship","position":{"x":2855.8208203900026,"y":2769.362809936253,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.001582674285106389
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.001582674285106389
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,277 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,299 [INFO ] Starting round 52
+2020-03-16 21:16:51,300 [INFO ] ********************************************
+2020-03-16 21:16:51,300 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,300 [INFO ] {"ship":{"type":"ship","position":{"x":2771.9415681261157,"y":2627.273855264709,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.001940767179682723
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.001940767179682723
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,303 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,320 [INFO ] Starting round 53
+2020-03-16 21:16:51,320 [INFO ] ********************************************
+2020-03-16 21:16:51,320 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,320 [INFO ] {"ship":{"type":"ship","position":{"x":2688.062315862229,"y":2485.1849005931645,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.0025082872361990027
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0025082872361990027
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,324 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,342 [INFO ] Starting round 54
+2020-03-16 21:16:51,342 [INFO ] ********************************************
+2020-03-16 21:16:51,342 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,342 [INFO ] {"ship":{"type":"ship","position":{"x":2604.183063598342,"y":2343.09594592162,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.003544882046738973
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.003544882046738973
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,345 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,362 [INFO ] Starting round 55
+2020-03-16 21:16:51,362 [INFO ] ********************************************
+2020-03-16 21:16:51,362 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,362 [INFO ] {"ship":{"type":"ship","position":{"x":2520.303811334455,"y":2201.0069912500758,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint2400.0,2000.0,0.0, C150.0
+Angle optimal : -0.006041722299088725
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.006041722299088725
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,366 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,383 [INFO ] Starting round 56
+2020-03-16 21:16:51,383 [INFO ] ********************************************
+2020-03-16 21:16:51,383 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,383 [INFO ] {"ship":{"type":"ship","position":{"x":2436.424559070568,"y":2058.9180365785314,"orientation":-2.1040745624808532},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.17485320515146463
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.17485320515146463
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.17485320515146463
+2020-03-16 21:16:51,387 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":0.17485320515146463},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,408 [INFO ] Starting round 57
+2020-03-16 21:16:51,408 [INFO ] ********************************************
+2020-03-16 21:16:51,408 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,408 [INFO ] {"ship":{"type":"ship","position":{"x":2365.2328383801055,"y":1910.299556831798,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.008806827746459689
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.008806827746459689
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,412 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,429 [INFO ] Starting round 58
+2020-03-16 21:16:51,429 [INFO ] ********************************************
+2020-03-16 21:16:51,429 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,429 [INFO ] {"ship":{"type":"ship","position":{"x":2307.3508733516596,"y":1755.785226996524,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.00978526379114908
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.00978526379114908
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,432 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,449 [INFO ] Starting round 59
+2020-03-16 21:16:51,450 [INFO ] ********************************************
+2020-03-16 21:16:51,450 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,450 [INFO ] {"ship":{"type":"ship","position":{"x":2249.468908323214,"y":1601.2708971612499,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.011008270730876069
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.011008270730876069
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,453 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,470 [INFO ] Starting round 60
+2020-03-16 21:16:51,470 [INFO ] ********************************************
+2020-03-16 21:16:51,470 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,470 [INFO ] {"ship":{"type":"ship","position":{"x":2191.586943294768,"y":1446.7565673259758,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.01258064046859908
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.01258064046859908
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,475 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,492 [INFO ] Starting round 61
+2020-03-16 21:16:51,492 [INFO ] ********************************************
+2020-03-16 21:16:51,492 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,492 [INFO ] {"ship":{"type":"ship","position":{"x":2133.704978266322,"y":1292.2422374907017,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.014677002346965784
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.014677002346965784
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,497 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,514 [INFO ] Starting round 62
+2020-03-16 21:16:51,514 [INFO ] ********************************************
+2020-03-16 21:16:51,514 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,514 [INFO ] {"ship":{"type":"ship","position":{"x":2075.8230132378762,"y":1137.7279076554275,"orientation":-1.9292213573293957},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.017611624785198954
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.017611624785198954
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.017611624785198954
+2020-03-16 21:16:51,519 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":0.017611624785198954},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,545 [INFO ] Starting round 63
+2020-03-16 21:16:51,546 [INFO ] ********************************************
+2020-03-16 21:16:51,546 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,546 [INFO ] {"ship":{"type":"ship","position":{"x":2019.2909791224956,"y":982.7168580500564,"orientation":-1.9116097325441992},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.0022227367396323583
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0022227367396323583
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,550 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,567 [INFO ] Starting round 64
+2020-03-16 21:16:51,567 [INFO ] ********************************************
+2020-03-16 21:16:51,567 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,567 [INFO ] {"ship":{"type":"ship","position":{"x":1964.1390981956583,"y":827.2071476451027,"orientation":-1.9116097325441992},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.0029633473597250326
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.0029633473597250326
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,571 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,602 [INFO ] Starting round 65
+2020-03-16 21:16:51,602 [INFO ] ********************************************
+2020-03-16 21:16:51,602 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,602 [INFO ] {"ship":{"type":"ship","position":{"x":1908.987217268821,"y":671.697437240149,"orientation":-1.9116097325441992},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.004444111791358285
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.004444111791358285
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,607 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,624 [INFO ] Starting round 66
+2020-03-16 21:16:51,624 [INFO ] ********************************************
+2020-03-16 21:16:51,624 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,624 [INFO ] {"ship":{"type":"ship","position":{"x":1853.8353363419837,"y":516.1877268351953,"orientation":-1.9116097325441992},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint1800.0,360.0,0.0, C150.0
+Angle optimal : 0.00888269566924782
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : 0.00888269566924782
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,627 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,644 [INFO ] Starting round 67
+2020-03-16 21:16:51,645 [INFO ] ********************************************
+2020-03-16 21:16:51,645 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,645 [INFO ] {"ship":{"type":"ship","position":{"x":1798.6834554151465,"y":360.6780164302472,"orientation":-1.9116097325441992},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -1.201715978673522
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: -1.5707963267948966
+Différence d'angle qui manque : 0.36908034812137447
+Différence de rames à faire :-2
+Angle du gouvernail à faire : 0.36908034812137447
+2020-03-16 21:16:51,648 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":0.36908034812137447},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":1},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":1}]
+2020-03-16 21:16:51,674 [INFO ] Starting round 68
+2020-03-16 21:16:51,674 [INFO ] ********************************************
+2020-03-16 21:16:51,674 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,674 [INFO ] {"ship":{"type":"ship","position":{"x":1736.1957968589459,"y":314.62418296415245,"orientation":-3.1133257112177115},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.03217321065500389
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.03217321065500389
+Différence de rames à faire :0
+Angle du gouvernail à faire : -0.03217321065500389
+2020-03-16 21:16:51,678 [INFO ] Player response:[{"sailorId":4,"type":"TURN","rotation":-0.03217321065500389},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-1},{"sailorId":3,"type":"OAR"},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":-1}]
+2020-03-16 21:16:51,704 [INFO ] Starting round 69
+2020-03-16 21:16:51,704 [INFO ] ********************************************
+2020-03-16 21:16:51,704 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,704 [INFO ] {"ship":{"type":"ship","position":{"x":1571.2154769596104,"y":312.58802395547747,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.002213107910177481
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.002213107910177481
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,708 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,732 [INFO ] Starting round 70
+2020-03-16 21:16:51,732 [INFO ] ********************************************
+2020-03-16 21:16:51,732 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,732 [INFO ] {"ship":{"type":"ship","position":{"x":1406.21673581989,"y":313.2325565830129,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.002562132078329782
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.002562132078329782
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,736 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,753 [INFO ] Starting round 71
+2020-03-16 21:16:51,753 [INFO ] ********************************************
+2020-03-16 21:16:51,753 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,753 [INFO ] {"ship":{"type":"ship","position":{"x":1241.2179946801693,"y":313.8770892105484,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.003041855819074346
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.003041855819074346
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,757 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,779 [INFO ] Starting round 72
+2020-03-16 21:16:51,779 [INFO ] ********************************************
+2020-03-16 21:16:51,779 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,779 [INFO ] {"ship":{"type":"ship","position":{"x":1076.2192535404488,"y":314.52162183808383,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.003742606103808388
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.003742606103808388
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,782 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,805 [INFO ] Starting round 73
+2020-03-16 21:16:51,805 [INFO ] ********************************************
+2020-03-16 21:16:51,805 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,805 [INFO ] {"ship":{"type":"ship","position":{"x":911.2205124007282,"y":315.1661544656193,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.0048628565087249775
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.0048628565087249775
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,809 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,829 [INFO ] Starting round 74
+2020-03-16 21:16:51,829 [INFO ] ********************************************
+2020-03-16 21:16:51,829 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,829 [INFO ] {"ship":{"type":"ship","position":{"x":746.2217712610077,"y":315.81068709315474,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.006940216335820093
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.006940216335820093
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,834 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,860 [INFO ] Starting round 75
+2020-03-16 21:16:51,861 [INFO ] ********************************************
+2020-03-16 21:16:51,861 [INFO ] 658909832 - nextRound
+2020-03-16 21:16:51,861 [INFO ] {"ship":{"type":"ship","position":{"x":581.2230301212871,"y":316.4552197206902,"orientation":-3.145498921872718},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0}],"wind":{"orientation":0.0,"strength":150.0}}
+tempsgoalsnull
+Current checkpoint360.0,320.0,0.0, C150.0
+Angle optimal : -0.012115919266197928
+Angles possibles :[-1.5707963267948966, -0.7853981633974483, 0.0, 0.7853981633974483, 1.5707963267948966]
+Angle le plus près avec les rames: 0.0
+Différence d'angle qui manque : -0.012115919266197928
+Différence de rames à faire :0
+Angle du gouvernail à faire : 0.0
+2020-03-16 21:16:51,865 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-16 21:16:51,882 [INFO ] Game over
+2020-03-16 21:16:51,882 [INFO ] Creating team's logs files
+2020-03-16 21:16:51,885 [INFO ] Game scores: {flibustiers=425}

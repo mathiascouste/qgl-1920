@@ -1,0 +1,11 @@
+pos(0,00,0,00,0,00) Wanted_Rotation=0.7853981633974483 Sailor0{Dest=oar(LEFT,6,0);Pos=null;[X=5;Y=0]} Sailor1{Dest=oar(LEFT,8,0);Pos=null;[X=5;Y=1]} Sailor2{Dest=oar(RIGHT,9,4);Pos=null;[X=5;Y=2]} Sai
+lor3{Dest=oar(RIGHT,8,4);Pos=null;[X=5;Y=3]} Sailor4{Dest=null;Pos=oar(RIGHT,5,4);[X=5;Y=4]} Sailor5{Dest=null;Pos=oar(LEFT,1,0);[X=1;Y=0]} Sailor6{Dest=oar(LEFT,7,0);Pos=null;[X=6;Y=1]} Sailor7{Dest=
+oar(LEFT,9,0);Pos=null;[X=6;Y=2]} Sailor8{Dest=oar(RIGHT,6,4);Pos=null;[X=6;Y=3]} Sailor9{Dest=null;Pos=oar(RIGHT,1,4);[X=1;Y=4]} Sailor10{Dest=null;Pos=oar(LEFT,2,0);[X=2;Y=0]} Sailor11{Dest=null;Pos
+=oar(LEFT,5,0);[X=5;Y=0]} Sailor12{Dest=oar(RIGHT,7,4);Pos=null;[X=7;Y=2]} Sailor13{Dest=null;Pos=oar(RIGHT,4,4);[X=4;Y=4]} Sailor14{Dest=null;Pos=oar(RIGHT,2,4);[X=2;Y=4]} Sailor15{Dest=null;Pos=oar(
+LEFT,3,0);[X=3;Y=0]} Sailor16{Dest=null;Pos=oar(LEFT,4,0);[X=4;Y=0]} Sailor17{Dest=null;Pos=sail(MIDDLE,5,2,false);[X=5;Y=2]} Sailor18{Dest=null;Pos=oar(RIGHT,3,4);[X=3;Y=4]} Sailor19{Dest=rudder(RIGH
+T,10,4);Pos=null;[X=8;Y=4]} Lift_Sail Rudder_Rotation=0,79 Oar_Rotation=0,00 pos(141,67,0,00,0,00) Wanted_Rotation=0.9489720389643067 Sailor0{Dest=null;Pos=oar(LEFT,6,0);[X=6;Y=0]} Sailor1{Dest=null;P
+os=oar(LEFT,8,0);[X=8;Y=0]} Sailor2{Dest=oar(RIGHT,9,4);Pos=null;[X=9;Y=3]} Sailor3{Dest=null;Pos=oar(RIGHT,8,4);[X=8;Y=4]} Sailor6{Dest=null;Pos=oar(LEFT,7,0);[X=7;Y=0]} Sailor7{Dest=null;Pos=oar(LEF
+T,9,0);[X=9;Y=0]} Sailor8{Dest=null;Pos=oar(RIGHT,6,4);[X=6;Y=4]} Sailor12{Dest=null;Pos=oar(RIGHT,7,4);[X=7;Y=4]} Sailor19{Dest=null;Pos=rudder(RIGHT,10,4);[X=10;Y=4]} Rudder_Rotation=0,79 Oar_Rotati
+on=0,16 pos(296,70,77,87,0,96) Wanted_Rotation=0.16203277779469316 Sailor2{Dest=null;Pos=oar(RIGHT,9,4);[X=9;Y=4]} Rudder_Rotation=0,16 Oar_Rotation=0,00 pos(392,97,241,76,1,12) Wanted_Rotation=0.0559
+39249961161064 Rudder_Rotation=0,06 Oar_Rotation=0,00 pos(468,78,410,96,1,18) Wanted_Rotation=0.05566188746371825 Rudder_Rotation=0,06 Oar_Rotation=0,00 pos(586,09,633,70,1,23) Wanted_Rotation=2.90676
+9718279934 Rudder_Rotation=0,79 Oar_Rotation=2,12 pos(694,76,737,45,2,02) pos(810,22,823,99,2,02) 

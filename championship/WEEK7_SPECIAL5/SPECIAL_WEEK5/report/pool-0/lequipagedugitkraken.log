@@ -1,0 +1,173 @@
+REGATTA.
+Checkpoints :
+X:0.0,Y:0.0
+Shipcount : 1,
+Deck : 5x11
+
+oar, X:1,Y:0
+
+oar, X:2,Y:0
+
+oar, X:3,Y:0
+
+oar, X:4,Y:0
+
+oar, X:5,Y:0
+
+oar, X:6,Y:0
+
+oar, X:7,Y:0
+
+oar, X:8,Y:0
+
+oar, X:9,Y:0
+
+oar, X:1,Y:4
+
+oar, X:2,Y:4
+
+oar, X:3,Y:4
+
+oar, X:4,Y:4
+
+oar, X:5,Y:4
+
+oar, X:6,Y:4
+
+oar, X:7,Y:4
+
+oar, X:8,Y:4
+
+oar, X:9,Y:4
+
+rudder, X:10,Y:4
+
+sail, X:5,Y:2
+
+ROUND 0:id:0,x:0,y:0,ac:null|id:1,x:0,y:1,ac:null|id:2,x:0,y:2,ac:null|id:3,x:0,y:3,ac:null|id:4,x:0,y:4,ac:null|id:5,x:1,y:0,ac:null|id:6,x:1,y:1,ac:null|id:7,x:1,y:2,ac:null|id:8,x:1,y:3,ac:null|id
+
+ROUND 1:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:null|id:6,x:4,y:3,ac:null|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:null|id
+
+ROUND 2:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 3:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y:
+
+ROUND 4:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y:
+
+ROUND 5:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y:
+
+ROUND 6:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 7:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y:
+
+ROUND 8:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 9:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y:
+
+ROUND 10:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
+
+ROUND 11:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 12:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:
+
+ROUND 13:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 14:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 15:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 16:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 17:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 18:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 19:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 20:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 21:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 22:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
+
+ROUND 23:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 24:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 25:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 26:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 27:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 28:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 29:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 30:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 31:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 32:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 33:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 34:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 35:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 36:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 37:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 38:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 39:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 40:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 41:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 42:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 43:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 44:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 45:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 46:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 47:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 48:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 49:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 50:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 51:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 52:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:null|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:null|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:null|id:8,x:5,y:4,ac:OAR|id:9,x
+
+ROUND 53:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 54:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 55:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:null|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:null|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:null|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:null|id:9,
+
+ROUND 56:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 57:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
+
+ROUND 58:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 59:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
+
+ROUND 60:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 61:id:0,x:1,y:4,ac:null|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
+
+ROUND 62:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:OAR|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,y
+
+ROUND 63:id:0,x:1,y:4,ac:OAR|id:1,x:1,y:0,ac:null|id:2,x:2,y:4,ac:OAR|id:3,x:2,y:0,ac:OAR|id:4,x:3,y:4,ac:OAR|id:5,x:3,y:0,ac:OAR|id:6,x:4,y:4,ac:OAR|id:7,x:4,y:0,ac:OAR|id:8,x:5,y:4,ac:OAR|id:9,x:5,
