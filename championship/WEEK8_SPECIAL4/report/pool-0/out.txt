@@ -1,0 +1,3503 @@
+2020-03-23 19:58:58,154 [INFO ] Game creation...
+2020-03-23 19:58:58,169 [INFO ] 1 players created!
+2020-03-23 19:58:58,185 [INFO ] Starting game
+2020-03-23 19:58:58,200 [INFO ] ********************************************
+2020-03-23 19:58:58,200 [INFO ] 1678046232 - initGame
+2020-03-23 19:58:58,200 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":1600.0,"y":350.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":345.0,"y":1550.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":0.0,"y":0.0,"orientation":0.0},"shape":{"type":"circle","radius":70.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Tom Pouce"},{"x":0,"y":1,"id":1,"name":"Tom Pouce"},{"x":0,"y":2,"id":2,"name":"Tom Pouce"},{"x":0,"y":3,"id":3,"name":"Luffy Pouce"},{"x":0,"y":4,"id":4,"name":"Jack Pouce"},{"x":1,"y":0,"id":5,"name":"Tom Pouce"},{"x":1,"y":1,"id":6,"name":"Jack Teach"},{"x":1,"y":2,"id":7,"name":"Edward Pouce"},{"x":1,"y":3,"id":8,"name":"Luffy Pouce"},{"x":1,"y":4,"id":9,"name":"Tom Teach"},{"x":2,"y":0,"id":10,"name":"Tom Teach"},{"x":2,"y":1,"id":11,"name":"Tom Teach"},{"x":2,"y":2,"id":12,"name":"Tom Teach"},{"x":2,"y":3,"id":13,"name":"Luffy Teach"},{"x":2,"y":4,"id":14,"name":"Luffy Pouce"},{"x":3,"y":0,"id":15,"name":"Tom Pouce"},{"x":3,"y":1,"id":16,"name":"Jack Pouce"},{"x":3,"y":2,"id":17,"name":"Jack Pouce"},{"x":3,"y":3,"id":18,"name":"Luffy Pouce"},{"x":3,"y":4,"id":19,"name":"Edward Pouce"}],"shipCount":1}
+2020-03-23 19:58:58,234 [INFO ] Starting round 0
+2020-03-23 19:58:58,238 [INFO ] ********************************************
+2020-03-23 19:58:58,238 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,238 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,276 [INFO ] Player response:[ {
+  "sailorId" : 17,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : 0
+}, {
+  "sailorId" : 17,
+  "type" : "LIFT_SAIL"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+} ]
+2020-03-23 19:58:58,311 [INFO ] Starting round 1
+2020-03-23 19:58:58,311 [INFO ] ********************************************
+2020-03-23 19:58:58,311 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,311 [INFO ] {"ship":{"type":"ship","position":{"x":66.01608144309056,"y":11.433590487749651,"orientation":0.3490658503988663},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,314 [INFO ] Player response:[ {
+  "sailorId" : 17,
+  "type" : "LOWER_SAIL"
+}, {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "MOVING",
+  "xdistance" : 1,
+  "ydistance" : -1
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : -1
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 19,
+  "type" : "MOVING",
+  "xdistance" : -1,
+  "ydistance" : -4
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 12,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 1
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : 1
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 7,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 2,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+} ]
+2020-03-23 19:58:58,327 [INFO ] Starting round 2
+2020-03-23 19:58:58,327 [INFO ] ********************************************
+2020-03-23 19:58:58,328 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,328 [INFO ] {"ship":{"type":"ship","position":{"x":163.26725832853026,"y":37.582946980502534,"orientation":0.1745329251994331},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,329 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "LIFT_SAIL"
+}, {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : -1
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "MOVING",
+  "xdistance" : 3,
+  "ydistance" : 0
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : -2
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 1
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : 1
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : 2
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "MOVING",
+  "xdistance" : 4,
+  "ydistance" : 1
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 5,
+  "ydistance" : 0
+} ]
+2020-03-23 19:58:58,338 [INFO ] Starting round 3
+2020-03-23 19:58:58,339 [INFO ] ********************************************
+2020-03-23 19:58:58,339 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,339 [INFO ] {"ship":{"type":"ship","position":{"x":367.7865851171766,"y":55.644728378071626,"orientation":8.023096076392733E-17},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,341 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "MOVING",
+  "xdistance" : 2,
+  "ydistance" : 0
+}, {
+  "sailorId" : 7,
+  "type" : "TURN",
+  "rotation" : -0.11457696843947415
+} ]
+2020-03-23 19:58:58,347 [INFO ] Starting round 4
+2020-03-23 19:58:58,347 [INFO ] ********************************************
+2020-03-23 19:58:58,347 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,347 [INFO ] {"ship":{"type":"ship","position":{"x":435.0619301774869,"y":63.4621338340111,"orientation":0.23448888195939163},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,349 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "MOVING",
+  "xdistance" : -2,
+  "ydistance" : 0
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 1
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "MOVING",
+  "xdistance" : 0,
+  "ydistance" : 3
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.006691679101062319
+} ]
+2020-03-23 19:58:58,353 [INFO ] Starting round 5
+2020-03-23 19:58:58,354 [INFO ] ********************************************
+2020-03-23 19:58:58,354 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,354 [INFO ] {"ship":{"type":"ship","position":{"x":642.6435050941919,"y":113.77727615356812,"orientation":0.24118056106045346},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,355 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 7.320328195551498E-4
+} ]
+2020-03-23 19:58:58,360 [INFO ] Starting round 6
+2020-03-23 19:58:58,360 [INFO ] ********************************************
+2020-03-23 19:58:58,360 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,360 [INFO ] {"ship":{"type":"ship","position":{"x":849.9927031815712,"y":164.8582976568517,"orientation":0.24191259388000938},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,361 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.0219065774039598E-4
+} ]
+2020-03-23 19:58:58,366 [INFO ] Starting round 7
+2020-03-23 19:58:58,366 [INFO ] ********************************************
+2020-03-23 19:58:58,366 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,366 [INFO ] {"ship":{"type":"ship","position":{"x":1057.3155369600581,"y":216.02525191600688,"orientation":0.2420147845377508},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,367 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.9714917669206996E-5
+} ]
+2020-03-23 19:58:58,371 [INFO ] Starting round 8
+2020-03-23 19:58:58,371 [INFO ] ********************************************
+2020-03-23 19:58:58,371 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,371 [INFO ] {"ship":{"type":"ship","position":{"x":1264.634516739513,"y":267.2047522929494,"orientation":0.2420344994554214},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,373 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 6.1546846764489194E-6
+} ]
+2020-03-23 19:58:58,378 [INFO ] Starting round 9
+2020-03-23 19:58:58,378 [INFO ] ********************************************
+2020-03-23 19:58:58,378 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,378 [INFO ] {"ship":{"type":"ship","position":{"x":1471.9526797603687,"y":318.38691100595935,"orientation":0.2420406541400972},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,380 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 5.0322260495066754E-6
+} ]
+2020-03-23 19:58:58,384 [INFO ] Starting round 10
+2020-03-23 19:58:58,384 [INFO ] ********************************************
+2020-03-23 19:58:58,384 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,384 [INFO ] {"ship":{"type":"ship","position":{"x":1679.2704910613459,"y":369.57021442357166,"orientation":0.24204568636614696},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,386 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,389 [INFO ] Starting round 11
+2020-03-23 19:58:58,390 [INFO ] ********************************************
+2020-03-23 19:58:58,390 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,390 [INFO ] {"ship":{"type":"ship","position":{"x":1707.6228429242599,"y":435.8125891803505,"orientation":2.5982401765584915},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,392 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "LOWER_SAIL"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.005257753719039471
+} ]
+2020-03-23 19:58:58,396 [INFO ] Starting round 12
+2020-03-23 19:58:58,396 [INFO ] ********************************************
+2020-03-23 19:58:58,396 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,396 [INFO ] {"ship":{"type":"ship","position":{"x":1647.4438751414766,"y":432.269890318671,"orientation":3.814712899235467},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,397 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.025509972076077414
+} ]
+2020-03-23 19:58:58,401 [INFO ] Starting round 13
+2020-03-23 19:58:58,401 [INFO ] ********************************************
+2020-03-23 19:58:58,401 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,401 [INFO ] {"ship":{"type":"ship","position":{"x":1635.5321006447014,"y":418.47461702755015,"orientation":4.1892887217103985},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,402 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.04444007037770829
+} ]
+2020-03-23 19:58:58,406 [INFO ] Starting round 14
+2020-03-23 19:58:58,409 [INFO ] ********************************************
+2020-03-23 19:58:58,409 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,409 [INFO ] {"ship":{"type":"ship","position":{"x":1556.2738244222035,"y":273.7726965366547,"orientation":4.23372879208807},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,411 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,415 [INFO ] Starting round 15
+2020-03-23 19:58:58,416 [INFO ] ********************************************
+2020-03-23 19:58:58,416 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,416 [INFO ] {"ship":{"type":"ship","position":{"x":1597.3401316241461,"y":223.77738479445537,"orientation":0.3067379751008556},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,418 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.021258158442707398
+} ]
+2020-03-23 19:58:58,420 [INFO ] Starting round 16
+2020-03-23 19:58:58,421 [INFO ] ********************************************
+2020-03-23 19:58:58,421 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,421 [INFO ] {"ship":{"type":"ship","position":{"x":1633.6626423485225,"y":271.67860031079886,"orientation":1.5497266099395932},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,422 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.09659867426225544
+} ]
+2020-03-23 19:58:58,424 [INFO ] Starting round 17
+2020-03-23 19:58:58,424 [INFO ] ********************************************
+2020-03-23 19:58:58,424 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,424 [INFO ] {"ship":{"type":"ship","position":{"x":1628.5004703176598,"y":298.47752172570574,"orientation":1.9767267112756435},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,425 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.09934009489216691
+} ]
+2020-03-23 19:58:58,427 [INFO ] Starting round 18
+2020-03-23 19:58:58,427 [INFO ] ********************************************
+2020-03-23 19:58:58,427 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,427 [INFO ] {"ship":{"type":"ship","position":{"x":1556.0036298300317,"y":446.6221424983954,"orientation":2.0760668061678245},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,428 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,431 [INFO ] Starting round 19
+2020-03-23 19:58:58,431 [INFO ] ********************************************
+2020-03-23 19:58:58,431 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,431 [INFO ] {"ship":{"type":"ship","position":{"x":1491.6328872344875,"y":440.1121285888502,"orientation":4.432261296360164},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,433 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.06448839129241168
+} ]
+2020-03-23 19:58:58,435 [INFO ] Starting round 20
+2020-03-23 19:58:58,435 [INFO ] ********************************************
+2020-03-23 19:58:58,435 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,435 [INFO ] {"ship":{"type":"ship","position":{"x":1509.1319880220349,"y":382.0456847933878,"orientation":5.589503381463758},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,437 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.005571833253572023
+} ]
+2020-03-23 19:58:58,439 [INFO ] Starting round 21
+2020-03-23 19:58:58,439 [INFO ] ********************************************
+2020-03-23 19:58:58,439 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,439 [INFO ] {"ship":{"type":"ship","position":{"x":1524.975633113222,"y":373.0133850086949,"orientation":5.944141065116228},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,440 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.041410485567207396
+} ]
+2020-03-23 19:58:58,442 [INFO ] Starting round 22
+2020-03-23 19:58:58,443 [INFO ] ********************************************
+2020-03-23 19:58:58,443 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,443 [INFO ] {"ship":{"type":"ship","position":{"x":1681.6635815221887,"y":321.3413721001141,"orientation":5.985551550683412},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,444 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,447 [INFO ] Starting round 23
+2020-03-23 19:58:58,447 [INFO ] ********************************************
+2020-03-23 19:58:58,447 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,447 [INFO ] {"ship":{"type":"ship","position":{"x":1723.448390191299,"y":370.73775403128326,"orientation":2.058560733696177},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,448 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.02773472475668859
+} ]
+2020-03-23 19:58:58,451 [INFO ] Starting round 24
+2020-03-23 19:58:58,451 [INFO ] ********************************************
+2020-03-23 19:58:58,451 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,451 [INFO ] {"ship":{"type":"ship","position":{"x":1669.7409128225513,"y":397.65187609151116,"orientation":3.308025934848899},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,452 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.09062272163996699
+} ]
+2020-03-23 19:58:58,455 [INFO ] Starting round 25
+2020-03-23 19:58:58,455 [INFO ] ********************************************
+2020-03-23 19:58:58,455 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,455 [INFO ] {"ship":{"type":"ship","position":{"x":1644.409295561085,"y":387.51188078838703,"orientation":3.7410019888072106},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,456 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.10199119000389185
+} ]
+2020-03-23 19:58:58,460 [INFO ] Starting round 26
+2020-03-23 19:58:58,460 [INFO ] ********************************************
+2020-03-23 19:58:58,460 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,460 [INFO ] {"ship":{"type":"ship","position":{"x":1513.1019056001585,"y":287.7131839859746,"orientation":3.8429931788111023},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,461 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,463 [INFO ] Starting round 27
+2020-03-23 19:58:58,463 [INFO ] ********************************************
+2020-03-23 19:58:58,464 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,464 [INFO ] {"ship":{"type":"ship","position":{"x":1532.031361060265,"y":225.84519145843302,"orientation":6.199187669003475},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,464 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.06782039256488148
+} ]
+2020-03-23 19:58:58,466 [INFO ] Starting round 28
+2020-03-23 19:58:58,467 [INFO ] ********************************************
+2020-03-23 19:58:58,467 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,467 [INFO ] {"ship":{"type":"ship","position":{"x":1585.6389123997485,"y":254.24547165963597,"orientation":1.069912445655039},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,467 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0029494464116193164
+} ]
+2020-03-23 19:58:58,469 [INFO ] Starting round 29
+2020-03-23 19:58:58,469 [INFO ] ********************************************
+2020-03-23 19:58:58,469 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,469 [INFO ] {"ship":{"type":"ship","position":{"x":1591.491005976102,"y":271.51996148620634,"orientation":1.4219277424655208},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,470 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.04086806416472992
+} ]
+2020-03-23 19:58:58,473 [INFO ] Starting round 30
+2020-03-23 19:58:58,473 [INFO ] ********************************************
+2020-03-23 19:58:58,473 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,473 [INFO ] {"ship":{"type":"ship","position":{"x":1612.6564592279142,"y":435.14524961504105,"orientation":1.4627958066302438},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,474 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,476 [INFO ] Starting round 31
+2020-03-23 19:58:58,476 [INFO ] ********************************************
+2020-03-23 19:58:58,476 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,476 [INFO ] {"ship":{"type":"ship","position":{"x":1556.2692018164114,"y":466.8698455149608,"orientation":3.81899029682258},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,477 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.02972307748687042
+} ]
+2020-03-23 19:58:58,479 [INFO ] Starting round 32
+2020-03-23 19:58:58,479 [INFO ] ********************************************
+2020-03-23 19:58:58,479 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,479 [INFO ] {"ship":{"type":"ship","position":{"x":1540.0217200806596,"y":409.0481632830388,"orientation":5.070443850705462},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,480 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.08844127183329953
+} ]
+2020-03-23 19:58:58,482 [INFO ] Starting round 33
+2020-03-23 19:58:58,482 [INFO ] ********************************************
+2020-03-23 19:58:58,482 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,482 [INFO ] {"ship":{"type":"ship","position":{"x":1554.8241404121925,"y":386.1291570851264,"orientation":5.505601354470477},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,483 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.10299866264326484
+} ]
+2020-03-23 19:58:58,485 [INFO ] Starting round 34
+2020-03-23 19:58:58,485 [INFO ] ********************************************
+2020-03-23 19:58:58,485 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,485 [INFO ] {"ship":{"type":"ship","position":{"x":1678.0968598288723,"y":276.5628346213943,"orientation":5.608600017113772},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,486 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,488 [INFO ] Starting round 35
+2020-03-23 19:58:58,488 [INFO ] ********************************************
+2020-03-23 19:58:58,488 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,488 [INFO ] {"ship":{"type":"ship","position":{"x":1735.1302042121588,"y":307.11067270957113,"orientation":1.6816092001265412},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,489 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.0690829801451518
+} ]
+2020-03-23 19:58:58,491 [INFO ] Starting round 36
+2020-03-23 19:58:58,491 [INFO ] ********************************************
+2020-03-23 19:58:58,491 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,491 [INFO ] {"ship":{"type":"ship","position":{"x":1696.914448271793,"y":354.23619778901497,"orientation":2.8342566963774214},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,492 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.001952994401402841
+} ]
+2020-03-23 19:58:58,494 [INFO ] Starting round 37
+2020-03-23 19:58:58,494 [INFO ] ********************************************
+2020-03-23 19:58:58,494 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,494 [INFO ] {"ship":{"type":"ship","position":{"x":1678.8375729479312,"y":356.66540241133487,"orientation":3.1852755411777096},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,495 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.04066253851898987
+} ]
+2020-03-23 19:58:58,497 [INFO ] Starting round 38
+2020-03-23 19:58:58,497 [INFO ] ********************************************
+2020-03-23 19:58:58,497 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,497 [INFO ] {"ship":{"type":"ship","position":{"x":1514.1847273537476,"y":346.1444816850766,"orientation":3.225938079696686},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,498 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,500 [INFO ] Starting round 39
+2020-03-23 19:58:58,500 [INFO ] ********************************************
+2020-03-23 19:58:58,500 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,500 [INFO ] {"ship":{"type":"ship","position":{"x":1493.8242878804572,"y":284.73255053274664,"orientation":5.582132569889048},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,501 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.030488995861065682
+} ]
+2020-03-23 19:58:58,503 [INFO ] Starting round 40
+2020-03-23 19:58:58,504 [INFO ] ********************************************
+2020-03-23 19:58:58,504 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,504 [INFO ] {"ship":{"type":"ship","position":{"x":1553.6824923771755,"y":279.8611066821865,"orientation":0.551166734966566},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,504 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.08759875347454249
+} ]
+2020-03-23 19:58:58,506 [INFO ] Starting round 41
+2020-03-23 19:58:58,506 [INFO ] ********************************************
+2020-03-23 19:58:58,506 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,506 [INFO ] {"ship":{"type":"ship","position":{"x":1573.3261884499957,"y":298.79446424989726,"orientation":0.9871667570903274},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,507 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.1033890746397457
+} ]
+2020-03-23 19:58:58,509 [INFO ] Starting round 42
+2020-03-23 19:58:58,510 [INFO ] ********************************************
+2020-03-23 19:58:58,510 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,510 [INFO ] {"ship":{"type":"ship","position":{"x":1657.0507122121655,"y":440.8893756015585,"orientation":1.0905558317300659},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,510 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,513 [INFO ] Starting round 43
+2020-03-23 19:58:58,513 [INFO ] ********************************************
+2020-03-23 19:58:58,513 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,513 [INFO ] {"ship":{"type":"ship","position":{"x":1616.0634641857232,"y":490.94952225159386,"orientation":3.446750321922406},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,514 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.06956829801135811
+} ]
+2020-03-23 19:58:58,515 [INFO ] Starting round 44
+2020-03-23 19:58:58,516 [INFO ] ********************************************
+2020-03-23 19:58:58,516 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,516 [INFO ] {"ship":{"type":"ship","position":{"x":1577.1924271468201,"y":444.3592596890547,"orientation":4.5989125003070805},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,517 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0015718120823164372
+} ]
+2020-03-23 19:58:58,518 [INFO ] Starting round 45
+2020-03-23 19:58:58,518 [INFO ] ********************************************
+2020-03-23 19:58:58,518 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,518 [INFO ] {"ship":{"type":"ship","position":{"x":1578.2877681558366,"y":426.15260942123115,"orientation":4.949550162788282},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,519 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.040584096842421216
+} ]
+2020-03-23 19:58:58,521 [INFO ] Starting round 46
+2020-03-23 19:58:58,521 [INFO ] ********************************************
+2020-03-23 19:58:58,521 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,521 [INFO ] {"ship":{"type":"ship","position":{"x":1620.264568816481,"y":266.5931784950968,"orientation":4.990134259630726},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,522 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,524 [INFO ] Starting round 47
+2020-03-23 19:58:58,524 [INFO ] ********************************************
+2020-03-23 19:58:58,524 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,524 [INFO ] {"ship":{"type":"ship","position":{"x":1684.4447692249666,"y":258.4154857318052,"orientation":1.0631434426435014},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,525 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.030782806446393973
+} ]
+2020-03-23 19:58:58,527 [INFO ] Starting round 48
+2020-03-23 19:58:58,527 [INFO ] ********************************************
+2020-03-23 19:58:58,527 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,527 [INFO ] {"ship":{"type":"ship","position":{"x":1677.712389397855,"y":318.09113828002666,"orientation":2.3156567254859226},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,528 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.08727532774861729
+} ]
+2020-03-23 19:58:58,530 [INFO ] Starting round 49
+2020-03-23 19:58:58,530 [INFO ] ********************************************
+2020-03-23 19:58:58,530 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,530 [INFO ] {"ship":{"type":"ship","position":{"x":1655.34973505876,"y":333.71934870178893,"orientation":2.751980173335596},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,531 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.10353913135918696
+} ]
+2020-03-23 19:58:58,533 [INFO ] Starting round 50
+2020-03-23 19:58:58,533 [INFO ] ********************************************
+2020-03-23 19:58:58,533 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,533 [INFO ] {"ship":{"type":"ship","position":{"x":1499.774723526354,"y":388.4651714496445,"orientation":2.8555193046948055},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,534 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,535 [INFO ] Starting round 51
+2020-03-23 19:58:58,535 [INFO ] ********************************************
+2020-03-23 19:58:58,535 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,535 [INFO ] {"ship":{"type":"ship","position":{"x":1458.5637365401685,"y":338.58905156218066,"orientation":5.21171379488716},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,536 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.06975424760686022
+} ]
+2020-03-23 19:58:58,538 [INFO ] Starting round 52
+2020-03-23 19:58:58,538 [INFO ] ********************************************
+2020-03-23 19:58:58,538 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,538 [INFO ] {"ship":{"type":"ship","position":{"x":1511.7769392523965,"y":309.432584263713,"orientation":0.08050471649670735},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,539 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "LIFT_SAIL"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0014260365783793083
+} ]
+2020-03-23 19:58:58,540 [INFO ] Starting round 53
+2020-03-23 19:58:58,540 [INFO ] ********************************************
+2020-03-23 19:58:58,540 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,540 [INFO ] {"ship":{"type":"ship","position":{"x":1575.8299648156185,"y":325.92902862919755,"orientation":0.43099660347395197},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,541 [INFO ] Player response:[ {
+  "sailorId" : 2,
+  "type" : "LOWER_SAIL"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.3571548182185591
+} ]
+2020-03-23 19:58:58,543 [INFO ] Starting round 54
+2020-03-23 19:58:58,543 [INFO ] ********************************************
+2020-03-23 19:58:58,543 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,543 [INFO ] {"ship":{"type":"ship","position":{"x":1588.7943106827656,"y":395.02797008948767,"orientation":2.3589477484874077},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,544 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.034258149610760305
+} ]
+2020-03-23 19:58:58,546 [INFO ] Starting round 55
+2020-03-23 19:58:58,546 [INFO ] ********************************************
+2020-03-23 19:58:58,546 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,546 [INFO ] {"ship":{"type":"ship","position":{"x":1469.8505822302632,"y":509.37274338497247,"orientation":2.393205898098163},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,547 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0018626428755797858
+} ]
+2020-03-23 19:58:58,548 [INFO ] Starting round 56
+2020-03-23 19:58:58,549 [INFO ] ********************************************
+2020-03-23 19:58:58,549 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,549 [INFO ] {"ship":{"type":"ship","position":{"x":1348.8371837782122,"y":621.5366837784175,"orientation":2.395068540973746},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,549 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.1350499419426091E-4
+} ]
+2020-03-23 19:58:58,551 [INFO ] Starting round 57
+2020-03-23 19:58:58,551 [INFO ] ********************************************
+2020-03-23 19:58:58,551 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,551 [INFO ] {"ship":{"type":"ship","position":{"x":1227.712020807111,"y":733.5799560708579,"orientation":2.3951820459679496},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,552 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 7.865907901703023E-6
+} ]
+2020-03-23 19:58:58,554 [INFO ] Starting round 58
+2020-03-23 19:58:58,554 [INFO ] ********************************************
+2020-03-23 19:58:58,554 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,554 [INFO ] {"ship":{"type":"ship","position":{"x":1106.5799994209835,"y":845.6158137003256,"orientation":2.39518991187583},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,555 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 6.31675672359079E-7
+} ]
+2020-03-23 19:58:58,557 [INFO ] Starting round 59
+2020-03-23 19:58:58,557 [INFO ] ********************************************
+2020-03-23 19:58:58,557 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,557 [INFO ] {"ship":{"type":"ship","position":{"x":985.4474979661605,"y":957.6511522828285,"orientation":2.3951905435515197},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,558 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 5.771194914292421E-8
+} ]
+2020-03-23 19:58:58,559 [INFO ] Starting round 60
+2020-03-23 19:58:58,559 [INFO ] ********************************************
+2020-03-23 19:58:58,560 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,560 [INFO ] {"ship":{"type":"ship","position":{"x":864.3149575719304,"y":1069.686448764072,"orientation":2.3951906012634883},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,560 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0
+} ]
+2020-03-23 19:58:58,562 [INFO ] Starting round 61
+2020-03-23 19:58:58,562 [INFO ] ********************************************
+2020-03-23 19:58:58,562 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,562 [INFO ] {"ship":{"type":"ship","position":{"x":743.1824139124798,"y":1181.7217417149675,"orientation":2.3951906012634883},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,563 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 2.1073424255447017E-8
+} ]
+2020-03-23 19:58:58,565 [INFO ] Starting round 62
+2020-03-23 19:58:58,565 [INFO ] ********************************************
+2020-03-23 19:58:58,565 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,565 [INFO ] {"ship":{"type":"ship","position":{"x":622.0498690843542,"y":1293.757033402284,"orientation":2.395190622336898},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,566 [INFO ] Player response:[ {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.7853981633974483
+} ]
+2020-03-23 19:58:58,567 [INFO ] Starting round 63
+2020-03-23 19:58:58,567 [INFO ] ********************************************
+2020-03-23 19:58:58,567 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,567 [INFO ] {"ship":{"type":"ship","position":{"x":622.0498690843542,"y":1293.757033402284,"orientation":3.180588785734342},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,568 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.08726645607708017
+} ]
+2020-03-23 19:58:58,570 [INFO ] Starting round 64
+2020-03-23 19:58:58,570 [INFO ] ********************************************
+2020-03-23 19:58:58,570 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,570 [INFO ] {"ship":{"type":"ship","position":{"x":580.0898401243837,"y":1309.0629872490222,"orientation":2.395190615814249},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,571 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.05127879107649714
+} ]
+2020-03-23 19:58:58,572 [INFO ] Starting round 65
+2020-03-23 19:58:58,573 [INFO ] ********************************************
+2020-03-23 19:58:58,573 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,573 [INFO ] {"ship":{"type":"ship","position":{"x":461.85275612201866,"y":1424.1239596727933,"orientation":2.3439118247377344},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,573 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : -0.024874570351222074
+} ]
+2020-03-23 19:58:58,575 [INFO ] Starting round 66
+2020-03-23 19:58:58,575 [INFO ] ********************************************
+2020-03-23 19:58:58,575 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,575 [INFO ] {"ship":{"type":"ship","position":{"x":348.08769944925507,"y":1543.627550721549,"orientation":2.3190372543865045},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,576 [INFO ] Player response:[ {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.6007652937517944
+} ]
+2020-03-23 19:58:58,578 [INFO ] Starting round 67
+2020-03-23 19:58:58,578 [INFO ] ********************************************
+2020-03-23 19:58:58,578 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,578 [INFO ] {"ship":{"type":"ship","position":{"x":282.9966650575711,"y":1526.8428237346186,"orientation":4.490598874933197},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,579 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.03852225538593493
+} ]
+2020-03-23 19:58:58,580 [INFO ] Starting round 68
+2020-03-23 19:58:58,580 [INFO ] ********************************************
+2020-03-23 19:58:58,580 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,580 [INFO ] {"ship":{"type":"ship","position":{"x":249.77829041485478,"y":1365.2316442154593,"orientation":4.529121130319139},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,581 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0023124759492688467
+} ]
+2020-03-23 19:58:58,583 [INFO ] Starting round 69
+2020-03-23 19:58:58,583 [INFO ] ********************************************
+2020-03-23 19:58:58,583 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,583 [INFO ] {"ship":{"type":"ship","position":{"x":219.89382044859016,"y":1202.9605552198898,"orientation":4.531433606268446},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,584 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.5756649711508506E-4
+} ]
+2020-03-23 19:58:58,586 [INFO ] Starting round 70
+2020-03-23 19:58:58,586 [INFO ] ********************************************
+2020-03-23 19:58:58,586 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,586 [INFO ] {"ship":{"type":"ship","position":{"x":190.21152367454633,"y":1040.6523262174862,"orientation":4.53159117276554},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,587 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.2410726215235486E-5
+} ]
+2020-03-23 19:58:58,588 [INFO ] Starting round 71
+2020-03-23 19:58:58,589 [INFO ] ********************************************
+2020-03-23 19:58:58,589 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,589 [INFO ] {"ship":{"type":"ship","position":{"x":160.5431391299497,"y":878.3415534444983,"orientation":4.531603583491765},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,589 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.158080054982098E-6
+} ]
+2020-03-23 19:58:58,591 [INFO ] Starting round 72
+2020-03-23 19:58:58,591 [INFO ] ********************************************
+2020-03-23 19:58:58,591 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,591 [INFO ] {"ship":{"type":"ship","position":{"x":130.8758648997015,"y":716.0305777227553,"orientation":4.531604741571797},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,592 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 1.3244441773467654E-7
+} ]
+2020-03-23 19:58:58,594 [INFO ] Starting round 73
+2020-03-23 19:58:58,594 [INFO ] ********************************************
+2020-03-23 19:58:58,594 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,594 [INFO ] {"ship":{"type":"ship","position":{"x":101.20869623496198,"y":553.7195827057269,"orientation":4.531604874016252},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,595 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 2.1073424255447017E-8
+} ]
+2020-03-23 19:58:58,597 [INFO ] Starting round 74
+2020-03-23 19:58:58,597 [INFO ] ********************************************
+2020-03-23 19:58:58,597 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,597 [INFO ] {"ship":{"type":"ship","position":{"x":71.5415401194285,"y":391.4085853949577,"orientation":4.531604895089706},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,598 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0
+} ]
+2020-03-23 19:58:58,600 [INFO ] Starting round 75
+2020-03-23 19:58:58,600 [INFO ] ********************************************
+2020-03-23 19:58:58,600 [INFO ] 1678046232 - nextRound
+2020-03-23 19:58:58,600 [INFO ] {"ship":{"type":"ship","position":{"x":41.87438573122382,"y":229.09758776846633,"orientation":4.531604895089706},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[],"wind":{"orientation":0.0,"strength":50.0}}
+2020-03-23 19:58:58,601 [INFO ] Player response:[ {
+  "sailorId" : 5,
+  "type" : "OAR"
+}, {
+  "sailorId" : 10,
+  "type" : "OAR"
+}, {
+  "sailorId" : 15,
+  "type" : "OAR"
+}, {
+  "sailorId" : 16,
+  "type" : "OAR"
+}, {
+  "sailorId" : 0,
+  "type" : "OAR"
+}, {
+  "sailorId" : 6,
+  "type" : "OAR"
+}, {
+  "sailorId" : 19,
+  "type" : "OAR"
+}, {
+  "sailorId" : 11,
+  "type" : "OAR"
+}, {
+  "sailorId" : 12,
+  "type" : "OAR"
+}, {
+  "sailorId" : 9,
+  "type" : "OAR"
+}, {
+  "sailorId" : 14,
+  "type" : "OAR"
+}, {
+  "sailorId" : 18,
+  "type" : "OAR"
+}, {
+  "sailorId" : 13,
+  "type" : "OAR"
+}, {
+  "sailorId" : 4,
+  "type" : "OAR"
+}, {
+  "sailorId" : 8,
+  "type" : "OAR"
+}, {
+  "sailorId" : 3,
+  "type" : "OAR"
+}, {
+  "sailorId" : 7,
+  "type" : "OAR"
+}, {
+  "sailorId" : 17,
+  "type" : "OAR"
+}, {
+  "sailorId" : 1,
+  "type" : "TURN",
+  "rotation" : 0.0
+} ]
+2020-03-23 19:58:58,603 [INFO ] Game over
+2020-03-23 19:58:58,603 [INFO ] Creating team's logs files
+2020-03-23 19:58:58,607 [INFO ] Game scores: {macbernik=325}

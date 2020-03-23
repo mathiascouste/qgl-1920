@@ -1,0 +1,38 @@
+pos(360,00;320,00;1,57) Wanted_Rotation=0.04051467927324337 Sailor2{Dest=null;Pos=oar(RIGHT,2,2);[X=2;Y=2]} Sailor3{Dest=null;Pos=oar(LEFT,1,0);[X=1;Y=0]} Sailor4{Dest=null;Pos=rudder(MIDDLE,3,1);[X=3
+;Y=1]} Sailor5{Dest=null;Pos=oar(RIGHT,1,2);[X=1;Y=2]} Sailor6{Dest=null;Pos=oar(LEFT,2,0);[X=2;Y=0]} Rudder_Rotation=0,04 Oar_Rotation=0,00 pos(356,69;484,96;1,61) Wanted_Rotation=0.00256439301866073
+78 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(349,80;649,81;1,61) Wanted_Rotation=1.856025622806179E-4 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(342,68;814,66;1,61) Wanted_Rotation=1.5680691064501318
+E-5 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(335,54;979,50;1,61) Wanted_Rotation=1.5909504191835566E-6 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(328,40;1144,35;1,61) Wanted_Rotation=2.0200030670380
+897E-7 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(321,26;1309,19;1,61) Wanted_Rotation=3.426183381449732E-8 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(314,12;1474,04;1,61) Wanted_Rotation=8.7501150769
+49783E-9 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(306,98;1638,88;1,61) Wanted_Rotation=4.521126140133447E-9 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(299,84;1803,73;1,61) CP0passed Wanted_Rotation=
+-0.7189869892064951 Rudder_Rotation=-0,72 Oar_Rotation=0,00 pos(349,50;1957,37;0,90) Wanted_Rotation=-0.023816051887295853 Sailor1{Dest=null;Pos=sail(MIDDLE,1,1,false);[X=1;Y=1]} Lift_Sail Rudder_Rota
+tion=-0,02 Oar_Rotation=0,00 pos(514,61;2158,45;0,87) Wanted_Rotation=-0.001454213309915131 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(683,23;2358,54;0,87) Wanted_Rotation=-1.0185593990519326E-4 Rudd
+er_Rotation=-0,00 Oar_Rotation=0,00 pos(852,05;2558,56;0,87) Wanted_Rotation=-8.287278870255932E-6 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1020,90;2758,58;0,87) Wanted_Rotation=-8.038053971315406E
+-7 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1189,74;2958,60;0,87) Wanted_Rotation=-9.649719057147621E-8 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1358,59;3158,62;0,87) Wanted_Rotation=-1.51972924
+24495856E-8 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1527,43;3358,64;0,87) Wanted_Rotation=-3.478096033404654E-9 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1696,28;3558,66;0,87) Wanted_Rotation=-1
+.4557371974532884E-9 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1865,12;3758,68;0,87) CP1passed Wanted_Rotation=0.6626404325238011 Rudder_Rotation=0,66 Oar_Rotation=0,00 pos(1948,04;3956,80;1,53) Wan
+ted_Rotation=0.15504902914903362 Rudder_Rotation=0,16 Oar_Rotation=0,00 pos(1942,24;4115,80;1,69) Wanted_Rotation=0.07640875907136835 Lower_Sail Rudder_Rotation=0,08 Oar_Rotation=0,00 pos(1916,87;4278
+,80;1,76) Wanted_Rotation=-0.03494017179967801 Rudder_Rotation=-0,03 Oar_Rotation=0,00 pos(1888,03;4441,25;1,73) Wanted_Rotation=-0.29735318344133943 Rudder_Rotation=-0,30 Oar_Rotation=0,00 pos(1886,2
+4;4605,63;1,43) Wanted_Rotation=-0.038168381873591395 Lift_Sail Rudder_Rotation=-0,04 Oar_Rotation=0,00 pos(1915,96;4791,89;1,39) Wanted_Rotation=-0.007934171269220691 Rudder_Rotation=-0,01 Oar_Rotati
+on=0,00 pos(1950,61;4980,79;1,39) Wanted_Rotation=-0.002913364091975401 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1986,43;5170,30;1,38) CP2passed Wanted_Rotation=-1.1445391939456926 Rudder_Rotation=
+-0,79 Oar_Rotation=-0,36 pos(2121,82;5366,80;0,60) Wanted_Rotation=-0.49175897619833897 Rudder_Rotation=-0,49 Oar_Rotation=0,00 pos(2404,79;5470,17;0,11) Wanted_Rotation=-0.1149118728252374 Rudder_Rot
+ation=-0,11 Oar_Rotation=0,00 pos(2718,99;5485,40;-0,01) Wanted_Rotation=-0.1871657535766803 Rudder_Rotation=-0,19 Oar_Rotation=0,00 pos(3030,90;5453,46;-0,20) Wanted_Rotation=-0.27935758581798875 Rud
+der_Rotation=-0,28 Oar_Rotation=0,00 pos(3319,25;5353,41;-0,48) Wanted_Rotation=-0.12714672191805554 Rudder_Rotation=-0,13 Oar_Rotation=0,00 pos(3571,14;5202,87;-0,60) CP3passed Wanted_Rotation=-1.125
+4585171254678 Rudder_Rotation=-0,79 Oar_Rotation=-0,34 pos(3706,98;5006,43;-1,39) Wanted_Rotation=-0.4460235090450575 Rudder_Rotation=-0,45 Oar_Rotation=0,00 pos(3703,34;4848,51;-1,83) Wanted_Rotation
+=-0.026767920394552114 Lower_Sail Rudder_Rotation=-0,03 Oar_Rotation=0,00 pos(3658,20;4689,81;-1,86) Wanted_Rotation=-0.0017949247700839166 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3610,78;4531,77;
+-1,86) Wanted_Rotation=-1.3879682145523375E-4 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3563,20;4373,78;-1,86) Wanted_Rotation=-1.2673391549977708E-5 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3515
+,61;4215,79;-1,86) Wanted_Rotation=-1.4126072560571856E-6 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3468,02;4057,80;-1,86) Wanted_Rotation=-2.0204831319148298E-7 Rudder_Rotation=-0,00 Oar_Rotation=0
+,00 pos(3420,43;3899,82;-1,86) Wanted_Rotation=-4.0319065419680555E-8 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3372,84;3741,83;-1,86) Wanted_Rotation=-1.3302076107279959E-8 Rudder_Rotation=-0,00 Oa
+r_Rotation=0,00 pos(3325,25;3583,84;-1,86) CP4passed Wanted_Rotation=-0.2361315339326504 Rudder_Rotation=-0,24 Oar_Rotation=0,00 pos(3259,72;3432,83;-2,10) Wanted_Rotation=-0.01172014859468229 Rudder_
+Rotation=-0,01 Oar_Rotation=0,00 pos(3175,66;3290,85;-2,11) Wanted_Rotation=-6.484667546642342E-4 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3090,73;3149,39;-2,11) Wanted_Rotation=-4.029439278685487E
+-5 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(3005,74;3007,96;-2,11) Wanted_Rotation=-2.8551204800386643E-6 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(2920,75;2866,53;-2,11) Wanted_Rotation=-2.35321
+89219466204E-7 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(2835,76;2725,11;-2,11) Wanted_Rotation=-2.3178411634461327E-8 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(2750,76;2583,68;-2,11) Wanted_Rotat
+Wanted_Rotation=-1.0876499700884779E-10 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(2495,79;2159,40;-2,11) Wanted_Rotation=-4.874101122709362E-11 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(2410,80;20
+pos(2283,15;1714,37;-1,91) Wanted_Rotation=5.650460728083839E-4 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(2227,66;1558,98;-1,91) Wanted_Rotation=3.6986326872767705E-5 Rudder_Rotation=0,00 Oar_Rotatio
+n=0,00 pos(2172,23;1403,57;-1,91) Wanted_Rotation=2.7815620706750366E-6 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(2116,79;1248,16;-1,91) Wanted_Rotation=2.4579128199420097E-7 Rudder_Rotation=0,00 Oar
+_Rotation=0,00 pos(2061,36;1092,75;-1,91) Wanted_Rotation=2.6325666535598202E-8 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(2005,93;937,34;-1,91) Wanted_Rotation=3.5786127394743517E-9 Rudder_Rotation=0
+,00 Oar_Rotation=0,00 pos(1950,50;781,93;-1,91) Wanted_Rotation=6.65653754339246E-10 Rudder_Rotation=0,00 Oar_Rotation=0,00 pos(1895,06;626,52;-1,91) Wanted_Rotation=1.960187567817684E-10 Rudder_Rotat
+ion=0,00 Oar_Rotation=0,00 pos(1839,63;471,11;-1,91) CP6passed Wanted_Rotation=-1.0740432926630745 Rudder_Rotation=-0,79 Oar_Rotation=-0,29 pos(1732,24;351,44;-2,70) Wanted_Rotation=-0.419870589222055
+56 Rudder_Rotation=-0,42 Oar_Rotation=0,00 pos(1572,95;313,32;-3,12) Wanted_Rotation=-0.028421505112488532 Rudder_Rotation=-0,03 Oar_Rotation=0,00 pos(1407,96;311,86;-3,15) Wanted_Rotation=-0.00225962
+11943515243 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1242,96;312,95;-3,15) Wanted_Rotation=-2.132329758905982E-4 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(1077,97;314,25;-3,15) Wanted_Rotation=-2
+.474631420579243E-5 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(912,97;315,57;-3,15) Wanted_Rotation=-3.7287869378843652E-6 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(747,98;316,89;-3,15) Wanted_Rota
+tion=-8.007942433607695E-7 Rudder_Rotation=-0,00 Oar_Rotation=0,00 pos(582,98;318,21;-3,15) Wanted_Rotation=-2.9923226652073254E-7 Rudder_Rotation=-0,00 Oar_Rotation=0,00 
