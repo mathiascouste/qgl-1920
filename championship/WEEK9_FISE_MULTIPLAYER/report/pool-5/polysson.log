@@ -1,0 +1,2 @@
+InitShipPos : (120.0, 1248.0, ori=0.0) | ShipDeck : (5, 3) | [Sl{id=9, x=0, y=0}, Sl{id=10, x=0, y=1}, Sl{id=11, x=0, y=2}, Sl{id=12, x=1, y=0}, Sl{id=13, x=1, y=1}, Sl{id=14, x=1, y=2}, Sl{id=15, x=2
+[Oar(1,0), Oar(2,0), Oar(3,0), Oar(1,2), Oar(2,2), Oar(3,2), Rudder(4,1), Watch(0,1), Sail(2,1)] | [CP{pos=(480.0, 1488.0)}, CP{pos=(800.0, 856.0)}, CP{pos=(120.0, 1488.0)}]

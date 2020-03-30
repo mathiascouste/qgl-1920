@@ -1,0 +1,135 @@
+Jeu initialisé ! 
+ 
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 0.7853981633974484
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 0.7853981633974484
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+
+exec des déplacement restants
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 0.7853981633974484
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+
+exec des déplacement restants
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 0.7853981633974484
+La position actuelle du bateau est x:0.0 y:0.0 orientation 0.0
+
+
+exec des déplacement restants
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 0.9556100886829231
+La position actuelle du bateau est x:146.6666666666668 y:1.2090328738167954E-14 orientation 1.665334536937732E-16
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.1788488013263831
+La position actuelle du bateau est x:293.3333333333329 y:4.860556401808931E-14 orientation 3.3306690738754726E-16
+
+
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 2 Marin droite 9 Angle 1.2217304763960306 (radian)
+----------------------- Fin tour ------------------------------- 
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.1788488013263831
+La position actuelle du bateau est x:293.3333333333329 y:4.860556401808931E-14 orientation 3.3306690738754726E-16
+
+
+exec des déplacement restants
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 2 Marin droite 9 Angle 1.2217304763960306 (radian)
+----------------------- Fin tour ------------------------------- 
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.1788488013263831
+La position actuelle du bateau est x:293.3333333333329 y:4.860556401808931E-14 orientation 3.3306690738754726E-16
+
+
+exec des déplacement restants
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 2 Marin droite 9 Angle 1.2217304763960306 (radian)
+----------------------- Fin tour ------------------------------- 
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.2897984863910477
+La position actuelle du bateau est x:371.21994499927524 y:53.83075001307719 orientation 1.2217304763960302
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.2897984863910477
+La position actuelle du bateau est x:371.21994499927524 y:53.83075001307719 orientation 1.2217304763960302
+
+
+exec des déplacement restants
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.2897984863910477
+La position actuelle du bateau est x:371.21994499927524 y:53.83075001307719 orientation 1.2217304763960302
+
+
+exec des déplacement restants
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.3056533995842394
+La position actuelle du bateau est x:416.7028113977433 y:193.23705027015555 orientation 1.289798486391045
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:500.0 y:500.0 orientation 0.0
+Angle optimal : 1.3125120753007864
+La position actuelle du bateau est x:456.26802682383857 y:334.46471848501227 orientation 1.3056533995842479
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:1000.0 y:1000.0 orientation 0.0
+Angle optimal : 0.8029609434488801
+La position actuelle du bateau est x:494.2207823284517 y:476.1355169692425 orientation 1.3125120753007957
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:1000.0 y:1000.0 orientation 0.0
+Angle optimal : 0.7281389220881614
+La position actuelle du bateau est x:653.1477295753923 y:690.7563922839768 orientation 0.8029609434488805
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:1000.0 y:1000.0 orientation 0.0
+Angle optimal : 0.6444712297696673
+La position actuelle du bateau est x:864.8979365137533 y:898.4685136067476 orientation 0.7281389220881596
+
+
+Nous utilisons le gouvernail !
+
+Le checkpoint visé est à x:1000.0 y:1000.0 orientation 0.0
+Angle optimal : -2.2840460352453715
+La position actuelle du bateau est x:1084.352249826696 y:1097.4950650865326 orientation 0.6444712297696698
+
+
+Pour atteindre ce checkpoint il faut une orientation de Marin gauche 9 Marin droite 0 Angle -1.5707963267948966 (radian)
+----------------------- Fin tour ------------------------------- 
+
+Le checkpoint visé est à x:1000.0 y:1000.0 orientation 0.0
+Angle optimal : -2.322847708733919
+La position actuelle du bateau est x:1190.418267005469 y:1203.561082263714 orientation 0.6444712297696698

@@ -1,0 +1,714 @@
+2020-03-30 21:15:33,450 [INFO ] Game creation...
+2020-03-30 21:15:33,456 [INFO ] 1 players created!
+2020-03-30 21:15:33,463 [INFO ] Starting game
+2020-03-30 21:15:33,476 [INFO ] ********************************************
+2020-03-30 21:15:33,476 [INFO ] 1947896119 - initGame
+2020-03-30 21:15:33,476 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":300.0,"y":1800.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":1900.0,"y":3800.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":2000.0,"y":5240.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":3600.0,"y":5160.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":3300.0,"y":3500.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":2400.0,"y":2000.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":1800.0,"y":360.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}},{"position":{"x":360.0,"y":320.0,"orientation":0.0},"shape":{"type":"circle","radius":150.0}}]},"ship":{"type":"ship","position":{"x":360.0,"y":320.0,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Luffy Pouce"},{"x":0,"y":1,"id":1,"name":"Tom Teach"},{"x":0,"y":2,"id":2,"name":"Luffy Teach"},{"x":1,"y":0,"id":3,"name":"Jack Teach"},{"x":1,"y":1,"id":4,"name":"Tom Pouce"},{"x":1,"y":2,"id":5,"name":"Edward Teach"},{"x":2,"y":0,"id":6,"name":"Luffy Teach"}],"shipCount":1}
+Nombre de rameurs : 4
+2020-03-30 21:15:33,502 [INFO ] Starting round 0
+2020-03-30 21:15:33,510 [INFO ] ********************************************
+2020-03-30 21:15:33,510 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,511 [INFO ] {"ship":{"type":"ship","position":{"x":360.0,"y":320.0,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":360.0,"y":320.0,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1481.215716902842
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+Luffy Pouce -0- : moving - X/Y : 1/2
+Tom Teach -1- : moving - X/Y : 1/-1
+Luffy Teach -2- : moving - X/Y : 2/0
+Jack Teach -3- : moving - X/Y : 1/0
+2020-03-30 21:15:33,533 [INFO ] Player response:[{"sailorId":0,"type":"MOVING","xdistance":1,"ydistance":2},{"sailorId":1,"type":"MOVING","xdistance":1,"ydistance":-1},{"sailorId":2,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,604 [INFO ] Starting round 1
+2020-03-30 21:15:33,607 [INFO ] ********************************************
+2020-03-30 21:15:33,607 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,607 [INFO ] {"ship":{"type":"ship","position":{"x":359.9993939211606,"y":484.9999999988893,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.9993939211606,"y":484.9999999988893,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1316.368081986884
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,610 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,658 [INFO ] Starting round 2
+2020-03-30 21:15:33,660 [INFO ] ********************************************
+2020-03-30 21:15:33,660 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,660 [INFO ] {"ship":{"type":"ship","position":{"x":359.99878784232124,"y":649.9999999977738,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.99878784232124,"y":649.9999999977738,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1151.5640905080656
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,662 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,700 [INFO ] Starting round 3
+2020-03-30 21:15:33,700 [INFO ] ********************************************
+2020-03-30 21:15:33,700 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,700 [INFO ] {"ship":{"type":"ship","position":{"x":359.99818176348185,"y":814.9999999966574,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.99818176348185,"y":814.9999999966574,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+986.8256086165928
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,704 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,737 [INFO ] Starting round 4
+2020-03-30 21:15:33,738 [INFO ] ********************************************
+2020-03-30 21:15:33,738 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,738 [INFO ] {"ship":{"type":"ship","position":{"x":359.99757568464247,"y":979.999999995541,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.99757568464247,"y":979.999999995541,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+822.1920147358202
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,740 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,772 [INFO ] Starting round 5
+2020-03-30 21:15:33,773 [INFO ] ********************************************
+2020-03-30 21:15:33,773 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,773 [INFO ] {"ship":{"type":"ship","position":{"x":359.9969696058031,"y":1144.999999994433,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.9969696058031,"y":1144.999999994433,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+657.7420743491878
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,776 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,811 [INFO ] Starting round 6
+2020-03-30 21:15:33,812 [INFO ] ********************************************
+2020-03-30 21:15:33,812 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,812 [INFO ] {"ship":{"type":"ship","position":{"x":359.9963635269637,"y":1309.999999993328,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.9963635269637,"y":1309.999999993328,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1655.0,"y":1145.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-455.0,"y":-345.0},{"x":145.0,"y":-105.0},{"x":225.0,"y":95.0},{"x":85.0,"y":355.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+493.659359926456
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,814 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,842 [INFO ] Starting round 7
+2020-03-30 21:15:33,843 [INFO ] ********************************************
+2020-03-30 21:15:33,843 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,843 [INFO ] {"ship":{"type":"ship","position":{"x":359.9957574481243,"y":1474.999999992223,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.9957574481243,"y":1474.999999992223,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+330.4912872025967
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,846 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,884 [INFO ] Starting round 8
+2020-03-30 21:15:33,885 [INFO ] ********************************************
+2020-03-30 21:15:33,885 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,885 [INFO ] {"ship":{"type":"ship","position":{"x":359.99515136928494,"y":1639.9999999911179,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.99515136928494,"y":1639.9999999911179,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+170.8783725070721
+After :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,887 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,923 [INFO ] Starting round 9
+2020-03-30 21:15:33,924 [INFO ] ********************************************
+2020-03-30 21:15:33,924 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,924 [INFO ] {"ship":{"type":"ship","position":{"x":359.99454529044556,"y":1804.9999999900128,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":359.99454529044556,"y":1804.9999999900128,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1000.0,"y":1000.0,"orientation":0.78539816339},"shape":{"type":"rectangle","width":100.0,"height":1400.0,"orientation":0.0},"strength":150.0},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 300.0;1800.0;0.0
+, Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+60.20253702716732
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,925 [INFO ] Player response:[{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,953 [INFO ] Starting round 10
+2020-03-30 21:15:33,954 [INFO ] ********************************************
+2020-03-30 21:15:33,954 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,954 [INFO ] {"ship":{"type":"ship","position":{"x":405.7056253685058,"y":1916.5949669845534,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":405.7056253685058,"y":1916.5949669845534,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2404.190133172342
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,955 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:33,976 [INFO ] Starting round 11
+2020-03-30 21:15:33,977 [INFO ] ********************************************
+2020-03-30 21:15:33,977 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:33,977 [INFO ] {"ship":{"type":"ship","position":{"x":522.3778157010369,"y":2033.2680144420012,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":522.3778157010369,"y":2033.2680144420012,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2240.3537201670533
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:33,979 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,007 [INFO ] Starting round 12
+2020-03-30 21:15:34,007 [INFO ] ********************************************
+2020-03-30 21:15:34,007 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,007 [INFO ] {"ship":{"type":"ship","position":{"x":639.0500060335679,"y":2149.941061899469,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":639.0500060335679,"y":2149.941061899469,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2076.7015641370804
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,009 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,032 [INFO ] Starting round 13
+2020-03-30 21:15:34,032 [INFO ] ********************************************
+2020-03-30 21:15:34,032 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,032 [INFO ] {"ship":{"type":"ship","position":{"x":755.722196366099,"y":2266.6141093569395,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":755.722196366099,"y":2266.6141093569395,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1015.0,"y":835.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":285.0,"y":-435.0},{"x":185.0,"y":-35.0},{"x":-255.0,"y":465.0},{"x":-215.0,"y":5.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1913.2809468325443
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,034 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,062 [INFO ] Starting round 14
+2020-03-30 21:15:34,065 [INFO ] ********************************************
+2020-03-30 21:15:34,065 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,065 [INFO ] {"ship":{"type":"ship","position":{"x":872.39438669863,"y":2383.28715681441,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":872.39438669863,"y":2383.28715681441,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1750.156729134703
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,067 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,090 [INFO ] Starting round 15
+2020-03-30 21:15:34,091 [INFO ] ********************************************
+2020-03-30 21:15:34,091 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,091 [INFO ] {"ship":{"type":"ship","position":{"x":989.066577031161,"y":2499.9602042718807,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":989.066577031161,"y":2499.9602042718807,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1587.420288253409
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,093 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,112 [INFO ] Starting round 16
+2020-03-30 21:15:34,112 [INFO ] ********************************************
+2020-03-30 21:15:34,112 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,112 [INFO ] {"ship":{"type":"ship","position":{"x":1105.7387673637002,"y":2616.6332517293513,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1105.7387673637002,"y":2616.6332517293513,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1425.2044648335843
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,114 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,132 [INFO ] Starting round 17
+2020-03-30 21:15:34,133 [INFO ] ********************************************
+2020-03-30 21:15:34,133 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,133 [INFO ] {"ship":{"type":"ship","position":{"x":1222.4109576962426,"y":2733.306299186822,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1222.4109576962426,"y":2733.306299186822,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1263.709761616423
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,134 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,157 [INFO ] Starting round 18
+2020-03-30 21:15:34,157 [INFO ] ********************************************
+2020-03-30 21:15:34,157 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,157 [INFO ] {"ship":{"type":"ship","position":{"x":1339.083148028785,"y":2849.9793466442925,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1339.083148028785,"y":2849.9793466442925,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1103.252897856019
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,158 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,183 [INFO ] Starting round 19
+2020-03-30 21:15:34,183 [INFO ] ********************************************
+2020-03-30 21:15:34,183 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,183 [INFO ] {"ship":{"type":"ship","position":{"x":1455.7553383613274,"y":2966.652394101763,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1455.7553383613274,"y":2966.652394101763,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+944.3630401761718
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,185 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,208 [INFO ] Starting round 20
+2020-03-30 21:15:34,209 [INFO ] ********************************************
+2020-03-30 21:15:34,209 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,209 [INFO ] {"ship":{"type":"ship","position":{"x":1572.4275286938698,"y":3083.3254415592337,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1572.4275286938698,"y":3083.3254415592337,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":1172.0,"y":1548.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":28.0,"y":-748.0},{"x":568.0,"y":-48.0},{"x":68.0,"y":712.0},{"x":-252.0,"y":332.0},{"x":-412.0,"y":-248.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+787.9886716659529
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,211 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,232 [INFO ] Starting round 21
+2020-03-30 21:15:34,232 [INFO ] ********************************************
+2020-03-30 21:15:34,232 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,232 [INFO ] {"ship":{"type":"ship","position":{"x":1689.0997190264122,"y":3199.9984890167043,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1689.0997190264122,"y":3199.9984890167043,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+635.9880043656296
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,234 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,254 [INFO ] Starting round 22
+2020-03-30 21:15:34,255 [INFO ] ********************************************
+2020-03-30 21:15:34,255 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,255 [INFO ] {"ship":{"type":"ship","position":{"x":1735.6858450775571,"y":3311.231003867182,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1735.6858450775571,"y":3311.231003867182,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+515.6493702978402
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,256 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,279 [INFO ] Starting round 23
+2020-03-30 21:15:34,280 [INFO ] ********************************************
+2020-03-30 21:15:34,280 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,280 [INFO ] {"ship":{"type":"ship","position":{"x":1735.6852389987234,"y":3476.2310038660544,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1735.6852389987234,"y":3476.2310038660544,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+363.0780956495304
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,281 [INFO ] Player response:[{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,300 [INFO ] Starting round 24
+2020-03-30 21:15:34,300 [INFO ] ********************************************
+2020-03-30 21:15:34,300 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,301 [INFO ] {"ship":{"type":"ship","position":{"x":1781.3963190767831,"y":3587.825970860593,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1781.3963190767831,"y":3587.825970860593,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+243.0733464816458
+After :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,302 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,323 [INFO ] Starting round 25
+2020-03-30 21:15:34,323 [INFO ] ********************************************
+2020-03-30 21:15:34,323 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,323 [INFO ] {"ship":{"type":"ship","position":{"x":1898.0685094093255,"y":3704.4990183180635,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1898.0685094093255,"y":3704.4990183180635,"orientation":0.7854018366025561},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":1876.0,"y":2096.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-136.0,"y":-596.0},{"x":164.0,"y":-336.0},{"x":324.0,"y":64.0},{"x":284.0,"y":704.0},{"x":-636.0,"y":164.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 1900.0;3800.0;0.0
+, Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+95.52051171405773
+After :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,325 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,344 [INFO ] Starting round 26
+2020-03-30 21:15:34,345 [INFO ] ********************************************
+2020-03-30 21:15:34,345 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,345 [INFO ] {"ship":{"type":"ship","position":{"x":1944.6546354604704,"y":3815.7315331685413,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1944.6546354604704,"y":3815.7315331685413,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1425.3433884459027
+After :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,347 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,367 [INFO ] Starting round 27
+2020-03-30 21:15:34,367 [INFO ] ********************************************
+2020-03-30 21:15:34,367 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,367 [INFO ] {"ship":{"type":"ship","position":{"x":1944.6540293816367,"y":3980.7315331674135,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1944.6540293816367,"y":3980.7315331674135,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1260.4841323961923
+After :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,369 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,388 [INFO ] Starting round 28
+2020-03-30 21:15:34,389 [INFO ] ********************************************
+2020-03-30 21:15:34,389 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,389 [INFO ] {"ship":{"type":"ship","position":{"x":1944.653423302803,"y":4145.731533166286,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1944.653423302803,"y":4145.731533166286,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+1095.667249240711
+After :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,390 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,410 [INFO ] Starting round 29
+2020-03-30 21:15:34,410 [INFO ] ********************************************
+2020-03-30 21:15:34,410 [INFO ] 1947896119 - nextRound
+2020-03-30 21:15:34,410 [INFO ] {"ship":{"type":"ship","position":{"x":1944.6528172239694,"y":4310.731533165158,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Next round input: {"ship":{"type":"ship","position":{"x":1944.6528172239694,"y":4310.731533165158,"orientation":1.5708},"name":"Eskif","deck":{"width":3,"length":4},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":1,"y":2,"type":"oar"},{"x":2,"y":2,"type":"oar"},{"x":3,"y":1,"type":"rudder"},{"x":0,"y":1,"type":"watch"},{"x":1,"y":1,"type":"sail","openned":false}],"life":600,"shape":{"type":"rectangle","width":3.0,"height":4.0,"orientation":0.0}},"visibleEntities":[{"type":"reef","position":{"x":3023.3333333333335,"y":4403.333333333333,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-583.3333333333335,"y":96.66666666666697},{"x":-223.33333333333348,"y":-643.333333333333},{"x":16.666666666666515,"y":-283.33333333333303},{"x":376.6666666666665,"y":-43.33333333333303},{"x":376.6666666666665,"y":196.66666666666697},{"x":36.666666666666515,"y":676.666666666667}],"orientation":0.0}},{"type":"reef","position":{"x":2592.0,"y":3408.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-112.0,"y":-208.0},{"x":168.0,"y":-408.0},{"x":148.0,"y":352.0},{"x":-52.0,"y":272.0},{"x":-152.0,"y":-8.0}],"orientation":0.0}},{"type":"reef","position":{"x":2265.0,"y":3790.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":15.0,"y":-390.0},{"x":95.0,"y":10.0},{"x":35.0,"y":370.0},{"x":-145.0,"y":10.0}],"orientation":0.0}},{"type":"reef","position":{"x":2160.0,"y":4175.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-40.0,"y":-375.0},{"x":140.0,"y":-15.0},{"x":100.0,"y":285.0},{"x":-200.0,"y":105.0}],"orientation":0.0}},{"type":"reef","position":{"x":2196.0,"y":4684.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":64.0,"y":-224.0},{"x":564.0,"y":576.0},{"x":-96.0,"y":276.0},{"x":-296.0,"y":-224.0},{"x":-236.0,"y":-404.0}],"orientation":0.0}},{"type":"reef","position":{"x":2724.0,"y":4940.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-284.0,"y":-440.0},{"x":336.0,"y":140.0},{"x":376.0,"y":460.0},{"x":36.0,"y":320.0},{"x":-464.0,"y":-480.0}],"orientation":0.0}},{"type":"reef","position":{"x":1950.0,"y":3065.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":210.0,"y":-265.0},{"x":330.0,"y":335.0},{"x":170.0,"y":735.0},{"x":-710.0,"y":-805.0}],"orientation":0.0}}],"wind":{"orientation":0.0,"strength":150.0}}
+Before :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+930.9152453874742
+After :[Element circle with radius : 150.0 at : 2000.0;5240.0;0.0
+, Element circle with radius : 150.0 at : 3600.0;5160.0;0.0
+, Element circle with radius : 150.0 at : 3300.0;3500.0;0.0
+, Element circle with radius : 150.0 at : 2400.0;2000.0;0.0
+, Element circle with radius : 150.0 at : 1800.0;360.0;0.0
+, Element circle with radius : 150.0 at : 360.0;320.0;0.0
+]
+2020-03-30 21:15:34,412 [INFO ] Player response:[{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"}]
+2020-03-30 21:15:34,413 [INFO ] Game over
+2020-03-30 21:15:34,414 [INFO ] Creating team's logs files
+2020-03-30 21:15:34,422 [INFO ] Game scores: {lequipagedugitkraken=-4}

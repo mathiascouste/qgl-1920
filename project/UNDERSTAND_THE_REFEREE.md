@@ -88,6 +88,7 @@ Chaque rames actionnées d’une coté du bateau tend à l’orienter vers le c�
 | 2 | 0 | -PI/2 |
 | 2 | 1 | -PI/4 |
 | 2 | 2 | 0 |
+
 #### Rotation par le gouvernail:
 
 La rotation induite par le gouvernail est de zéro s’il n’est pas utilisé.
@@ -200,3 +201,36 @@ Si deux bateaux allant à une vitesse 100 se percutent en face à face, ils subi
 Si un bateau allant à une vitesse de 100 rattrape et percute un bateau allant à une vitesse de 70 dans la même direction, ils subissent alors 30 x 30 / 20 = 45 points de dégâts.
 
 Si bateau circulant vers le Nord à une vitesse de 150 percute un bateau allant vers l'Est à une vitesse de 100, ils subissent alors (sqrt(100 x 100 + 100 x 100)) x (sqrt(100 x 100 + 100 x 100)) / 20 = 1000 points de dégâts.
+
+## Utiliser ses canons
+### Orientation du canon
+L'orientation du canon dans le repère de la mer dépend de deux facteurs:
+ - son orientation de référence qui dépend de sa position (babord ou tribord) : le canon est perpendiculaire à la coque.
+ - son angle de visée : qui change en fonction de l'action "viser" (AIM).
+
+Lorsque l'action "viser" est faite, le canon prend l'angle donné en paramètre auquel est ajouté un petit peu d'aléatoire (plus ou moins un aléatoire tiré entre 0 et PI/40).
+
+### Tirer
+Lorsque l'action "tirer" est faite sur un canon chargé, le tir est effectué.
+Les tirs sont effectués avant les déplacements des bateaux.
+
+Le boulet de canon parcours 500 mètres en touchant TOUS les bateaux sur sa trajectoire.
+La trajectoire du boulet commence depuis le centre du bateau.
+Les dégats infligés sont égaux à: 500 - (la distance entre votre bateau et le bateau visé).
+
+Les boulets peuvent passer au dessus des récifs et des courants sans être impactés.
+Le vent n'a pas d'effet sur la trajectoire du boulet.
+
+**Exemples:**
+Votre bateau est orienté vers le Nord (orientation dans la mer = 0).
+Votre bateau dispose de deux canons "B" et "T" : un a babord ("B") et un a tribord ("T").
+
+Par défaut:
+ - le canon B sera orienté par défaut vers l'Ouest (orientation dans la mer = PI/2)
+ - le canon T sera orienté par défaut vers l'Est (orientation dans la mer = -PI/2)
+
+Si l'action viser est donnée au deux canons avec pour angle PI/4:
+ - le canon B sera orienté le Sud-Ouest (orientation dans la mer = 3xPI/4)
+ - le canon T sera orienté le Nord-Est (orientation dans la mer = -PI/4)
+
+

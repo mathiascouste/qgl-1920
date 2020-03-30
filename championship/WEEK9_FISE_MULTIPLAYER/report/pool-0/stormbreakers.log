@@ -1,0 +1,30 @@
+$INIT$$N_RND$$Could not resolve type id 'ship' as a subtype of `fr.unice.polytech.si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","
+position":{"x":657.3333333333334,"y":2080.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":8
+0.0}],"orientation":0.0}},{"type":"reef","position":{"x":517.3333333333334,"y":1792.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.6666666666666
+3,"y":-160.0},{"x":178.66666666666663,"y":-24.0}],"orientation":0.0}},{"type":"reef"[truncated 2518 chars]; line: 1, column: 2553] (through reference chain: java.util.ArrayList[11])$N_RND$$Could not r
+esolve type id 'ship' as a subtype of `fr.unice.polytech.si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","position":{"x":657.333333
+3333334,"y":2080.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":80.0}],"orientation":0.0}}
+,{"type":"reef","position":{"x":517.3333333333334,"y":1792.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.66666666666663,"y":-160.0},{"x":178.66
+666666666663,"y":-24.0}],"orientation":0.0}},{"type":"reef"[truncated 2518 chars]; line: 1, column: 2553] (through reference chain: java.util.ArrayList[11])$N_RND$$Could not resolve type id 'ship' as 
+a subtype of `fr.unice.polytech.si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","position":{"x":657.3333333333334,"y":2080.0,"orien
+tation":0.0},"shape":{"type":"polygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":80.0}],"orientation":0.0}},{"type":"reef","position
+":{"x":517.3333333333334,"y":1792.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.66666666666663,"y":-160.0},{"x":178.66666666666663,"y":-24.0}],
+"orientation":0.0}},{"type":"reef"[truncated 3061 chars]; line: 1, column: 3096] (through reference chain: java.util.ArrayList[13])$N_RND$$Could not resolve type id 'ship' as a subtype of `fr.unice.po
+lytech.si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","position":{"x":657.3333333333334,"y":2080.0,"orientation":0.0},"shape":{"ty
+pe":"polygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":80.0}],"orientation":0.0}},{"type":"reef","position":{"x":517.3333333333334,
+"y":1792.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.66666666666663,"y":-160.0},{"x":178.66666666666663,"y":-24.0}],"orientation":0.0}},{"typ
+e":"reef"[truncated 3277 chars]; line: 1, column: 3312] (through reference chain: java.util.ArrayList[14])$Validated:CP: {P(480.0|1488.0|0.0),C150.0}$N_RND$$Could not resolve type id 'ship' as a subty
+pe of `fr.unice.polytech.si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","position":{"x":657.3333333333334,"y":2080.0,"orientation"
+:0.0},"shape":{"type":"polygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":80.0}],"orientation":0.0}},{"type":"reef","position":{"x":
+517.3333333333334,"y":1792.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.66666666666663,"y":-160.0},{"x":178.66666666666663,"y":-24.0}],"orient
+ation":0.0}},{"type":"reef"[truncated 3277 chars]; line: 1, column: 3312] (through reference chain: java.util.ArrayList[14])$N_RND$$Could not resolve type id 'ship' as a subtype of `fr.unice.polytech.
+si3.qgl.stormbreakers.data.ocean.OceanEntity`: known type ids = [reef, stream]
+ at [Source: (String)"[{"type":"reef","position":{"x":657.3333333333334,"y":2080.0,"orientation":0.0},"shape":{"type":"po
+lygon","vertices":[{"x":-597.3333333333334,"y":24.0},{"x":-345.33333333333337,"y":-104.0},{"x":942.6666666666666,"y":80.0}],"orientation":0.0}},{"type":"reef","position":{"x":517.3333333333334,"y":179
+2.0,"orientation":0.0},"shape":{"type":"polygon","vertices":[{"x":-205.33333333333337,"y":184.0},{"x":26.66666666666663,"y":-160.0},{"x":178.66666666666663,"y":-24.0}],"orientation":0.0}},{"type":"ree
+f"[truncated 3492 chars]; line: 1, column: 3527] (through reference chain: java.util.ArrayList[15])

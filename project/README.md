@@ -98,9 +98,9 @@ En revanche, si un marin est monté dans la vigie, le bateau gagne un bonus de v
 #### Les canons
 Les canons permettent de tirer des projectiles sur les autres bateaux afin de leur infliger des dégâts.
 
-Les actions effectuables sur un canon sont les suivantes : tirer, recharger, ou orienter le canon. Tirer ne peut s’effectuer que si le canon est chargé. Tirer et recharger ne peuvent pas s’effectuer durant le même tour de jeu. L'orientation du canon ne peut être faite que dans la limite d'angle donnée en début de partie.
+Les actions effectuables sur un canon sont les suivantes : tirer, recharger, ou orienter le canon. Tirer ne peut s’effectuer que si le canon est chargé. Tirer et recharger ne peuvent pas s’effectuer durant le même tour de jeu. L'orientation du canon ne peut être faite que dans la limite d'angle de PI/4 à droite et à gauche.
 
-Le tir s’effectue en ligne droite dans la direction du canon sur une distance communiquée en début de partie.
+Le tir s’effectue en ligne droite dans la direction du canon sur une portée de 500.
 
 #### Exemples de bateaux
 

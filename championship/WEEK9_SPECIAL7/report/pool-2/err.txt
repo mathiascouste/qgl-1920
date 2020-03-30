@@ -1,0 +1,710 @@
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[356.6908057361165, 484.95552671601666, 1.6113146792732402 rad], Vitesse angulare : 0,041 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 356,691 ; Y : 484,956
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"MOVING","xdistance":"2","ydistance":"0"},{"sailorId":"0","type":"MOVING","xdistance":"1","ydistance":"0"},{"sailorId":"1","type":"MOVING","xdistance":"1","ydistance":"1"},{"sailorId":"2","type":"MOVING","xdistance":"2","ydistance":"0"},{"sailorId":"3","type":"MOVING","xdistance":"1","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":0.04051467927324359},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[349.7978391744915, 649.8114398460053, 1.6138790722919072 rad], Vitesse angulare : 0,003 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 349,798 ; Y : 649,811
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.00256439301866096},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[342.6762400697656, 814.65767956061, 1.614064674854182 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 342,676 ; Y : 814,658
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":1.8560256228083993E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[335.53791054295186, 979.503195881221, 1.6140803555452388 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 335,538 ; Y : 979,503
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":1.5680691064723362E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[328.3981458268557, 1144.3486500490355, 1.6140819464956546 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 328,398 ; Y : 1 144,349
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":1.5909504194056012E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[321.2582321860631, 1309.194097766593, 1.61408214849596 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 321,258 ; Y : 1 309,194
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.0200030692585358E-7},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[314.1182989336465, 1474.0395446347156, 1.6140821827577978 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 314,118 ; Y : 1 474,04
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":3.426183403654193E-8},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[306.9783621150405, 1638.8849913483764, 1.6140821915079095 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 306,978 ; Y : 1 638,885
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":8.750115298994388E-9},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[303.00506442751714, 1721.2889200475408, 1.6239693703455629 rad], Vitesse angulare : 0,01 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 303,005 ; Y : 1 721,289
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.009887178837664212},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[350.4229600927227, 1875.7380326570383, 0.914774702407434 rad], Vitesse angulare : -0,709 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 350,423 ; Y : 1 875,738
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"0","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.7091946679381249},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[452.5644791798297, 2005.3176700738052, 0.8915115373349938 rad], Vitesse angulare : -0,023 rad/s 
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 452,564 ; Y : 2 005,318
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:36 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.023263165072439418},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[556.2777944809138, 2133.647505166221, 0.8906575525569673 rad], Vitesse angulare : -0,001 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 556,278 ; Y : 2 133,648
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-8.539847780295595E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[660.0485939833948, 2261.9308679535397, 0.890623743819269 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 660,049 ; Y : 2 261,931
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.380873769864845E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[763.8216759319886, 2390.2123844042176, 0.8906222914972841 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 763,822 ; Y : 2 390,212
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.452321982786664E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[867.5948562949968, 2518.4938212427046, 0.8906222233096175 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 867,595 ; Y : 2 518,494
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-6.818766717930913E-8},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[971.3680412994753, 2646.775254326478, 0.8906222197799964 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 971,368 ; Y : 2 646,775
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.5296214839775075E-9},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1075.141226545537, 2775.0566872148215, 0.890622219576426 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 075,141 ; Y : 2 775,057
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-2.0357238117441057E-10},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1178.914411805628, 2903.3381200918157, 0.8906222195631699 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 178,914 ; Y : 2 903,338
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.325695109244407E-11},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1282.6875970666406, 3031.6195529680645, 0.8906222195621818 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 282,688 ; Y : 3 031,62
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-9.916512055951898E-13},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1386.460782327723, 3159.900985844266, 0.890622219562093 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 386,461 ; Y : 3 159,901
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-9.070522111187529E-14},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1490.2339675888163, 3288.1824187204675, 0.8906222195620708 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 490,234 ; Y : 3 288,182
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.8540724511240114E-14},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1594.0071528499095, 3416.463851596669, 0.8906222195620597 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 594,007 ; Y : 3 416,464
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-8.43769498715119E-15},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1697.7803381110027, 3544.7452844728705, 0.8906222195620375 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 697,78 ; Y : 3 544,745
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.8207657603852567E-14},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1801.553523372096, 3673.0267173490606, 0.8906222195619931 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 801,554 ; Y : 3 673,027
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-4.063416270128073E-14},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1853.440116002654, 3737.1674337871386, 0.8906222195618931 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 853,44 ; Y : 3 737,167
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.0158540675320182E-13},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1907.5790087565404, 3889.6358794881385, 1.5754273722904446 rad], Vitesse angulare : 0,685 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 907,579 ; Y : 3 889,636
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"0","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":0.6848051527285541},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1899.2588752706358, 4054.3669691970335, 1.6680201771504257 rad], Vitesse angulare : 0,093 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 899,259 ; Y : 4 054,367
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.09259280485998533},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1881.7803364859058, 4218.436363487677, 1.686014610831227 rad], Vitesse angulare : 0,018 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 881,78 ; Y : 4 218,436
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.01799443368079734},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1862.3497728232294, 4382.2880639336045, 1.6917050321763774 rad], Vitesse angulare : 0,006 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 862,35 ; Y : 4 382,288
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.005690421345148078},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1849.99367512509, 4463.845219469511, 1.7512003293828573 rad], Vitesse angulare : 0,059 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 849,994 ; Y : 4 463,845
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.0594952972064795},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1850.1099719181002, 4627.9264428488195, 1.3853159289294372 rad], Vitesse angulare : -0,366 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 850,11 ; Y : 4 627,926
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"0","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.3658844004534152},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1884.5695087329113, 4789.270124605048, 1.3349388710548307 rad], Vitesse angulare : -0,05 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 884,57 ; Y : 4 789,27
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.050377057874600784},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1923.8939845362768, 4949.514853737837, 1.3252629123186979 rad], Vitesse angulare : -0,01 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 923,894 ; Y : 4 949,515
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.009675958736142354},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1964.2387791468325, 5109.506344543703, 1.3222628501798064 rad], Vitesse angulare : -0,003 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 964,239 ; Y : 5 109,506
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.0030000621388928117},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2045.314802159067, 5195.854139240247, 0.3012779977596426 rad], Vitesse angulare : -1,021 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 045,315 ; Y : 5 195,854
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 1
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.23558668902271518},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2204.1556459853186, 5240.4356231600905, 0.24541879643632092 rad], Vitesse angulare : -0,056 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 204,156 ; Y : 5 240,436
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.055859201323322866},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2364.3155931646356, 5280.105864551062, 0.24013776275498677 rad], Vitesse angulare : -0,005 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 364,316 ; Y : 5 280,106
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.005281033681334285},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2524.5928806697575, 5319.300127568256, 0.2395232909241941 rad], Vitesse angulare : -0,001 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 524,593 ; Y : 5 319,3
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-6.144718307915242E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2684.8841251713825, 5358.437282760489, 0.23943038915666803 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 684,884 ; Y : 5 358,437
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:37 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-9.29017675249666E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2845.1775939879763, 5397.565327099957, 0.2394103413525096 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 845,178 ; Y : 5 397,565
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-2.0047804159095683E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3005.4716052445815, 5436.691149201701, 0.23940278701621698 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 005,472 ; Y : 5 436,691
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-7.5543362914320955E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3085.618794098651, 5456.253309581351, 0.2393915724141339 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 085,619 ; Y : 5 456,253
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.1214602084252956E-5},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3167.5198440136683, 5461.520358446944, -0.1144874243341776 rad], Vitesse angulare : -0,354 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 167,52 ; Y : 5 461,52
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.3538789967483115},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3281.7210547022432, 5417.474081689539, -0.626855699678411 rad], Vitesse angulare : -0,512 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 281,721 ; Y : 5 417,474
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 1
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"0","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":0.27302988805321315},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3411.249588867142, 5315.337346849463, -0.7093813542682045 rad], Vitesse angulare : -0,083 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 411,25 ; Y : 5 315,337
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.08252565458979155},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3534.725980151962, 5205.901214056149, -0.7413175479788511 rad], Vitesse angulare : -0,032 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 534,726 ; Y : 5 205,901
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.03193619371065015},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3578.022969007774, 5094.6525968359365, -1.6672263813074435 rad], Vitesse angulare : -0,926 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 578,023 ; Y : 5 094,653
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 1
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.14051066993114414},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3556.504885408117, 4931.095176786684, -1.7366840334693963 rad], Vitesse angulare : -0,069 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 556,505 ; Y : 4 931,095
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.0694576521619481},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3528.4957801175915, 4768.490483501853, -1.7461610128542888 rad], Vitesse angulare : -0,009 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 528,496 ; Y : 4 768,49
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.009476979384890116},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3499.56613626242, 4606.046435972411, -1.747933701761309 rad], Vitesse angulare : -0,002 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 499,566 ; Y : 4 606,046
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.001772688907013098},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3470.4487380141745, 4443.635917562989, -1.748460367539076 rad], Vitesse angulare : -0,001 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 470,449 ; Y : 4 443,636
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-5.2666577776872E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3441.595390912614, 4281.178380838423, -1.7446392574983622 rad], Vitesse angulare : 0,004 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 441,595 ; Y : 4 281,178
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.003821110040710396},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3413.0891540989965, 4118.6594771154805, -1.7442217567487013 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 413,089 ; Y : 4 118,659
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":4.175007496569627E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3384.6218659747497, 3956.1337453092096, -1.7441635452396882 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 384,622 ; Y : 3 956,134
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":5.821150900264804E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3356.1602576030714, 3793.6070187421265, -1.7441523333316418 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 356,16 ; Y : 3 793,607
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":1.1211908037989105E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3327.699850307318, 3631.080081846938, -1.7441488424154856 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 327,7 ; Y : 3 631,08
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":3.4909161543694722E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3272.351424237936, 3476.5048640524233, -2.08857631374936 rad], Vitesse angulare : -0,344 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 272,351 ; Y : 3 476,505
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.34442747133386553},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3189.4966998935406, 3333.818300762274, -2.105363823243614 rad], Vitesse angulare : -0,017 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 189,497 ; Y : 3 333,818
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.016787509494256003},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3105.369987526473, 3191.8757265839176, -2.106279465254182 rad], Vitesse angulare : -0,001 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 105,37 ; Y : 3 191,876
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-9.156420105846941E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3021.173714217729, 3049.9743962384687, -2.1063354557973173 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 021,174 ; Y : 3 049,974
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-5.599054311655749E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2936.9731550234796, 2908.0756089591528, -2.106339351248834 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 936,973 ; Y : 2 908,076
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.895451520463666E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2852.772294607568, 2766.1770004204495, -2.10633966557269 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 852,772 ; Y : 2 766,177
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.143238527236747E-7},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2768.5714095473336, 2624.2784065053825, -2.1063396957586327 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 768,571 ; Y : 2 624,278
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.01859537366056E-8},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2684.3705220725783, 2482.3798140230624, -2.106339699338258 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 684,371 ; Y : 2 482,38
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-3.579636587147661E-9},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2600.1696343023455, 2340.481221716075, -2.1063396998930144 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 600,17 ; Y : 2 340,481
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-5.547780013159809E-10},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2515.968746483644, 2198.5826294378485, -2.106339700017093 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 515,969 ; Y : 2 198,583
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-1.2407275207237944E-10},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2431.7678586525544, 2056.6840371669723, -2.1063397000668753 rad], Vitesse angulare : -0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 431,768 ; Y : 2 056,684
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-4.977529499683442E-11},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2360.655788612793, 1908.042521300648, -1.9259077384180987 rad], Vitesse angulare : 0,18 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 360,656 ; Y : 1 908,043
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.18043196164876707},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2303.993853341478, 1753.0772613827721, -1.916676583198452 rad], Vitesse angulare : 0,009 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 303,994 ; Y : 1 753,077
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.009231155219651788},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2248.095244014267, 1597.8344037532431, -1.916149471561491 rad], Vitesse angulare : 0,001 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 248,095 ; Y : 1 597,834
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":5.27111636956068E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2192.2405684318246, 1442.5757318119704, -1.9161155352780854 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 192,241 ; Y : 1 442,576
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":3.3936283399427225E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2136.3887461008535, 1287.3160334279544, -1.9161130311606165 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 136,389 ; Y : 1 287,316
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.504117469381839E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2080.5371367388198, 1132.0562584323984, -1.9161128147660031 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 080,537 ; Y : 1 132,056
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.163946217770274E-7},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2024.685546077311, 976.7964767097027, -1.9161127922056052 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 024,686 ; Y : 976,796
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.2560393331261253E-8},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1968.8339574124661, 821.536694268747, -1.916112789241665 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 968,834 ; Y : 821,537
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.9639435350503618E-9},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1912.9823690204632, 666.2769117296419, -1.9161127887153304 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 912,982 ; Y : 666,277
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:38 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":5.263283142653563E-10},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1857.1307806808068, 511.01712917170624, -1.916112788571179 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 857,131 ; Y : 511,017
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":1.4414425208997272E-10},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1829.204986519943, 433.38723788951336, -1.916112788484937 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 829,205 ; Y : 433,387
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":8.624967406944961E-11},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1739.355744397335, 356.6330927109626, -2.9636296738934336 rad], Vitesse angulare : -1,048 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 739,356 ; Y : 356,633
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 1
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"0","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.26211872201105924},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1575.4680954596572, 338.6919774444625, -3.1028723624368952 rad], Vitesse angulare : -0,139 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 575,468 ; Y : 338,692
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"1","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"4","type":"TURN","rotation":-0.13924268854346566},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1410.505354477382, 335.8683994811309, 3.136665462741461 rad], Vitesse angulare : -0,044 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 410,505 ; Y : 335,868
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":-0.04364748200123536},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1245.5103682442973, 335.02138996011365, -3.1261952125582164 rad], Vitesse angulare : 0,02 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 245,51 ; Y : 335,021
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.020324631879915955},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1080.5324908951509, 332.32114865945545, -3.124238867241094 rad], Vitesse angulare : 0,002 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 080,532 ; Y : 332,321
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":0.0019563453171413947},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[915.5576666861319, 329.4389178559661, -3.124006205349164 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 915,558 ; Y : 329,439
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":2.3266189191017972E-4},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[750.5832339090755, 326.5343478504722, -3.123970012156499 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 750,583 ; Y : 326,534
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":3.619319264913656E-5},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[585.6088659516254, 323.6260980521009, -3.1239618754444836 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 585,609 ; Y : 323,626
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":8.136712037476457E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[420.6345146928905, 320.7169011294272, -3.123958578475164 rad], Vitesse angulare : 0 rad/s 
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 420,635 ; Y : 320,717
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 2 Star : 2
+mars 30, 2020 9:15:39 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"4","type":"TURN","rotation":3.2969693322115745E-6},{"sailorId":"0","type":"OAR"},{"sailorId":"3","type":"OAR"},{"sailorId":"1","type":"OAR"},{"sailorId":"2","type":"OAR"}]

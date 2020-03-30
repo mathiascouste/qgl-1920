@@ -1,0 +1,60 @@
+nbSailors :9
+ nbOar :6
+[Checkpoint{position=P{ 480.0 , 1488.0 }, shape=type : circle [ radius : 150.0 ] }, Checkpoint{position=P{ 800.0 , 856.0 }, shape=type : circle [ radius : 150.0 ] }, Checkpoint{position=P{ 120.0 , 148
+OT{aT=[-1.5707963267948966, -1.0471975511965979, -0.5235987755982989, 0.0, 0.5235987755982988, 1.0471975511965976, 1.5707963267948966], cT=[[C{R=0, L=3}], [C{R=0, L=2}, C{R=1, L=3}], [C{R=0, L=1}, C{R
+
+ - - - 
+
+P{ 120.0 , 1728.0 }
+S0: move: 0x, 1y
+
+S0 is now on (0,1)
+S1: move: 4x, 0y
+
+S1 is now on (4,1)
+S2: move: 3x, 0y
+
+S2 is now on (3,2)
+S7: move: 1x, -1y
+
+S7 is now on (3,0)
+Checkpoint done
+P{ 120.0 , 1728.0 }
+
+Votre Capitaine a detecté un iceberg...
+S1: turn : -0.5880026035475675
+
+S0: watch
+
+ - - - 
+
+P{ 120.0 , 1728.0 }
+P{ 275.79308812849735 , 1681.3292281899153 }
+
+Votre Capitaine a detecté un iceberg...
+S1: turn : -0.1700396316117635
+
+S0: watch
+
+ - - - 
+
+P{ 275.79308812849735 , 1681.3292281899153 }
+Checkpoint done
+P{ 404.74531848371055 , 1578.709568426209 }
+
+Votre Capitaine a detecté un iceberg...
+S1: turn : -0.31228890193140546
+
+S0: watch
+
+ - - - 
+
+P{ 404.74531848371055 , 1578.709568426209 }
+Obstacle détecté sur votre trajet
+P{ 505.2614606523254 , 1448.7057733258962 }
+
+Votre Capitaine a detecté un iceberg...
+On frôle le récif capitaine !
+S1: turn : -0.038998906462267335
+
+S0: watch

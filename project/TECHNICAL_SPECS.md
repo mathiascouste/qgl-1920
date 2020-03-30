@@ -131,7 +131,7 @@ Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets
 | position | #Position |
 | name | string |
 | deck | #Deck |
-| entities | (#Rame OU #Voile OU #Gouvernail #Vigie)[] |
+| entities | (#Rame OU #Voile OU #Gouvernail OU #Vigie OU #Canon)[] |
 | shape | #Circle OU #Rectangle OU #Polygone |
 
 ### Deck
@@ -173,6 +173,16 @@ Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets
 | type | "watch" |
 | x | integer |
 | y | integer |
+
+### Canon
+
+| Propriétés | Type |
+|--|--|
+| type | "canon" |
+| x | integer |
+| y | integer |
+| loaded | boolean |
+| angle | double |
 
 ### Marin
 
@@ -226,7 +236,7 @@ Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets
 
 ### Actions
 
-(#MOVING OU #LIFT_SAIL OU #LOWER_SAIL OU #TURN OU #OAR OU #USE_WATCH)[]
+(#MOVING OU #LIFT_SAIL OU #LOWER_SAIL OU #TURN OU #OAR OU #USE_WATCH OU #AIM OU #FIRE OU #RELOAD)[]
 
 ### MOVING
 
@@ -272,4 +282,26 @@ Par exemple, un carré de coté 2 représenté tel un polygone aura pour sommets
 |--|--|
 | sailorId | integer |
 | type | "USE_WATCH" |
+
+### AIM
+
+| Propriétés | Type | Contraintes |
+|--|--|--|
+| sailorId | integer | N/A |
+| type | "AIM" | N/A |
+| angle | double | -PI/4 <= rotation <= PI/4 |
+
+### FIRE
+
+| Propriétés | Type | Contraintes |
+|--|--|--|
+| sailorId | integer | N/A |
+| type | "FIRE" | N/A |
+
+### RELOAD
+
+| Propriétés | Type | Contraintes |
+|--|--|--|
+| sailorId | integer | N/A |
+| type | "RELOAD" | N/A |
 
