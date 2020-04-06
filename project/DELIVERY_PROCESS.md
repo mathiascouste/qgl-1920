@@ -22,14 +22,14 @@ Les détails de ces livraisons sont donnés plus bas.
 ### Livraison finale
 Cette livraison permettra d'évaluer entre autres la qualité de votre code, l'application des principes étudiés en QGL.
 
-Créez un tag `FINAL` contenant la dernière version de votre projet avant le *30 Avril à 18 heures*.
+Créez un tag `FINAL` contenant la dernière version de votre projet avant le *3 Mai à 20 heures*.
 
 ### Rapport final
 Vous devrez rédiger un rapport résumant vos choix techniques ainsi que l'application des principes vus en cours.
 
 *Les consignes de rédaction du rapport sont présentes dans [ce répertoire](../report).*
 
-Créez un tag `REPORT` contenant votre rapport avant le *30 Avril à 18 heures*.
+Créez un tag `FINAL` contenant votre rapport avant le *3 Mai à 20 heures*.
 
 ## Étapes de chaque livraison hebdomadaire
 ### Annonce de la livraison
