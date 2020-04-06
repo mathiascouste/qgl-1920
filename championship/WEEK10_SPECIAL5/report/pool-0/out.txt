@@ -1,0 +1,1490 @@
+2020-04-06 19:15:55,710 [INFO ] Game creation...
+2020-04-06 19:15:55,725 [INFO ] 1 players created!
+2020-04-06 19:15:55,744 [INFO ] Starting game
+2020-04-06 19:15:55,762 [INFO ] ********************************************
+2020-04-06 19:15:55,762 [INFO ] 501609049 - initGame
+2020-04-06 19:15:55,762 [INFO ] {"goal":{"mode":"REGATTA","checkpoints":[{"position":{"x":1500.0,"y":300.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":300.0,"y":1500.0,"orientation":0.0},"shape":{"type":"circle","radius":50.0}},{"position":{"x":0.0,"y":0.0,"orientation":0.0},"shape":{"type":"circle","radius":70.0}}]},"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"sailors":[{"x":0,"y":0,"id":0,"name":"Luffy Teach"},{"x":0,"y":1,"id":1,"name":"Luffy Teach"},{"x":0,"y":2,"id":2,"name":"Jack Pouce"},{"x":0,"y":3,"id":3,"name":"Luffy Teach"},{"x":0,"y":4,"id":4,"name":"Edward Teach"},{"x":1,"y":0,"id":5,"name":"Jack Teach"},{"x":1,"y":1,"id":6,"name":"Jack Pouce"},{"x":1,"y":2,"id":7,"name":"Luffy Pouce"},{"x":1,"y":3,"id":8,"name":"Tom Teach"},{"x":1,"y":4,"id":9,"name":"Jack Teach"},{"x":2,"y":0,"id":10,"name":"Luffy Teach"},{"x":2,"y":1,"id":11,"name":"Tom Pouce"},{"x":2,"y":2,"id":12,"name":"Edward Pouce"},{"x":2,"y":3,"id":13,"name":"Tom Teach"},{"x":2,"y":4,"id":14,"name":"Luffy Teach"},{"x":3,"y":0,"id":15,"name":"Jack Teach"},{"x":3,"y":1,"id":16,"name":"Edward Teach"},{"x":3,"y":2,"id":17,"name":"Tom Teach"},{"x":3,"y":3,"id":18,"name":"Jack Teach"},{"x":3,"y":4,"id":19,"name":"Luffy Teach"}],"shipCount":1}
+2020-04-06 19:15:55,808 [INFO ] Starting round 0
+2020-04-06 19:15:55,816 [INFO ] ********************************************
+2020-04-06 19:15:55,816 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,816 [INFO ] {"ship":{"type":"ship","position":{"x":0.0,"y":0.0,"orientation":0.0},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=5, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=1, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=2, ydistance=-1, sailorId=1, type='MOVING'}
+MovingTest{xdistance=1, ydistance=1, sailorId=3, type='MOVING'}
+MovingTest{xdistance=2, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=2, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=3, ydistance=-1, sailorId=6, type='MOVING'}
+MovingTest{xdistance=2, ydistance=2, sailorId=7, type='MOVING'}
+MovingTest{xdistance=3, ydistance=1, sailorId=8, type='MOVING'}
+MovingTest{xdistance=4, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=4, ydistance=-1, sailorId=11, type='MOVING'}
+MovingTest{xdistance=4, ydistance=1, sailorId=13, type='MOVING'}
+MovingTest{xdistance=5, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=4, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=5, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+LiftSailReferee{sailorId=2, type='LIFT_SAIL'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:55,853 [INFO ] Player response:[{"sailorId":2,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":2,"ydistance":-1},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":1},{"sailorId":4,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":3,"ydistance":-1},{"sailorId":7,"type":"MOVING","xdistance":2,"ydistance":2},{"sailorId":8,"type":"MOVING","xdistance":3,"ydistance":1},{"sailorId":9,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":4,"ydistance":-1},{"sailorId":13,"type":"MOVING","xdistance":4,"ydistance":1},{"sailorId":14,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":4,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"LIFT_SAIL"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:55,898 [INFO ] Starting round 1
+2020-04-06 19:15:55,898 [INFO ] ********************************************
+2020-04-06 19:15:55,898 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,898 [INFO ] {"ship":{"type":"ship","position":{"x":140.13998583501348,"y":12.136700636769172,"orientation":0.17453292519943317},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=5, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=1, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=1, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=3, ydistance=2, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=1, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.03407348865369628, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:55,912 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.03407348865369628},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:55,931 [INFO ] Starting round 2
+2020-04-06 19:15:55,932 [INFO ] ********************************************
+2020-04-06 19:15:55,932 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,932 [INFO ] {"ship":{"type":"ship","position":{"x":312.55951334336896,"y":40.66355498174667,"orientation":0.20860641385312959},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.006416796738904745, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:55,940 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.006416796738904745},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:55,956 [INFO ] Starting round 3
+2020-04-06 19:15:55,958 [INFO ] ********************************************
+2020-04-06 19:15:55,958 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,958 [INFO ] {"ship":{"type":"ship","position":{"x":499.16059495883104,"y":72.1837924703308,"orientation":0.21502321059203575},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.008788466618555674, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:55,966 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.008788466618555674},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:55,976 [INFO ] Starting round 4
+2020-04-06 19:15:55,977 [INFO ] ********************************************
+2020-04-06 19:15:55,977 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,977 [INFO ] {"ship":{"type":"ship","position":{"x":685.5126431081289,"y":104.81468715474105,"orientation":0.2238116772105919},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.01139469673084359, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:55,984 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.01139469673084359},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:55,997 [INFO ] Starting round 5
+2020-04-06 19:15:55,998 [INFO ] ********************************************
+2020-04-06 19:15:55,998 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:55,998 [INFO ] {"ship":{"type":"ship","position":{"x":857.5207273110046,"y":138.91712230968088,"orientation":0.23520637394143504},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.010450516138807708, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,004 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.010450516138807708},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,014 [INFO ] Starting round 6
+2020-04-06 19:15:56,015 [INFO ] ********************************************
+2020-04-06 19:15:56,015 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,015 [INFO ] {"ship":{"type":"ship","position":{"x":1003.1392808475807,"y":174.61096561135082,"orientation":0.24565689008024247},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.0015441034875320059, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,020 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.0015441034875320059},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,030 [INFO ] Starting round 7
+2020-04-06 19:15:56,030 [INFO ] ********************************************
+2020-04-06 19:15:56,030 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,030 [INFO ] {"ship":{"type":"ship","position":{"x":1148.5354361005636,"y":211.1829361232513,"orientation":0.24720099356777545},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=3.2249206799034313E-4, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,035 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":3.2249206799034313E-4},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,044 [INFO ] Starting round 8
+2020-04-06 19:15:56,044 [INFO ] ********************************************
+2020-04-06 19:15:56,044 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,044 [INFO ] {"ship":{"type":"ship","position":{"x":1293.8964374379548,"y":247.89129131601234,"orientation":0.24752348563576718},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=1.1485303422367754E-4, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,049 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":1.1485303422367754E-4},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,058 [INFO ] Starting round 9
+2020-04-06 19:15:56,058 [INFO ] ********************************************
+2020-04-06 19:15:56,058 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,058 [INFO ] {"ship":{"type":"ship","position":{"x":1439.2491952903376,"y":284.63153883050427,"orientation":0.24763833866999205},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=3, ydistance=2, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=-1, sailorId=16, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+LowerSailReferee{sailorId=1, type='LOWER_SAIL'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=1.3876614697899692E-4, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=16, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,064 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":3,"ydistance":2},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":-1,"ydistance":-1},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"LOWER_SAIL"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":1.3876614697899692E-4},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,074 [INFO ] Starting round 10
+2020-04-06 19:15:56,074 [INFO ] ********************************************
+2020-04-06 19:15:56,074 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,074 [INFO ] {"ship":{"type":"ship","position":{"x":1581.4391792958784,"y":320.59150998038746,"orientation":0.24777710481697077},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-2, sailorId=1, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=1, ydistance=-4, sailorId=3, type='MOVING'}
+MovingTest{xdistance=1, ydistance=-4, sailorId=4, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=2, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=2, ydistance=0, sailorId=11, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+TurnTest{rotation=-0.7853981633974483, sailorId=9, type='TURN'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+2020-04-06 19:15:56,078 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":2,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":4,"type":"MOVING","xdistance":1,"ydistance":-4},{"sailorId":5,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":2,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":-0.7853981633974483},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"}]
+2020-04-06 19:15:56,086 [INFO ] Starting round 11
+2020-04-06 19:15:56,086 [INFO ] ********************************************
+2020-04-06 19:15:56,086 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,086 [INFO ] {"ship":{"type":"ship","position":{"x":1620.7103487008458,"y":269.1741195665358,"orientation":-2.1084173853753767},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=6, type='MOVING'}
+MovingTest{xdistance=5, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=5, ydistance=0, sailorId=8, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+OarTest{sailorId=1, type='OAR'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+TurnTest{rotation=0.7853981633974483, sailorId=9, type='TURN'}
+2020-04-06 19:15:56,089 [INFO ] Player response:[{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":7,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"OAR"},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"TURN","rotation":0.7853981633974483}]
+2020-04-06 19:15:56,097 [INFO ] Starting round 12
+2020-04-06 19:15:56,097 [INFO ] ********************************************
+2020-04-06 19:15:56,097 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,097 [INFO ] {"ship":{"type":"ship","position":{"x":1658.7592359893742,"y":216.8457815506102,"orientation":0.2477771048169708},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=5, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=-5, ydistance=0, sailorId=9, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.7853981633974483, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+2020-04-06 19:15:56,101 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":5,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.7853981633974483},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"}]
+2020-04-06 19:15:56,111 [INFO ] Starting round 13
+2020-04-06 19:15:56,112 [INFO ] ********************************************
+2020-04-06 19:15:56,112 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,112 [INFO ] {"ship":{"type":"ship","position":{"x":1668.8563324303357,"y":280.75213042821423,"orientation":2.603971595009315},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=14, type='MOVING'}
+MovingTest{xdistance=-4, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=16, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.07505548522704647, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=16, type='OAR'}
+2020-04-06 19:15:56,115 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":15,"type":"MOVING","xdistance":-4,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.07505548522704647},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"}]
+2020-04-06 19:15:56,123 [INFO ] Starting round 14
+2020-04-06 19:15:56,125 [INFO ] ********************************************
+2020-04-06 19:15:56,125 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,125 [INFO ] {"ship":{"type":"ship","position":{"x":1531.0319437269388,"y":327.6035803038848,"orientation":3.0280929306352418},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=1, ydistance=-2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=9, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=-3, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=-3, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=-5, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=-3, ydistance=0, sailorId=15, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.05198617613300616, sailorId=1, type='TURN'}
+LiftSailReferee{sailorId=2, type='LIFT_SAIL'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+2020-04-06 19:15:56,129 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":1,"ydistance":-2},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":10,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":-5,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":-3,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.05198617613300616},{"sailorId":2,"type":"LIFT_SAIL"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"}]
+2020-04-06 19:15:56,138 [INFO ] Starting round 15
+2020-04-06 19:15:56,140 [INFO ] ********************************************
+2020-04-06 19:15:56,140 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,140 [INFO ] {"ship":{"type":"ship","position":{"x":1419.26961042194,"y":379.36583389565203,"orientation":2.38194740597051},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=1, ydistance=2, sailorId=17, type='MOVING'}
+MovingTest{xdistance=2, ydistance=1, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.02636211851620196, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,146 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":1,"ydistance":2},{"sailorId":18,"type":"MOVING","xdistance":2,"ydistance":1},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.02636211851620196},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,157 [INFO ] Starting round 16
+2020-04-06 19:15:56,158 [INFO ] ********************************************
+2020-04-06 19:15:56,158 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,158 [INFO ] {"ship":{"type":"ship","position":{"x":1313.4289011888698,"y":477.2960082571595,"orientation":2.4083095244866977},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=-1, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.056670250917675524, sailorId=1, type='TURN'}
+LowerSailReferee{sailorId=2, type='LOWER_SAIL'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,164 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":-1,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.056670250917675524},{"sailorId":2,"type":"LOWER_SAIL"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,180 [INFO ] Starting round 17
+2020-04-06 19:15:56,180 [INFO ] ********************************************
+2020-04-06 19:15:56,180 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,180 [INFO ] {"ship":{"type":"ship","position":{"x":1201.7628080089444,"y":572.3540904734504,"orientation":2.464979775404365},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.051600241201246816, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,185 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.051600241201246816},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,194 [INFO ] Starting round 18
+2020-04-06 19:15:56,194 [INFO ] ********************************************
+2020-04-06 19:15:56,194 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,194 [INFO ] {"ship":{"type":"ship","position":{"x":1149.6685912809025,"y":640.899675983432,"orientation":2.342047091406198},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.008627847915106734, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,198 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.008627847915106734},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,207 [INFO ] Starting round 19
+2020-04-06 19:15:56,207 [INFO ] ********************************************
+2020-04-06 19:15:56,207 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,207 [INFO ] {"ship":{"type":"ship","position":{"x":1116.414784823727,"y":705.8771535580495,"orientation":2.3506749393212862},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.01935996945998264, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,212 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.01935996945998264},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,221 [INFO ] Starting round 20
+2020-04-06 19:15:56,221 [INFO ] ********************************************
+2020-04-06 19:15:56,221 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,221 [INFO ] {"ship":{"type":"ship","position":{"x":1081.7123726876496,"y":769.4118337269559,"orientation":2.3700349087812507},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.019952298682345493, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,226 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.019952298682345493},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,235 [INFO ] Starting round 21
+2020-04-06 19:15:56,235 [INFO ] ********************************************
+2020-04-06 19:15:56,235 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,235 [INFO ] {"ship":{"type":"ship","position":{"x":1001.9565920887414,"y":855.5254116388153,"orientation":2.389987207463597},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.008873495557499389, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,240 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.008873495557499389},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,249 [INFO ] Starting round 22
+2020-04-06 19:15:56,250 [INFO ] ********************************************
+2020-04-06 19:15:56,250 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,250 [INFO ] {"ship":{"type":"ship","position":{"x":894.3643746438398,"y":955.1993035266825,"orientation":2.3988607030210902},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=8.15140308700002E-4, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,254 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":8.15140308700002E-4},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,264 [INFO ] Starting round 23
+2020-04-06 19:15:56,264 [INFO ] ********************************************
+2020-04-06 19:15:56,264 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,264 [INFO ] {"ship":{"type":"ship","position":{"x":786.2862230620364,"y":1054.3467849409676,"orientation":2.399675843329809},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=9.15313878175894E-5, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,268 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":9.15313878175894E-5},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,279 [INFO ] Starting round 24
+2020-04-06 19:15:56,279 [INFO ] ********************************************
+2020-04-06 19:15:56,279 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,279 [INFO ] {"ship":{"type":"ship","position":{"x":678.1627739825184,"y":1153.4448719822576,"orientation":2.3997673747176114},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=1.321679640353679E-5, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,284 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":1.321679640353679E-5},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,294 [INFO ] Starting round 25
+2020-04-06 19:15:56,294 [INFO ] ********************************************
+2020-04-06 19:15:56,294 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,294 [INFO ] {"ship":{"type":"ship","position":{"x":570.0340960400987,"y":1252.537253713762,"orientation":2.3997805915140242},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=2.6726592081693923E-6, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,298 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":2.6726592081693923E-6},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,308 [INFO ] Starting round 26
+2020-04-06 19:15:56,309 [INFO ] ********************************************
+2020-04-06 19:15:56,309 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,309 [INFO ] {"ship":{"type":"ship","position":{"x":461.904625614162,"y":1351.6287706892576,"orientation":2.3997832641732293},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=9.014064881185391E-7, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,313 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":9.014064881185391E-7},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,323 [INFO ] Starting round 27
+2020-04-06 19:15:56,323 [INFO ] ********************************************
+2020-04-06 19:15:56,323 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,323 [INFO ] {"ship":{"type":"ship","position":{"x":353.7749772309945,"y":1450.72009347608,"orientation":2.3997841655797343},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-4, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=-2, ydistance=0, sailorId=10, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=-0.7853981633974483, sailorId=1, type='TURN'}
+LiftSailReferee{sailorId=2, type='LIFT_SAIL'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+2020-04-06 19:15:56,327 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":-4},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":-2,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":-0.7853981633974483},{"sailorId":2,"type":"LIFT_SAIL"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"}]
+2020-04-06 19:15:56,337 [INFO ] Starting round 28
+2020-04-06 19:15:56,338 [INFO ] ********************************************
+2020-04-06 19:15:56,338 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,338 [INFO ] {"ship":{"type":"ship","position":{"x":376.4745009134943,"y":1512.087844147129,"orientation":0.04358967538738843},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=-2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.2876049134042096, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+2020-04-06 19:15:56,341 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":-2},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.2876049134042096},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"}]
+2020-04-06 19:15:56,352 [INFO ] Starting round 29
+2020-04-06 19:15:56,352 [INFO ] ********************************************
+2020-04-06 19:15:56,352 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,352 [INFO ] {"ship":{"type":"ship","position":{"x":442.5065765923724,"y":1468.0086754397933,"orientation":-1.2396017380032964},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=14, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.07416595941298343, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+2020-04-06 19:15:56,355 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.07416595941298343},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"}]
+2020-04-06 19:15:56,365 [INFO ] Starting round 30
+2020-04-06 19:15:56,365 [INFO ] ********************************************
+2020-04-06 19:15:56,365 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,365 [INFO ] {"ship":{"type":"ship","position":{"x":445.43443271054963,"y":1341.7081262535987,"orientation":-1.863567479388043},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=4, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=18, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.02777041972394456, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+2020-04-06 19:15:56,368 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":4},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.02777041972394456},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"}]
+2020-04-06 19:15:56,376 [INFO ] Starting round 31
+2020-04-06 19:15:56,377 [INFO ] ********************************************
+2020-04-06 19:15:56,377 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,377 [INFO ] {"ship":{"type":"ship","position":{"x":405.296104627188,"y":1201.6078991857992,"orientation":-1.8357970596640938},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=1, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.06031090075586709, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,379 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":1,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.06031090075586709},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,386 [INFO ] Starting round 32
+2020-04-06 19:15:56,386 [INFO ] ********************************************
+2020-04-06 19:15:56,386 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,386 [INFO ] {"ship":{"type":"ship","position":{"x":367.04257214706445,"y":1041.9338187793999,"orientation":-1.7754861589082271},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.04052663329374903, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+2020-04-06 19:15:56,389 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.04052663329374903},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"}]
+2020-04-06 19:15:56,399 [INFO ] Starting round 33
+2020-04-06 19:15:56,400 [INFO ] ********************************************
+2020-04-06 19:15:56,400 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,400 [INFO ] {"ship":{"type":"ship","position":{"x":333.2364483201876,"y":888.39265114701,"orientation":-1.9094924508139022},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.020162574655921972, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,402 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.020162574655921972},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,408 [INFO ] Starting round 34
+2020-04-06 19:15:56,408 [INFO ] ********************************************
+2020-04-06 19:15:56,408 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,408 [INFO ] {"ship":{"type":"ship","position":{"x":292.8176359405719,"y":726.1012479385788,"orientation":-1.889329876157989},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.06479191062563627, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,411 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.06479191062563627},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,419 [INFO ] Starting round 35
+2020-04-06 19:15:56,419 [INFO ] ********************************************
+2020-04-06 19:15:56,419 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,419 [INFO ] {"ship":{"type":"ship","position":{"x":246.47268125421706,"y":568.7628035121654,"orientation":-1.8245379655323612},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.019353709299333638, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+2020-04-06 19:15:56,422 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.019353709299333638},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"}]
+2020-04-06 19:15:56,430 [INFO ] Starting round 36
+2020-04-06 19:15:56,431 [INFO ] ********************************************
+2020-04-06 19:15:56,431 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,431 [INFO ] {"ship":{"type":"ship","position":{"x":196.3041123019171,"y":422.54114555994715,"orientation":-1.9797171814324532},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":1250.0,"y":1250.0,"orientation":3.36},"shape":{"type":"rectangle","width":250.0,"height":900.0,"orientation":0.0},"strength":80.0},{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.02599132856913111, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,433 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.02599132856913111},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,441 [INFO ] Starting round 37
+2020-04-06 19:15:56,442 [INFO ] ********************************************
+2020-04-06 19:15:56,442 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,442 [INFO ] {"ship":{"type":"ship","position":{"x":133.15208878596766,"y":271.5138279849597,"orientation":-1.9537258528633228},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=18, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=19, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.0730137005167133, sailorId=1, type='TURN'}
+OarTest{sailorId=2, type='OAR'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+OarTest{sailorId=18, type='OAR'}
+OarTest{sailorId=19, type='OAR'}
+2020-04-06 19:15:56,444 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":18,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":19,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.0730137005167133},{"sailorId":2,"type":"OAR"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":17,"type":"OAR"},{"sailorId":18,"type":"OAR"},{"sailorId":19,"type":"OAR"}]
+2020-04-06 19:15:56,453 [INFO ] Starting round 38
+2020-04-06 19:15:56,453 [INFO ] ********************************************
+2020-04-06 19:15:56,453 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,453 [INFO ] {"ship":{"type":"ship","position":{"x":77.47387060205666,"y":117.44390440277736,"orientation":-1.880712152346612},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":true}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+MovingTest{xdistance=0, ydistance=0, sailorId=1, type='MOVING'}
+MovingTest{xdistance=0, ydistance=2, sailorId=2, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=0, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=3, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=4, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=5, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=6, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=7, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=8, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=9, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=10, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=11, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=12, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=13, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=14, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=15, type='MOVING'}
+MovingTest{xdistance=3, ydistance=0, sailorId=16, type='MOVING'}
+MovingTest{xdistance=0, ydistance=0, sailorId=17, type='MOVING'}
+OarTest{sailorId=0, type='OAR'}
+TurnTest{rotation=0.07584064830254239, sailorId=1, type='TURN'}
+LowerSailReferee{sailorId=2, type='LOWER_SAIL'}
+OarTest{sailorId=3, type='OAR'}
+OarTest{sailorId=4, type='OAR'}
+OarTest{sailorId=5, type='OAR'}
+OarTest{sailorId=6, type='OAR'}
+OarTest{sailorId=7, type='OAR'}
+OarTest{sailorId=8, type='OAR'}
+OarTest{sailorId=9, type='OAR'}
+OarTest{sailorId=10, type='OAR'}
+OarTest{sailorId=11, type='OAR'}
+OarTest{sailorId=12, type='OAR'}
+OarTest{sailorId=13, type='OAR'}
+OarTest{sailorId=14, type='OAR'}
+OarTest{sailorId=15, type='OAR'}
+OarTest{sailorId=16, type='OAR'}
+OarTest{sailorId=17, type='OAR'}
+2020-04-06 19:15:56,456 [INFO ] Player response:[{"sailorId":1,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":2,"type":"MOVING","xdistance":0,"ydistance":2},{"sailorId":0,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":3,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":4,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":5,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":6,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":7,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":8,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":9,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":10,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":11,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":12,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":13,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":14,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":15,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":16,"type":"MOVING","xdistance":3,"ydistance":0},{"sailorId":17,"type":"MOVING","xdistance":0,"ydistance":0},{"sailorId":0,"type":"OAR"},{"sailorId":1,"type":"TURN","rotation":0.07584064830254239},{"sailorId":2,"type":"LOWER_SAIL"},{"sailorId":3,"type":"OAR"},{"sailorId":4,"type":"OAR"},{"sailorId":5,"type":"OAR"},{"sailorId":6,"type":"OAR"},{"sailorId":7,"type":"OAR"},{"sailorId":8,"type":"OAR"},{"sailorId":9,"type":"OAR"},{"sailorId":10,"type":"OAR"},{"sailorId":11,"type":"OAR"},{"sailorId":12,"type":"OAR"},{"sailorId":13,"type":"OAR"},{"sailorId":14,"type":"OAR"},{"sailorId":15,"type":"OAR"},{"sailorId":16,"type":"OAR"},{"sailorId":17,"type":"OAR"}]
+2020-04-06 19:15:56,462 [INFO ] Starting round 39
+2020-04-06 19:15:56,462 [INFO ] ********************************************
+2020-04-06 19:15:56,462 [INFO ] 501609049 - nextRound
+2020-04-06 19:15:56,462 [INFO ] {"ship":{"type":"ship","position":{"x":14.514804965812885,"y":-14.51742469817632,"orientation":-2.1539373544429288},"name":"Drakkar","deck":{"width":5,"length":11},"entities":[{"x":1,"y":0,"type":"oar"},{"x":2,"y":0,"type":"oar"},{"x":3,"y":0,"type":"oar"},{"x":4,"y":0,"type":"oar"},{"x":5,"y":0,"type":"oar"},{"x":6,"y":0,"type":"oar"},{"x":7,"y":0,"type":"oar"},{"x":8,"y":0,"type":"oar"},{"x":9,"y":0,"type":"oar"},{"x":1,"y":4,"type":"oar"},{"x":2,"y":4,"type":"oar"},{"x":3,"y":4,"type":"oar"},{"x":4,"y":4,"type":"oar"},{"x":5,"y":4,"type":"oar"},{"x":6,"y":4,"type":"oar"},{"x":7,"y":4,"type":"oar"},{"x":8,"y":4,"type":"oar"},{"x":9,"y":4,"type":"oar"},{"x":10,"y":4,"type":"rudder"},{"x":5,"y":2,"type":"sail","openned":false}],"life":2200,"shape":{"type":"rectangle","width":5.0,"height":11.0,"orientation":0.0}},"visibleEntities":[{"type":"stream","position":{"x":500.0,"y":0.0,"orientation":0.0},"shape":{"type":"rectangle","width":300.0,"height":600.0,"orientation":0.0},"strength":40.0},{"type":"stream","position":{"x":780.0,"y":780.0,"orientation":-0.52},"shape":{"type":"rectangle","width":300.0,"height":900.0,"orientation":0.0},"strength":80.0}],"wind":{"orientation":0.0,"strength":3.36}}
+2020-04-06 19:15:56,473 [INFO ] Game over
+2020-04-06 19:15:56,473 [INFO ] Creating team's logs files
+2020-04-06 19:15:56,476 [INFO ] Game scores: {theblackpearl=-1}

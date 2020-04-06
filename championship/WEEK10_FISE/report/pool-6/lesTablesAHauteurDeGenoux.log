@@ -1,0 +1,163 @@
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+Errorcom.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+
+SP:1008.403 1818.727 0.0
+target:2292.9171668667423 2238.8955582232875 circle
+
+SP:1008.403 1818.727 0.0
+target:2292.9171668667423 2238.8955582232875 circle
+17|8,2=>11,2
+4|5,4=>9,4
+0|5,0=>9,0
+8|6,3=>8,4
+6|6,1=>8,0
+12|7,2=>7,4
+11|5,0=>7,0
+13|5,4=>6,4
+1|5,1=>6,0
+3|5,3=>5,4
+5|4,0=>5
+SP:1170.709 1844.335 0.316
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.022|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:1326.963 1897.333 0.338
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.002|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:1482.574 1952.2 0.34
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.0|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:1638.13 2007.22 0.34
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.0|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:1793.681 2062.255 0.34
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.0|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:1949.232 2117.292 0.34
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.0|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+7,4|12
+7,0|11
+8,4|8
+8,0|6
+9,4|4
+9,0|0
+
+SP:2104.782 2172.329 0.34
+target:2292.9171668667423 2238.8955582232875 circle
+11,2,0.0|17
+2,4|14
+2,0|10
+3,4|18
+3,0|15
+4,4|9
+4,0|7
+5,4|3
+5,0|5
+6,4|13
+6,0|1
+

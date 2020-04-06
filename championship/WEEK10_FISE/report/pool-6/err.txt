@@ -1,0 +1,525 @@
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1145.9722222222176, 2562.962962962962, 0.0 rad], Vitesse angulare : 0 rad/s 
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 145,972 ; Y : 2 562,963
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 6 Star : 6
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"MOVING","xdistance":"5","ydistance":"0"},{"sailorId":"19","type":"MOVING","xdistance":"2","ydistance":"0"},{"sailorId":"20","type":"MOVING","xdistance":"3","ydistance":"-1"},{"sailorId":"21","type":"MOVING","xdistance":"2","ydistance":"2"},{"sailorId":"22","type":"MOVING","xdistance":"3","ydistance":"1"},{"sailorId":"23","type":"MOVING","xdistance":"4","ydistance":"0"},{"sailorId":"24","type":"MOVING","xdistance":"3","ydistance":"0"},{"sailorId":"25","type":"MOVING","xdistance":"4","ydistance":"-1"},{"sailorId":"26","type":"MOVING","xdistance":"3","ydistance":"2"},{"sailorId":"27","type":"MOVING","xdistance":"4","ydistance":"1"},{"sailorId":"28","type":"MOVING","xdistance":"5","ydistance":"0"},{"sailorId":"29","type":"MOVING","xdistance":"4","ydistance":"0"},{"sailorId":"30","type":"MOVING","xdistance":"4","ydistance":"-1"},{"sailorId":"31","type":"MOVING","xdistance":"3","ydistance":"2"},{"sailorId":"32","type":"MOVING","xdistance":"4","ydistance":"1"},{"sailorId":"33","type":"MOVING","xdistance":"5","ydistance":"0"},{"sailorId":"34","type":"MOVING","xdistance":"4","ydistance":"0"},{"sailorId":"35","type":"MOVING","xdistance":"4","ydistance":"-1"},{"sailorId":"37","type":"MOVING","xdistance":"4","ydistance":"1"},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"}]
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1308.8238865441676, 2540.067681308277, -0.28217040225774953 rad], Vitesse angulare : -0,282 rad/s 
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 308,824 ; Y : 2 540,068
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"MOVING","xdistance":"3","ydistance":"0"},{"sailorId":"26","type":"MOVING","xdistance":"4","ydistance":"0"},{"sailorId":"30","type":"MOVING","xdistance":"2","ydistance":"0"},{"sailorId":"31","type":"MOVING","xdistance":"4","ydistance":"0"},{"sailorId":"32","type":"MOVING","xdistance":"1","ydistance":"-4"},{"sailorId":"35","type":"MOVING","xdistance":"2","ydistance":"0"},{"sailorId":"36","type":"TURN","rotation":-0.28217040225774936},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1466.7518831398233, 2492.292124370154, -0.30558848708138936 rad], Vitesse angulare : -0,023 rad/s 
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 466,752 ; Y : 2 492,292
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:05 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.023418084823641994},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1624.0497029873632, 2442.468601750191, -0.30793257384526734 rad], Vitesse angulare : -0,002 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 624,05 ; Y : 2 442,469
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.0023440867638764296},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1781.2812224408788, 2392.4361213395405, -0.3082252321650511 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 781,281 ; Y : 2 392,436
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-2.9265831978292356E-4},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+com.fasterxml.jackson.databind.JsonMappingException: Type inconnu pour une entité visible (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:394)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:365)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:302)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:245)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:27)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3188)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:37)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.NextRoundDeserializer.deserialize(NextRoundDeserializer.java:17)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4202)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.Parser.parseNextRound(Parser.java:27)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.IllegalArgumentException: Type inconnu pour une entité visible
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:51)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.parser.VisibleEntitieDeserializer.deserialize(VisibleEntitieDeserializer.java:19)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:286)
+	... 17 more
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[1938.5041435937487, 2342.3766261481746, -0.30827377043119636 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 1 938,504 ; Y : 2 342,377
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-4.8538266147590825E-5},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2095.725540607031, 2292.3123442611254, -0.3082857574467987 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 095,726 ; Y : 2 292,312
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-1.1987015601899742E-5},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2252.946490979572, 2242.2466597668645, -0.308291550965519 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 252,946 ; Y : 2 242,247
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-5.7935187186552994E-6},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2412.0810447305334, 2198.831176675407, -0.22354227626306872 rad], Vitesse angulare : 0,085 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 412,081 ; Y : 2 198,831
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.08474927470244917},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2573.0237398427425, 2162.4659088511826, -0.22087111921763797 rad], Vitesse angulare : 0,003 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 573,024 ; Y : 2 162,466
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.002671157045429695},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2734.0169982746957, 2126.324924897396, -0.22078126669608705 rad], Vitesse angulare : 0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 734,017 ; Y : 2 126,325
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":8.985252155091494E-5},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[2895.011954429121, 2090.1915041790367, -0.2207780285364605 rad], Vitesse angulare : 0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 2 895,012 ; Y : 2 090,192
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":3.2381596261621404E-6},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3056.00697191899, 2054.0583567457243, -0.22077790286966964 rad], Vitesse angulare : 0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 056,007 ; Y : 2 054,058
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":1.256667912230558E-7},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3211.192342991264, 1999.1822028232677, -0.461415008062451 rad], Vitesse angulare : -0,241 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 211,192 ; Y : 1 999,182
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.24063710519278225},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3358.212161258928, 1924.2869805140854, -0.4810963373520069 rad], Vitesse angulare : -0,02 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 358,212 ; Y : 1 924,287
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.019681329289553906},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at fr.unice.polytech.si3.qgl.frigatesengine.interfaces.Cockpit$2.run(Cockpit.java:90)
+Caused by: java.lang.NullPointerException
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.pathfinding.Graph.removeNodes(Graph.java:189)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.pathfinding.MiniMap.findBestWay(MiniMap.java:81)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.navigator.Navigator.navigatorDecision(Navigator.java:68)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.captain.Captain.lead(Captain.java:66)
+	at fr.unice.polytech.si3.qgl.lesTablesAHauteurDeGenoux.Cockpit.nextRound(Cockpit.java:38)
+	... 5 more
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3504.409600624742, 1847.79318823401, -0.48302810334302143 rad], Vitesse angulare : -0,002 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 504,41 ; Y : 1 847,793
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.0019317659910120244},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3650.523440579542, 1771.1397757333186, -0.4832634624739726 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 650,523 ; Y : 1 771,14
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-2.3535913095151795E-4},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3796.626734727182, 1694.4662637753522, -0.48330125576620725 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 796,627 ; Y : 1 694,466
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-3.77932922333013E-5},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3942.7282277683394, 1617.789319841955, -0.48331015387662796 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 942,728 ; Y : 1 617,789
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-8.898110421484695E-6},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4088.8292272887843, 1541.1114355526024, -0.48331407869212833 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 088,829 ; Y : 1 541,111
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:06 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-3.924815500933043E-6},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"34","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4107.091768336116, 1531.5265401703894, -0.4833277567214708 rad], Vitesse angulare : -0 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 107,092 ; Y : 1 531,527
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-1.3678029339825315E-5},{"sailorId":"31","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4126.827930688519, 1526.1275354798975, -0.04635456098927637 rad], Vitesse angulare : 0,437 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 126,828 ; Y : 1 526,128
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 1
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.4369731957321953},{"sailorId":"31","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4291.637333450624, 1530.1725143142712, 0.09686363858677581 rad], Vitesse angulare : 0,143 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 291,637 ; Y : 1 530,173
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"19","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"20","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"21","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"22","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"23","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"24","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"25","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"26","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"27","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"28","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"29","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"30","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"32","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"33","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"36","type":"TURN","rotation":0.14321819957605228},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4455.72225505328, 1547.5070703225904, 0.11381265704013631 rad], Vitesse angulare : 0,017 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 455,722 ; Y : 1 547,507
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.0169490184533609},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4619.6302216836775, 1566.4586623145667, 0.11643803641983534 rad], Vitesse angulare : 0,003 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 619,63 ; Y : 1 566,459
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.0026253793796993385},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4783.507389602538, 1585.675141031132, 0.11702464853750126 rad], Vitesse angulare : 0,001 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 783,507 ; Y : 1 585,675
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":5.866121176664463E-4},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4947.376616683723, 1604.9592352655866, 0.11725973586600939 rad], Vitesse angulare : 0 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 947,377 ; Y : 1 604,959
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":2.3508732850872904E-4},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.ship.Captain targetCheckpoint
+INFOS: Checkpoint reached!
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4983.170587744025, 1674.709268278382, 2.0958549780687523 rad], Vitesse angulare : 1,979 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 983,171 ; Y : 1 674,709
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 1 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.604148456257211},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4898.612446217948, 1816.3897217776348, 2.122161005880992 rad], Vitesse angulare : 0,026 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 898,612 ; Y : 1 816,39
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"19","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"20","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"24","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"25","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"29","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"30","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"32","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"36","type":"TURN","rotation":0.0263060278122218},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4812.11206522519, 1956.8983766741537, 2.1230969670068838 rad], Vitesse angulare : 0,001 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 812,112 ; Y : 1 956,898
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":9.359611258750178E-4},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4711.714380780124, 2087.461771270877, 2.331628682377847 rad], Vitesse angulare : 0,209 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 711,714 ; Y : 2 087,462
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.2085317153709778},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4597.160861285096, 2206.213998185638, 2.3449037575915614 rad], Vitesse angulare : 0,013 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 597,161 ; Y : 2 206,214
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.0132750752136932},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4483.779552881037, 2324.0658354749603, 2.347189948362434 rad], Vitesse angulare : 0,002 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 483,78 ; Y : 2 324,066
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.0022861907708526807},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4377.7289322397355, 2441.3566168697394, 2.354644091796894 rad], Vitesse angulare : 0,007 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 377,729 ; Y : 2 441,357
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.00745414343446571},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4267.795268820705, 2557.867626823126, 2.360569608726733 rad], Vitesse angulare : 0,006 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 267,795 ; Y : 2 557,868
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.005925516929838448},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4156.559920070653, 2670.7273426228126, 2.4164712858828334 rad], Vitesse angulare : 0,056 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 156,56 ; Y : 2 670,727
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.05590167715608363},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[4030.698484452451, 2780.6397735704245, 2.4085989960517544 rad], Vitesse angulare : -0,008 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 4 030,698 ; Y : 2 780,64
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.00787228983107413},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3905.7587124815336, 2896.161692621003, 2.3219388160694425 rad], Vitesse angulare : -0,087 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 905,759 ; Y : 2 896,162
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.08666017998233189},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3809.5733183784687, 3003.814366137794, 2.277611744425519 rad], Vitesse angulare : -0,044 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 809,573 ; Y : 3 003,814
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 7 Star : 7
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.04432707164392058},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3736.930051624268, 3138.235836632718, 1.7513591377165643 rad], Vitesse angulare : -0,526 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 736,93 ; Y : 3 138,236
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"19","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"21","type":"MOVING","xdistance":"0","ydistance":"0"},{"sailorId":"36","type":"TURN","rotation":-0.5262526067089475},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3712.6812965440113, 3288.8991732586796, 1.6567448368408693 rad], Vitesse angulare : -0,095 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 712,681 ; Y : 3 288,899
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":-0.09461430087568656},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3697.4969004187124, 3454.5534188619845, 1.6722786307075204 rad], Vitesse angulare : 0,016 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 697,497 ; Y : 3 454,553
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.015533793866641776},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3680.486832942856, 3618.6741910240976, 1.6758999552006397 rad], Vitesse angulare : 0,004 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 680,487 ; Y : 3 618,674
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.003621324493114919},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Position :[3663.0492791271045, 3782.7501677491027, 1.6774681258228856 rad], Vitesse angulare : 0,002 rad/s 
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: X : 3 663,049 ; Y : 3 782,75
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: Port : 8 Star : 8
+avr. 06, 2020 8:20:07 PM fr.unice.polytech.si3.qgl.vendredi.Cockpit nextRound
+INFOS: [{"sailorId":"36","type":"TURN","rotation":0.0015681706222485658},{"sailorId":"21","type":"OAR"},{"sailorId":"22","type":"OAR"},{"sailorId":"23","type":"OAR"},{"sailorId":"27","type":"OAR"},{"sailorId":"28","type":"OAR"},{"sailorId":"33","type":"OAR"},{"sailorId":"26","type":"OAR"},{"sailorId":"31","type":"OAR"},{"sailorId":"19","type":"OAR"},{"sailorId":"20","type":"OAR"},{"sailorId":"24","type":"OAR"},{"sailorId":"25","type":"OAR"},{"sailorId":"29","type":"OAR"},{"sailorId":"32","type":"OAR"},{"sailorId":"30","type":"OAR"},{"sailorId":"35","type":"OAR"}]
