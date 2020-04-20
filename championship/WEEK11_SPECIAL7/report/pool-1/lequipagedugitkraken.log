@@ -1,0 +1,22 @@
+REGATTA.
+Checkpoints :
+X:2000.0,Y:5240.0
+X:3600.0,Y:5160.0
+X:3300.0,Y:3500.0
+X:2400.0,Y:2000.0
+X:1800.0,Y:360.0
+X:360.0,Y:320.0
+Shipcount : 1,
+Deck : 3x4
+
+oar, X:1,Y:0
+
+oar, X:2,Y:0
+
+oar, X:1,Y:2
+
+oar, X:2,Y:2
+
+rudder, X:3,Y:1
+
+watch, X:0,Y:1

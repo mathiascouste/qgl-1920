@@ -1,0 +1,14 @@
+InitShipPos : (3657.2, -785.8, ori=4.73) | ShipDeck : (6, 3) | [Sl{id=26, x=0, y=0}, Sl{id=27, x=0, y=1}, Sl{id=28, x=0, y=2}, Sl{id=29, x=1, y=0}, Sl{id=30, x=1, y=1}, Sl{id=31, x=1, y=2}, Sl{id=32, 
+[Rudder(5,1), Sail(3,1), Oar(1,2), Oar(3,2), Oar(2,2), Oar(4,2), Oar(1,0), Oar(2,0), Oar(3,0), Oar(4,0), Watch(0,1), Oar(5,2), Oar(5,0)] | [CP{pos=(3556.3, -1430.2)}, CP{pos=(2290.4, 6279.6)}, CP{pos=
+Ship(3657.2, -785.8, ori=4.73) | CP{pos=(3556.3, -1430.2)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR},{Si:36,T:MOV,xd:1,yd:1},{Si:36,T:OAR},{Si:
+Ship(3660.1, -950.7, ori=4.73) | CP{pos=(3556.3, -1430.2)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR},{Si:36,T:OAR},{Si:33,T:OAR},{Si:30,T:OAR},
+Ship(3662.9, -1115.7, ori=4.73) | CP{pos=(3556.3, -1430.2)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR},{Si:36,T:OAR},{Si:33,T:OAR},{Si:30,T:OAR}
+Ship(3665.8, -1280.7, ori=4.73) | CP{pos=(3556.3, -1430.2)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:27,T:USE_WATCH}]
+Ship(3666.4, -1313.7, ori=4.73) | CP{pos=(3556.3, -1430.2)} [{Si:30,T:MOV,xd:0,yd:-1},{Si:30,T:TURN,rotation:-0.7745969127073105},{Si:29,T:OAR},{Si:31,T:OAR},{Si:27,T:USE_WATCH}]
+Ship(3654.9, -1343.7, ori=3.96) | CP{pos=(3556.3, -1430.2)} [{Si:30,T:TURN,rotation:-0.09367320283264302},{Si:29,T:OAR},{Si:31,T:OAR},{Si:27,T:USE_WATCH}]
+Ship(3631.1, -1366.6, ori=3.86) | CP{pos=(2290.4, 6279.6)} [{Si:30,T:TURN,rotation:-0.7853981633974483},{Si:29,T:OAR},{Si:32,T:OAR},{Si:35,T:OAR},{Si:38,T:OAR},{Si:33,T:OAR},{Si:27,T:USE_WATCH}]
+Ship(3572.8, -1338.7, ori=1.51) | CP{pos=(2290.4, 6279.6)} [{Si:30,T:TURN,rotation:0.06541865962249571},{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR
+Ship(3578.2, -1173.8, ori=1.57) | CP{pos=(2290.4, 6279.6)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR},{Si:36,T:OAR},{Si:33,T:OAR},{Si:28,T:OAR},
+Ship(3578.2, -1008.8, ori=1.57) | CP{pos=(2290.4, 6279.6)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:27,T:USE_WATCH}]
+Ship(3578.2, -909.8, ori=1.57) | CP{pos=(2290.4, 6279.6)} [{Si:30,T:TURN,rotation:0.17724903109592582},{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR}
+Ship(3563.8, -745.7, ori=1.75) | CP{pos=(2290.4, 6279.6)} [{Si:29,T:OAR},{Si:31,T:OAR},{Si:32,T:OAR},{Si:37,T:OAR},{Si:35,T:OAR},{Si:34,T:OAR},{Si:38,T:OAR},{Si:36,T:OAR},{Si:33,T:OAR},{Si:28,T:OAR},{
