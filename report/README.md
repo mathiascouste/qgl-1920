@@ -44,11 +44,11 @@
 ## Consignes de rendu
 
 ### Livraison
--   Votre rapport devra être rendu le <jour> à <heure> au plus tard.
+-   Votre rapport devra être rendu le 3 Mai à 20h au plus tard.
 -   Il devra être au format PDF.
 -   Nommé *`report_<teamId>.pdf`*
 -   Positionné à la racine de votre projet.
--   Récupérable grâce au tag Git *`REPORT`*
+-   Récupérable grâce au tag Git *`FINAL`*
 
 ### Contenu
 -   Votre rapport devra suivre le sommaire présenté plus haut.
