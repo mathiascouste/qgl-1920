@@ -35,8 +35,8 @@ Nous utilisons uniquement Slack (pas d'email):
 ### Modalités de contrôle des connaissances
  - Livraisons hebdomadaires *- 50 points (5 par semaine)*
  - Soutenance *(entretien technique)**- 40 points*
- - Rapport du projet *~~- 20 points~~ - **40 points***
- - Livraison finale: mise en application de tous les concepts étudiés *- 40 points*
+ - Rapport du projet *~~- 20 points~~ - **40 points*** (deadline 3 mai 20h)
+ - Livraison finale: mise en application de tous les concepts étudiés *- 40 points* (deadline 3 mai 20h)
  - ~~Partiel final *- 50 points*~~
  - Classement compétition inter-équipes *- 20 points bonus*
 
