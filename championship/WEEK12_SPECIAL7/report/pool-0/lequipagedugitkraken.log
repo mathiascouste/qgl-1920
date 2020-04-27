@@ -1,0 +1,205 @@
+REGATTA.
+Checkpoints :
+X:3600.0,Y:5160.0
+X:3300.0,Y:3500.0
+X:2400.0,Y:2000.0
+X:1800.0,Y:360.0
+X:360.0,Y:320.0
+Shipcount : 1,
+Deck : 3x4
+
+oar, X:1,Y:0
+
+oar, X:2,Y:0
+
+oar, X:1,Y:2
+
+oar, X:2,Y:2
+
+rudder, X:3,Y:1
+
+watch, X:0,Y:1
+
+sail, X:1,Y:1
+
+ROUND 0:id:0,x:0,y:0,ac:null|id:1,x:0,y:1,ac:null|id:2,x:0,y:2,ac:null|id:3,x:1,y:0,ac:null|id:4,x:1,y:1,ac:null|id:5,x:1,y:2,ac:null|id:6,x:2,y:0,ac:null|
+
+ROUND 1:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 2:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 3:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 4:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 5:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 6:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 7:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 8:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 9:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 10:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 11:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 12:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 13:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 14:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 15:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 16:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 17:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 18:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 19:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 20:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 21:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 22:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 23:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 24:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 25:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 26:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 27:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 28:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 29:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 30:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 31:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 32:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 33:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 34:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 35:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 36:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 37:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 38:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 39:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 40:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 41:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 42:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 43:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 44:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 45:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 46:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 47:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 48:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 49:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 50:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 51:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 52:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 53:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 54:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 55:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 56:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 57:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 58:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 59:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 60:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 61:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 62:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 63:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 64:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 65:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 66:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 67:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 68:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 69:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 70:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 71:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 72:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 73:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 74:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 75:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 76:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 77:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 78:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 79:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 80:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 81:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 82:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 83:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 84:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 85:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 86:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 87:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:null|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:null|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 88:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:null|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:null|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 89:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
+
+ROUND 90:id:0,x:3,y:1,ac:TURN|id:1,x:1,y:2,ac:OAR|id:2,x:1,y:0,ac:OAR|id:3,x:2,y:2,ac:OAR|id:4,x:2,y:0,ac:OAR|id:5,x:1,y:1,ac:null|id:6,x:0,y:1,ac:null|
