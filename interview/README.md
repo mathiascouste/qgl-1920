@@ -4,7 +4,7 @@
 
 ### Présentation :
 
-Pendant les 15 premières minutes, vous devrez répondre aux questions suivantes :
+Pendant les 13 premières minutes, vous devrez répondre aux questions suivantes :
 
  1. Expliquez votre solution gagnante : comment gagner les courses ?
 2.  Présentez et défendez l'architecture de votre projet.
@@ -18,7 +18,7 @@ Pendant les 5 dernières minutes de l'entretien, chaque membre de l'équipe se v
 
 A l'heure prévue, l'ensemble des membres de l'équipe doivent être connecté au channel vocal Discord correspondant à votre équipe et être prêt à commencer l'entretien (n'attendez pas le dernier moment pour tester les outils).
 
-L'entretien dure 20 minutes : 15 minutes de présentation et 5 minutes de questions.
+L'entretien dure 18 minutes : 13 minutes de présentation et 5 minutes de questions.
 
 ## Dates et horaires de passage
 
